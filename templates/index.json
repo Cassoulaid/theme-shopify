@@ -54,6 +54,74 @@
         "parallax_direction": "vertical"
       }
     },
+    "scrolling_logos_6TkyMz": {
+      "type": "scrolling-logos",
+      "blocks": {
+        "slide_eiHUGy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/VOGUE_revista_-_logo.png",
+            "link": ""
+          }
+        },
+        "slide_bNewzb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Marie_Claire_Magazine_logo_svg.png",
+            "link": ""
+          }
+        },
+        "slide_z3QnTR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ELLE_Magazine_Logo.svg",
+            "link": ""
+          }
+        },
+        "slide_hxD8D3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Cosmetique_Mag_pages-to-jpg-0001-removebg-preview_7df60eff-56d9-4b97-ae59-6334e9841d99.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_eiHUGy",
+        "slide_bNewzb",
+        "slide_z3QnTR",
+        "slide_hxD8D3"
+      ],
+      "settings": {
+        "ss-title": "",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "header_size": 30,
+        "header_align": "center",
+        "scrolling_velocity": 10,
+        "pause_hover": false,
+        "shadow": false,
+        "sliders_mt": 0,
+        "logo_padding_top": 0,
+        "logo_padding_bottom": 0,
+        "slider_gap": 64,
+        "slider_gap_mobile": 30,
+        "slider_direction": "left",
+        "icon_width": 100,
+        "header_color": "#121212",
+        "border_color": "#ffffff",
+        "background-color": "#ffffff",
+        "slider-background-color": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 24,
+        "padding_bottom": 24,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "rich-text-1": {
       "type": "rich-text",
       "blocks": {
@@ -863,6 +931,7 @@
   },
   "order": [
     "slideshow",
+    "scrolling_logos_6TkyMz",
     "rich-text-1",
     "video-with-text-overlay",
     "featured-product",
