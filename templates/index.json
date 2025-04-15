@@ -782,7 +782,7 @@
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 1.5,
         "full_width": false,
-        "content_width": 120,
+        "content_width": 60,
         "border_thickness": 0,
         "lazy": true
       }
