@@ -23,13 +23,14 @@
             "button_link": "",
             "button_style": "secondary",
             "button_external": false,
-            "button_icon": false
+            "button_icon": true
           }
         }
       },
       "block_order": [
         "slide-1"
       ],
+      "custom_css": [],
       "settings": {
         "autoplay": false,
         "autoplay_speed": 7,
