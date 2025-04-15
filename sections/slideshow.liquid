@@ -9,6 +9,11 @@
     {% endif -%}
   }
 
+  /* Ajout de la couleur personnalisée pour le survol du bouton */
+  #shopify-section-{{ section.id }} .button:hover {
+    background-color: #5D9BD5 !important;
+    border-color: #5D9BD5 !important;
+  }
   {%- assign first_block_image_mobile = first_block.settings.image_mobile | default: first_block.settings.image -%}
   {%- if first_block != blank and first_block_image_mobile != blank and section.settings.image_height_mobile == 'adapt' %}
     @media screen and (max-width: 767px) {
