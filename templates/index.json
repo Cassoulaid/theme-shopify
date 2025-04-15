@@ -335,7 +335,7 @@
         "item_WTqTAp": {
           "type": "item",
           "settings": {
-            "icon": "gift",
+            "icon": "shield",
             "title": "RÉGULATION DE LA GLYCÉMIE",
             "text": "Le chrome contribue à maintenir un taux de sucre sanguin stable, limitant les fringales et les pics d’insuline"
           }
@@ -351,7 +351,7 @@
         "item_NfJe47": {
           "type": "item",
           "settings": {
-            "icon": "bi-ecology",
+            "icon": "share",
             "title": "BRÛLEUR DE GRAISSES",
             "text": "Les extraits naturels stimulants (guarana & cola) favorisent la thermogenèse et l’élimination des graisses."
           }
@@ -359,7 +359,7 @@
         "item_hcAffK": {
           "type": "item",
           "settings": {
-            "icon": "mobile",
+            "icon": "love",
             "title": "UTILISATION SIMPLE",
             "text": "1 seule gélule par jour suffit : facile à intégrer dans ta routine sans contrainte."
           }
