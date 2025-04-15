@@ -21,7 +21,7 @@
             "heading_tag": "h2",
             "button_label": "ACHETER",
             "button_link": "",
-            "button_style": "primary",
+            "button_style": "secondary",
             "button_external": false,
             "button_icon": false
           }
@@ -304,7 +304,7 @@
         "color_highlight": "",
         "gradient_highlight": "",
         "color_button_text": "#ffffff",
-        "color_button_background": "#dff2ff",
+        "color_button_background": "#5d9bd5",
         "color_button_gradient": "",
         "padding_top": 72,
         "padding_bottom": 72,
