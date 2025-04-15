@@ -860,8 +860,43 @@
         "item_CxgBCx": {
           "type": "item",
           "settings": {
-            "question": "Lorem ipsum dolor sit amet?",
-            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+            "question": "Pourquoi choisir MOROFIT HAUTEMENT DOSÉ ?",
+            "answer": "<p>MOROSIL 400 se démarque par sa formule concentrée et ses ingrédients naturels de haute qualité. Voici pourquoi il est le choix idéal pour votre <strong>cure de perte de poids</strong> :</p><ul><li><strong>Simplicité d'utilisation</strong> : 1 gélule par jour, facile à intégrer dans votre routine matinale.</li><li><strong>Efficacité prouvée</strong> : Grâce à des ingrédients ciblés comme le Morosil®, le guarana et le chrome.</li><li><strong>Durée de cure optimale</strong> : 60 gélules pour 2 mois de bienfaits continus.</li><li><strong>Sécurité et qualité</strong> : Formulé dans le respect des normes les plus strictes pour un complément alimentaire naturel et fiable.</li></ul>"
+          }
+        },
+        "item_JkfE8A": {
+          "type": "item",
+          "settings": {
+            "question": "Pourquoi le Morosil® et le vinaigre de cidre sont-ils particulièrement efficaces pour la perte de poids ?",
+            "answer": "<p>Le<strong>Morosil®</strong>, extrait sec d’orange rouge, est reconnu pour sa richesse en flavonoïdes et en antioxydants naturels qui stimulent le métabolisme des lipides. Il aide à dégrader les graisses stockées et favorise leur combustion, agissant ainsi comme un allié puissant dans le processus d’amincissement. De plus, son effet anti-inflammatoire contribue à améliorer la santé métabolique globale.<br/>Le<strong>vinaigre de cidre</strong>, quant à lui, est réputé pour réguler la glycémie, réduire l’appétit et améliorer la digestion. Ces propriétés facilitent la gestion des fringales et l’équilibre énergétique, soutenant efficacement une perte de poids durable.<br/>En combinant ces deux ingrédients, MOROFIT HAUTEMENT DOSÉ offre une synergie optimale pour booster votre métabolisme, accélérer la combustion des graisses et favoriser un amincissement naturel et efficace.</p>"
+          }
+        },
+        "item_3hMdnx": {
+          "type": "item",
+          "settings": {
+            "question": "Quels sont les bénéfices de MOROSIL 400 HAUTEMENT DOSÉ pour la perte de poids ?",
+            "answer": "<p>Les principaux bénéfices incluent :</p><ul><li><strong>Stimulation du métabolisme des graisses</strong> grâce à l’action combinée du guarana et de la noix de cola.</li><li><strong>Amélioration de la combustion des calories</strong> et activation de la thermogenèse.</li><li><strong>Régulation de la glycémie</strong> et soutien du métabolisme lipidique grâce au chrome.</li><li><strong>Optimisation de la digestion</strong> avec le vinaigre de cidre.</li></ul><p><strong>Effet antioxydant</strong> de l’extrait d’orange rouge (Morosil®) pour lutter contre le stress oxydatif.Ces effets contribuent à une <strong>perte de poids naturelle</strong> et à une <strong>silhouette harmonieuse</strong>, faisant de MOROFIT une solution de choix pour ceux qui recherchent un <strong>complément alimentaire amincissement</strong> de haute qualité.</p>"
+          }
+        },
+        "item_ztAFiP": {
+          "type": "item",
+          "settings": {
+            "question": "En combien de temps vais-je recevoir mon colis ?",
+            "answer": "<p>Nous nous engageons à expédier vos commandes sous<strong>5 jours ouvrés</strong>. Une fois expédié, vous recevrez un numéro de suivi pour suivre l’acheminement de votre colis, vous assurant ainsi une livraison rapide et sécurisée.</p>"
+          }
+        },
+        "item_hLqA7n": {
+          "type": "item",
+          "settings": {
+            "question": "Quels sont les délais et frais de livraison ?",
+            "answer": "<p>Nos délais de livraison varient en fonction de votre localisation, mais nous mettons tout en œuvre pour que votre commande arrive dans les meilleurs délais. Les frais de livraison sont calculés en fonction de la destination et du montant de votre commande. Pour toute question, notre service client reste à votre disposition.</p>"
+          }
+        },
+        "item_CiC3xp": {
+          "type": "item",
+          "settings": {
+            "question": "Comment garantissons-nous la qualité de nos produits ?",
+            "answer": "<p>La qualité est au cœur de notre démarche. Nos compléments alimentaires sont élaborés dans des laboratoires certifiés, formulés par des experts de la santé et soumis à des contrôles qualité rigoureux. Chaque étape, de la sélection des matières premières à la fabrication finale, est réalisée dans le respect des normes européennes.</p>"
           }
         }
       },
@@ -873,7 +908,12 @@
         "item_VFAp7B",
         "item_bDRKBA",
         "item_NJU3eG",
-        "item_CxgBCx"
+        "item_CxgBCx",
+        "item_JkfE8A",
+        "item_3hMdnx",
+        "item_ztAFiP",
+        "item_hLqA7n",
+        "item_CiC3xp"
       ],
       "settings": {
         "body_gap": 30,
