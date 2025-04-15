@@ -230,7 +230,7 @@
         "absolute_image_radius": 0,
         "absolute_image_border_thickness": 0,
         "button_color": "#171717",
-        "button_hover_color": "#FFFFFF",
+        "button_hover_color": "#ffffff",
         "button_other_color": "#fafafa",
         "button_hover_other_color": "#ffffff",
         "button_bg_color": "#dff2ff",
@@ -246,7 +246,7 @@
         "image_border_color": "#000000",
         "image_blur_color": "#dff2ff",
         "absolute_image_border_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -311,6 +311,156 @@
         "divider": false,
         "narrow": false,
         "rounded": false
+      }
+    },
+    "ss_feature_13_ga68tn": {
+      "type": "ss-feature-13",
+      "blocks": {
+        "item_MxC9Kp": {
+          "type": "item",
+          "settings": {
+            "icon": "heart",
+            "title": "CONTRÔLE DU POIDS",
+            "text": "Grâce au Morosil®, MOROFIT aide à réduire l’accumulation de graisses et favorise une silhouette affinée naturellement."
+          }
+        },
+        "item_7BYPjp": {
+          "type": "item",
+          "settings": {
+            "icon": "time",
+            "title": "MÉTABOLISME ACCÉLÉRÉ",
+            "text": "L’action combinée du guarana, de la noix de cola et du chrome stimule le métabolisme pour brûler plus de calories au repos."
+          }
+        },
+        "item_WTqTAp": {
+          "type": "item",
+          "settings": {
+            "icon": "gift",
+            "title": "RÉGULATION DE LA GLYCÉMIE",
+            "text": "Le chrome contribue à maintenir un taux de sucre sanguin stable, limitant les fringales et les pics d’insuline"
+          }
+        },
+        "item_FxA9mh": {
+          "type": "item",
+          "settings": {
+            "icon": "plant",
+            "title": "DIGESTION OPTIMISÉE",
+            "text": "Le vinaigre de cidre aide à améliorer la digestion et le confort intestinal, pour un bien-être quotidien."
+          }
+        },
+        "item_NfJe47": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-ecology",
+            "title": "BRÛLEUR DE GRAISSES",
+            "text": "Les extraits naturels stimulants (guarana & cola) favorisent la thermogenèse et l’élimination des graisses."
+          }
+        },
+        "item_hcAffK": {
+          "type": "item",
+          "settings": {
+            "icon": "mobile",
+            "title": "UTILISATION SIMPLE",
+            "text": "1 seule gélule par jour suffit : facile à intégrer dans ta routine sans contrainte."
+          }
+        }
+      },
+      "block_order": [
+        "item_MxC9Kp",
+        "item_7BYPjp",
+        "item_WTqTAp",
+        "item_FxA9mh",
+        "item_NfJe47",
+        "item_hcAffK"
+      ],
+      "settings": {
+        "heading": "<p><strong>Les bienfaits qui boostent votre perte de poids</strong></p>",
+        "heading_custom": true,
+        "heading_font": "montserrat_n4",
+        "heading_size": 52,
+        "heading_size_mobile": 32,
+        "heading_height": 150,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "body_gap": 80,
+        "items_gap": 50,
+        "items_gap_mobile": 30,
+        "items_mt": 24,
+        "items_mt_mobile": 22,
+        "image": "shopify://shop_images/IMG_1772.heic",
+        "image_position": "center",
+        "image_position_mobile": "first",
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "portrait",
+        "image_radius": 0,
+        "image_border_thickness": 0,
+        "content_align": "center",
+        "content_align_mobile": "center",
+        "icon_size": 50,
+        "icon_size_mobile": 40,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 22,
+        "title_size_mobile": 16,
+        "title_height": 130,
+        "title_mt": 16,
+        "title_mt_mobile": 8,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 16,
+        "text_height": 150,
+        "text_mt": 10,
+        "text_mt_mobile": 6,
+        "text_hide_mobile": true,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 16,
+        "button_height": 100,
+        "button_width": 200,
+        "button_width_mobile": 200,
+        "button_mt": 16,
+        "button_mt_mobile": 16,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 24,
+        "button_padding_horizontal_mobile": 24,
+        "button_radius": 4,
+        "button_border_thickness": 1,
+        "button_align": "left",
+        "button_align_mobile": "left",
+        "button_style": "non_outline",
+        "button_position": "bottom",
+        "button_color": "#FFFFFF",
+        "button_hover_color": "#FFFFFF",
+        "button_bg_color": "#000000",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "icon_color": "#131313",
+        "title_color": "#131313",
+        "text_color": "#131313",
+        "heading_color": "#131313",
+        "image_border_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 160,
+        "section_radius": 0,
+        "border_thickness": 0,
+        "lazy": true
       }
     },
     "image-comparison": {
@@ -764,6 +914,7 @@
     "scrolling_logos_6TkyMz",
     "hero_6_rbXhKP",
     "rich-text-1",
+    "ss_feature_13_ga68tn",
     "image-comparison",
     "countdown-timer",
     "shop-the-look",
