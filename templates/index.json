@@ -37,14 +37,14 @@
         "image_height": "750px",
         "content_width": "small",
         "image_height_mobile": "500px",
-        "color_text": "#ffffff",
+        "color_text": "#fafafa",
         "color_background": "#ffffff",
         "gradient_background": "",
-        "color_button_text": "#171717",
-        "color_button_background": "#dff2ff",
+        "color_button_text": "#fafafa",
+        "color_button_background": "#fafafa",
         "color_button_gradient": "",
         "color_overlay": "#000000",
-        "overlay_opacity": 20,
+        "overlay_opacity": 13,
         "padding_top": 0,
         "padding_bottom": 0,
         "divider": false,
@@ -804,7 +804,7 @@
             "heading_mt_mobile": 0,
             "heading_align": "left",
             "heading_align_mobile": "center",
-            "heading_color": "#005C53"
+            "heading_color": "#005c53"
           }
         },
         "text_xgJnKq": {
@@ -947,7 +947,7 @@
         "answer_size_mobile": 12,
         "answer_height": 170,
         "answer_padding_top": 16,
-        "item_bg_color": "#FFFFFF",
+        "item_bg_color": "#ffffff",
         "item_border_color": "#000000",
         "question_color": "#171717",
         "arrow_color": "#171717",
