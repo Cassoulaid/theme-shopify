@@ -470,7 +470,7 @@
           "type": "image",
           "settings": {
             "subheading": "",
-            "heading": "Before image",
+            "heading": "Avant",
             "content_position": "end",
             "color_text": "#ffffff"
           }
@@ -479,7 +479,7 @@
           "type": "image",
           "settings": {
             "subheading": "",
-            "heading": "After image",
+            "heading": "Après",
             "content_position": "end",
             "color_text": "#ffffff"
           }
@@ -493,11 +493,11 @@
         "layout": "horizontal",
         "image_height": "750px",
         "image_height_mobile": "300px",
-        "heading": "<em>Image comparison</em>",
+        "heading": "<em>Les résultats de nos clients </em>",
         "heading_size": "title-md",
         "heading_alignment": "text-center md:items-center",
         "heading_tag": "h2",
-        "subheading": "Add a tagline",
+        "subheading": "",
         "description": "",
         "button_label": "",
         "button_link": "",
@@ -509,7 +509,7 @@
         "color_background": "",
         "gradient_background": "",
         "color_highlight": "",
-        "gradient_highlight": "linear-gradient(90deg, rgba(249, 197, 141, 1), rgba(43, 43, 43, 1) 100%)",
+        "gradient_highlight": "linear-gradient(90deg, rgba(23, 23, 23, 1), rgba(11, 97, 205, 1) 100%)",
         "color_button_text": "",
         "color_button_background": "",
         "color_button_gradient": "",
@@ -526,9 +526,9 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Countdown timer</p>",
+            "text": "<p>Temp restant avant l'été</p>",
             "text_size": "subtext-custom",
-            "text_max_size": 32,
+            "text_max_size": 52,
             "text_font": "body",
             "secondary_color": false,
             "highlighted_text": "none",
@@ -545,20 +545,20 @@
         "timer": {
           "type": "timer",
           "settings": {
-            "year": "2026",
-            "month": "01",
+            "year": "2025",
+            "month": "07",
             "day": "1",
-            "hour": "03",
+            "hour": "00",
             "minute": "00",
             "text_font": "heading",
-            "text_size": "title-lg tracking-heading",
-            "message": ""
+            "text_size": "title-xl tracking-heading",
+            "message": "<p>C'est l'été ! Profitez de votre nouvelle silhouette</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Shop Now",
+            "button_label": "ACHETER MAINTENANT",
             "button_link": "",
             "button_style": "secondary",
             "button_size": "md",
@@ -575,6 +575,7 @@
       ],
       "settings": {
         "transparent_header": false,
+        "image": "shopify://shop_images/vacances-dete.jpg",
         "image_height": "750px",
         "content_width": "medium",
         "content_position": "md:items-center md:justify-center",
@@ -919,8 +920,8 @@
         "body_gap": 30,
         "body_gap_mobile": 20,
         "body_radius": 40,
-        "faq_position": "right",
-        "faq_position_mobile": "top",
+        "faq_position": "bottom",
+        "faq_position_mobile": "bottom",
         "item_padding_vertical": 20,
         "item_padding_vertical_mobile": 20,
         "item_padding_horizontal": 20,
@@ -929,16 +930,16 @@
         "item_radius": 10,
         "item_border_thickness": 0,
         "item_shadow": true,
-        "question_custom": false,
-        "question_font": "josefin_sans_n4",
+        "question_custom": true,
+        "question_font": "montserrat_n4",
         "question_size": 18,
         "question_size_mobile": 14,
         "question_height": 130,
         "arrow_size": 24,
         "arrow_size_mobile": 24,
         "arrow_border_thickness": 0,
-        "answer_custom": false,
-        "answer_font": "josefin_sans_n4",
+        "answer_custom": true,
+        "answer_font": "montserrat_n4",
         "answer_size": 16,
         "answer_size_mobile": 12,
         "answer_height": 170,
