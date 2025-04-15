@@ -750,28 +750,28 @@
         "second_button_padding_horizontal": 40,
         "second_button_radius": 6,
         "second_button_border_thickness": 2,
-        "table_heading_color": "#2F1718",
-        "table_heading_active_color": "#FFFFFF",
+        "table_heading_color": "#2f1718",
+        "table_heading_active_color": "#ffffff",
         "table_heading_bg_active_color": "#dff2ff",
-        "table_column_active_bg_color": "#FFFFFF",
+        "table_column_active_bg_color": "#ffffff",
         "table_column_active_border_color": "#dff2ff",
-        "table_row_border_color": "#D3CABC",
-        "table_row_heading_color": "#2F1718",
-        "table_row_text_color": "#2F1718",
+        "table_row_border_color": "#d3cabc",
+        "table_row_heading_color": "#2f1718",
+        "table_row_text_color": "#2f1718",
         "table_row_active_text_color": "#65a115",
-        "button_color": "#A8252E",
-        "button_hover_color": "#FFFFFF",
+        "button_color": "#a8252e",
+        "button_hover_color": "#ffffff",
         "button_bg_color": "",
-        "button_bg_hover_color": "#A8252E",
-        "button_border_color": "#A8252E",
-        "button_border_hover_color": "#A8252E",
+        "button_bg_hover_color": "#a8252e",
+        "button_border_color": "#a8252e",
+        "button_border_hover_color": "#a8252e",
         "second_button_color": "#171717",
-        "second_button_hover_color": "#FFFFFF",
+        "second_button_hover_color": "#ffffff",
         "second_button_bg_color": "#dff2ff",
         "second_button_bg_hover_color": "#50e6f5",
         "second_button_border_color": "#dff2ff",
         "second_button_border_hover_color": "#50e6f5",
-        "heading_color": "#2F1718",
+        "heading_color": "#2f1718",
         "background_color": "#fafafa",
         "background_gradient": "",
         "border_color": "#000000",
@@ -786,6 +786,144 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "ss_faq_9_BkMFP3": {
+      "type": "ss-faq-9",
+      "blocks": {
+        "heading_KEYXnJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Vous avez des question ? Nous avons des réponses.</h2>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 48,
+            "heading_size_mobile": 30,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_align": "left",
+            "heading_align_mobile": "center",
+            "heading_color": "#005C53"
+          }
+        },
+        "text_xgJnKq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Obtenez des réponses rapides aux question fréquemment posées.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 18,
+            "text_size_mobile": 16,
+            "text_height": 130,
+            "text_mt": 20,
+            "text_mt_mobile": 20,
+            "text_align": "left",
+            "text_align_mobile": "center",
+            "text_color": "#757575"
+          }
+        },
+        "item_nJFTRg": {
+          "type": "item",
+          "settings": {
+            "question": "Qu'est-ce que MOROSIL 400 HAUTEMENT DOSÉ ?",
+            "answer": "<p>MOROFIT 400 HAUTEMENT DOSÉ est un complément alimentaire minceur innovant et hautement dosé, conçu pour favoriser l'amincissement et stimuler le métabolisme des graisses. Grâce à sa formule unique enrichie en<strong>extrait sec d’orange rouge – Morosil® (400 mg)</strong>,<strong>vinaigre de cidre</strong>,<strong>extrait sec de guarana</strong>et<strong>poudre de noix de cola</strong>, ce produit agit en synergie avec le<strong>chrome</strong>pour aider à la régulation de la glycémie et optimiser le métabolisme lipidique. Idéal pour une cure minceur naturelle, il s’intègre parfaitement dans une routine de perte de poids efficace.<br/><br/></p>"
+          }
+        },
+        "item_xf373z": {
+          "type": "item",
+          "settings": {
+            "question": "Est-ce que MOROFIT HAUTEMENT DOSÉ est fabriqué en France ?",
+            "answer": "<p>Absolument ! MOROSIL 400 HAUTEMENT DOSÉ est fabriqué dans un<strong>laboratoire français certifié 🇫🇷</strong>, garantissant un contrôle qualité strict et une production conforme aux normes européennes. Tous les<strong>actifs sont soigneusement sourcés</strong>auprès de fournisseurs reconnus pour leur excellence, assurant ainsi une qualité optimale et une efficacité prouvée pour votre cure minceur. Ce processus de fabrication garantit non seulement la<strong>pureté des ingrédients</strong>, mais aussi la sécurité et la performance du complément alimentaire<br/><br/><br/></p>"
+          }
+        },
+        "item_VFAp7B": {
+          "type": "item",
+          "settings": {
+            "question": "Quels sont les ingrédients du Morosil 400 actifs et leurs bienfaits ?",
+            "answer": "<p>MOROFIT HAUTEMENT DOSÉ combine plusieurs ingrédients naturels reconnus pour leurs vertus :</p><ul><li><strong>Extrait sec d’orange rouge – Morosil® (400 mg)</strong> : Puissant antioxydant, il aide à combattre le stress oxydatif et favorise le contrôle du poids.</li><li><strong>Vinaigre de cidre (52,5 mg)</strong> : Contribue à une meilleure digestion et à la régulation du métabolisme.</li><li><strong>Extrait sec de guarana (30 mg)</strong> avec <strong>3,3 mg de caféine</strong> : Stimule l’énergie, accélère le métabolisme des graisses et aide à la combustion des calories.</li><li><strong>Poudre de noix de cola (40 mg)</strong> apportant également <strong>3,3 mg de caféine</strong> : Favorise l’amincissement par son effet stimulant naturel.</li><li><strong>Chrome (39 µg, 98 % VNR)</strong> : Essentiel pour la régulation du métabolisme des glucides et des lipides, il aide à maintenir une glycémie normale.<br/>Cette synergie d'ingrédients naturels fait de MOROFIT un complément alimentaire minceur de choix pour soutenir efficacement une <strong>cure de perte de poids</strong> et un <strong>métabolisme optimisé</strong>.</li></ul>"
+          }
+        },
+        "item_bDRKBA": {
+          "type": "item",
+          "settings": {
+            "question": "Quelle est la posologie recommandée pour le MOROSIL 400 ?",
+            "answer": "<p>La posologie idéale est <strong>1 gélule par jour</strong>. Il est conseillé de prendre la gélule le matin avec un grand verre d'eau pour favoriser une absorption optimale des principes actifs et démarrer la journée en boostant votre métabolisme.</p>"
+          }
+        },
+        "item_NJU3eG": {
+          "type": "item",
+          "settings": {
+            "question": "Combien de temps dure une cure avec une boîte de MOROSIL 400 ?",
+            "answer": "<p>Chaque boîte contient<strong>60 gélules</strong>, ce qui correspond à une cure de <strong>2 mois</strong>. Cette durée de cure permet d’observer des résultats progressifs et durables dans le cadre d’un régime équilibré et d’un mode de vie sain.</p>"
+          }
+        },
+        "item_CxgBCx": {
+          "type": "item",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet?",
+            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KEYXnJ",
+        "text_xgJnKq",
+        "item_nJFTRg",
+        "item_xf373z",
+        "item_VFAp7B",
+        "item_bDRKBA",
+        "item_NJU3eG",
+        "item_CxgBCx"
+      ],
+      "settings": {
+        "body_gap": 30,
+        "body_gap_mobile": 20,
+        "body_radius": 40,
+        "faq_position": "right",
+        "faq_position_mobile": "top",
+        "item_padding_vertical": 20,
+        "item_padding_vertical_mobile": 20,
+        "item_padding_horizontal": 20,
+        "item_padding_horizontal_mobile": 20,
+        "item_mt": 10,
+        "item_radius": 10,
+        "item_border_thickness": 0,
+        "item_shadow": true,
+        "question_custom": false,
+        "question_font": "josefin_sans_n4",
+        "question_size": 18,
+        "question_size_mobile": 14,
+        "question_height": 130,
+        "arrow_size": 24,
+        "arrow_size_mobile": 24,
+        "arrow_border_thickness": 0,
+        "answer_custom": false,
+        "answer_font": "josefin_sans_n4",
+        "answer_size": 16,
+        "answer_size_mobile": 12,
+        "answer_height": 170,
+        "answer_padding_top": 16,
+        "item_bg_color": "#FFFFFF",
+        "item_border_color": "#000000",
+        "question_color": "#005C53",
+        "arrow_color": "#757575",
+        "arrow_border_color": "#6c584c",
+        "answer_color": "#757575",
+        "background_color": "#F0F3F4",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 16,
+        "margin_bottom": 16,
+        "margin_horizontal": 4,
+        "margin_horizontal_mobile": 1.5,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_horizontal": 6,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0
+      }
     }
   },
   "order": [
@@ -796,6 +934,7 @@
     "ss_feature_13_ga68tn",
     "image-comparison",
     "countdown-timer",
-    "ss_comparison_table_dNya9e"
+    "ss_comparison_table_dNya9e",
+    "ss_faq_9_BkMFP3"
   ]
 }
