@@ -42,7 +42,7 @@
       "settings": {
         "transparent_header": false,
         "image": "shopify://shop_images/IMG_6337.jpg",
-        "image_height": "650px",
+        "image_height": "550px",
         "content_width": "medium",
         "content_position": "md:items-end md:justify-start",
         "text_alignment": "left",
