@@ -370,123 +370,6 @@
         "rounded": false
       }
     },
-    "rich-text-2": {
-      "type": "rich-text",
-      "custom_css": [
-        "@media screen and (min-width: 1536px) and (max-width: 1920px) {.collage, .collage .title-wrapper {padding-inline: 0; }}",
-        "@media screen and (min-width: 1920px) {.collage, .collage .title-wrapper {padding-inline: var(--grid-gap); }}"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "text_alignment_mobile": "left",
-        "heading": "Build your <em>Bundle</em>",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_width": "large",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "<p>The choice is yours. With our bundle builder, you can select any combination from our range of products. The easiest way to keep everyone happy.</p>",
-        "button_label": "",
-        "button_link": "",
-        "button_external": false,
-        "button_icon": true,
-        "highlighted_text": "scribble",
-        "highlighted_scribble": "squiggle-underline",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 120,
-        "padding_bottom": 52,
-        "divider": false,
-        "narrow": false,
-        "rounded": false
-      }
-    },
-    "product-bundle": {
-      "type": "product-bundle",
-      "custom_css": [
-        "@media screen and (min-width: 1536px) {.product-bundle {flex: 0 0 25%; } .product-bundle__sidebar {width: 100%; }}",
-        "@media screen and (min-width: 1920px) {.product-bundle-wrapper {padding-inline: calc(var(--grid-gap) * 2); }}"
-      ],
-      "settings": {
-        "collection": "",
-        "products": [],
-        "product_limit": 6,
-        "columns": 3,
-        "columns_mobile": "1",
-        "minimum_quantity": 3,
-        "maximum_quantity": 3,
-        "prevent_duplicate_products": true,
-        "allow_quantity_change": true,
-        "quantity_increment": "1",
-        "quantity_minimum": "1",
-        "quantity_maximum": "",
-        "show_variant_labels": true,
-        "picker_type": "button",
-        "enable_color_swatches": true,
-        "color_swatch_type": "color",
-        "heading": "Your bundle",
-        "heading_size": "lg:text-5xl text-2xl",
-        "heading_alignment": "text-left",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "<p>Add at least 3 products to proceed and Save 30%</p>",
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
-    "scrolling-text-1": {
-      "type": "scrolling-text",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<em><strong>Free shipping and returns</strong></em>",
-            "text_size": 160,
-            "text_font": "body",
-            "highlighted_text": "stencil",
-            "highlighted_scribble": "circle"
-          }
-        }
-      },
-      "block_order": [
-        "text"
-      ],
-      "settings": {
-        "direction": "left",
-        "speed": 20,
-        "grid_horizontal": 70,
-        "enable_twin": false,
-        "enable_parallax": true,
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "padding_top": 120,
-        "padding_bottom": 120,
-        "divider": false,
-        "rounded": false
-      }
-    },
     "countdown-timer": {
       "type": "countdown-timer",
       "blocks": {
@@ -882,9 +765,6 @@
     "hero_6_rbXhKP",
     "rich-text-1",
     "image-comparison",
-    "rich-text-2",
-    "product-bundle",
-    "scrolling-text-1",
     "countdown-timer",
     "shop-the-look",
     "testimonials-banner",
