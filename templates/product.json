@@ -150,7 +150,29 @@
         },
         "description_bQFXAW": {
           "type": "description",
+          "disabled": true,
           "settings": {
+            "text_size": "text-base"
+          }
+        },
+        "text_TcjGkg": {
+          "type": "text",
+          "settings": {
+            "text": "🌍 Naturel",
+            "text_size": "text-base"
+          }
+        },
+        "text_fgatMd": {
+          "type": "text",
+          "settings": {
+            "text": "🍃 Vegan",
+            "text_size": "text-base"
+          }
+        },
+        "text_pJQHp6": {
+          "type": "text",
+          "settings": {
+            "text": "🇫🇷 Fabrication française",
             "text_size": "text-base"
           }
         },
@@ -177,6 +199,9 @@
       "block_order": [
         "title_PdVMHV",
         "description_bQFXAW",
+        "text_TcjGkg",
+        "text_fgatMd",
+        "text_pJQHp6",
         "buy_buttons_YKhktQ",
         "pickup_availability_CMENLN",
         "read_more_NHTNDw"
