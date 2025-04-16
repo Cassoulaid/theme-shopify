@@ -861,6 +861,75 @@
         "lazy": true
       }
     },
+    "testimonials_banner_CG7YnM": {
+      "type": "testimonials-banner",
+      "blocks": {
+        "testimonial_EMqM9E": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>J’apprécie beaucoup la composition clean de MOROFIT, avec du Morosil®, du vinaigre de cidre, du guarana… J’ai retrouvé une meilleure digestion et moins de ballonnements. Je mets 4 étoiles car j’aurais aimé un goût fruité, mais ça reste très efficace.</p>",
+            "author": "Sophie R. – 28 ans, Marseille",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_t4CyLE": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Je stagnais depuis des mois malgré mes efforts. Ce complément m’a aidé à relancer mon métabolisme. J’ai plus d’énergie, je digère mieux, et j’ai perdu 4 kg en 6 semaines. Le plus ? Une seule gélule par jour, c’est ultra simple.</p>",
+            "author": "Marc L. – 41 ans, Rennes",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_iFTQPj": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Ce que j’aime : 1 gélule par jour, rien à penser. Je sens que ça booste mon énergie sans me stresser comme d’autres produits. Je suis en pleine cure et j’ai déjà perdu 2,5 kg sans frustration !</p>",
+            "author": "Nora K. – 30 ans, Lyon",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_EMqM9E",
+        "testimonial_t4CyLE",
+        "testimonial_iFTQPj"
+      ],
+      "name": "t:sections.testimonials-banner.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/IMG_6338.jpg",
+        "image_height": "700px",
+        "content_position": "md:items-center md:justify-center",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-center justify-center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 70,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
     "ss_faq_9_BkMFP3": {
       "type": "ss-faq-9",
       "blocks": {
@@ -1053,6 +1122,7 @@
     "image-comparison",
     "ss_feature_13_ga68tn",
     "ss_comparison_table_dNya9e",
+    "testimonials_banner_CG7YnM",
     "ss_faq_9_BkMFP3"
   ]
 }
