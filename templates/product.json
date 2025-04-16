@@ -169,25 +169,9 @@
           "type": "pickup_availability",
           "settings": {}
         },
-        "share_dePxzA": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share",
-            "show_help_desk": true,
-            "help_label": "Need help?",
-            "help_page": ""
-          }
-        },
         "read_more_NHTNDw": {
           "type": "read_more",
           "settings": {}
-        },
-        "spinning_text_Ftpyte": {
-          "type": "spinning_text",
-          "settings": {
-            "text": "Featured product"
-          }
         }
       },
       "block_order": [
@@ -195,9 +179,7 @@
         "description_bQFXAW",
         "buy_buttons_YKhktQ",
         "pickup_availability_CMENLN",
-        "share_dePxzA",
-        "read_more_NHTNDw",
-        "spinning_text_Ftpyte"
+        "read_more_NHTNDw"
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
@@ -297,42 +279,9 @@
         "description": "<p>If you have any questions, you are always welcome to contact us. We'll get back to you as soon as possible, within 24 hours on weekdays.</p>"
       }
     },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<em><strong>Free shipping and returns</strong></em>",
-            "text_size": 160,
-            "text_font": "body",
-            "highlighted_text": "stencil",
-            "highlighted_scribble": "circle"
-          }
-        }
-      },
-      "block_order": [
-        "text"
-      ],
-      "settings": {
-        "direction": "left",
-        "speed": 20,
-        "grid_horizontal": 70,
-        "enable_twin": false,
-        "enable_parallax": true,
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "padding_top": 28,
-        "padding_bottom": 28,
-        "divider": false,
-        "rounded": false
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "product_limit": 6,
         "columns": 4,
@@ -361,46 +310,12 @@
         "full_width": false,
         "rounded": true
       }
-    },
-    "recently-viewed": {
-      "type": "recently-viewed",
-      "disabled": true,
-      "settings": {
-        "product_limit": 6,
-        "columns": 4,
-        "carousel_on_desktop": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "heading": "Recently Viewed",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
     }
   },
   "order": [
     "main-product",
     "featured_product_bByzp4",
     "help-drawer",
-    "scrolling-text",
-    "product-recommendations",
-    "recently-viewed"
+    "product-recommendations"
   ]
 }
