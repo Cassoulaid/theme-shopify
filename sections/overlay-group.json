@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.overlay-group.name",
   "type": "custom.overlay",
@@ -17,12 +26,10 @@
         "cart_recommendations_limit": 5,
         "show_cart_recommendations_vendor": false,
         "show_cart_recommendations_price": true,
-        "cart_recommendations_products": [
-        ],
-        "empty_cart_message": "<p>Not sure where to start?<br\/>Try these collections:</p>",
-        "empty_cart_collections": [
-        ],
-        "recent_products_enabled": true,
+        "cart_recommendations_products": [],
+        "empty_cart_message": "",
+        "empty_cart_collections": [],
+        "recent_products_enabled": false,
         "recent_products_heading": "Recently viewed",
         "recent_products_limit": 5,
         "show_recent_products_vendor": false,
@@ -31,8 +38,8 @@
     },
     "search-drawer": {
       "type": "search-drawer",
-      "settings": {
-      }
+      "disabled": true,
+      "settings": {}
     },
     "newsletter-popup": {
       "type": "newsletter-popup",
@@ -68,8 +75,7 @@
         },
         "form": {
           "type": "form",
-          "settings": {
-          }
+          "settings": {}
         },
         "text-2": {
           "type": "text",
@@ -85,8 +91,7 @@
         },
         "media": {
           "type": "media",
-          "settings": {
-          }
+          "settings": {}
         },
         "floating": {
           "type": "floating",
@@ -111,6 +116,7 @@
         "media",
         "floating"
       ],
+      "disabled": true,
       "settings": {
         "mode": "enabled",
         "only_homepage": true,
@@ -119,7 +125,6 @@
         "expiry": 30,
         "text_alignment": "left",
         "content_position": "right-0",
-        "image": "",
         "color_drawer_text": "#171717",
         "color_drawer_background": "#ffffff",
         "color_drawer_highlight": "#ffddbf",
@@ -166,7 +171,8 @@
           "settings": {
             "button_label_1": "Yes, I am",
             "button_label_2": "No, I’m not",
-            "button_link_2": ""
+            "button_link_2": "",
+            "button_external_2": false
           }
         }
       },
@@ -182,8 +188,6 @@
         "expiry": 30,
         "text_alignment": "center",
         "content_position": "center-0",
-        "image": "",
-        "background_image": "",
         "blur_background_image": false,
         "color_drawer_text": "#171717",
         "color_drawer_background": "#ffffff",
@@ -199,6 +203,7 @@
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "We use cookies",
             "heading_size": "text-lg-2xl",
@@ -210,7 +215,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>This site uses cookies for better user experience and analytics.</p>",
+            "text": "<p>Notre site web utilise des cookies pour vous garantir la meilleure expérience d'achat en ligne.</p>",
             "text_size": "text-base",
             "text_max_size": 32,
             "text_font": "body",
@@ -229,8 +234,8 @@
         "buttons": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Accept",
-            "button_label_2": "Decline"
+            "button_label_1": "Accepter",
+            "button_label_2": "Refuser"
           }
         }
       },
@@ -249,7 +254,7 @@
         "color_drawer_background": "#ffffff",
         "color_drawer_highlight": "#ffddbf",
         "color_drawer_button_text": "#ffffff",
-        "color_drawer_button_background": "#171717",
+        "color_drawer_button_background": "#5d9bd5",
         "color_drawer_button_gradient": ""
       }
     },
@@ -282,7 +287,8 @@
           "settings": {
             "custom_icon": "",
             "title": "Shop",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify://collections/all",
+            "external": false
           }
         },
         "mobile-dock-5": {
@@ -308,6 +314,7 @@
         "mobile-dock-5",
         "mobile-dock-6"
       ],
+      "disabled": true,
       "settings": {
         "color_text": "#000000",
         "color_background": "#ffffff",
