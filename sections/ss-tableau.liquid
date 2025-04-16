@@ -1,0 +1,660 @@
+{% comment %}
+  Tableau comparatif de marques - Compatible avec tous les thèmes Shopify
+  Version 1.0
+{% endcomment %}
+
+<div class="brand-comparison-section" id="brand-comparison-{{ section.id }}" style="background-color: {{ section.settings.background_color }};">
+  <div class="brand-comparison-container">
+    {% if section.settings.title != blank %}
+      <h2 class="brand-comparison-title" style="color: {{ section.settings.title_color }};">{{ section.settings.title }}</h2>
+    {% endif %}
+    
+    {% if section.settings.subtitle != blank %}
+      <div class="brand-comparison-subtitle" style="color: {{ section.settings.subtitle_color }};">{{ section.settings.subtitle }}</div>
+    {% endif %}
+    
+    <div class="brand-comparison-table">
+      <div class="brand-comparison-headers">
+        <div class="brand-comparison-header criteria-column">
+          <!-- Colonne des critères -->
+        </div>
+        
+        {% assign brand_blocks = section.blocks | where: "type", "brand" %}
+        {% for block in brand_blocks %}
+          <div class="brand-comparison-header {% if block.settings.highlight_column %}highlighted{% endif %}" {{ block.shopify_attributes }} style="{% if block.settings.column_background_color != blank %}background-color: {{ block.settings.column_background_color }};{% endif %}">
+            {% if block.settings.brand_image != blank %}
+              <div class="brand-comparison-image-container">
+                <img 
+                  class="brand-comparison-image"
+                  src="{{ block.settings.brand_image | img_url: '150x' }}"
+                  alt="{{ block.settings.brand_name }}"
+                  loading="lazy"
+                >
+              </div>
+            {% endif %}
+            <div class="brand-comparison-brand-name" style="color: {{ block.settings.brand_name_color }};">{{ block.settings.brand_name }}</div>
+          </div>
+        {% endfor %}
+      </div>
+      
+      {% assign criteria_blocks = section.blocks | where: "type", "criteria" %}
+      {% for criteria in criteria_blocks %}
+        <div class="brand-comparison-row" {{ criteria.shopify_attributes }}>
+          <div class="brand-comparison-cell criteria-column" style="color: {{ section.settings.criteria_text_color }};">
+            {{ criteria.settings.criteria_name }}
+          </div>
+          
+          {% for brand in brand_blocks %}
+            {% assign value_key = 'value_' | append: forloop.index %}
+            {% assign value_content = criteria.settings[value_key] %}
+            {% assign value_type_key = 'value_' | append: forloop.index | append: '_type' %}
+            {% assign value_type = criteria.settings[value_type_key] %}
+            
+            <div class="brand-comparison-cell {% if brand.settings.highlight_column %}highlighted{% endif %}" style="{% if brand.settings.column_background_color != blank %}background-color: {{ brand.settings.column_background_color }};{% endif %}">
+              {% case value_type %}
+                {% when 'positive' %}
+                  <div class="brand-comparison-value positive">
+                    <div class="brand-comparison-icon" style="color: {{ section.settings.positive_icon_color }};">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </div>
+                    <span style="color: {{ section.settings.feature_text_color }};">{{ value_content }}</span>
+                  </div>
+                {% when 'negative' %}
+                  <div class="brand-comparison-value negative">
+                    <div class="brand-comparison-icon" style="color: {{ section.settings.negative_icon_color }};">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </div>
+                    <span style="color: {{ section.settings.feature_text_color }};">{{ value_content }}</span>
+                  </div>
+                {% when 'neutral' %}
+                  <div class="brand-comparison-value neutral">
+                    <div class="brand-comparison-icon" style="color: {{ section.settings.neutral_icon_color }};">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    </div>
+                    <span style="color: {{ section.settings.feature_text_color }};">{{ value_content }}</span>
+                  </div>
+                {% else %}
+                  <div class="brand-comparison-value text-only">
+                    <span style="color: {{ section.settings.feature_text_color }};">{{ value_content }}</span>
+                  </div>
+              {% endcase %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+    
+    {% if section.settings.button_text != blank %}
+      <div class="brand-comparison-button-container">
+        <a href="{{ section.settings.button_link }}" class="brand-comparison-button" style="background-color: {{ section.settings.button_background }}; color: {{ section.settings.button_text_color }};">
+          {{ section.settings.button_text }}
+        </a>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+<style>
+.brand-comparison-section {
+  padding: 60px 20px;
+  width: 100%;
+}
+
+.brand-comparison-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand-comparison-title {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.brand-comparison-subtitle {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 700px;
+}
+
+.brand-comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.brand-comparison-headers {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.brand-comparison-header {
+  flex: 1;
+  padding: 20px 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-comparison-header.highlighted {
+  position: relative;
+  z-index: 1;
+}
+
+.brand-comparison-header.highlighted::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 5px);
+  background: inherit;
+  z-index: -1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.criteria-column {
+  width: 180px;
+  min-width: 180px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.brand-comparison-image-container {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.brand-comparison-image {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+}
+
+.brand-comparison-brand-name {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.brand-comparison-row {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.brand-comparison-row:last-child {
+  border-bottom: none;
+}
+
+.brand-comparison-cell {
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-comparison-cell.highlighted {
+  background-color: inherit;
+}
+
+.brand-comparison-value {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand-comparison-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.brand-comparison-value.positive .brand-comparison-icon {
+  color: #4CAF50;
+}
+
+.brand-comparison-value.negative .brand-comparison-icon {
+  color: #F44336;
+}
+
+.brand-comparison-value.neutral .brand-comparison-icon {
+  color: #9E9E9E;
+}
+
+.brand-comparison-button-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.brand-comparison-button {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.brand-comparison-button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Mobile layout */
+@media screen and (max-width: 767px) {
+  .brand-comparison-title {
+    font-size: 28px;
+  }
+  
+  .brand-comparison-subtitle {
+    font-size: 16px;
+  }
+  
+  .brand-comparison-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .brand-comparison-headers, 
+  .brand-comparison-row {
+    min-width: 600px;
+  }
+  
+  .criteria-column {
+    width: 150px;
+    min-width: 150px;
+  }
+}
+</style>
+
+{% schema %}
+{
+  "name": "Tableau comparatif",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Contenu général"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre",
+      "default": "Pourquoi choisir notre marque ?"
+    },
+    {
+      "type": "richtext",
+      "id": "subtitle",
+      "label": "Sous-titre",
+      "default": "<p>Découvrez les avantages de notre marque par rapport à la concurrence.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Texte du bouton (optionnel)",
+      "default": "Découvrir nos produits"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Lien du bouton"
+    },
+    {
+      "type": "header",
+      "content": "Couleurs"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Couleur d'arrière-plan",
+      "default": "#FFF5F5"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Couleur du titre",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "subtitle_color",
+      "label": "Couleur du sous-titre",
+      "default": "#4A4A4A"
+    },
+    {
+      "type": "color",
+      "id": "criteria_text_color",
+      "label": "Couleur du texte des critères",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "feature_text_color",
+      "label": "Couleur du texte des caractéristiques",
+      "default": "#333333" 
+    },
+    {
+      "type": "color",
+      "id": "positive_icon_color",
+      "label": "Couleur de l'icône positive",
+      "default": "#4CAF50"
+    },
+    {
+      "type": "color",
+      "id": "negative_icon_color",
+      "label": "Couleur de l'icône négative",
+      "default": "#F44336"
+    },
+    {
+      "type": "color",
+      "id": "neutral_icon_color",
+      "label": "Couleur de l'icône neutre",
+      "default": "#9E9E9E"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Couleur de fond du bouton",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Couleur du texte du bouton",
+      "default": "#FFFFFF"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "brand",
+      "name": "Marque",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "text",
+          "id": "brand_name",
+          "label": "Nom de la marque",
+          "default": "Notre marque"
+        },
+        {
+          "type": "image_picker",
+          "id": "brand_image",
+          "label": "Image de la marque"
+        },
+        {
+          "type": "checkbox",
+          "id": "highlight_column",
+          "label": "Mettre en valeur cette colonne",
+          "default": false
+        },
+        {
+          "type": "color",
+          "id": "column_background_color",
+          "label": "Couleur d'arrière-plan de la colonne",
+          "default": "#F0FFF4"
+        },
+        {
+          "type": "color",
+          "id": "brand_name_color",
+          "label": "Couleur du nom de la marque",
+          "default": "#000000"
+        }
+      ]
+    },
+    {
+      "type": "criteria",
+      "name": "Critère de comparaison",
+      "settings": [
+        {
+          "type": "text",
+          "id": "criteria_name",
+          "label": "Nom du critère",
+          "default": "Critère"
+        },
+        {
+          "type": "header",
+          "content": "Marque 1"
+        },
+        {
+          "type": "text",
+          "id": "value_1",
+          "label": "Valeur pour la marque 1",
+          "default": "Caractéristique positive"
+        },
+        {
+          "type": "select",
+          "id": "value_1_type",
+          "label": "Type de valeur",
+          "options": [
+            {
+              "value": "positive",
+              "label": "Positive (✓)"
+            },
+            {
+              "value": "negative",
+              "label": "Négative (✗)"
+            },
+            {
+              "value": "neutral",
+              "label": "Neutre (-)"
+            },
+            {
+              "value": "text",
+              "label": "Texte uniquement"
+            }
+          ],
+          "default": "positive"
+        },
+        {
+          "type": "header",
+          "content": "Marque 2"
+        },
+        {
+          "type": "text",
+          "id": "value_2",
+          "label": "Valeur pour la marque 2",
+          "default": "Caractéristique négative"
+        },
+        {
+          "type": "select",
+          "id": "value_2_type",
+          "label": "Type de valeur",
+          "options": [
+            {
+              "value": "positive",
+              "label": "Positive (✓)"
+            },
+            {
+              "value": "negative",
+              "label": "Négative (✗)"
+            },
+            {
+              "value": "neutral",
+              "label": "Neutre (-)"
+            },
+            {
+              "value": "text",
+              "label": "Texte uniquement"
+            }
+          ],
+          "default": "negative"
+        },
+        {
+          "type": "header",
+          "content": "Marque 3"
+        },
+        {
+          "type": "text",
+          "id": "value_3",
+          "label": "Valeur pour la marque 3",
+          "default": "Caractéristique négative"
+        },
+        {
+          "type": "select",
+          "id": "value_3_type",
+          "label": "Type de valeur",
+          "options": [
+            {
+              "value": "positive",
+              "label": "Positive (✓)"
+            },
+            {
+              "value": "negative",
+              "label": "Négative (✗)"
+            },
+            {
+              "value": "neutral",
+              "label": "Neutre (-)"
+            },
+            {
+              "value": "text",
+              "label": "Texte uniquement"
+            }
+          ],
+          "default": "negative"
+        },
+        {
+          "type": "header",
+          "content": "Marque 4 (optionnelle)"
+        },
+        {
+          "type": "text",
+          "id": "value_4",
+          "label": "Valeur pour la marque 4",
+          "default": "Non spécifié"
+        },
+        {
+          "type": "select",
+          "id": "value_4_type",
+          "label": "Type de valeur",
+          "options": [
+            {
+              "value": "positive",
+              "label": "Positive (✓)"
+            },
+            {
+              "value": "negative",
+              "label": "Négative (✗)"
+            },
+            {
+              "value": "neutral",
+              "label": "Neutre (-)"
+            },
+            {
+              "value": "text",
+              "label": "Texte uniquement"
+            }
+          ],
+          "default": "positive"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tableau comparatif",
+      "category": "Comparaison",
+      "blocks": [
+        {
+          "type": "brand",
+          "settings": {
+            "brand_name": "Notre marque",
+            "highlight_column": true,
+            "column_background_color": "#F0FFF4"
+          }
+        },
+        {
+          "type": "brand",
+          "settings": {
+            "brand_name": "Concurrent A",
+            "highlight_column": false
+          }
+        },
+        {
+          "type": "brand",
+          "settings": {
+            "brand_name": "Concurrent B",
+            "highlight_column": false
+          }
+        },
+        {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Composition",
+            "value_1": "100% naturel",
+            "value_1_type": "positive",
+            "value_2": "Produits chimiques",
+            "value_2_type": "negative",
+            "value_3": "Synthétique",
+            "value_3_type": "negative"
+          }
+        },
+        {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Efficacité",
+            "value_1": "Résultats visibles",
+            "value_1_type": "positive",
+            "value_2": "Résultats moyens",
+            "value_2_type": "neutral",
+            "value_3": "Résultats faibles",
+            "value_3_type": "negative"
+          }
+        },
+        {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Prix",
+            "value_1": "Excellent rapport qualité/prix",
+            "value_1_type": "positive",
+            "value_2": "Coûteux",
+            "value_2_type": "negative",
+            "value_3": "Abordable mais peu efficace",
+            "value_3_type": "neutral"
+          }
+        },
+        {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Durabilité",
+            "value_1": "Écologique",
+            "value_1_type": "positive",
+            "value_2": "Non écologique",
+            "value_2_type": "negative",
+            "value_3": "Partiellement écologique",
+            "value_3_type": "neutral"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
