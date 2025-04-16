@@ -210,7 +210,7 @@
       "settings": {
         "product": "morosil-400",
         "enable_sticky_info": true,
-        "media_size": 41,
+        "media_size": 45,
         "gallery_layout": "thumbnail",
         "thumbnail_position": "beside",
         "image_ratio": "adapt_first",
