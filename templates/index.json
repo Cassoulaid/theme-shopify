@@ -25,7 +25,7 @@
         "text_b6CwgB": {
           "type": "text",
           "settings": {
-            "text": "<p>Ton allié naturel pour une perte de poids durable.</p>",
+            "text": "<p>L'innovation dans une seule gélule </p>",
             "text_size": "subtext-lg",
             "text_max_size": 32,
             "text_font": "body",
@@ -193,119 +193,25 @@
         "lazy": true
       }
     },
-    "countdown-timer": {
-      "type": "countdown-timer",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Temp restant avant l'été</p>",
-            "text_size": "subtext-custom",
-            "text_max_size": 52,
-            "text_font": "body",
-            "secondary_color": false,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "text_WigJMT": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Commencez dès maintenant votre cure avec MOROFIT 400 pour des résultats visibles à temps !</p>",
-            "text_size": "subtext-md",
-            "text_max_size": 32,
-            "text_font": "body",
-            "secondary_color": false,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "spacing": {
-          "type": "spacing",
-          "settings": {
-            "height": 24,
-            "height_mobile": 16
-          }
-        },
-        "timer": {
-          "type": "timer",
-          "settings": {
-            "year": "2025",
-            "month": "07",
-            "day": "1",
-            "hour": "00",
-            "minute": "00",
-            "text_font": "heading",
-            "text_size": "title-xl tracking-heading",
-            "message": "<p>C'est l'été ! Profitez de votre nouvelle silhouette</p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "ACHETER MAINTENANT",
-            "button_link": "",
-            "button_style": "secondary",
-            "button_size": "md",
-            "button_external": false,
-            "button_icon": true
-          }
-        }
-      },
-      "block_order": [
-        "text",
-        "text_WigJMT",
-        "spacing",
-        "timer",
-        "button"
-      ],
-      "settings": {
-        "transparent_header": false,
-        "image": "shopify://shop_images/vacances-dete.jpg",
-        "image_height": "750px",
-        "content_width": "medium",
-        "content_position": "md:items-center md:justify-center",
-        "text_alignment": "center",
-        "image_height_mobile": "500px",
-        "content_position_mobile": "items-center justify-center",
-        "text_alignment_mobile": "center",
-        "color_text": "#ffffff",
-        "color_highlight": "#ffffff",
-        "gradient_highlight": "",
-        "color_button_text": "#171717",
-        "color_button_background": "#ffffff",
-        "color_button_gradient": "",
-        "color_overlay": "#000000",
-        "overlay_opacity": 30,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "divider": false,
-        "full_width": true,
-        "rounded": true,
-        "enable_parallax": true,
-        "parallax_direction": "vertical"
-      }
-    },
     "hero_6_rbXhKP": {
       "type": "hero-6",
       "blocks": {
         "feature_ACpYtr": {
           "type": "feature",
           "settings": {
-            "text": "🌍 Naturel"
+            "text": "✅ Naturel"
           }
         },
         "feature_9zM7Mz": {
           "type": "feature",
           "settings": {
-            "text": "🍃 Vegan"
+            "text": "✅ Vegan"
           }
         },
         "feature_XAqThP": {
           "type": "feature",
           "settings": {
-            "text": "🇫🇷 Fabrication française"
+            "text": "✅ Fabrication française"
           }
         }
       },
@@ -942,6 +848,100 @@
         "parallax_direction": "vertical"
       }
     },
+    "countdown-timer": {
+      "type": "countdown-timer",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Temp restant avant l'été</p>",
+            "text_size": "subtext-custom",
+            "text_max_size": 52,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_WigJMT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Commencez dès maintenant votre cure avec MOROFIT 400 pour des résultats visibles à temps !</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "spacing": {
+          "type": "spacing",
+          "settings": {
+            "height": 24,
+            "height_mobile": 16
+          }
+        },
+        "timer": {
+          "type": "timer",
+          "settings": {
+            "year": "2025",
+            "month": "07",
+            "day": "1",
+            "hour": "00",
+            "minute": "00",
+            "text_font": "heading",
+            "text_size": "title-xl tracking-heading",
+            "message": "<p>C'est l'été ! Profitez de votre nouvelle silhouette</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "ACHETER MAINTENANT",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "text_WigJMT",
+        "spacing",
+        "timer",
+        "button"
+      ],
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/vacances-dete.jpg",
+        "image_height": "750px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "image_height_mobile": "500px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#ffffff",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#000000",
+        "overlay_opacity": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
     "ss_faq_9_BkMFP3": {
       "type": "ss-faq-9",
       "blocks": {
@@ -1128,13 +1128,13 @@
     "image_with_text_overlay_ALrkJP",
     "slideshow",
     "scrolling_logos_6TkyMz",
-    "countdown-timer",
     "hero_6_rbXhKP",
     "rich-text-1",
     "image-comparison",
     "ss_feature_13_ga68tn",
     "ss_comparison_table_dNya9e",
     "testimonials_banner_CG7YnM",
+    "countdown-timer",
     "ss_faq_9_BkMFP3"
   ]
 }
