@@ -342,7 +342,7 @@
         "feature_text_space": 12,
         "feature_text_align": "left",
         "feature_text_align_mobile": "left",
-        "button": "<p>ACHETER MAINTENANT</p>",
+        "button": "<p>ACHETER </p>",
         "button_url": "",
         "button_custom": true,
         "button_font": "montserrat_n4",
