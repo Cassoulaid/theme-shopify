@@ -86,7 +86,13 @@
     
     {% if section.settings.button_text != blank %}
       <div class="brand-comparison-button-container">
-        <a href="{{ section.settings.button_link }}" class="brand-comparison-button" style="background-color: {{ section.settings.button_background }}; color: {{ section.settings.button_text_color }}; border-radius: {{ section.settings.button_border_radius }}px;">
+        <a href="{{ section.settings.button_link }}" 
+           class="brand-comparison-button" 
+           style="background-color: {{ section.settings.button_background }}; 
+                  color: {{ section.settings.button_text_color }}; 
+                  border-radius: {{ section.settings.button_border_radius }}px;
+                  --hover-bg-color: {{ section.settings.button_hover_background }};
+                  --hover-text-color: {{ section.settings.button_hover_text_color }};">
           {{ section.settings.button_text }}
         </a>
       </div>
@@ -263,7 +269,8 @@
 }
 
 .brand-comparison-button:hover {
-  opacity: 0.9;
+  background-color: var(--hover-bg-color) !important;
+  color: var(--hover-text-color) !important;
   transform: translateY(-2px);
 }
 
@@ -398,6 +405,18 @@
       "type": "color",
       "id": "button_text_color",
       "label": "Couleur du texte du bouton",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_background",
+      "label": "Couleur de fond du bouton au survol",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_text_color",
+      "label": "Couleur du texte du bouton au survol",
       "default": "#FFFFFF"
     }
   ],
