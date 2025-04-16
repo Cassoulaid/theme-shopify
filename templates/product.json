@@ -154,16 +154,6 @@
             "text_size": "text-base"
           }
         },
-        "variant_picker_PWczCq": {
-          "type": "variant_picker",
-          "settings": {
-            "show_variant_labels": true,
-            "picker_type": "button",
-            "enable_color_swatches": true,
-            "color_swatch_type": "color",
-            "size_chart": ""
-          }
-        },
         "buy_buttons_YKhktQ": {
           "type": "buy_buttons",
           "settings": {
@@ -181,6 +171,7 @@
         },
         "share_dePxzA": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share",
             "show_help_desk": true,
@@ -202,7 +193,6 @@
       "block_order": [
         "title_PdVMHV",
         "description_bQFXAW",
-        "variant_picker_PWczCq",
         "buy_buttons_YKhktQ",
         "pickup_availability_CMENLN",
         "share_dePxzA",
