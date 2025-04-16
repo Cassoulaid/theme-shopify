@@ -591,6 +591,248 @@
         "lazy": true
       }
     },
+    "ss_feature_17_WNPCJg": {
+      "type": "ss-feature-17",
+      "blocks": {
+        "heading_K6RNHt": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Results</h2>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 28,
+            "heading_size_mobile": 18,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_align": "left",
+            "heading_align_mobile": "left",
+            "heading_color": "#000000"
+          }
+        },
+        "text_8yXGCN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Talk about results of your customers and how your product improved their life.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 15,
+            "text_height": 150,
+            "text_mt": 24,
+            "text_mt_mobile": 24,
+            "text_color": "#000000"
+          }
+        },
+        "item_yGnVXA": {
+          "type": "item",
+          "settings": {
+            "percent": 90,
+            "text": "Noticed that this product has significantly improved their life."
+          }
+        },
+        "item_fckXpR": {
+          "type": "item",
+          "settings": {
+            "percent": 90,
+            "text": "Noticed that this product has significantly improved their life."
+          }
+        },
+        "item_RRPcmz": {
+          "type": "item",
+          "settings": {
+            "percent": 90,
+            "text": "Noticed that this product has significantly improved their life."
+          }
+        }
+      },
+      "block_order": [
+        "heading_K6RNHt",
+        "text_8yXGCN",
+        "item_yGnVXA",
+        "item_fckXpR",
+        "item_RRPcmz"
+      ],
+      "name": "SS - Feature #17",
+      "settings": {
+        "body_gap": 64,
+        "body_gap_mobile": 32,
+        "content_horizontal_align": "center",
+        "content_horizontal_align_mobile": "center",
+        "heading": "<h2>Results</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "heading_height": 130,
+        "items_mt": 16,
+        "items_mt_mobile": 16,
+        "item_padding_vertical": 10,
+        "item_padding_vertical_mobile": 10,
+        "item_gap": 16,
+        "item_gap_mobile": 16,
+        "item_border_thickness": 2,
+        "circle_size": 70,
+        "circle_size_mobile": 70,
+        "percent_custom": false,
+        "percent_font": "josefin_sans_n4",
+        "percent_size": 18,
+        "percent_size_mobile": 18,
+        "percent_height": 130,
+        "item_text_custom": false,
+        "item_text_font": "josefin_sans_n4",
+        "item_text_size": 16,
+        "item_text_size_mobile": 16,
+        "item_text_height": 150,
+        "bottom_text": "<p>Caption about the results and/or link for their proof.</p>",
+        "bottom_text_custom": false,
+        "bottom_text_font": "josefin_sans_n4",
+        "bottom_text_size": 12,
+        "bottom_text_size_mobile": 12,
+        "bottom_text_height": 130,
+        "bottom_text_mt": 16,
+        "bottom_text_mt_mobile": 16,
+        "bottom_text_align": "left",
+        "bottom_text_align_mobile": "left",
+        "item_border_color": "#F3F3F3",
+        "circle_bg_color": "#FFFFFF",
+        "circle_progress": "#0F8571",
+        "percent_color": "#0F8571",
+        "item_text_color": "#000000",
+        "heading_color": "#000000",
+        "bottom_text_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "ss_tableau_z9JAYm": {
+      "type": "ss-tableau",
+      "blocks": {
+        "brand_zFRfxT": {
+          "type": "brand",
+          "settings": {
+            "brand_name": "Notre marque",
+            "highlight_column": true,
+            "column_background_color": "#f0fff4",
+            "brand_name_color": "#000000"
+          }
+        },
+        "brand_6teD3Y": {
+          "type": "brand",
+          "settings": {
+            "brand_name": "Concurrent A",
+            "highlight_column": false,
+            "column_background_color": "#F0FFF4",
+            "brand_name_color": "#000000"
+          }
+        },
+        "brand_rzFKjC": {
+          "type": "brand",
+          "settings": {
+            "brand_name": "Concurrent B",
+            "highlight_column": false,
+            "column_background_color": "#F0FFF4",
+            "brand_name_color": "#000000"
+          }
+        },
+        "criteria_MGUw8k": {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Composition",
+            "value_1": "100% naturel",
+            "value_1_type": "positive",
+            "value_2": "Produits chimiques",
+            "value_2_type": "negative",
+            "value_3": "Synthétique",
+            "value_3_type": "negative",
+            "value_4": "Non spécifié",
+            "value_4_type": "positive"
+          }
+        },
+        "criteria_McJfYE": {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Efficacité",
+            "value_1": "Résultats visibles",
+            "value_1_type": "positive",
+            "value_2": "Résultats moyens",
+            "value_2_type": "neutral",
+            "value_3": "Résultats faibles",
+            "value_3_type": "negative",
+            "value_4": "Non spécifié",
+            "value_4_type": "positive"
+          }
+        },
+        "criteria_k7rRKM": {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Prix",
+            "value_1": "Excellent rapport qualité/prix",
+            "value_1_type": "positive",
+            "value_2": "Coûteux",
+            "value_2_type": "negative",
+            "value_3": "Abordable mais peu efficace",
+            "value_3_type": "neutral",
+            "value_4": "Non spécifié",
+            "value_4_type": "positive"
+          }
+        },
+        "criteria_WaNYkc": {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Durabilité",
+            "value_1": "Écologique",
+            "value_1_type": "positive",
+            "value_2": "Non écologique",
+            "value_2_type": "negative",
+            "value_3": "Partiellement écologique",
+            "value_3_type": "neutral",
+            "value_4": "Non spécifié",
+            "value_4_type": "positive"
+          }
+        }
+      },
+      "block_order": [
+        "brand_zFRfxT",
+        "brand_6teD3Y",
+        "brand_rzFKjC",
+        "criteria_MGUw8k",
+        "criteria_McJfYE",
+        "criteria_k7rRKM",
+        "criteria_WaNYkc"
+      ],
+      "name": "Tableau comparatif",
+      "settings": {
+        "title": "Pourquoi choisir notre marque ?",
+        "subtitle": "<p>Découvrez les avantages de notre marque par rapport à la concurrence.</p>",
+        "button_text": "Je commande ma cure de 2 mois",
+        "button_link": "shopify://products/morosil-400",
+        "background_color": "#fafafa",
+        "title_color": "#000000",
+        "subtitle_color": "#4A4A4A",
+        "criteria_text_color": "#333333",
+        "feature_text_color": "#333333",
+        "positive_icon_color": "#4CAF50",
+        "negative_icon_color": "#F44336",
+        "neutral_icon_color": "#9E9E9E",
+        "button_background": "#dff2ff",
+        "button_text_color": "#171717"
+      }
+    },
     "ss_comparison_table_dNya9e": {
       "type": "ss-comparison-table",
       "blocks": {
@@ -1132,6 +1374,8 @@
     "rich-text-1",
     "image-comparison",
     "ss_feature_13_ga68tn",
+    "ss_feature_17_WNPCJg",
+    "ss_tableau_z9JAYm",
     "ss_comparison_table_dNya9e",
     "testimonials_banner_CG7YnM",
     "countdown-timer",
