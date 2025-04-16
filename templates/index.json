@@ -33,11 +33,23 @@
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
+        },
+        "button_LG8DyB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Acheter Maintenant",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true
+          }
         }
       },
       "block_order": [
         "heading_m3qaft",
-        "text_b6CwgB"
+        "text_b6CwgB",
+        "button_LG8DyB"
       ],
       "settings": {
         "transparent_header": false,
