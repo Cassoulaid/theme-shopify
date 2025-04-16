@@ -86,7 +86,7 @@
     
     {% if section.settings.button_text != blank %}
       <div class="brand-comparison-button-container">
-        <a href="{{ section.settings.button_link }}" class="brand-comparison-button" style="background-color: {{ section.settings.button_background }}; color: {{ section.settings.button_text_color }};">
+        <a href="{{ section.settings.button_link }}" class="brand-comparison-button" style="background-color: {{ section.settings.button_background }}; color: {{ section.settings.button_text_color }}; border-radius: {{ section.settings.button_border_radius }}px;">
           {{ section.settings.button_text }}
         </a>
       </div>
@@ -259,7 +259,6 @@
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
-  border-radius: 40px;
   transition: all 0.3s ease;
 }
 
@@ -326,6 +325,16 @@
       "type": "url",
       "id": "button_link",
       "label": "Lien du bouton"
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Rayon de bordure du bouton",
+      "default": 40
     },
     {
       "type": "header",
