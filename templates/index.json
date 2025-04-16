@@ -925,7 +925,7 @@
         "padding_top": 0,
         "padding_bottom": 52,
         "divider": false,
-        "rounded": false,
+        "rounded": true,
         "enable_parallax": true,
         "parallax_direction": "vertical"
       }
