@@ -371,7 +371,7 @@
         "highlighted_scribble": "basic-underline",
         "color_text": "",
         "color_background": "",
-        "gradient_background": "",
+        "gradient_background": "linear-gradient(176deg, rgba(93, 155, 213, 1) 11%, rgba(250, 250, 250, 1) 84%)",
         "color_highlight": "",
         "gradient_highlight": "",
         "color_button_text": "#ffffff",
@@ -617,7 +617,7 @@
         "item_QfEemY": {
           "type": "item",
           "settings": {
-            "row_heading": "Fabrication Française",
+            "row_heading": "Fabrication française",
             "first_column": "Oui",
             "second_column": "Non",
             "third_column": "",
@@ -627,7 +627,7 @@
         "item_N4weWr": {
           "type": "item",
           "settings": {
-            "row_heading": "Hautement Assimilable",
+            "row_heading": "Hautement assimilable",
             "first_column": "Oui",
             "second_column": "Non",
             "third_column": "",
@@ -647,7 +647,7 @@
         "item_QQQQLR": {
           "type": "item",
           "settings": {
-            "row_heading": "Pas de Douleurs Abdominales",
+            "row_heading": "Pas de douleurs abdominales",
             "first_column": "Oui",
             "second_column": "Non",
             "third_column": "",
