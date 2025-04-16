@@ -680,8 +680,8 @@
           "type": "item",
           "settings": {
             "row_heading": "Naturel",
-            "first_column": "Yes",
-            "second_column": "No",
+            "first_column": "Oui",
+            "second_column": "Non",
             "third_column": "",
             "four_column": ""
           }
@@ -690,8 +690,8 @@
           "type": "item",
           "settings": {
             "row_heading": "Vegan",
-            "first_column": "Yes",
-            "second_column": "No",
+            "first_column": "Oui",
+            "second_column": "Non",
             "third_column": "",
             "four_column": ""
           }
@@ -700,8 +700,8 @@
           "type": "item",
           "settings": {
             "row_heading": "Fabrication Française",
-            "first_column": "Yes",
-            "second_column": "No",
+            "first_column": "Oui",
+            "second_column": "Non",
             "third_column": "",
             "four_column": ""
           }
@@ -710,8 +710,8 @@
           "type": "item",
           "settings": {
             "row_heading": "Hautement Assimilable",
-            "first_column": "Yes",
-            "second_column": "No",
+            "first_column": "Oui",
+            "second_column": "Non",
             "third_column": "",
             "four_column": ""
           }
@@ -720,8 +720,8 @@
           "type": "item",
           "settings": {
             "row_heading": "Efficace",
-            "first_column": "Yes",
-            "second_column": "No",
+            "first_column": "Oui",
+            "second_column": "Non",
             "third_column": "",
             "four_column": ""
           }
@@ -730,8 +730,8 @@
           "type": "item",
           "settings": {
             "row_heading": "Pas de Douleurs Abdominales",
-            "first_column": "Yes",
-            "second_column": "No",
+            "first_column": "Oui",
+            "second_column": "Non",
             "third_column": "",
             "four_column": ""
           }
