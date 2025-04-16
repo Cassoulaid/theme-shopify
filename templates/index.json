@@ -913,7 +913,7 @@
       "settings": {
         "transparent_header": false,
         "image": "shopify://shop_images/IMG_6338.jpg",
-        "image_height": "700px",
+        "image_height": "600px",
         "content_position": "md:items-center md:justify-center",
         "image_height_mobile": "auto",
         "content_position_mobile": "items-center justify-center",
