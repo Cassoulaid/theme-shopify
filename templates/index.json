@@ -843,7 +843,8 @@
           "type": "item",
           "settings": {
             "row_heading": "Naturel",
-            "first_column": "Oui",
+            "first_column": "100% naturel",
+            "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
             "second_column": "Non",
             "third_column": "",
             "four_column": ""
@@ -942,7 +943,7 @@
         "table_heading_padding_vertical": 10,
         "table_heading_padding_vertical_mobile": 10,
         "table_row_padding_horizontal": 18,
-        "table_row_padding_horizontal_mobile": 20,
+        "table_row_padding_horizontal_mobile": 6,
         "table_row_padding_vertical": 16,
         "table_row_padding_vertical_mobile": 10,
         "table_row_border_thickness": 1,
