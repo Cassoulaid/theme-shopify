@@ -846,7 +846,7 @@
             "first_column": "100% naturel",
             "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
             "second_column": "Non",
-            "third_column": "",
+            "third_column": "Non",
             "four_column": ""
           }
         },
@@ -854,7 +854,8 @@
           "type": "item",
           "settings": {
             "row_heading": "Vegan",
-            "first_column": "Oui",
+            "first_column": "",
+            "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
             "second_column": "Non",
             "third_column": "",
             "four_column": ""
@@ -865,6 +866,7 @@
           "settings": {
             "row_heading": "Fabrication française",
             "first_column": "Oui",
+            "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
             "second_column": "Non",
             "third_column": "",
             "four_column": ""
@@ -875,6 +877,7 @@
           "settings": {
             "row_heading": "Hautement assimilable",
             "first_column": "Oui",
+            "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
             "second_column": "Non",
             "third_column": "",
             "four_column": ""
@@ -885,6 +888,7 @@
           "settings": {
             "row_heading": "Efficace",
             "first_column": "Oui",
+            "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
             "second_column": "Non",
             "third_column": "",
             "four_column": ""
@@ -895,6 +899,7 @@
           "settings": {
             "row_heading": "Pas de douleurs abdominales",
             "first_column": "Oui",
+            "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
             "second_column": "Non",
             "third_column": "",
             "four_column": ""
@@ -944,10 +949,10 @@
         "table_heading_padding_vertical_mobile": 10,
         "table_row_padding_horizontal": 0,
         "table_row_padding_horizontal_mobile": 6,
-        "table_row_padding_vertical": 20,
+        "table_row_padding_vertical": 18,
         "table_row_padding_vertical_mobile": 10,
         "table_row_border_thickness": 1,
-        "table_row_heading_image_size": 42,
+        "table_row_heading_image_size": 44,
         "table_row_heading_image_size_mobile": 40,
         "table_row_heading_width_mobile": 44,
         "table_row_heading_custom": true,
@@ -1017,7 +1022,7 @@
         "margin_bottom": 0,
         "padding_top": 72,
         "padding_bottom": 72,
-        "padding_horizontal": 5,
+        "padding_horizontal": 0,
         "padding_horizontal_mobile": 1.5,
         "full_width": false,
         "content_width": 60,
