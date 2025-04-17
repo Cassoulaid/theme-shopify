@@ -520,7 +520,7 @@
         "image_position_mobile": "first",
         "image_ratio": "portrait",
         "image_ratio_mobile": "portrait",
-        "image_radius": 0,
+        "image_radius": 16,
         "image_border_thickness": 0,
         "content_align": "center",
         "content_align_mobile": "center",
