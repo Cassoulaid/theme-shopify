@@ -597,7 +597,7 @@
         "heading_K6RNHt": {
           "type": "heading",
           "settings": {
-            "heading": "<h2>Results</h2>",
+            "heading": "",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_size": 28,
@@ -613,7 +613,7 @@
         "text_8yXGCN": {
           "type": "text",
           "settings": {
-            "text": "<p>Talk about results of your customers and how your product improved their life.</p>",
+            "text": "<p>Grâce à sa formule innovante à base de Morosil®, MOROFIT 400 a déjà transformé le quotidien de nombreuses personnes.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 16,
@@ -628,21 +628,21 @@
           "type": "item",
           "settings": {
             "percent": 90,
-            "text": "Noticed that this product has significantly improved their life."
+            "text": "des utilisateurs ont remarqué une réduction visible de leur tour de taille après 4 semaines d’utilisation."
           }
         },
         "item_fckXpR": {
           "type": "item",
           "settings": {
-            "percent": 90,
-            "text": "Noticed that this product has significantly improved their life."
+            "percent": 95,
+            "text": "trouvent le produit facile à intégrer dans leur routine quotidienne grâce à sa posologie simple (1 gélule/jour)."
           }
         },
         "item_RRPcmz": {
           "type": "item",
           "settings": {
-            "percent": 90,
-            "text": "Noticed that this product has significantly improved their life."
+            "percent": 86,
+            "text": "affirment se sentir plus légers et dynamiques, avec moins de fringales et une meilleure gestion des écarts."
           }
         }
       },
@@ -659,7 +659,7 @@
         "body_gap_mobile": 32,
         "content_horizontal_align": "center",
         "content_horizontal_align_mobile": "center",
-        "heading": "<h2>Results</h2>",
+        "heading": "<p>Des résultats concrets, prouvés par nos utilisateurs</p>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 36,
@@ -684,7 +684,7 @@
         "item_text_size": 16,
         "item_text_size_mobile": 16,
         "item_text_height": 150,
-        "bottom_text": "<p>Caption about the results and/or link for their proof.</p>",
+        "bottom_text": "<p>Résultats basés sur un sondage interne mené auprès de 120 utilisateurs réguliers sur une période de 30 jours.</p>",
         "bottom_text_custom": false,
         "bottom_text_font": "josefin_sans_n4",
         "bottom_text_size": 12,
