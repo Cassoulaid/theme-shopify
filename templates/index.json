@@ -847,7 +847,7 @@
             "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
             "second_column": "Produits chimiques",
             "second_column_image": "shopify://shop_images/44989222_9079476.png",
-            "third_column": "Non",
+            "third_column": "Synthétique",
             "third_column_image": "shopify://shop_images/44989222_9079476.png",
             "four_column": ""
           }
@@ -856,10 +856,12 @@
           "type": "item",
           "settings": {
             "row_heading": "Vegan",
-            "first_column": "",
+            "first_column": "Résultats visibles",
             "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
-            "second_column": "Non",
-            "third_column": "",
+            "second_column": "Résultats moyen",
+            "second_column_image": "shopify://shop_images/44989222_9079476.png",
+            "third_column": "Résultats faibles",
+            "third_column_image": "shopify://shop_images/44989222_9079476.png",
             "four_column": ""
           }
         },
@@ -867,10 +869,12 @@
           "type": "item",
           "settings": {
             "row_heading": "Fabrication française",
-            "first_column": "Oui",
+            "first_column": "Excellent rapport qualité/prix",
             "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
-            "second_column": "Non",
-            "third_column": "",
+            "second_column": "Coûteux",
+            "second_column_image": "shopify://shop_images/44989222_9079476.png",
+            "third_column": "Abordable mais peu efficace",
+            "third_column_image": "shopify://shop_images/44989222_9079476.png",
             "four_column": ""
           }
         },
@@ -878,32 +882,12 @@
           "type": "item",
           "settings": {
             "row_heading": "Hautement assimilable",
-            "first_column": "Oui",
+            "first_column": "Ecologique",
             "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
-            "second_column": "Non",
-            "third_column": "",
-            "four_column": ""
-          }
-        },
-        "item_kXTpem": {
-          "type": "item",
-          "settings": {
-            "row_heading": "Efficace",
-            "first_column": "Oui",
-            "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
-            "second_column": "Non",
-            "third_column": "",
-            "four_column": ""
-          }
-        },
-        "item_QQQQLR": {
-          "type": "item",
-          "settings": {
-            "row_heading": "Pas de douleurs abdominales",
-            "first_column": "Oui",
-            "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
-            "second_column": "Non",
-            "third_column": "",
+            "second_column": "Non écologique",
+            "second_column_image": "shopify://shop_images/44989222_9079476.png",
+            "third_column": "Partiellement écologique",
+            "third_column_image": "shopify://shop_images/44989222_9079476.png",
             "four_column": ""
           }
         }
@@ -912,9 +896,7 @@
         "item_rqHenP",
         "item_MEgmWn",
         "item_QfEemY",
-        "item_N4weWr",
-        "item_kXTpem",
-        "item_QQQQLR"
+        "item_N4weWr"
       ],
       "settings": {
         "heading": "<h2>Nos gélules MOROFIT 400</h2>",
