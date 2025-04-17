@@ -17,8 +17,8 @@
         "announcement-1": {
           "type": "announcement",
           "settings": {
-            "icon": "truck",
-            "text": "Free shipping and returns",
+            "icon": "sale",
+            "text": "-10%avec le code Docteur V",
             "link": "",
             "hide_icon_mobile": true,
             "text_mobile": "",
@@ -26,11 +26,11 @@
             "highlighted_scribble": "circle"
           }
         },
-        "announcement-2": {
+        "announcement_rd4Urj": {
           "type": "announcement",
           "settings": {
-            "icon": "email",
-            "text": "A question? Visit our contact page",
+            "icon": "truck",
+            "text": "Livraison offerte dès 49€ d'achats",
             "link": "",
             "hide_icon_mobile": true,
             "text_mobile": "",
@@ -41,9 +41,8 @@
       },
       "block_order": [
         "announcement-1",
-        "announcement-2"
+        "announcement_rd4Urj"
       ],
-      "disabled": true,
       "settings": {
         "show_social": true,
         "enable_language_selector": true,
