@@ -942,7 +942,7 @@
         "table_heading_padding_horizontal_mobile": 4,
         "table_heading_padding_vertical": 10,
         "table_heading_padding_vertical_mobile": 10,
-        "table_row_padding_horizontal": 18,
+        "table_row_padding_horizontal": 0,
         "table_row_padding_horizontal_mobile": 6,
         "table_row_padding_vertical": 16,
         "table_row_padding_vertical_mobile": 10,
