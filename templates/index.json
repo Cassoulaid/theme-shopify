@@ -842,7 +842,7 @@
         "item_rqHenP": {
           "type": "item",
           "settings": {
-            "row_heading": "Naturel",
+            "row_heading": "Composition",
             "first_column": "100% naturel",
             "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
             "second_column": "Produits chimiques",
@@ -855,7 +855,7 @@
         "item_MEgmWn": {
           "type": "item",
           "settings": {
-            "row_heading": "Vegan",
+            "row_heading": "Efficacité",
             "first_column": "Résultats visibles",
             "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
             "second_column": "Résultats moyen",
@@ -868,7 +868,7 @@
         "item_QfEemY": {
           "type": "item",
           "settings": {
-            "row_heading": "Fabrication française",
+            "row_heading": "Prix",
             "first_column": "Excellent rapport qualité/prix",
             "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
             "second_column": "Coûteux",
@@ -881,7 +881,7 @@
         "item_N4weWr": {
           "type": "item",
           "settings": {
-            "row_heading": "Hautement assimilable",
+            "row_heading": "Durabilité",
             "first_column": "Ecologique",
             "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
             "second_column": "Non écologique",
