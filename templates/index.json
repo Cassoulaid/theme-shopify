@@ -845,8 +845,10 @@
             "row_heading": "Naturel",
             "first_column": "100% naturel",
             "first_column_image": "shopify://shop_images/check-mark-icon-sign-png.webp",
-            "second_column": "Non",
+            "second_column": "Produits chimiques",
+            "second_column_image": "shopify://shop_images/44989222_9079476.png",
             "third_column": "Non",
+            "third_column_image": "shopify://shop_images/44989222_9079476.png",
             "four_column": ""
           }
         },
@@ -934,8 +936,8 @@
         "table_heading_image_size_mobile": 68,
         "first_heading": "SECTION STORE",
         "first_heading_image": "shopify://shop_images/Capture_d_ecran_2025-02-22_a_11.33.11.png",
-        "second_heading": "Les autres",
-        "third_heading": "",
+        "second_heading": "Concurrent A",
+        "third_heading": "Concurrent B",
         "four_heading": "",
         "table_heading_custom": true,
         "table_heading_font": "montserrat_n4",
