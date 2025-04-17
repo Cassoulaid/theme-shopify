@@ -384,63 +384,6 @@
         "rounded": true
       }
     },
-    "image-comparison": {
-      "type": "image-comparison",
-      "blocks": {
-        "image-1": {
-          "type": "image",
-          "settings": {
-            "subheading": "",
-            "heading": "Avant",
-            "content_position": "end",
-            "color_text": "#ffffff"
-          }
-        },
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "subheading": "",
-            "heading": "Après",
-            "content_position": "end",
-            "color_text": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "image-1",
-        "image-2"
-      ],
-      "settings": {
-        "layout": "horizontal",
-        "image_height": "750px",
-        "image_height_mobile": "300px",
-        "heading": "<em>Les résultats de nos clients </em>",
-        "heading_size": "title-md",
-        "heading_alignment": "text-center md:items-center",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "button_label": "",
-        "button_link": "",
-        "button_external": false,
-        "button_icon": true,
-        "highlighted_text": "text",
-        "highlighted_scribble": "circle",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "linear-gradient(90deg, rgba(23, 23, 23, 1), rgba(93, 155, 213, 1) 100%)",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 100,
-        "padding_bottom": 96,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
     "ss_feature_13_ga68tn": {
       "type": "ss-feature-13",
       "blocks": {
@@ -589,6 +532,63 @@
         "section_radius": 0,
         "border_thickness": 0,
         "lazy": true
+      }
+    },
+    "image-comparison": {
+      "type": "image-comparison",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "subheading": "",
+            "heading": "Avant",
+            "content_position": "end",
+            "color_text": "#ffffff"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "subheading": "",
+            "heading": "Après",
+            "content_position": "end",
+            "color_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "image-2"
+      ],
+      "settings": {
+        "layout": "horizontal",
+        "image_height": "750px",
+        "image_height_mobile": "300px",
+        "heading": "<em>Les résultats de nos clients </em>",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "text",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "linear-gradient(90deg, rgba(23, 23, 23, 1), rgba(93, 155, 213, 1) 100%)",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 100,
+        "padding_bottom": 96,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
       }
     },
     "ss_feature_17_WNPCJg": {
@@ -1549,8 +1549,8 @@
     "scrolling_logos_6TkyMz",
     "hero_6_rbXhKP",
     "rich-text-1",
-    "image-comparison",
     "ss_feature_13_ga68tn",
+    "image-comparison",
     "ss_feature_17_WNPCJg",
     "ss_tableau_z9JAYm",
     "ss_comparison_table_dNya9e",
