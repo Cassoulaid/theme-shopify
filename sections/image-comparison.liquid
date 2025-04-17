@@ -1,8 +1,8 @@
 {%- liquid
   assign before_image = section.blocks | first
   assign after_image = section.blocks | last
-  assign ratio_percent = 38
-
+  assign ratio_percent = 150
+  
   if before_image != blank and before_image.settings.image
     assign ratio_percent = 1 | divided_by: before_image.settings.image.aspect_ratio | times: 100
   elsif after_image != blank and after_image.settings.image
@@ -24,12 +24,25 @@
     --section-padding-bottom: {{ section.settings.padding_bottom }}px;
     {%- render 'section-variables', section: section -%}
     --ratio-percent: {{ ratio_percent }}%;
+    --portrait-max-width: 550px;
   }
 
   @media screen and (max-width: 767px) {
     #shopify-section-{{ section.id }} {
       --ratio-percent: {{ ratio_percent_mobile }}%;
+      --portrait-max-width: 100%;
     }
+  }
+  
+  .image-comparison--portrait {
+    max-width: var(--portrait-max-width);
+    margin: 0 auto;
+  }
+  
+  .image-comparison--portrait img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
   }
 </style>
 
@@ -37,7 +50,7 @@
   <div class="page-width{% if section.settings.full_width %} page-width--full{% endif %} relative">
     {%- render 'section-heading', section: section -%}
 
-    <image-comparison class="image-comparison media--{{ section.settings.image_height }} mobile:media--{{ section.settings.image_height_mobile }} block relative overflow-hidden" data-layout="{{ section.settings.layout }}">
+    <image-comparison class="image-comparison image-comparison--portrait media--{{ section.settings.image_height }} mobile:media--{{ section.settings.image_height_mobile }} block relative overflow-hidden" data-layout="{{ section.settings.layout }}">
       {%- capture sizes -%}{% if section.settings.full_width %}100vw{% else %}min({{ settings.page_width }}px, 100vw){% endif %}{%- endcapture -%}
 
       {%- if before_image != blank -%}
@@ -53,7 +66,7 @@
                 >
               {%- endif -%}
   
-              {{- before_image.settings.image | image_url: width: before_image.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', is: 'lazy-image' -}}
+              {{- before_image.settings.image | image_url: width: before_image.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000', is: 'lazy-image', class: 'portrait-image' -}}
             {%- else -%}
               {{- 'lifestyle-1' | placeholder_svg_tag: 'placeholder' -}}
             {%- endif -%}
@@ -86,7 +99,7 @@
                 >
               {%- endif -%}
   
-              {{- after_image.settings.image | image_url: width: after_image.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', is: 'lazy-image' -}}
+              {{- after_image.settings.image | image_url: width: after_image.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000', is: 'lazy-image', class: 'portrait-image' -}}
             {%- else -%}
               {{- 'lifestyle-2' | placeholder_svg_tag: 'placeholder' -}}
             {%- endif -%}
