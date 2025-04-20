@@ -653,7 +653,6 @@
         "item_fckXpR",
         "item_RRPcmz"
       ],
-      "name": "SS - Feature #17",
       "settings": {
         "body_gap": 64,
         "body_gap_mobile": 32,
@@ -805,7 +804,6 @@
         "criteria_k7rRKM",
         "criteria_WaNYkc"
       ],
-      "name": "Tableau comparatif",
       "settings": {
         "title": "Pourquoi choisir notre marque ?",
         "subtitle": "<p>Découvrez les avantages de notre marque par rapport à la concurrence.</p>",
@@ -1051,7 +1049,6 @@
         "testimonial_t4CyLE",
         "testimonial_iFTQPj"
       ],
-      "name": "t:sections.testimonials-banner.presets.name",
       "settings": {
         "transparent_header": false,
         "image": "shopify://shop_images/IMG_6338.jpg",
@@ -1128,7 +1125,6 @@
         "item_NrFAeM",
         "item_NpK9zc"
       ],
-      "name": "SS - Testimonial #16",
       "settings": {
         "content_align": "center",
         "content_align_mobile": "center",
@@ -1531,6 +1527,65 @@
         "content_width": 120,
         "border_thickness": 0
       }
+    },
+    "ss_about_jLFatp": {
+      "type": "ss-about",
+      "blocks": {
+        "benefit_card_yBaxkC": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Une formule innovante",
+            "content": "<p><strong>Simplicité d'utilisation</strong> : 1 gélule par jour, facile à intégrer dans votre routine matinale.</p><p><strong>Efficacité prouvée</strong> : Grâce à des ingrédients ciblés comme le Morosil®, le guarana et le chrome.</p>",
+            "icon": "flask"
+          }
+        },
+        "benefit_card_PPLG8G": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Hautement dosé",
+            "content": "<ul><li>Extrait sec d'orange rouge – Morosil® (400 mg)</li><li>Vinaigre de cidre (52,5 mg)</li><li>Extrait sec de guarana (30 mg) avec 3,3 mg de caféine</li><li>Poudre de noix de cola (40 mg) apportant également 3,3 mg de caféine</li><li>Chrome (39 µg, 98 % VNR)</li></ul>",
+            "icon": "leaf"
+          }
+        },
+        "benefit_card_tmLjzD": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Formulation d'expert",
+            "content": "<p>Tous nos produits sont formulés par des médecins et des pharmaciens expérimentés. Ce savoir-faire médical et pharmaceutique garantit que chaque formule est étudiée avec rigueur et répond aux normes les plus strictes en matière de sécurité et d'efficacité.</p>",
+            "icon": "users"
+          }
+        },
+        "benefit_card_i4qmEP": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Des avis clients incroyables",
+            "content": "<p>Nos témoignages photos parlent d'eux-mêmes. Nos clients sont satisfaits de la cure et de nos recommandations sur la perte de poids.</p>",
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_card_yBaxkC",
+        "benefit_card_PPLG8G",
+        "benefit_card_tmLjzD",
+        "benefit_card_i4qmEP"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "Pourquoi nous ?",
+        "heading_size": "title-lg tracking-heading",
+        "heading_tag": "h2",
+        "card_style": "shadow",
+        "color_headings": "#4CAF50",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "rounded": true
+      }
     }
   },
   "order": [
@@ -1547,6 +1602,7 @@
     "testimonials_banner_CG7YnM",
     "ss_testimonial_16_7UaE8B",
     "countdown-timer",
-    "ss_faq_9_BkMFP3"
+    "ss_faq_9_BkMFP3",
+    "ss_about_jLFatp"
   ]
 }
