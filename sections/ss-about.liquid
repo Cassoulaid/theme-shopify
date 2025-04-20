@@ -1,0 +1,366 @@
+{% schema %}
+{
+  "name": "Pourquoi nous ?",
+  "settings": [
+    {
+      "type": "text_alignment",
+      "id": "text_alignment",
+      "default": "center",
+      "label": "Alignement du texte (desktop)"
+    },
+    {
+      "type": "text_alignment",
+      "id": "text_alignment_mobile",
+      "default": "center",
+      "label": "Alignement du texte (mobile)"
+    },
+    {
+      "type": "header",
+      "content": "Titre de la section"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "Pourquoi nous ?",
+      "label": "Titre"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "title-md",
+          "label": "Moyen"
+        },
+        {
+          "value": "title-lg tracking-heading",
+          "label": "Grand"
+        },
+        {
+          "value": "title-xl tracking-heading",
+          "label": "Très grand"
+        }
+      ],
+      "default": "title-lg tracking-heading",
+      "label": "Taille du titre"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        }
+      ],
+      "default": "h2",
+      "label": "Balise HTML du titre"
+    },
+    {
+      "type": "header",
+      "content": "Style de carte"
+    },
+    {
+      "type": "select",
+      "id": "card_style",
+      "options": [
+        {
+          "value": "standard",
+          "label": "Standard"
+        },
+        {
+          "value": "shadow",
+          "label": "Avec ombre"
+        },
+        {
+          "value": "border",
+          "label": "Avec bordure"
+        }
+      ],
+      "default": "shadow",
+      "label": "Style des cartes"
+    },
+    {
+      "type": "header",
+      "content": "Options de couleurs"
+    },
+    {
+      "type": "color",
+      "id": "color_headings",
+      "label": "Couleur des titres de carte",
+      "default": "#4CAF50"
+    },
+    {
+      "type": "color",
+      "id": "color_text",
+      "label": "Couleur du texte"
+    },
+    {
+      "type": "color",
+      "id": "color_background",
+      "label": "Couleur de fond"
+    },
+    {
+      "type": "color_background",
+      "id": "gradient_background",
+      "label": "Dégradé de fond"
+    },
+    {
+      "type": "header",
+      "content": "Paramètres de section"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Marge supérieure",
+      "default": 72
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Marge inférieure",
+      "default": 72
+    },
+    {
+      "type": "checkbox",
+      "id": "divider",
+      "label": "Afficher un séparateur",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "rounded",
+      "default": true,
+      "label": "Coins arrondis"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "benefit_card",
+      "name": "Carte avantage",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titre",
+          "default": "Titre de la carte"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Contenu",
+          "default": "<p>Contenu de la carte</p>"
+        },
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icône",
+          "default": "star",
+          "options": [
+            {
+              "value": "star",
+              "label": "Étoile"
+            },
+            {
+              "value": "check_mark",
+              "label": "Coche"
+            },
+            {
+              "value": "heart",
+              "label": "Cœur"
+            },
+            {
+              "value": "leaf",
+              "label": "Feuille"
+            },
+            {
+              "value": "flask",
+              "label": "Fiole"
+            },
+            {
+              "value": "users",
+              "label": "Utilisateurs"
+            },
+            {
+              "value": "award",
+              "label": "Médaille"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pourquoi nous ?",
+      "blocks": [
+        {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Une formule innovante",
+            "content": "<p><strong>Simplicité d'utilisation</strong> : 1 gélule par jour, facile à intégrer dans votre routine matinale.</p><p><strong>Efficacité prouvée</strong> : Grâce à des ingrédients ciblés comme le Morosil®, le guarana et le chrome.</p>",
+            "icon": "flask"
+          }
+        },
+        {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Hautement dosé",
+            "content": "<ul><li>Extrait sec d'orange rouge – Morosil® (400 mg)</li><li>Vinaigre de cidre (52,5 mg)</li><li>Extrait sec de guarana (30 mg) avec 3,3 mg de caféine</li><li>Poudre de noix de cola (40 mg) apportant également 3,3 mg de caféine</li><li>Chrome (39 µg, 98 % VNR)</li></ul>",
+            "icon": "leaf"
+          }
+        },
+        {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Formulation d'expert",
+            "content": "<p>Tous nos produits sont formulés par des médecins et des pharmaciens expérimentés. Ce savoir-faire médical et pharmaceutique garantit que chaque formule est étudiée avec rigueur et répond aux normes les plus strictes en matière de sécurité et d'efficacité.</p>",
+            "icon": "users"
+          }
+        },
+        {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Des avis clients incroyables",
+            "content": "<p>Nos témoignages photos parlent d'eux-mêmes. Nos clients sont satisfaits de la cure et de nos recommandations sur la perte de poids.</p>",
+            "icon": "star"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --card-heading-color: {{ section.settings.color_headings | default: 'var(--color-primary)' }};
+    {%- render 'section-variables', section: section -%}
+  }
+  
+  .why-us-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    margin-top: 40px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .why-us-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .why-us-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .why-us-card {
+    height: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    transition: transform 0.3s ease;
+  }
+  
+  .why-us-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .why-us-card.shadow {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  .why-us-card.border {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .why-us-card.rounded {
+    border-radius: 12px;
+  }
+  
+  .why-us-icon {
+    margin-bottom: 16px;
+    color: var(--card-heading-color);
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .why-us-card-title {
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--card-heading-color);
+    text-align: center;
+  }
+  
+  .why-us-card-content ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+  }
+  
+  .why-us-card-content li {
+    margin-bottom: 8px;
+  }
+  
+  .why-us-card-content strong {
+    font-weight: 600;
+    color: var(--color-text-emphasis);
+  }
+</style>
+
+<div class="section section--padding{% if section.settings.divider %} section--divider{% endif %}{% if section.settings.rounded %} section--rounded relative{% endif %}">
+  <div class="page-width{% if section.settings.narrow %} page-width--narrow{% endif %} relative">
+    {%- capture section_heading -%}
+      {%- render 'section-heading', section: section -%}
+    {%- endcapture -%}
+
+    {%- if section_heading != blank -%}
+      <div class="collage collage-{{ section.settings.heading_width }} with-richtext grid items-start">
+        {{- section_heading -}}
+    {%- endif -%}
+
+    <div class="rich-text md:text-{{ section.settings.text_alignment }} text-{{ section.settings.text_alignment_mobile }} relative z-1">
+      <div class="why-us-grid">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'benefit_card' %}
+              <div class="why-us-card {% if section.settings.card_style == 'shadow' %}shadow{% elsif section.settings.card_style == 'border' %}border{% endif %}{% if section.settings.rounded %} rounded{% endif %}" {{ block.shopify_attributes }}>
+                <div class="why-us-icon">
+                  {% render 'icon-guarantee', icon: block.settings.icon, size: 'lg' %}
+                </div>
+                <h3 class="why-us-card-title">{{ block.settings.title }}</h3>
+                <div class="why-us-card-content rte">{{ block.settings.content }}</div>
+              </div>
+          {% endcase %}
+        {% endfor %}
+      </div>
+    </div>
+
+    {%- if section_heading != blank -%}
+      </div>
+    {%- endif -%}
+  </div>
+</div>
