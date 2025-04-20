@@ -1571,14 +1571,12 @@
         "benefit_card_i4qmEP"
       ],
       "settings": {
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
         "heading": "Pourquoi nous ?",
         "heading_size": "title-lg tracking-heading",
         "heading_tag": "h2",
         "card_style": "shadow",
-        "icon_bg_color": "rgba(76, 175, 80, 0.1)",
-        "color_headings": "#0b61cd",
+        "icon_bg_color": "#dff2ff",
+        "color_headings": "#171717",
         "color_text": "",
         "color_background": "#dff2ff",
         "gradient_background": "",
