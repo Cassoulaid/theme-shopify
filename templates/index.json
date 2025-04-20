@@ -1536,7 +1536,7 @@
           "settings": {
             "title": "Une formule innovante",
             "content": "<p><strong>Simplicité d'utilisation</strong> : 1 gélule par jour, facile à intégrer dans votre routine matinale.</p><p><strong>Efficacité prouvée</strong> : Grâce à des ingrédients ciblés comme le Morosil®, le guarana et le chrome.</p>",
-            "icon": "flask"
+            "icon": "star"
           }
         },
         "benefit_card_PPLG8G": {
@@ -1544,7 +1544,7 @@
           "settings": {
             "title": "Hautement dosé",
             "content": "<ul><li>Extrait sec d'orange rouge – Morosil® (400 mg)</li><li>Vinaigre de cidre (52,5 mg)</li><li>Extrait sec de guarana (30 mg) avec 3,3 mg de caféine</li><li>Poudre de noix de cola (40 mg) apportant également 3,3 mg de caféine</li><li>Chrome (39 µg, 98 % VNR)</li></ul>",
-            "icon": "leaf"
+            "icon": "check_mark"
           }
         },
         "benefit_card_tmLjzD": {
@@ -1577,9 +1577,10 @@
         "heading_size": "title-lg tracking-heading",
         "heading_tag": "h2",
         "card_style": "shadow",
-        "color_headings": "#4CAF50",
+        "icon_bg_color": "rgba(76, 175, 80, 0.1)",
+        "color_headings": "#0b61cd",
         "color_text": "",
-        "color_background": "",
+        "color_background": "#dff2ff",
         "gradient_background": "",
         "padding_top": 72,
         "padding_bottom": 72,
