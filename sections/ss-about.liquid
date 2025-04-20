@@ -89,6 +89,12 @@
       "label": "Style des cartes"
     },
     {
+      "type": "color",
+      "id": "icon_bg_color",
+      "label": "Couleur de fond des icônes",
+      "default": "rgba(76, 175, 80, 0.1)"
+    },
+    {
       "type": "header",
       "content": "Options de couleurs"
     },
@@ -252,45 +258,58 @@
   #shopify-section-{{ section.id }} {
     --section-padding-top: {{ section.settings.padding_top }}px;
     --section-padding-bottom: {{ section.settings.padding_bottom }}px;
-    --card-heading-color: {{ section.settings.color_headings | default: 'var(--color-primary)' }};
+    --card-heading-color: {{ section.settings.color_headings | default: '#4CAF50' }};
     {%- render 'section-variables', section: section -%}
+  }
+  
+  .why-us-container {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .why-us-header {
+    text-align: center;
+    margin-bottom: 50px;
   }
   
   .why-us-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 24px;
+    gap: 20px;
     margin-top: 40px;
   }
   
   @media screen and (min-width: 768px) {
     .why-us-grid {
       grid-template-columns: repeat(2, 1fr);
-      gap: 32px;
+      gap: 25px;
     }
   }
   
   @media screen and (min-width: 1024px) {
     .why-us-grid {
       grid-template-columns: repeat(4, 1fr);
+      gap: 30px;
     }
   }
   
   .why-us-card {
     height: 100%;
-    padding: 24px;
+    padding: 30px 20px;
     display: flex;
     flex-direction: column;
     background-color: white;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
   }
   
   .why-us-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   }
   
   .why-us-card.shadow {
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   }
   
   .why-us-card.border {
@@ -298,49 +317,78 @@
   }
   
   .why-us-card.rounded {
-    border-radius: 12px;
+    border-radius: 8px;
   }
   
   .why-us-icon {
-    margin-bottom: 16px;
     color: var(--card-heading-color);
-    font-size: 36px;
+    font-size: 40px;
     text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
   }
   
   .why-us-card-title {
-    margin-bottom: 16px;
-    font-size: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
     font-weight: 600;
     color: var(--card-heading-color);
     text-align: center;
+  }
+  
+  .why-us-card-content {
+    flex-grow: 1;
+    color: #333;
   }
   
   .why-us-card-content ul {
     padding-left: 20px;
     margin-bottom: 0;
+    list-style-type: disc;
   }
   
   .why-us-card-content li {
-    margin-bottom: 8px;
+    margin-bottom: 12px;
+    position: relative;
+    line-height: 1.5;
+  }
+  
+  .why-us-card-content p {
+    margin-bottom: 10px;
+    line-height: 1.5;
   }
   
   .why-us-card-content strong {
     font-weight: 600;
-    color: var(--color-text-emphasis);
+    color: #333;
+  }
+  
+  .card-icon-wrapper {
+    background-color: {{ section.settings.icon_bg_color | default: 'rgba(76, 175, 80, 0.1)' }};
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
   }
 </style>
 
 <div class="section section--padding{% if section.settings.divider %} section--divider{% endif %}{% if section.settings.rounded %} section--rounded relative{% endif %}">
-  <div class="page-width{% if section.settings.narrow %} page-width--narrow{% endif %} relative">
-    {%- capture section_heading -%}
-      {%- render 'section-heading', section: section -%}
-    {%- endcapture -%}
+  <div class="page-width{% if section.settings.narrow %} page-width--narrow{% endif %} relative why-us-container">
+    <div class="why-us-header">
+      {%- capture section_heading -%}
+        {%- render 'section-heading', section: section -%}
+      {%- endcapture -%}
 
-    {%- if section_heading != blank -%}
-      <div class="collage collage-{{ section.settings.heading_width }} with-richtext grid items-start">
-        {{- section_heading -}}
-    {%- endif -%}
+      {%- if section_heading != blank -%}
+        <div class="collage collage-{{ section.settings.heading_width }} with-richtext grid items-start">
+          {{- section_heading -}}
+        </div>
+      {%- endif -%}
+    </div>
 
     <div class="rich-text md:text-{{ section.settings.text_alignment }} text-{{ section.settings.text_alignment_mobile }} relative z-1">
       <div class="why-us-grid">
@@ -349,7 +397,9 @@
             {% when 'benefit_card' %}
               <div class="why-us-card {% if section.settings.card_style == 'shadow' %}shadow{% elsif section.settings.card_style == 'border' %}border{% endif %}{% if section.settings.rounded %} rounded{% endif %}" {{ block.shopify_attributes }}>
                 <div class="why-us-icon">
-                  {% render 'icon-guarantee', icon: block.settings.icon, size: 'lg' %}
+                  <div class="card-icon-wrapper">
+                    {% render 'icon-guarantee', icon: block.settings.icon, size: 'lg' %}
+                  </div>
                 </div>
                 <h3 class="why-us-card-title">{{ block.settings.title }}</h3>
                 <div class="why-us-card-content rte">{{ block.settings.content }}</div>
@@ -358,9 +408,5 @@
         {% endfor %}
       </div>
     </div>
-
-    {%- if section_heading != blank -%}
-      </div>
-    {%- endif -%}
   </div>
 </div>
