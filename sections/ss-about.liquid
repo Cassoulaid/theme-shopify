@@ -3,31 +3,19 @@
   "name": "Pourquoi nous ?",
   "settings": [
     {
-      "type": "text_alignment",
-      "id": "text_alignment",
-      "default": "center",
-      "label": "Alignement du texte (desktop)"
-    },
-    {
-      "type": "text_alignment",
-      "id": "text_alignment_mobile",
-      "default": "center",
-      "label": "Alignement du texte (mobile)"
-    },
-    {
-      "type": "header",
-      "content": "Titre de la section"
-    },
-    {
-      "type": "inline_richtext",
+      "type": "text",
       "id": "heading",
-      "default": "Pourquoi nous ?",
-      "label": "Titre"
+      "label": "Titre de la section",
+      "default": "Pourquoi nous ?"
     },
     {
       "type": "select",
       "id": "heading_size",
       "options": [
+        {
+          "value": "title-sm",
+          "label": "Petit"
+        },
         {
           "value": "title-md",
           "label": "Moyen"
@@ -269,7 +257,18 @@
   
   .why-us-header {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .why-us-header .heading {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .why-us-grid {
@@ -374,15 +373,11 @@
 
 <div class="section section--padding{% if section.settings.divider %} section--divider{% endif %}{% if section.settings.rounded %} section--rounded relative{% endif %}">
   <div class="page-width{% if section.settings.narrow %} page-width--narrow{% endif %} relative why-us-container">
-    <div class="why-us-header">
-      {%- capture section_heading -%}
-        {%- render 'section-heading', section: section -%}
-      {%- endcapture -%}
-
-      {%- if section_heading != blank -%}
-        <div class="collage collage-{{ section.settings.heading_width }} with-richtext grid items-start">
-          {{- section_heading -}}
-        </div>
+    <div class="why-us-header text-center">
+      {%- if section.settings.heading != blank -%}
+        <{{ section.settings.heading_tag }} class="heading {{ section.settings.heading_size }} mb-10">
+          {{ section.settings.heading }}
+        </{{ section.settings.heading_tag }}>
       {%- endif -%}
     </div>
 
