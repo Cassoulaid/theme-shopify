@@ -334,53 +334,61 @@
         "lazy": true
       }
     },
-    "rich-text-1": {
-      "type": "rich-text",
+    "ss_about_jLFatp": {
+      "type": "ss-about",
       "blocks": {
-        "text": {
-          "type": "text",
+        "benefit_card_yBaxkC": {
+          "type": "benefit_card",
           "settings": {
-            "text": "<p>MOROFIT 400, c’est une formule innovante et hautement dosée, développée par des médecins et pharmaciens spécialisés. Chaque ingrédient a été sélectionné avec rigueur pour ses effets prouvés sur la combustion des graisses, la régulation de la glycémie et le soutien du métabolisme.</p><p>1 seule gélule par jour suffit pour intégrer MOROFIT à votre routine. Grâce à des actifs puissants comme le Morosil® (400 mg), le guarana, la noix de cola, le chrome et le vinaigre de cidre, vous profitez d’un complément efficace, sûr et fabriqué en France 🇫🇷 selon les normes les plus strictes.<br/><br/>Choisir MOROFIT 400, c’est opter pour une cure minceur naturelle, encadrée par l’expertise médicale.</p>",
-            "text_size": "subtext-md",
-            "text_max_size": 32,
-            "text_font": "body",
-            "secondary_color": false,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
+            "title": "Une formule innovante",
+            "content": "<p><strong>Simplicité d'utilisation</strong> : 1 gélule par jour, facile à intégrer dans votre routine matinale.</p><p><strong>Efficacité prouvée</strong> : Grâce à des ingrédients ciblés comme le Morosil®, le guarana et le chrome.</p>",
+            "icon": "star"
+          }
+        },
+        "benefit_card_PPLG8G": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Hautement dosé",
+            "content": "<ul><li>Extrait sec d'orange rouge – Morosil® (400 mg)</li><li>Vinaigre de cidre (52,5 mg)</li><li>Extrait sec de guarana (30 mg) avec 3,3 mg de caféine</li><li>Poudre de noix de cola (40 mg) apportant également 3,3 mg de caféine</li><li>Chrome (39 µg, 98 % VNR)</li></ul>",
+            "icon": "check_mark"
+          }
+        },
+        "benefit_card_tmLjzD": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Formulation d'expert",
+            "content": "<p>Tous nos produits sont formulés par des médecins et des pharmaciens expérimentés. Ce savoir-faire médical et pharmaceutique garantit que chaque formule est étudiée avec rigueur et répond aux normes les plus strictes en matière de sécurité et d'efficacité.</p>",
+            "icon": "users"
+          }
+        },
+        "benefit_card_i4qmEP": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Des avis clients incroyables",
+            "content": "<p>Nos témoignages photos parlent d'eux-mêmes. Nos clients sont satisfaits de la cure et de nos recommandations sur la perte de poids.</p>",
+            "icon": "star"
           }
         }
       },
       "block_order": [
-        "text"
+        "benefit_card_yBaxkC",
+        "benefit_card_PPLG8G",
+        "benefit_card_tmLjzD",
+        "benefit_card_i4qmEP"
       ],
       "settings": {
-        "text_alignment": "left",
-        "text_alignment_mobile": "left",
         "heading": "Pourquoi nous ?",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_width": "small",
+        "heading_size": "title-lg tracking-heading",
         "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "button_label": "Notre histoire",
-        "button_link": "",
-        "button_external": false,
-        "button_icon": true,
-        "highlighted_text": "scribble",
-        "highlighted_scribble": "basic-underline",
+        "card_style": "shadow",
+        "icon_bg_color": "#dff2ff",
+        "color_headings": "#171717",
         "color_text": "",
-        "color_background": "",
-        "gradient_background": "linear-gradient(180deg, rgba(138, 176, 212, 1) 11%, rgba(250, 250, 250, 1) 84%)",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "#ffffff",
-        "color_button_background": "#171717",
-        "color_button_gradient": "",
+        "color_background": "#fafafa",
+        "gradient_background": "",
         "padding_top": 72,
         "padding_bottom": 72,
         "divider": false,
-        "narrow": false,
         "rounded": true
       }
     },
@@ -1527,64 +1535,6 @@
         "content_width": 120,
         "border_thickness": 0
       }
-    },
-    "ss_about_jLFatp": {
-      "type": "ss-about",
-      "blocks": {
-        "benefit_card_yBaxkC": {
-          "type": "benefit_card",
-          "settings": {
-            "title": "Une formule innovante",
-            "content": "<p><strong>Simplicité d'utilisation</strong> : 1 gélule par jour, facile à intégrer dans votre routine matinale.</p><p><strong>Efficacité prouvée</strong> : Grâce à des ingrédients ciblés comme le Morosil®, le guarana et le chrome.</p>",
-            "icon": "star"
-          }
-        },
-        "benefit_card_PPLG8G": {
-          "type": "benefit_card",
-          "settings": {
-            "title": "Hautement dosé",
-            "content": "<ul><li>Extrait sec d'orange rouge – Morosil® (400 mg)</li><li>Vinaigre de cidre (52,5 mg)</li><li>Extrait sec de guarana (30 mg) avec 3,3 mg de caféine</li><li>Poudre de noix de cola (40 mg) apportant également 3,3 mg de caféine</li><li>Chrome (39 µg, 98 % VNR)</li></ul>",
-            "icon": "check_mark"
-          }
-        },
-        "benefit_card_tmLjzD": {
-          "type": "benefit_card",
-          "settings": {
-            "title": "Formulation d'expert",
-            "content": "<p>Tous nos produits sont formulés par des médecins et des pharmaciens expérimentés. Ce savoir-faire médical et pharmaceutique garantit que chaque formule est étudiée avec rigueur et répond aux normes les plus strictes en matière de sécurité et d'efficacité.</p>",
-            "icon": "users"
-          }
-        },
-        "benefit_card_i4qmEP": {
-          "type": "benefit_card",
-          "settings": {
-            "title": "Des avis clients incroyables",
-            "content": "<p>Nos témoignages photos parlent d'eux-mêmes. Nos clients sont satisfaits de la cure et de nos recommandations sur la perte de poids.</p>",
-            "icon": "star"
-          }
-        }
-      },
-      "block_order": [
-        "benefit_card_yBaxkC",
-        "benefit_card_PPLG8G",
-        "benefit_card_tmLjzD",
-        "benefit_card_i4qmEP"
-      ],
-      "settings": {
-        "heading": "Pourquoi nous ?",
-        "heading_size": "title-lg tracking-heading",
-        "heading_tag": "h2",
-        "card_style": "shadow",
-        "icon_bg_color": "#dff2ff",
-        "color_headings": "#171717",
-        "color_text": "",
-        "color_background": "#dff2ff",
-        "gradient_background": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "rounded": true
-      }
     }
   },
   "order": [
@@ -1592,7 +1542,7 @@
     "slideshow",
     "scrolling_logos_6TkyMz",
     "hero_6_rbXhKP",
-    "rich-text-1",
+    "ss_about_jLFatp",
     "ss_feature_13_ga68tn",
     "image-comparison",
     "ss_feature_17_WNPCJg",
@@ -1601,7 +1551,6 @@
     "testimonials_banner_CG7YnM",
     "ss_testimonial_16_7UaE8B",
     "countdown-timer",
-    "ss_faq_9_BkMFP3",
-    "ss_about_jLFatp"
+    "ss_faq_9_BkMFP3"
   ]
 }
