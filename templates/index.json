@@ -342,7 +342,7 @@
           "settings": {
             "title": "Une formule innovante",
             "content": "<p><strong>Simplicité d'utilisation</strong> : 1 gélule par jour, facile à intégrer dans votre routine matinale.</p><p><strong>Efficacité prouvée</strong> : Grâce à des ingrédients ciblés comme le Morosil®, le guarana et le chrome.</p>",
-            "icon": "star"
+            "icon": "award"
           }
         },
         "benefit_card_PPLG8G": {
@@ -350,7 +350,7 @@
           "settings": {
             "title": "Hautement dosé",
             "content": "<ul><li>Extrait sec d'orange rouge – Morosil® (400 mg)</li><li>Vinaigre de cidre (52,5 mg)</li><li>Extrait sec de guarana (30 mg) avec 3,3 mg de caféine</li><li>Poudre de noix de cola (40 mg) apportant également 3,3 mg de caféine</li><li>Chrome (39 µg, 98 % VNR)</li></ul>",
-            "icon": "check_mark"
+            "icon": "star"
           }
         },
         "benefit_card_tmLjzD": {
@@ -358,7 +358,7 @@
           "settings": {
             "title": "Formulation d'expert",
             "content": "<p>Tous nos produits sont formulés par des médecins et des pharmaciens expérimentés. Ce savoir-faire médical et pharmaceutique garantit que chaque formule est étudiée avec rigueur et répond aux normes les plus strictes en matière de sécurité et d'efficacité.</p>",
-            "icon": "users"
+            "icon": "check_mark"
           }
         },
         "benefit_card_i4qmEP": {
@@ -366,7 +366,7 @@
           "settings": {
             "title": "Des avis clients incroyables",
             "content": "<p>Nos témoignages photos parlent d'eux-mêmes. Nos clients sont satisfaits de la cure et de nos recommandations sur la perte de poids.</p>",
-            "icon": "star"
+            "icon": "heart"
           }
         }
       },
