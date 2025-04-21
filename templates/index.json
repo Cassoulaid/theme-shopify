@@ -732,18 +732,18 @@
         "brand_zFRfxT": {
           "type": "brand",
           "settings": {
-            "brand_name": "Notre marque",
+            "brand_name": "DOCTEUR.V",
             "highlight_column": true,
-            "column_background_color": "#f0fff4",
+            "column_background_color": "#dff2ff",
             "brand_name_color": "#000000"
           }
         },
         "brand_6teD3Y": {
           "type": "brand",
           "settings": {
-            "brand_name": "Concurrent A",
+            "brand_name": "Autres marques",
             "highlight_column": false,
-            "column_background_color": "#f0fff4",
+            "column_background_color": "#ffffff",
             "brand_name_color": "#000000"
           }
         },
