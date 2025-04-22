@@ -191,20 +191,22 @@
             "delivery_max_days": 1
           }
         },
-        "read_more_NHTNDw": {
-          "type": "read_more",
-          "disabled": true,
-          "settings": {
-            "button_text": "Afficher les détails",
-            "content": "<h3> MOROFIT 400 Hautement Dosé</h3><p>Une formule innovante et naturelle pour vous accompagner dans votre objectif minceur. Conçu avec des ingrédients puissants comme le <strong>Morosil® (400 mg)</strong>, du <strong>guarana</strong>, du <strong>vinaigre de cidre</strong>, de la <strong>noix de cola</strong> et du <strong>chrome</strong>, <strong>MOROFIT 400</strong> aide à <strong>stimuler le métabolisme</strong>, <strong>brûler les graisses</strong> et <strong>réguler la glycémie</strong>. Fabriqué en <strong>France 🇫🇷</strong> dans un laboratoire certifié, ce complément allie <strong>efficacité prouvée</strong> et <strong>simplicité d’utilisation</strong>.</p><h3>Caractéristiques principales :</h3><p>🔥 <strong>Formule Ultra Dosée avec Morosil® (400 mg)</strong><br/>Issu d’extrait d’orange rouge, ce puissant antioxydant aide à <strong>réduire la masse grasse abdominale</strong>, à <strong>lutter contre le stress oxydatif</strong> et à <strong>favoriser une silhouette harmonieuse</strong>.</p><p>⚡ <strong>Action Brûle-Graisses et Stimulante</strong><br/>Grâce à la <strong>caféine naturelle</strong> du guarana et de la noix de cola, MOROFIT 400 booste <strong>l’énergie</strong>, <strong>accélère le métabolisme</strong> et <strong>favorise la thermogenèse</strong>.</p><p>🌿 <strong>Synergie Naturelle</strong><br/>Chaque gélule combine :<br/>meilleure digestion et un <strong>métabolisme équilibré</strong><br/><br/>réguler la glycémie et <strong>optimiser le métabolisme des lipides</strong><br/></p><p>💊 <strong>Facile à Intégrer au Quotidien</strong><br/>1 seule gélule par jour suffit. MOROFIT 400 s’adapte à toutes les routines, sans contrainte.</p><p>🔬 <strong>Formulé par des Experts de Santé</strong><br/>Chaque ingrédient est sélectionné et validé par des <strong>médecins et pharmaciens</strong>, garantissant <strong>sécurité</strong>, <strong>efficacité</strong> et <strong>qualité pharmaceutique</strong>.</p><p>🇫🇷 <strong>Fabriqué en France avec des Ingrédients Premium</strong><br/>Dans un <strong>laboratoire certifié</strong>, respectant les normes européennes, avec des matières premières soigneusement sourcées.</p>"
-          }
-        },
         "collapsible_tab_beHbEy": {
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
             "heading": "Afficher les détails",
-            "content": "<h3> MOROFIT 400 Hautement Dosé</h3><p>Une formule innovante et naturelle pour vous accompagner dans votre objectif minceur. Conçu avec des ingrédients puissants comme le <strong>Morosil® (400 mg)</strong>, du <strong>guarana</strong>, du <strong>vinaigre de cidre</strong>, de la <strong>noix de cola</strong> et du <strong>chrome</strong>, <strong>MOROFIT 400</strong> aide à <strong>stimuler le métabolisme</strong>, <strong>brûler les graisses</strong> et <strong>réguler la glycémie</strong>. Fabriqué en <strong>France 🇫🇷</strong> dans un laboratoire certifié, ce complément allie <strong>efficacité prouvée</strong> et <strong>simplicité d’utilisation</strong>.</p><h3>Caractéristiques principales :</h3><p>🔥 <strong>Formule Ultra Dosée avec Morosil® (400 mg)</strong><br/>Issu d’extrait d’orange rouge, ce puissant antioxydant aide à <strong>réduire la masse grasse abdominale</strong>, à <strong>lutter contre le stress oxydatif</strong> et à <strong>favoriser une silhouette harmonieuse</strong>.</p><p>⚡ <strong>Action Brûle-Graisses et Stimulante</strong><br/>Grâce à la <strong>caféine naturelle</strong> du guarana et de la noix de cola, MOROFIT 400 booste <strong>l’énergie</strong>, <strong>accélère le métabolisme</strong> et <strong>favorise la thermogenèse</strong>.</p><p>🌿 <strong>Synergie Naturelle</strong><br/>Chaque gélule combine :<br/>meilleure digestion et un <strong>métabolisme équilibré</strong><br/><br/>réguler la glycémie et <strong>optimiser le métabolisme des lipides</strong><br/></p><p>💊 <strong>Facile à Intégrer au Quotidien</strong><br/>1 seule gélule par jour suffit. MOROFIT 400 s’adapte à toutes les routines, sans contrainte.</p><p>🔬 <strong>Formulé par des Experts de Santé</strong><br/>Chaque ingrédient est sélectionné et validé par des <strong>médecins et pharmaciens</strong>, garantissant <strong>sécurité</strong>, <strong>efficacité</strong> et <strong>qualité pharmaceutique</strong>.</p><p>🇫🇷 <strong>Fabriqué en France avec des Ingrédients Premium</strong><br/>Dans un <strong>laboratoire certifié</strong>, respectant les normes européennes, avec des matières premières soigneusement sourcées.</p>",
+            "content": "<h3>Caractéristiques principales :</h3><p>🔥 <strong>Formule Ultra Dosée avec Morosil® (400 mg)</strong><br/>Issu d’extrait d’orange rouge, ce puissant antioxydant aide à <strong>réduire la masse grasse abdominale</strong>, à <strong>lutter contre le stress oxydatif</strong> et à <strong>favoriser une silhouette harmonieuse</strong>.</p><p>⚡ <strong>Action Brûle-Graisses et Stimulante</strong><br/>Grâce à la <strong>caféine naturelle</strong> du guarana et de la noix de cola, MOROFIT 400 booste <strong>l’énergie</strong>, <strong>accélère le métabolisme</strong> et <strong>favorise la thermogenèse</strong>.</p><p>🌿 <strong>Synergie Naturelle</strong><br/>Chaque gélule combine :<br/>meilleure digestion et un <strong>métabolisme équilibré</strong><br/><br/>réguler la glycémie et <strong>optimiser le métabolisme des lipides</strong><br/></p><p>💊 <strong>Facile à Intégrer au Quotidien</strong><br/>1 seule gélule par jour suffit. MOROFIT 400 s’adapte à toutes les routines, sans contrainte.</p><p>🔬 <strong>Formulé par des Experts de Santé</strong><br/>Chaque ingrédient est sélectionné et validé par des <strong>médecins et pharmaciens</strong>, garantissant <strong>sécurité</strong>, <strong>efficacité</strong> et <strong>qualité pharmaceutique</strong>.</p><p>🇫🇷 <strong>Fabriqué en France avec des Ingrédients Premium</strong><br/>Dans un <strong>laboratoire certifié</strong>, respectant les normes européennes, avec des matières premières soigneusement sourcées.</p>",
+            "page": "",
+            "liquid": ""
+          }
+        },
+        "collapsible_tab_NJ8cPw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Ingrédients",
+            "content": "<ul><li>Extrait sec d'orange rouge – Morosil® (400 mg)</li><li>Vinaigre de cidre (52,5 mg)</li><li>Extrait sec de guarana (30 mg) avec 3,3 mg de caféine</li><li>Poudre de noix de cola (40 mg) apportant également 3,3 mg de caféine</li><li>Chrome (39 µg, 98 % VNR)</li></ul>",
             "page": "",
             "liquid": ""
           }
@@ -217,8 +219,8 @@
         "text_pJQHp6",
         "buy_buttons_YKhktQ",
         "shipping_timeline_UTwaaY",
-        "read_more_NHTNDw",
-        "collapsible_tab_beHbEy"
+        "collapsible_tab_beHbEy",
+        "collapsible_tab_NJ8cPw"
       ],
       "settings": {
         "product": "morosil-400",
