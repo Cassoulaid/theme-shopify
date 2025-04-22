@@ -188,7 +188,7 @@
             "delivery_label": "Livré",
             "shipping_days": 2,
             "delivery_min_days": 1,
-            "delivery_max_days": 1
+            "delivery_max_days": 3
           }
         },
         "collapsible_tab_beHbEy": {
