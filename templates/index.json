@@ -469,7 +469,7 @@
         "image": "shopify://shop_images/IMG_1772.heic",
         "image_position": "center",
         "image_position_mobile": "first",
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "image_ratio_mobile": "portrait",
         "image_radius": 16,
         "image_border_thickness": 0,
