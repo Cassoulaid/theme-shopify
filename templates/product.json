@@ -180,10 +180,6 @@
             "show_back_in_stock_phone": false
           }
         },
-        "pickup_availability_CMENLN": {
-          "type": "pickup_availability",
-          "settings": {}
-        },
         "read_more_NHTNDw": {
           "type": "read_more",
           "settings": {
@@ -198,7 +194,6 @@
         "text_fgatMd",
         "text_pJQHp6",
         "buy_buttons_YKhktQ",
-        "pickup_availability_CMENLN",
         "read_more_NHTNDw"
       ],
       "settings": {
