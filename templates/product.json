@@ -195,8 +195,8 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "Afficher les détails",
-            "content": "<h3>Caractéristiques principales :</h3><p>🔥 <strong>Formule Ultra Dosée avec Morosil® (400 mg)</strong><br/>Issu d’extrait d’orange rouge, ce puissant antioxydant aide à <strong>réduire la masse grasse abdominale</strong>, à <strong>lutter contre le stress oxydatif</strong> et à <strong>favoriser une silhouette harmonieuse</strong>.</p><p>⚡ <strong>Action Brûle-Graisses et Stimulante</strong><br/>Grâce à la <strong>caféine naturelle</strong> du guarana et de la noix de cola, MOROFIT 400 booste <strong>l’énergie</strong>, <strong>accélère le métabolisme</strong> et <strong>favorise la thermogenèse</strong>.</p><p>🌿 <strong>Synergie Naturelle</strong><br/>Chaque gélule combine :<br/>meilleure digestion et un <strong>métabolisme équilibré</strong><br/><br/>réguler la glycémie et <strong>optimiser le métabolisme des lipides</strong><br/></p><p>💊 <strong>Facile à Intégrer au Quotidien</strong><br/>1 seule gélule par jour suffit. MOROFIT 400 s’adapte à toutes les routines, sans contrainte.</p><p>🔬 <strong>Formulé par des Experts de Santé</strong><br/>Chaque ingrédient est sélectionné et validé par des <strong>médecins et pharmaciens</strong>, garantissant <strong>sécurité</strong>, <strong>efficacité</strong> et <strong>qualité pharmaceutique</strong>.</p><p>🇫🇷 <strong>Fabriqué en France avec des Ingrédients Premium</strong><br/>Dans un <strong>laboratoire certifié</strong>, respectant les normes européennes, avec des matières premières soigneusement sourcées.</p>",
+            "heading": "Description",
+            "content": "<p>MOROFIT HAUTEMENT DOSÉ est un complément alimentaire innovant, spécialement conçu pour accompagner votre démarche d’amincissement et soutenir le métabolisme des graisses. Formulé sous forme de gélule concentrée, il associe des ingrédients aux propriétés reconnues pour aider à contrôler le poids et stimuler l’énergie. Intégrez-le facilement à votre routine quotidienne en ne prenant qu’une gélule par jour, idéalement le matin, pour bénéficier pleinement de ses atouts.</p>",
             "page": "",
             "liquid": ""
           }
@@ -205,8 +205,18 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "Ingrédients",
-            "content": "<ul><li>Extrait sec d'orange rouge – Morosil® (400 mg)</li><li>Vinaigre de cidre (52,5 mg)</li><li>Extrait sec de guarana (30 mg) avec 3,3 mg de caféine</li><li>Poudre de noix de cola (40 mg) apportant également 3,3 mg de caféine</li><li>Chrome (39 µg, 98 % VNR)</li></ul>",
+            "heading": "Composition & Dosages",
+            "content": "<ul><li><strong>Extrait sec d’orange rouge – Morosil® : 400 mg<br/></strong>Issu de la variété Moro (Citrus sinensis (L.) Osbeck), cet extrait est apprécié pour ses puissantes vertus antioxydantes et ses effets positifs sur le contrôle du poids.</li><li><strong>Vinaigre de cidre : 52,5 mg<br/></strong>Contribue à la régulation du métabolisme et favorise une bonne digestion.</li><li><strong>Extrait sec de guarana : 30 mg<br/></strong>Dont <strong>3,3 mg de caféine</strong>. Le guarana est traditionnellement utilisé pour stimuler le métabolisme des graisses et apporter un regain d’énergie.</li><li><strong>Poudre de noix de cola : 40 mg<br/></strong>Fournit également <strong>3,3 mg de caféine</strong> et participe à favoriser l’amincissement grâce à ses propriétés stimulantes.</li><li><em>Chrome : 39 µg (98% VNR)</em>*<br/>Le chrome joue un rôle essentiel dans la régulation du métabolisme des glucides et des lipides, contribuant ainsi au maintien d’une glycémie normale.</li></ul><p><em>Note : La dose journalière totale en caféine apportée par le produit est de 4,1 mg.</em></p>",
+            "page": "",
+            "liquid": ""
+          }
+        },
+        "collapsible_tab_aHCx6R": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Conseils d’Utilisation",
+            "content": "<ul><li><strong>Posologie :</strong> 1 gélule par jour</li><li><strong>Mode d’emploi :</strong> Prenez 1 gélule le matin avec un grand verre d’eau.</li></ul><p><strong>Astuce :</strong> Le Cola (provenant de la poudre de noix de cola) aide à favoriser l’amincissement, tandis que le Guarana contribue activement au métabolisme des graisses et au contrôle du poids.<br/><br/></p>",
             "page": "",
             "liquid": ""
           }
@@ -220,7 +230,8 @@
         "buy_buttons_YKhktQ",
         "shipping_timeline_UTwaaY",
         "collapsible_tab_beHbEy",
-        "collapsible_tab_NJ8cPw"
+        "collapsible_tab_NJ8cPw",
+        "collapsible_tab_aHCx6R"
       ],
       "settings": {
         "product": "morosil-400",

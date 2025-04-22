@@ -185,12 +185,65 @@
         "divider": false,
         "rounded": true
       }
+    },
+    "images_with_text_ErRRQ4": {
+      "type": "images-with-text",
+      "blocks": {
+        "heading_HUXCN3": {
+          "type": "heading",
+          "settings": {
+            "heading": "La fondatrice",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_AXf9Q9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ce projet, c’est un mélange d’intuition, de recherches et de passion. Je voulais que chaque femme puisse se sentir bien dans son corps, sans se perdre dans des régimes stricts.<br/></p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HUXCN3",
+        "text_AXf9Q9"
+      ],
+      "settings": {
+        "image_ratio": "portrait",
+        "image_width": "medium",
+        "layout": "text_first",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true
+      }
     }
   },
   "order": [
     "main-page",
     "image_with_text_overlay_r4yydw",
     "images_with_text_dpPXez",
-    "ss_about_jyXkea"
+    "ss_about_jyXkea",
+    "images_with_text_ErRRQ4"
   ]
 }
