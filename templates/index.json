@@ -271,7 +271,7 @@
         "stars_size": 20,
         "stars_size_mobile": 20,
         "stars_mt": 16,
-        "rate_text": "<p>Noté<strong>4.4/5 </strong>sur 348 avis</p>",
+        "rate_text": "<p>Noté <strong>4.4/5 </strong>sur 348 avis</p>",
         "rate_text_custom": false,
         "rate_text_font": "montserrat_n4",
         "rate_text_size": 14,
@@ -839,8 +839,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "quote",
-            "text": "<p>Je ne pensais pas que ce genre de produit pouvait vraiment m’aider, mais après 3 semaines, je me sens beaucoup plus légère et mes vêtements me vont mieux. Ravie de mon achat !</p>",
-            "author": "Claire D. – 32 ans, Nantes",
+            "text": "<p>Après ma grossesse, j’avais du mal à me remettre en forme. Morofit 400 m’a permis de perdre 4 kg en 3 semaines, sans aucun effet secondaire. Je recommande vivement ces gélules pour leur douceur et leur efficacité !</p>",
+            "author": "Fatima, 29 ans, Franco-Arabe",
             "author_info": "",
             "author_url": "",
             "image_ratio": "rounded",
@@ -852,8 +852,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "quote",
-            "text": "<p>J’ai commencé à prendre ces gélules en complément de mes séances de sport. Les résultats sont là, surtout au niveau du ventre. Je recommande les yeux fermés</p>",
-            "author": "Julien M. – 40 ans, Toulouse",
+            "text": "<p>J’utilise Morofit 400 depuis trois semaines et j’ai déjà perdu 4 kg ! Les gélules sont vraiment faciles à avaler et je n’ai aucun souci au niveau de l’estomac. Après ma grossesse, retrouver ma silhouette était un vrai défi et ce produit m’a sauvé la mise.</p>",
+            "author": "Marianne, 32 ans, Français",
             "author_info": "",
             "author_url": "",
             "image_ratio": "rounded",
@@ -865,8 +865,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "quote",
-            "text": "<p>Le packaging est super pratique, et surtout j’ai vu une vraie différence au bout de 2 semaines. Je me sens moins ballonnée et plus tonique !</p>",
-            "author": "Nora T. – 27 ans, Lyon",
+            "text": "<p>Vraiment impressionné par l’efficacité de Morofit 400 ! En trois semaines, j’ai perdu 5 kg sans ressentir la moindre gêne digestive. Ces gélules se prennent facilement et m’ont aidé à retrouver ma vitalité.</p>",
+            "author": "Karim, 40 ans, Maghrébin",
             "author_info": "",
             "author_url": "",
             "image_ratio": "rounded",
@@ -908,7 +908,7 @@
           "settings": {
             "stars_count": 5,
             "heading": "Une vraie différence sur ma silhouette !",
-            "text": "J’étais un peu sceptique au début, mais après 3 semaines avec MOROFIT, j’ai vraiment vu une différence : mon ventre est plus plat, j’ai moins de fringales, et je me sens plus légère. Un complément que je vais clairement recommander à mes amies !",
+            "text": "J’ai essayé plusieurs compléments minceur, mais aucun ne m’a apporté des résultats aussi rapides. Morofit 400 est facile à avaler, n’induit aucun mal de ventre et j’ai constaté une perte de poids significative en peu de temps.",
             "author_date": "Caroline D. – 34 ans, Toulouse"
           }
         },
