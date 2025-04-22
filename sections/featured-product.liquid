@@ -510,12 +510,17 @@
                 </details>
 
               {%- when 'read_more' -%}
-                <a class="product__more flex items-center justify-between" href="{{ product.url }}" {{ block.shopify_attributes }}>
-                  <span class="text-sm-base font-medium leading-none">
-                    {{- 'products.product.read_more' | t -}}
-                  </span>
-                  {%- render 'icon', icon: 'arrow-right', size: 'xs', class: 'flex-auto' -%}
-                </a>
+                <details class="product__read-more details" is="accordion-details" {{ block.shopify_attributes }}>
+                  <summary class="details__summary flex items-center justify-between gap-2 cursor-pointer">
+                    <span class="text-sm-base font-medium leading-none">
+                      {{- block.settings.button_text | default: 'products.product.read_more' | t -}}
+                    </span>
+                    {%- render 'icon', icon: 'arrow-right', size: 'xs', class: 'flex-auto' -%}
+                  </summary>
+                  <div class="details__content rte text-sm text-opacity mt-3">
+                    {{ block.settings.content }}
+                  </div>
+                </details>
 
               {%- when 'countdown' -%}
                 {%- if product.metafields.theme.countdown.value != blank -%}
@@ -1937,10 +1942,24 @@
         }
       ]
     },
-    {
+        {
       "type": "read_more",
       "name": "t:sections.featured-product.blocks.read_more.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "t:sections.featured-product.blocks.read_more.settings.button_text.label",
+          "default": "Afficher les détails"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "t:sections.featured-product.blocks.read_more.settings.content.label",
+          "default": "<p>Ajoutez ici des détails supplémentaires sur votre produit que vous souhaitez afficher lorsque le client clique sur le bouton.</p>"
+        }
+      ]
     },
     {
       "type": "spinning_text",
