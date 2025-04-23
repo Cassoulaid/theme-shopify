@@ -339,12 +339,21 @@
             "title": "<p>Secure Payment</p>",
             "subtitle": "<p>Powered by Shopify and Stripe</p>"
           }
+        },
+        "item_DFhM8C": {
+          "type": "item",
+          "settings": {
+            "icon": "time",
+            "title": "<p>Rapide</p>",
+            "subtitle": "<p>ca va vite</p>"
+          }
         }
       },
       "block_order": [
         "item_rTBbwU",
         "item_zdxRBj",
-        "item_bH8mYh"
+        "item_bH8mYh",
+        "item_DFhM8C"
       ],
       "settings": {
         "trust_position": "below_buy",
