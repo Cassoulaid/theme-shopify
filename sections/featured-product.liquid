@@ -106,16 +106,20 @@
               {%- when 'shipping_timeline' -%}
                 {%- liquid
                   assign today_date = 'now' | date: '%s' | times: 1
+                  assign seconds_per_day = 86400
                   
-                  assign order_date = today_date
                   assign prep_days = block.settings.shipping_days | default: 1 | times: 1
                   assign min_shipping = block.settings.delivery_min_days | default: 1 | times: 1
                   assign max_shipping = block.settings.delivery_max_days | default: 5 | times: 1
                   
-                  assign seconds_per_day = 86400
-                  assign prep_end_date = order_date | plus: prep_days | times: seconds_per_day
-                  assign delivery_min_date = prep_end_date | plus: min_shipping | times: seconds_per_day
-                  assign delivery_max_date = prep_end_date | plus: max_shipping | times: seconds_per_day
+                  assign prep_days_seconds = prep_days | times: seconds_per_day
+                  assign min_shipping_seconds = min_shipping | times: seconds_per_day
+                  assign max_shipping_seconds = max_shipping | times: seconds_per_day
+                  
+                  assign order_date = today_date
+                  assign prep_end_date = order_date | plus: prep_days_seconds
+                  assign delivery_min_date = prep_end_date | plus: min_shipping_seconds
+                  assign delivery_max_date = prep_end_date | plus: max_shipping_seconds
                   
                   assign order_date_formatted = order_date | date: '%d %b' 
                   assign prep_end_formatted = prep_end_date | date: '%d %b'
