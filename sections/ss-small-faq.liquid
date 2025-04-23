@@ -1,6 +1,744 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{% comment %}
+  Section FAQ avec design moderne et accordéon
+  Compatible mobile et desktop
+{% endcomment %}
+
+<div class="faq-section page-width section-{{ section.id }}-padding">
+  <div class="faq-header">
+    <h2 class="faq-title">{{ section.settings.title }}</h2>
+    {% if section.settings.show_view_all %}
+      <a href="{{ section.settings.faq_page }}" class="faq-view-all">
+        {{ section.settings.view_all_text }}
+      </a>
+    {% endif %}
+  </div>
+
+  <div class="faq-container">
+    <div class="faq-image-container">
+      {% if section.settings.image != blank %}
+        {{ section.settings.image | image_url: width: 600 | image_tag:
+          loading: 'lazy',
+          class: 'faq-image',
+          alt: section.settings.image.alt | escape
+        }}
+      {% else %}
+        {{ 'image' | placeholder_svg_tag: 'faq-image placeholder' }}
+      {% endif %}
+      
+      {% if section.settings.show_icon %}
+        <div class="faq-icon">
+          {% case section.settings.icon_type %}
+            {% when 'lightbulb' %}
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 18h6"></path>
+                <path d="M10 22h4"></path>
+                <path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"></path>
+              </svg>
+            {% when 'info' %}
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+            {% when 'question' %}
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+              </svg>
+            {% when 'star' %}
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+          {% endcase %}
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="faq-questions">
+      {% for block in section.blocks %}
+        {% if block.type == 'question' %}
+          <details id="Details-{{ block.id }}" class="faq-details" {{ block.shopify_attributes }}>
+            <summary class="faq-summary">
+              <h3 class="faq-question">{{ block.settings.question }}</h3>
+              <span class="faq-chevron">
+                <svg class="icon icon-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19 9L12 16L5 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </summary>
+            <div class="faq-answer">
+              {{ block.settings.answer }}
+            </div>
+          </details>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<style>
+  .faq-section {
+    margin: 60px auto;
   }
+
+  .faq-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .faq-title {
+    font-size: {{ section.settings.title_size }}px;
+    margin: 0;
+    font-weight: {{ section.settings.title_weight }};
+    color: {{ section.settings.title_color }};
+  }
+
+  .faq-view-all {
+    text-decoration: none;
+    color: {{ section.settings.view_all_color }};
+    border-bottom: 1px solid;
+    font-weight: {{ section.settings.view_all_weight }};
+    transition: opacity 0.3s ease;
+  }
+  
+  .faq-view-all:hover {
+    opacity: 0.8;
+  }
+
+  .faq-container {
+    display: flex;
+    gap: 60px;
+  }
+
+  .faq-image-container {
+    flex: 0 0 40%;
+    position: relative;
+    overflow: hidden;
+    background: {{ section.settings.image_bg }};
+    aspect-ratio: 1 / 1;
+    max-height: 600px;
+    {% case section.settings.image_shape %}
+      {% when 'circle' %}
+        border-radius: 50%;
+      {% when 'rounded' %}
+        border-radius: 20px;
+      {% when 'blob' %}
+        border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+      {% when 'square' %}
+        border-radius: 0;
+    {% endcase %}
+    
+    transition: transform 0.5s ease;
+  }
+  
+  .faq-image-container:hover {
+    transform: scale(1.02);
+  }
+
+  .faq-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .faq-icon {
+    position: absolute;
+    bottom: 15%;
+    right: 15%;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .faq-questions {
+    flex: 1;
+  }
+
+  .faq-details {
+    border-bottom: 1px solid {{ section.settings.divider_color | color_modify: 'alpha', 0.1 }};
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #FFFFFF;
+    border-radius: {{ section.settings.question_border_radius }}px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px {{ section.settings.shadow_color | color_modify: 'alpha', 0.1 }};
+    overflow: hidden;
+  }
+  
+  .faq-details:hover {
+    background-color: {{ section.settings.hover_bg_color | color_modify: 'alpha', 0.05 }};
+    box-shadow: 0 4px 12px {{ section.settings.shadow_color | color_modify: 'alpha', 0.15 }};
+  }
+  
+  .faq-details[open] {
+    background-color: {{ section.settings.active_bg_color | color_modify: 'alpha', 0.08 }};
+    box-shadow: 0 6px 15px {{ section.settings.shadow_color | color_modify: 'alpha', 0.2 }};
+  }
+
+.faq-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: {{ section.settings.question_padding }}px 20px;
+    cursor: pointer;
+    list-style: none;
+    transition: padding 0.3s ease;
+    position: relative;
+  }
+  
+  .faq-summary:hover {
+    padding-left: calc(20px + {{ section.settings.hover_indent }}px);
+  }
+  
+.faq-summary::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    width: 0;
+    height: 2px;
+    background-color: {{ section.settings.hover_color }};
+    transition: width 0.3s ease;
+    bottom: 50%;
+    opacity: 0;
+  }
+  
+  .faq-summary:hover::before {
+    width: {{ section.settings.hover_indent }}px;
+    opacity: 1;
+  }
+
+  .faq-summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-question {
+    margin: 0;
+    font-size: {{ section.settings.question_size }}px;
+    font-weight: {{ section.settings.question_weight }};
+    color: {{ section.settings.question_color }};
+  }
+
+  .faq-chevron {
+    transition: transform 0.3s, color 0.3s;
+    color: {{ section.settings.chevron_color }};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+
+  details[open] .faq-chevron {
+    transform: rotate(180deg);
+    color: {{ section.settings.chevron_active_color }};
+  }
+  
+  .faq-summary:hover .faq-chevron {
+    background-color: {{ section.settings.chevron_hover_bg }};
+  }
+
+  .faq-answer {
+    padding: 0 20px 24px 20px;
+    color: {{ section.settings.answer_color }};
+    line-height: 1.6;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+  }
+  
+  details[open] .faq-answer {
+    max-height: 1000px;
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 990px) {
+    .faq-container {
+      flex-direction: column;
+    }
+    
+    .faq-image-container {
+      max-height: 400px;
+      margin: 0 auto 40px;
+      width: 80%;
+    }
+    
+    .faq-title {
+      font-size: 28px;
+    }
+    
+    .faq-details {
+      margin-bottom: 10px;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .faq-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+    }
+    
+    .faq-image-container {
+      display: none;
+    }
+    
+    .faq-details {
+      margin-bottom: 8px;
+    }
+    
+    .faq-summary {
+      padding: calc({{ section.settings.question_padding }}px * 0.8) 15px;
+    }
+    
+    .faq-summary:hover {
+      padding-left: calc(15px + {{ section.settings.hover_indent }}px);
+    }
+    
+    .faq-answer {
+      padding: 0 15px 20px 15px;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const detailsElements = document.querySelectorAll('.faq-details');
+    
+    detailsElements.forEach((details) => {
+      // Préparer l'animation
+      const summary = details.querySelector('.faq-summary');
+      const answer = details.querySelector('.faq-answer');
+      
+      // S'assurer que les réponses sont fermées au départ
+      if (!details.hasAttribute('open')) {
+        answer.style.padding = '0 20px';
+      }
+      
+      details.addEventListener('click', (e) => {
+        if (e.target.closest('.faq-summary')) {
+          e.preventDefault();
+          const clickedDetails = details;
+          
+          // Si on clique sur un élément déjà ouvert, on le ferme
+          if (clickedDetails.hasAttribute('open')) {
+            // Animation de fermeture
+            answer.style.maxHeight = '0';
+            answer.style.padding = '0 20px';
+            answer.style.opacity = '0';
+            
+            // Attendre la fin de l'animation avant de fermer
+            setTimeout(() => {
+              clickedDetails.removeAttribute('open');
+            }, 300);
+            return;
+          }
+          
+          // Ferme tous les autres éléments avec animation
+          detailsElements.forEach((otherDetails) => {
+            if (otherDetails !== clickedDetails && otherDetails.hasAttribute('open')) {
+              const otherAnswer = otherDetails.querySelector('.faq-answer');
+              otherAnswer.style.maxHeight = '0';
+              otherAnswer.style.padding = '0 20px';
+              otherAnswer.style.opacity = '0';
+              
+              setTimeout(() => {
+                otherDetails.removeAttribute('open');
+              }, 300);
+            }
+          });
+          
+          // Ouvre l'élément actuel
+          clickedDetails.setAttribute('open', '');
+          setTimeout(() => {
+            answer.style.maxHeight = answer.scrollHeight + 'px';
+            answer.style.paddingBottom = '24px';
+            answer.style.opacity = '1';
+          }, 10);
+        }
+      });
+    });
+    
+    // Animation au chargement si une question est déjà ouverte
+    detailsElements.forEach((details) => {
+      if (details.hasAttribute('open')) {
+        const answer = details.querySelector('.faq-answer');
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+        answer.style.paddingBottom = '24px';
+        answer.style.opacity = '1';
+      }
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "FAQ",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Contenu"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Questions fréquentes",
+      "label": "Titre de la section"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "color",
+      "id": "image_bg",
+      "label": "Couleur d'arrière-plan de l'image",
+      "default": "#F8F8F8"
+    },
+    {
+      "type": "select",
+      "id": "image_shape",
+      "label": "Forme de l'image",
+      "options": [
+        {
+          "value": "circle",
+          "label": "Cercle"
+        },
+        {
+          "value": "rounded",
+          "label": "Coins arrondis"
+        },
+        {
+          "value": "blob",
+          "label": "Forme organique"
+        },
+        {
+          "value": "square",
+          "label": "Carré"
+        }
+      ],
+      "default": "blob"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_icon",
+      "label": "Afficher l'icône sur l'image",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "icon_type",
+      "label": "Type d'icône",
+      "options": [
+        {
+          "value": "lightbulb",
+          "label": "Ampoule"
+        },
+        {
+          "value": "info",
+          "label": "Information"
+        },
+        {
+          "value": "question",
+          "label": "Point d'interrogation"
+        },
+        {
+          "value": "star",
+          "label": "Étoile"
+        }
+      ],
+      "default": "lightbulb"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_view_all",
+      "label": "Afficher le lien 'Voir la FAQ'",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "view_all_text",
+      "label": "Texte du lien 'Voir tout'",
+      "default": "Voir la FAQ"
+    },
+    {
+      "type": "url",
+      "id": "faq_page",
+      "label": "Page FAQ complète"
+    },
+    
+    {
+      "type": "header",
+      "content": "Style du titre"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Taille du titre",
+      "default": 36
+    },
+    {
+      "type": "select",
+      "id": "title_weight",
+      "label": "Épaisseur du titre",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi-bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        }
+      ],
+      "default": "500"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Couleur du titre",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "view_all_color",
+      "label": "Couleur du lien 'Voir tout'",
+      "default": "#000000"
+    },
+    {
+      "type": "select",
+      "id": "view_all_weight",
+      "label": "Épaisseur du lien 'Voir tout'",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi-bold"
+        }
+      ],
+      "default": "400"
+    },
+    
+    {
+      "type": "header",
+      "content": "Style des questions"
+    },
+    {
+      "type": "range",
+      "id": "question_size",
+      "min": 14,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "label": "Taille de la question",
+      "default": 18
+    },
+    {
+      "type": "select",
+      "id": "question_weight",
+      "label": "Épaisseur de la question",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi-bold"
+        }
+      ],
+      "default": "500"
+    },
+    {
+      "type": "color",
+      "id": "question_color",
+      "label": "Couleur du texte de question",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "question_padding",
+      "min": 10,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Espacement des questions",
+      "default": 24
+    },
+    {
+      "type": "color",
+      "id": "chevron_color",
+      "label": "Couleur de la flèche",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "chevron_active_color",
+      "label": "Couleur de la flèche active",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "chevron_hover_bg",
+      "label": "Arrière-plan au survol de la flèche",
+      "default": "#f5f5f5"
+    },
+    
+    {
+      "type": "header",
+      "content": "Style des réponses"
+    },
+    {
+      "type": "color",
+      "id": "answer_color",
+      "label": "Couleur du texte de réponse",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Couleur des séparateurs",
+      "default": "rgba(0, 0, 0, 0.1)"
+    },
+    
+    {
+      "type": "header",
+      "content": "Effets d'interaction"
+    },
+    {
+      "type": "range",
+      "id": "question_border_radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Rayon de bordure des questions",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "hover_bg_color",
+      "label": "Couleur de fond au survol",
+      "default": "rgba(0, 0, 0, 0.01)"
+    },
+    {
+      "type": "color",
+      "id": "active_bg_color",
+      "label": "Couleur de fond question active",
+      "default": "rgba(0, 0, 0, 0.02)"
+    },
+    {
+      "type": "range",
+      "id": "hover_indent",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Indentation au survol",
+      "default": 8
+    },
+    {
+      "type": "color",
+      "id": "hover_color",
+      "label": "Couleur d'accent au survol",
+      "default": "#000000"
+    },
+    
+    {
+      "type": "header",
+      "content": "Espacement de section"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Espacement supérieur",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Espacement inférieur",
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "question",
+      "name": "Question",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question",
+          "default": "Y-a-t'il des contre-indications ?"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Réponse",
+          "default": "<p>Chacune de nos cures est élaborée avec le plus grand soin, cependant il est nécessaire de prendre en considération votre état physiologique ainsi que vos pathologies pour déterminer la solution qui vous correspond le mieux.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQ",
+      "blocks": [
+        {
+          "type": "question"
+        },
+        {
+          "type": "question"
+        },
+        {
+          "type": "question"
+        },
+        {
+          "type": "question"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
