@@ -328,7 +328,7 @@
           "type": "item",
           "settings": {
             "icon": "return_arrow",
-            "title": "<p>30 Days Return</p>",
+            "title": "<p>Expedition le jour même</p>",
             "subtitle": ""
           }
         },
@@ -336,7 +336,7 @@
           "type": "item",
           "settings": {
             "icon": "payment",
-            "title": "<p>Secure Payment</p>",
+            "title": "<p>Paiement sécurisé</p>",
             "subtitle": ""
           }
         },
@@ -344,7 +344,7 @@
           "type": "item",
           "settings": {
             "icon": "time",
-            "title": "<p>Rapide</p>",
+            "title": "<p>Livraison rapide</p>",
             "subtitle": ""
           }
         }
