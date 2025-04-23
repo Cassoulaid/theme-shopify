@@ -359,7 +359,7 @@
         "heading_align_mobile": "left",
         "items_mt": 16,
         "items_gap": 0,
-        "item_padding_vertical": 100,
+        "item_padding_vertical": 14,
         "item_padding_horizontal": 16,
         "item_radius": 0,
         "item_border_thickness": 1,
