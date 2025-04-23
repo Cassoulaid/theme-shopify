@@ -186,9 +186,9 @@
             "order_label": "Commandé",
             "shipping_label": "Prêt pour la livraison",
             "delivery_label": "Livré",
-            "shipping_days": 3,
-            "delivery_min_days": 4,
-            "delivery_max_days": 10
+            "shipping_days": 2,
+            "delivery_min_days": 1,
+            "delivery_max_days": 5
           }
         },
         "collapsible_tab_beHbEy": {
