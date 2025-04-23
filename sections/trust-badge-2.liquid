@@ -16,6 +16,10 @@ For inquiries or permissions, contact daniel@section.store
     {% case section.settings.template %}
       {% when 'standard' %}
       {% when 'boxed' %}
+      display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
       {% when 'zalando' %}
         border-top: 1px solid #d0d1d3;
         border-right: 1px solid #d0d1d3;
