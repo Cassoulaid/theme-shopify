@@ -44,7 +44,7 @@
         "announcement_rd4Urj"
       ],
       "settings": {
-        "show_social": true,
+        "show_social": false,
         "enable_language_selector": true,
         "enable_country_selector": true,
         "invert_icons_selectors": false,
