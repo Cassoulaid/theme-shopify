@@ -76,6 +76,7 @@
         },
         "pickup_availability": {
           "type": "pickup_availability",
+          "disabled": true,
           "settings": {}
         },
         "share": {
