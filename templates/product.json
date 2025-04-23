@@ -460,36 +460,28 @@
           "type": "item",
           "settings": {
             "icon": "tick",
-            "text": "<p>Secure checkout, your data protected.</p>"
+            "text": "<p>Naturel</p>"
           }
         },
         "item_6KDiqp": {
           "type": "item",
           "settings": {
             "icon": "tick",
-            "text": "<p>Quality assured, satisfaction guaranteed.</p>"
+            "text": "<p>Vegan</p>"
           }
         },
         "item_wQEzdk": {
           "type": "item",
           "settings": {
             "icon": "tick",
-            "text": "<p>Hassle-free returns, shop with confidence.</p>"
-          }
-        },
-        "item_ra7c3j": {
-          "type": "item",
-          "settings": {
-            "icon": "tick",
-            "text": "<p>Real reviews, verified customer feedback.</p>"
+            "text": "<p>Fabrication française</p>"
           }
         }
       },
       "block_order": [
         "item_4Rihhz",
         "item_6KDiqp",
-        "item_wQEzdk",
-        "item_ra7c3j"
+        "item_wQEzdk"
       ],
       "settings": {
         "trust_position": "below_description",
