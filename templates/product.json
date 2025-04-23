@@ -85,13 +85,6 @@
             "page": "",
             "liquid": ""
           }
-        },
-        "help_desk_tME9CP": {
-          "type": "help_desk",
-          "settings": {
-            "help_label": "Besoin d'aide ?",
-            "help_page": ""
-          }
         }
       },
       "block_order": [
@@ -103,8 +96,7 @@
         "liquid_Fy9KQ3",
         "collapsible_tab_beHbEy",
         "collapsible_tab_NJ8cPw",
-        "collapsible_tab_aHCx6R",
-        "help_desk_tME9CP"
+        "collapsible_tab_aHCx6R"
       ],
       "settings": {
         "product": "morosil-400",
