@@ -169,6 +169,12 @@
             "text_size": "text-base"
           }
         },
+        "liquid_FJJQBp": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div id='ss-trust-badges-3'></div>"
+          }
+        },
         "buy_buttons_YKhktQ": {
           "type": "buy_buttons",
           "settings": {
@@ -227,6 +233,7 @@
         "text_TcjGkg",
         "text_fgatMd",
         "text_pJQHp6",
+        "liquid_FJJQBp",
         "buy_buttons_YKhktQ",
         "shipping_timeline_UTwaaY",
         "collapsible_tab_beHbEy",
