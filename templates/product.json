@@ -166,17 +166,6 @@
             "show_back_in_stock_phone": false
           }
         },
-        "shipping_timeline_UTwaaY": {
-          "type": "shipping_timeline",
-          "settings": {
-            "order_label": "Commandé",
-            "shipping_label": "Prêt pour la livraison",
-            "delivery_label": "Livré",
-            "shipping_days": 2,
-            "delivery_min_days": 1,
-            "delivery_max_days": 5
-          }
-        },
         "liquid_Fy9KQ3": {
           "type": "liquid",
           "settings": {
@@ -218,7 +207,6 @@
         "title_PdVMHV",
         "liquid_FJJQBp",
         "buy_buttons_YKhktQ",
-        "shipping_timeline_UTwaaY",
         "liquid_Fy9KQ3",
         "collapsible_tab_beHbEy",
         "collapsible_tab_NJ8cPw",
