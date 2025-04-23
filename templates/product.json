@@ -320,8 +320,8 @@
           "type": "item",
           "settings": {
             "icon": "truck",
-            "title": "<p>Free Shipping > $50</p>",
-            "subtitle": "<p>Expected delivery between 2-3 days</p>"
+            "title": "<p>Livraison gratuite &gt; $50</p>",
+            "subtitle": ""
           }
         },
         "item_zdxRBj": {
