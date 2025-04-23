@@ -106,7 +106,7 @@
         "image_ratio_mobile": "adapt_first",
         "mobile_thumbnail": false,
         "padding_top": 72,
-        "padding_bottom": 76,
+        "padding_bottom": 0,
         "divider": false,
         "full_width": false,
         "rounded": false
@@ -364,7 +364,7 @@
         "item_radius": 0,
         "item_border_thickness": 1,
         "item_arrow": true,
-        "icon_size": 38,
+        "icon_size": 50,
         "icon_size_mobile": 36,
         "date_custom": false,
         "date_font": "josefin_sans_n4",
