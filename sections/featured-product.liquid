@@ -105,20 +105,22 @@
 
               {%- when 'shipping_timeline' -%}
                 {%- liquid
-                  assign today = 'now' | date: '%s'
-                  assign one_day_seconds = 86400
+                  assign today_date = 'now' | date: '%s' | times: 1
                   
-                  assign order_date = today | times: 1
-                  assign shipping_start = order_date | plus: one_day_seconds
-                  assign shipping_end = shipping_start | plus: block.settings.shipping_days | times: one_day_seconds
-                  assign delivery_start = shipping_end | plus: one_day_seconds
-                  assign delivery_end = delivery_start | plus: block.settings.delivery_max_days | times: one_day_seconds
+                  assign order_date = today_date
+                  assign prep_days = block.settings.shipping_days | default: 1 | times: 1
+                  assign min_shipping = block.settings.delivery_min_days | default: 1 | times: 1
+                  assign max_shipping = block.settings.delivery_max_days | default: 5 | times: 1
+                  
+                  assign seconds_per_day = 86400
+                  assign prep_end_date = order_date | plus: prep_days | times: seconds_per_day
+                  assign delivery_min_date = prep_end_date | plus: min_shipping | times: seconds_per_day
+                  assign delivery_max_date = prep_end_date | plus: max_shipping | times: seconds_per_day
                   
                   assign order_date_formatted = order_date | date: '%d %b' 
-                  assign shipping_start_formatted = shipping_start | date: '%d %b'
-                  assign shipping_end_formatted = shipping_end | date: '%d %b'
-                  assign delivery_start_formatted = delivery_start | date: '%d %b' 
-                  assign delivery_end_formatted = delivery_end | date: '%d %b'
+                  assign prep_end_formatted = prep_end_date | date: '%d %b'
+                  assign delivery_min_formatted = delivery_min_date | date: '%d %b'
+                  assign delivery_max_formatted = delivery_max_date | date: '%d %b'
                 -%}
                 
                 <div class="shipping-timeline" {{ block.shopify_attributes }}>
@@ -135,7 +137,7 @@
                       <div class="shipping-timeline__icon bg-rose-50 rounded-full w-16 h-16 mx-auto flex items-center justify-center mb-4">
                         {% render 'icon', icon: 'truck', size: 'md' %}
                       </div>
-                      <div class="shipping-timeline__date text-base font-medium">{{ shipping_start_formatted }} - {{ shipping_end_formatted }}</div>
+                      <div class="shipping-timeline__date text-base font-medium">{{ order_date_formatted }} - {{ prep_end_formatted }}</div>
                       <div class="shipping-timeline__label text-sm text-opacity mt-1">{{ block.settings.shipping_label }}</div>
                     </div>
                     
@@ -143,7 +145,7 @@
                       <div class="shipping-timeline__icon bg-rose-50 rounded-full w-16 h-16 mx-auto flex items-center justify-center mb-4">
                         {% render 'icon', icon: 'map-pin', size: 'md' %}
                       </div>
-                      <div class="shipping-timeline__date text-base font-medium">{{ delivery_start_formatted }} - {{ delivery_end_formatted }}</div>
+                      <div class="shipping-timeline__date text-base font-medium">{{ delivery_min_formatted }} - {{ delivery_max_formatted }}</div>
                       <div class="shipping-timeline__label text-sm text-opacity mt-1">{{ block.settings.delivery_label }}</div>
                     </div>
                   </div>
