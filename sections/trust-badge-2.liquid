@@ -57,6 +57,35 @@ For inquiries or permissions, contact daniel@section.store
   {% endcase %}
   }
 
+
+
+  /* Centre l'icône */
+.ss-trust-badge-icon-{{ section.id }} {
+  margin: 0 auto 10px auto; /* Centré avec un espace en dessous */
+}
+
+/* Centre le texte */
+.ss-trust-badge-text-{{ section.id }} {
+  text-align: center;
+  width: 100%;
+}
+
+/* Centre le titre */
+.ss-trust-badge-title-{{ section.id }} p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Cache les sous-titres */
+.ss-trust-badge-subtitle-{{ section.id }} {
+  display: none; /* Masque complètement les sous-titres */
+}
+
+
+
+
+  
+
   .ss-trust-badge-icon-{{ section.id }} {
     display: flex;
     justify-content: center;
