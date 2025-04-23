@@ -104,96 +104,74 @@
                 {%- render 'product-breadcrumb', block: block -%}
 
               {%- when 'shipping_timeline' -%}
-  {%- liquid
-    assign today_date = 'now' | date: '%s' | times: 1
-    assign seconds_per_day = 86400
-    
-    assign prep_days = block.settings.shipping_days | default: 1 | times: 1
-    assign min_shipping = block.settings.delivery_min_days | default: 1 | times: 1
-    assign max_shipping = block.settings.delivery_max_days | default: 5 | times: 1
-    
-    assign prep_days_seconds = prep_days | times: seconds_per_day
-    assign min_shipping_seconds = min_shipping | times: seconds_per_day
-    assign max_shipping_seconds = max_shipping | times: seconds_per_day
-    
-    assign order_date = today_date
-    assign prep_end_date = order_date | plus: prep_days_seconds
-    assign delivery_min_date = prep_end_date | plus: min_shipping_seconds
-    assign delivery_max_date = prep_end_date | plus: max_shipping_seconds
-    
-    assign order_date_formatted = order_date | date: '%d %b' 
-    assign prep_end_formatted = prep_end_date | date: '%d %b'
-    assign delivery_min_formatted = delivery_min_date | date: '%d %b'
-    assign delivery_max_formatted = delivery_max_date | date: '%d %b'
-  -%}
-  
-  <div class="shipping-timeline" {{ block.shopify_attributes }}>
-    <div class="shipping-timeline__container flex justify-between text-center">
-      <div class="shipping-timeline__item">
-        <div class="shipping-timeline__icon bg-rose-50 rounded-full w-16 h-16 mx-auto flex items-center justify-center mb-4">
-          {% render 'icon', icon: 'bag', size: 'md' %}
-        </div>
-        <div class="shipping-timeline__date text-base font-medium">{{ order_date_formatted }}</div>
-        <div class="shipping-timeline__label text-sm text-opacity mt-1">{{ block.settings.order_label }}</div>
-      </div>
-      
-      <div class="shipping-timeline__item">
-        <div class="shipping-timeline__icon bg-rose-50 rounded-full w-16 h-16 mx-auto flex items-center justify-center mb-4">
-          {% render 'icon', icon: 'truck', size: 'md' %}
-        </div>
-        <div class="shipping-timeline__date text-base font-medium">{{ order_date_formatted }} - {{ prep_end_formatted }}</div>
-        <div class="shipping-timeline__label text-sm text-opacity mt-1">{{ block.settings.shipping_label }}</div>
-      </div>
-      
-      <div class="shipping-timeline__item">
-        <div class="shipping-timeline__icon bg-rose-50 rounded-full w-16 h-16 mx-auto flex items-center justify-center mb-4">
-          {% render 'icon', icon: 'map-pin', size: 'md' %}
-        </div>
-        <div class="shipping-timeline__date text-base font-medium">{{ delivery_min_formatted }} - {{ delivery_max_formatted }}</div>
-        <div class="shipping-timeline__label text-sm text-opacity mt-1">{{ block.settings.delivery_label }}</div>
-      </div>
-    </div>
-  </div>
-  
-  <style>
-    .shipping-timeline {
-      margin: 2rem 0;
-      padding: 1rem 0;
-    }
-    
-    .shipping-timeline__container {
-      gap: 1.5rem;
-      position: relative;
-    }
-    
-    .shipping-timeline__container::before {
-      content: '';
-      position: absolute;
-      top: 2rem;
-      left: calc(16.7% + 2rem);
-      right: calc(16.7% + 2rem);
-      height: 2px;
-      background-color: #F9E9EE;
-      z-index: 0;
-    }
-    
-    .shipping-timeline__icon {
-      position: relative;
-      background-color: #F9E9EE;
-      z-index: 1;
-    }
-    
-    @media screen and (max-width: 640px) {
-      .shipping-timeline__container {
-        flex-direction: column;
-        gap: 2rem;
-      }
-      
-      .shipping-timeline__container::before {
-        display: none;
-      }
-    }
-  </style>
+                {%- liquid
+                  assign today_date = 'now' | date: '%s' | times: 1
+                  assign seconds_per_day = 86400
+                  
+                  assign prep_days = block.settings.shipping_days | default: 1 | times: 1
+                  assign min_shipping = block.settings.delivery_min_days | default: 1 | times: 1
+                  assign max_shipping = block.settings.delivery_max_days | default: 5 | times: 1
+                  
+                  assign prep_days_seconds = prep_days | times: seconds_per_day
+                  assign min_shipping_seconds = min_shipping | times: seconds_per_day
+                  assign max_shipping_seconds = max_shipping | times: seconds_per_day
+                  
+                  assign order_date = today_date
+                  assign prep_end_date = order_date | plus: prep_days_seconds
+                  assign delivery_min_date = prep_end_date | plus: min_shipping_seconds
+                  assign delivery_max_date = prep_end_date | plus: max_shipping_seconds
+                  
+                  assign order_date_formatted = order_date | date: '%d %b' 
+                  assign prep_end_formatted = prep_end_date | date: '%d %b'
+                  assign delivery_min_formatted = delivery_min_date | date: '%d %b'
+                  assign delivery_max_formatted = delivery_max_date | date: '%d %b'
+                -%}
+                
+                <div class="shipping-timeline" {{ block.shopify_attributes }}>
+                  <div class="shipping-timeline__container flex justify-between text-center">
+                    <div class="shipping-timeline__item">
+                      <div class="shipping-timeline__icon bg-rose-50 rounded-full w-16 h-16 mx-auto flex items-center justify-center mb-4">
+                        {% render 'icon', icon: 'bag', size: 'md' %}
+                      </div>
+                      <div class="shipping-timeline__date text-base font-medium">{{ order_date_formatted }}</div>
+                      <div class="shipping-timeline__label text-sm text-opacity mt-1">{{ block.settings.order_label }}</div>
+                    </div>
+                    
+                    <div class="shipping-timeline__item">
+                      <div class="shipping-timeline__icon bg-rose-50 rounded-full w-16 h-16 mx-auto flex items-center justify-center mb-4">
+                        {% render 'icon', icon: 'truck', size: 'md' %}
+                      </div>
+                      <div class="shipping-timeline__date text-base font-medium">{{ order_date_formatted }} - {{ prep_end_formatted }}</div>
+                      <div class="shipping-timeline__label text-sm text-opacity mt-1">{{ block.settings.shipping_label }}</div>
+                    </div>
+                    
+                    <div class="shipping-timeline__item">
+                      <div class="shipping-timeline__icon bg-rose-50 rounded-full w-16 h-16 mx-auto flex items-center justify-center mb-4">
+                        {% render 'icon', icon: 'map-pin', size: 'md' %}
+                      </div>
+                      <div class="shipping-timeline__date text-base font-medium">{{ delivery_min_formatted }} - {{ delivery_max_formatted }}</div>
+                      <div class="shipping-timeline__label text-sm text-opacity mt-1">{{ block.settings.delivery_label }}</div>
+                    </div>
+                  </div>
+                </div>
+                
+                <style>
+                  .shipping-timeline {
+                    margin: 2rem 0;
+                    padding: 1rem 0;
+                  }
+                  
+                  .shipping-timeline__container {
+                    gap: 1.5rem;
+                  }
+                  
+                  @media screen and (max-width: 640px) {
+                    .shipping-timeline__container {
+                      flex-direction: column;
+                      gap: 2rem;
+                    }
+                  }
+                </style>
 
               {%- when 'text' -%}
                 {%- if block.settings.text != blank -%}
