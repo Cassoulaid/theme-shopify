@@ -349,7 +349,7 @@
         "delivery_position": "below_buy",
         "items_style": "first",
         "heading": "",
-        "heading_use_delivery": true,
+        "heading_use_delivery": false,
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 13,
