@@ -329,7 +329,7 @@
           "settings": {
             "icon": "return_arrow",
             "title": "<p>30 Days Return</p>",
-            "subtitle": "<p>Return label included for easy returns</p>"
+            "subtitle": ""
           }
         },
         "item_bH8mYh": {
@@ -337,7 +337,7 @@
           "settings": {
             "icon": "payment",
             "title": "<p>Secure Payment</p>",
-            "subtitle": "<p>Powered by Shopify and Stripe</p>"
+            "subtitle": ""
           }
         },
         "item_DFhM8C": {
@@ -345,7 +345,7 @@
           "settings": {
             "icon": "time",
             "title": "<p>Rapide</p>",
-            "subtitle": "<p>ca va vite</p>"
+            "subtitle": ""
           }
         }
       },
