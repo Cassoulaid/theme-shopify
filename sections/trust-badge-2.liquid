@@ -66,6 +66,7 @@ For inquiries or permissions, contact daniel@section.store
     font-size: calc(var(--emoji-font-size) * 0.9);
     color: {{section.settings.svg_color}};
   }
+  
   .ss-trust-badge-icon-{{ section.id }} svg {
     height: {{ section.settings.icon_size }}px;
     width: {{ section.settings.icon_size }}px;
@@ -88,10 +89,11 @@ For inquiries or permissions, contact daniel@section.store
     margin-top: 0;
     margin-bottom: 0;
     text-align: left;
-  width: 100%;
+    width: 100%;
   }
   .ss-trust-badge-title-{{ section.id }} {
     font-size: calc(var(--title-font-size) * 0.9);
+    transform: translateY(200px);
   }
   .ss-trust-badge-subtitle-{{ section.id }} {
    display: none;
