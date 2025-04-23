@@ -316,7 +316,7 @@
             "range": false,
             "second_days": 2,
             "weekend": true,
-            "title": "Order placed"
+            "title": "Commandé"
           }
         },
         "item_nd8TcV": {
@@ -326,7 +326,7 @@
             "range": true,
             "second_days": 2,
             "weekend": true,
-            "title": "Dispatched"
+            "title": "Prêt pour la livraison"
           }
         },
         "item_mfdigA": {
@@ -336,7 +336,7 @@
             "range": true,
             "second_days": 6,
             "weekend": true,
-            "title": "Delivered"
+            "title": "Livré"
           }
         }
       },
