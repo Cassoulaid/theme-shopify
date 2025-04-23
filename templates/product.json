@@ -446,31 +446,31 @@
         "rounded": true
       }
     },
-    "ss_trust_badge_3_PVQikc": {
-      "type": "ss-trust-badge-3",
+    "ss_trust_badge_CnrnPg": {
+      "type": "ss-trust-badge",
       "blocks": {
-        "item_XKRdPf": {
+        "item_4Rihhz": {
           "type": "item",
           "settings": {
             "icon": "tick",
             "text": "<p>Secure checkout, your data protected.</p>"
           }
         },
-        "item_jpKN9K": {
+        "item_6KDiqp": {
           "type": "item",
           "settings": {
             "icon": "tick",
             "text": "<p>Quality assured, satisfaction guaranteed.</p>"
           }
         },
-        "item_CQX4nx": {
+        "item_wQEzdk": {
           "type": "item",
           "settings": {
             "icon": "tick",
             "text": "<p>Hassle-free returns, shop with confidence.</p>"
           }
         },
-        "item_wkQmc8": {
+        "item_ra7c3j": {
           "type": "item",
           "settings": {
             "icon": "tick",
@@ -479,13 +479,13 @@
         }
       },
       "block_order": [
-        "item_XKRdPf",
-        "item_jpKN9K",
-        "item_CQX4nx",
-        "item_wkQmc8"
+        "item_4Rihhz",
+        "item_6KDiqp",
+        "item_wQEzdk",
+        "item_ra7c3j"
       ],
       "settings": {
-        "trust_position": "below_title",
+        "trust_position": "below_description",
         "item_gap": 10,
         "item_gap_mobile": 10,
         "item_mt": 16,
@@ -514,10 +514,10 @@
   },
   "order": [
     "main-product",
-    "ss_trust_badge_3_PVQikc",
     "featured_product_bByzp4",
     "ss_product_review_e4LRR7",
     "help-drawer",
-    "product-recommendations"
+    "product-recommendations",
+    "ss_trust_badge_CnrnPg"
   ]
 }
