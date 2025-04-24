@@ -609,13 +609,13 @@
       "settings": {
         "content_align": "center",
         "content_align_mobile": "center",
-        "title": "<h2>Before/after heading</h2>",
+        "title": "<h2><strong>Avant / Après quand le Morosil® fait la différence</strong></h2>",
         "title_custom": false,
         "title_font": "josefin_sans_n4",
         "title_size": 36,
         "title_size_mobile": 26,
         "title_height": 130,
-        "text": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "text": "<p><strong>1 gélule par jour. Des résultats visibles. Une méthode validée par la science</strong>.</p>",
         "text_custom": false,
         "text_font": "josefin_sans_n4",
         "text_size": 20,
@@ -1189,7 +1189,7 @@
         "text_WigJMT": {
           "type": "text",
           "settings": {
-            "text": "<p>Commencez dès maintenant votre cure avec MOROFIT 400 pour des résultats visibles à temps !</p>",
+            "text": "<p>Commencez dès maintenant votre cure avec MORO FIT 400 pour des résultats visibles à temps !</p>",
             "text_size": "subtext-md",
             "text_max_size": 32,
             "text_font": "body",
