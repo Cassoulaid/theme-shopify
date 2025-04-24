@@ -38,6 +38,19 @@
             "show_back_in_stock_phone": false
           }
         },
+        "ingredients_fqPrJU": {
+          "type": "ingredients",
+          "settings": {
+            "title": "Ingrédients sélectionnés pour leur efficacité :",
+            "ingredients": "Huile essentielle de Romarin à Cinéole, Hydrolat de Romarin, Aloe Vera, Racine de Lindera, Clou de Girofle",
+            "title_color": "#333333",
+            "text_color": "#333333",
+            "background_color": "#FFFFFF",
+            "border_color": "#E5E5E5",
+            "hover_text_color": "#FFFFFF",
+            "hover_background_color": "#4F772D"
+          }
+        },
         "liquid_jRYak8": {
           "type": "liquid",
           "settings": {
@@ -91,6 +104,7 @@
         "title_PdVMHV",
         "liquid_FJJQBp",
         "buy_buttons_YKhktQ",
+        "ingredients_fqPrJU",
         "liquid_jRYak8",
         "liquid_7bqT9U",
         "liquid_Fy9KQ3",
