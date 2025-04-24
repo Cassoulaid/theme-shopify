@@ -44,6 +44,12 @@
             "show_back_in_stock_phone": false
           }
         },
+        "liquid_jRYak8": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div id='ss-delivery'></div>"
+          }
+        },
         "ingredients_fqPrJU": {
           "type": "ingredients",
           "settings": {
@@ -62,12 +68,6 @@
           "settings": {
             "text": "Tu veux mincir sans frustration, sans effet rebond, et sans mettre ta santé en danger ? La cure MORO FIT 400 est la solution naturelle qu’il te faut.",
             "text_size": "text-base"
-          }
-        },
-        "liquid_jRYak8": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div id='ss-delivery'></div>"
           }
         },
         "liquid_7bqT9U": {
@@ -124,9 +124,9 @@
         "title_PdVMHV",
         "liquid_FJJQBp",
         "buy_buttons_YKhktQ",
+        "liquid_jRYak8",
         "ingredients_fqPrJU",
         "text_UCrJJ9",
-        "liquid_jRYak8",
         "liquid_7bqT9U",
         "liquid_Fy9KQ3",
         "collapsible_tab_beHbEy",
