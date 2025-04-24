@@ -574,6 +574,7 @@
         "image-2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/7243807a-9aec-4ba6-b800-6d3a12036232.jpg",
             "subheading": "",
             "heading": "Après",
             "content_position": "end",
