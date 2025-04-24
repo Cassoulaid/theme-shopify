@@ -38,6 +38,15 @@
             "show_back_in_stock_phone": false
           }
         },
+        "complementary_aH6MaD": {
+          "type": "complementary",
+          "settings": {
+            "heading": "Pairs well with",
+            "product_limit": 10,
+            "show_vendor": true,
+            "show_price": true
+          }
+        },
         "liquid_jRYak8": {
           "type": "liquid",
           "settings": {
@@ -91,6 +100,7 @@
         "title_PdVMHV",
         "liquid_FJJQBp",
         "buy_buttons_YKhktQ",
+        "complementary_aH6MaD",
         "liquid_jRYak8",
         "liquid_7bqT9U",
         "liquid_Fy9KQ3",
