@@ -24,33 +24,46 @@
         "rounded": false
       }
     },
-    "image_with_text_overlay_r4yydw": {
+    "image_with_text_overlay_cR7FjA": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "subheading_zzbXDR": {
+        "subheading_zmfbCM": {
           "type": "subheading",
           "settings": {
-            "subheading": "Notre histoire",
-            "subheading_size": "subtitle-lg",
+            "subheading": "Add a tagline",
+            "subheading_size": "subtitle-md",
             "secondary_color": true
           }
         },
-        "heading_qEtczb": {
+        "heading_mEGrqF": {
           "type": "heading",
           "settings": {
-            "heading": "L’histoire d’une mission : bien-être et confiance",
+            "heading": "Image with text overlay",
             "heading_size": "title-lg tracking-heading",
             "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_r3pE87": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
         }
       },
       "block_order": [
-        "subheading_zzbXDR",
-        "heading_qEtczb"
+        "subheading_zmfbCM",
+        "heading_mEGrqF",
+        "text_r3pE87"
       ],
-      "disabled": true,
+      "name": "t:sections.image-with-text-overlay.presets.name",
       "settings": {
         "transparent_header": false,
         "image_height": "650px",
@@ -76,175 +89,10 @@
         "enable_parallax": true,
         "parallax_direction": "vertical"
       }
-    },
-    "images_with_text_dpPXez": {
-      "type": "images-with-text",
-      "blocks": {
-        "heading_VWEMhY": {
-          "type": "heading",
-          "settings": {
-            "heading": "Quelle est la motivation derrière la création ?",
-            "heading_size": "title-md",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "text_dUMUJ7": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Docteur V est né d’un constat simple : trop de produits minceur promettent des miracles sans résultats réels. Nous avons voulu créer une marque honnête, efficace et naturelle, inspirée par des besoins réels.</p>",
-            "text_size": "subtext-md",
-            "text_max_size": 32,
-            "text_font": "body",
-            "secondary_color": false,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        }
-      },
-      "block_order": [
-        "heading_VWEMhY",
-        "text_dUMUJ7"
-      ],
-      "settings": {
-        "image_ratio": "portrait",
-        "image_width": "medium",
-        "layout": "image_first",
-        "text_alignment": "left",
-        "text_alignment_mobile": "left",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false,
-        "enable_parallax": true
-      }
-    },
-    "ss_about_jyXkea": {
-      "type": "ss-about",
-      "blocks": {
-        "benefit_card_7m79dc": {
-          "type": "benefit_card",
-          "settings": {
-            "title": "🌱 Transparence",
-            "content": "<p><br/>Chaque ingrédient est choisi avec soin et expliqué.<br/></p>",
-            "icon": "check_mark"
-          }
-        },
-        "benefit_card_LiVwMg": {
-          "type": "benefit_card",
-          "settings": {
-            "title": "🔬 Efficacité",
-            "content": "<p><br/>Des formules testées et pensées pour de vrais résultats.<br/></p>",
-            "icon": "award"
-          }
-        },
-        "benefit_card_AM6d6t": {
-          "type": "benefit_card",
-          "settings": {
-            "title": "🧘‍♀️ Bien-être global",
-            "content": "<p><br/>Le corps, mais aussi l’esprit<br/></p>",
-            "icon": "heart"
-          }
-        },
-        "benefit_card_BbmA46": {
-          "type": "benefit_card",
-          "settings": {
-            "title": "🌍 Engagement éthique",
-            "content": "<p><br/>Aucun test sur les animaux. Produits respectueux de la planète.<br/></p>",
-            "icon": "star"
-          }
-        }
-      },
-      "block_order": [
-        "benefit_card_7m79dc",
-        "benefit_card_LiVwMg",
-        "benefit_card_AM6d6t",
-        "benefit_card_BbmA46"
-      ],
-      "settings": {
-        "heading": "Les valeurs de la marque",
-        "heading_size": "title-lg tracking-heading",
-        "heading_tag": "h2",
-        "card_style": "shadow",
-        "icon_bg_color": "#dff2ff",
-        "color_headings": "#5d9bd5",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "padding_top": 48,
-        "padding_bottom": 60,
-        "divider": false,
-        "rounded": true
-      }
-    },
-    "images_with_text_ErRRQ4": {
-      "type": "images-with-text",
-      "blocks": {
-        "heading_HUXCN3": {
-          "type": "heading",
-          "settings": {
-            "heading": "La fondatrice",
-            "heading_size": "title-md",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "text_AXf9Q9": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Ce projet, c’est un mélange d’intuition, de recherches et de passion. Je voulais que chaque femme puisse se sentir bien dans son corps, sans se perdre dans des régimes stricts.<br/></p>",
-            "text_size": "subtext-md",
-            "text_max_size": 32,
-            "text_font": "body",
-            "secondary_color": false,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        }
-      },
-      "block_order": [
-        "heading_HUXCN3",
-        "text_AXf9Q9"
-      ],
-      "settings": {
-        "image_ratio": "portrait",
-        "image_width": "medium",
-        "layout": "text_first",
-        "text_alignment": "left",
-        "text_alignment_mobile": "left",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false,
-        "enable_parallax": true
-      }
     }
   },
   "order": [
     "main-page",
-    "image_with_text_overlay_r4yydw",
-    "images_with_text_dpPXez",
-    "ss_about_jyXkea",
-    "images_with_text_ErRRQ4"
+    "image_with_text_overlay_cR7FjA"
   ]
 }
