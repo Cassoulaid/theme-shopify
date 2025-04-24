@@ -827,14 +827,14 @@
           "type": "question",
           "settings": {
             "question": "Combien de temps dure une cure avec une boîte de MORO FIT 400 ?",
-            "answer": "<p>Chaque boîte contient <strong>60 gélules</strong>, ce qui correspond à une cure de <strong>2 mois</strong>. Cette durée de cure permet d’observer des résultats progressifs et durables dans le cadre d’un régime équilibré et d’un mode de vie sain.<br/><br/></p>"
+            "answer": "<p>Chaque boîte contient <strong>60 gélules</strong>, ce qui correspond à une cure de <strong>2 mois</strong>. Cette durée de cure permet d’observer des résultats progressifs et durables dans le cadre d’un régime équilibré et d’un mode de vie sain.</p>"
           }
         },
         "question_ntEFyx": {
           "type": "question",
           "settings": {
-            "question": "Combien de temps dure une cure avec une boîte de MORO FIT 400 ?",
-            "answer": "<p>Chaque boîte contient<strong>60 gélules</strong>, ce qui correspond à une cure de<strong>2 mois</strong>. Cette durée de cure permet d’observer des résultats progressifs et durables dans le cadre d’un régime équilibré et d’un mode de vie sain.</p>"
+            "question": "Pourquoi choisir MORO FIT 400 HAUTEMENT DOSÉ ?",
+            "answer": "<p>MORO FIT 400 se démarque par sa formule concentrée et ses ingrédients naturels de haute qualité. Voici pourquoi il est le choix idéal pour votre <strong>cure de perte de poids</strong> :</p><ul><li><strong>Simplicité d'utilisation</strong> : 1 gélule par jour, facile à intégrer dans votre routine matinale.</li><li><strong>Efficacité prouvée</strong> : Grâce à des ingrédients ciblés comme le Morosil®, le guarana et le chrome.</li><li><strong>Durée de cure optimale</strong> : 60 gélules pour 2 mois de bienfaits continus.</li><li><strong>Sécurité et qualité</strong> : Formulé dans le respect des normes les plus strictes pour un complément alimentaire naturel et fiable</li></ul>"
           }
         },
         "question_zeYfVD": {
@@ -843,6 +843,20 @@
             "question": "Quels engagements prenons-nous pour la satisfaction client ?",
             "answer": "<p>Nous mettons un point d’honneur à offrir un service client irréprochable et personnalisé. Notre équipe, composée de professionnels expérimentés, est à l’écoute de vos besoins et prête à répondre à toutes vos questions. Nous assurons également un suivi après-vente pour garantir votre entière satisfaction.</p>"
           }
+        },
+        "question_D4bjcx": {
+          "type": "question",
+          "settings": {
+            "question": "Quels sont les bénéfices de MORO FIT 400 HAUTEMENT DOSÉ pour la perte de poids ?",
+            "answer": "<p>Les principaux bénéfices incluent :</p><ul><li><strong>Stimulation du métabolisme des graisses</strong> grâce à l’action combinée du guarana et de la noix de cola.</li><li><strong>Amélioration de la combustion des calories</strong> et activation de la thermogenèse.</li><li><strong>Régulation de la glycémie</strong> et soutien du métabolisme lipidique grâce au chrome.</li><li><strong>Optimisation de la digestion</strong> avec le vinaigre de cidre.</li></ul><p><strong>Effet antioxydant</strong> de l’extrait d’orange rouge (Morosil®) pour lutter contre le stress oxydatif.Ces effets contribuent à une <strong>perte de poids naturelle</strong> et à une <strong>silhouette harmonieuse</strong>, faisant de MOROFIT une solution de choix pour ceux qui recherchent un <strong>complément alimentaire amincissement</strong> de haute qualité.</p>"
+          }
+        },
+        "question_R6cnj3": {
+          "type": "question",
+          "settings": {
+            "question": "Qu'est-ce que MORO FIT 400 ?",
+            "answer": "<p>MORO FIT 400 HAUTEMENT DOSÉ est un complément alimentaire minceur innovant et hautement dosé, conçu pour favoriser l'amincissement et stimuler le métabolisme des graisses. Grâce à sa formule unique enrichie en<strong>extrait sec d’orange rouge – Morosil® (400 mg)</strong>,<strong>vinaigre de cidre</strong>,<strong>extrait sec de guarana</strong>et<strong>poudre de noix de cola</strong>, ce produit agit en synergie avec le<strong>chrome</strong>pour aider à la régulation de la glycémie et optimiser le métabolisme lipidique. Idéal pour une cure minceur naturelle, il s’intègre parfaitement dans une routine de perte de poids efficace.</p>"
+          }
         }
       },
       "block_order": [
@@ -850,7 +864,9 @@
         "question_GBR8xE",
         "question_jVa4Ha",
         "question_ntEFyx",
-        "question_zeYfVD"
+        "question_zeYfVD",
+        "question_D4bjcx",
+        "question_R6cnj3"
       ],
       "settings": {
         "title": "Questions fréquentes",
