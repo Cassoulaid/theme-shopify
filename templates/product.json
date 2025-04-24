@@ -731,13 +731,21 @@
             "question": "Comment garantissons-nous la qualité de nos produits ?",
             "answer": "<p>La qualité est au cœur de notre démarche. Nos compléments alimentaires sont élaborés dans des laboratoires certifiés, formulés par des experts de la santé et soumis à des contrôles qualité rigoureux. Chaque étape, de la sélection des matières premières à la fabrication finale, est réalisée dans le respect des normes européennes.</p>"
           }
+        },
+        "question_zeYfVD": {
+          "type": "question",
+          "settings": {
+            "question": "Quels engagements prenons-nous pour la satisfaction client ?",
+            "answer": "<p>Nous mettons un point d’honneur à offrir un service client irréprochable et personnalisé. Notre équipe, composée de professionnels expérimentés, est à l’écoute de vos besoins et prête à répondre à toutes vos questions. Nous assurons également un suivi après-vente pour garantir votre entière satisfaction.</p>"
+          }
         }
       },
       "block_order": [
         "question_eiwC3h",
         "question_GBR8xE",
         "question_jVa4Ha",
-        "question_ntEFyx"
+        "question_ntEFyx",
+        "question_zeYfVD"
       ],
       "settings": {
         "title": "Questions fréquentes",
