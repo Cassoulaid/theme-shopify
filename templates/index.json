@@ -971,7 +971,7 @@
         "criteria_kXPaaU": {
           "type": "criteria",
           "settings": {
-            "criteria_name": "Prix",
+            "criteria_name": "Durée & Prix",
             "value_1": "Cure de 2 mois, prix juste",
             "value_1_type": "positive",
             "value_2": "Cure courte, prix élevé",
@@ -985,7 +985,7 @@
         "criteria_Jqy6jE": {
           "type": "criteria",
           "settings": {
-            "criteria_name": "Durabilité",
+            "criteria_name": "Ecoresponsable",
             "value_1": "Écologique & naturel",
             "value_1_type": "positive",
             "value_2": "Non durable",
