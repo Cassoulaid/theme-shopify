@@ -245,14 +245,14 @@
           "type": "item",
           "settings": {
             "icon": "tick",
-            "text": "<p>Text</p>"
+            "text": "<p>Favorise la perte de poids</p>"
           }
         },
         "item_UWJEbj": {
           "type": "item",
           "settings": {
             "icon": "tick",
-            "text": "<p>Text</p>"
+            "text": "<p>Morosil / Vinaigre de cidre</p>"
           }
         }
       },
