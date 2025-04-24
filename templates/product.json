@@ -495,73 +495,27 @@
         "border_thickness": 0
       }
     },
-    "scrolling_logos_E4XiDh": {
-      "type": "scrolling-logos",
-      "blocks": {
-        "slide_DHTXRy": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/VOGUE_revista_-_logo.png",
-            "link": ""
-          }
-        },
-        "slide_cdNGPH": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Marie_Claire_Magazine_logo_svg.png",
-            "link": ""
-          }
-        },
-        "slide_fFwfYx": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/ELLE_Magazine_Logo.svg",
-            "link": ""
-          }
-        },
-        "slide_PwYapa": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Cosmetique_Mag_pages-to-jpg-0001-removebg-preview_7df60eff-56d9-4b97-ae59-6334e9841d99.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_DHTXRy",
-        "slide_cdNGPH",
-        "slide_fFwfYx",
-        "slide_PwYapa"
-      ],
-      "name": "SS - Scrolling Logo Cloud",
+    "testimonials_banner_8wi98R": {
+      "type": "testimonials-banner",
+      "name": "t:sections.testimonials-banner.presets.name",
       "settings": {
-        "ss-title": "Vu sur :",
-        "heading_custom": false,
-        "heading_font": "assistant_n4",
-        "header_size": 30,
-        "header_align": "center",
-        "scrolling_velocity": 10,
-        "pause_hover": false,
-        "shadow": false,
-        "sliders_mt": 16,
-        "logo_padding_top": 0,
-        "logo_padding_bottom": 0,
-        "slider_gap": 64,
-        "slider_gap_mobile": 30,
-        "slider_direction": "left",
-        "icon_width": 100,
-        "header_color": "#121212",
-        "border_color": "#ffffff",
-        "background-color": "#fafafa",
-        "slider-background-color": "#fafafa",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
+        "transparent_header": false,
+        "image": "shopify://shop_images/3.svg",
+        "image_height": "adapt",
+        "content_position": "md:items-center md:justify-center",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-center justify-center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 70,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
       }
     },
     "ss_feature_17_NxFLLw": {
@@ -688,6 +642,75 @@
         "content_width": 120,
         "border_thickness": 0,
         "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "scrolling_logos_E4XiDh": {
+      "type": "scrolling-logos",
+      "blocks": {
+        "slide_DHTXRy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/VOGUE_revista_-_logo.png",
+            "link": ""
+          }
+        },
+        "slide_cdNGPH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Marie_Claire_Magazine_logo_svg.png",
+            "link": ""
+          }
+        },
+        "slide_fFwfYx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ELLE_Magazine_Logo.svg",
+            "link": ""
+          }
+        },
+        "slide_PwYapa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Cosmetique_Mag_pages-to-jpg-0001-removebg-preview_7df60eff-56d9-4b97-ae59-6334e9841d99.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_DHTXRy",
+        "slide_cdNGPH",
+        "slide_fFwfYx",
+        "slide_PwYapa"
+      ],
+      "name": "SS - Scrolling Logo Cloud",
+      "settings": {
+        "ss-title": "Vu sur :",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "header_size": 30,
+        "header_align": "center",
+        "scrolling_velocity": 10,
+        "pause_hover": false,
+        "shadow": false,
+        "sliders_mt": 16,
+        "logo_padding_top": 0,
+        "logo_padding_bottom": 0,
+        "slider_gap": 64,
+        "slider_gap_mobile": 30,
+        "slider_direction": "left",
+        "icon_width": 100,
+        "header_color": "#121212",
+        "border_color": "#ffffff",
+        "background-color": "#fafafa",
+        "slider-background-color": "#fafafa",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
         "lazy": true
       }
     },
@@ -1204,28 +1227,6 @@
         "divider": false,
         "full_width": true,
         "rounded": false
-      }
-    },
-    "testimonials_banner_8wi98R": {
-      "type": "testimonials-banner",
-      "name": "t:sections.testimonials-banner.presets.name",
-      "settings": {
-        "transparent_header": false,
-        "image_height": "650px",
-        "content_position": "md:items-center md:justify-center",
-        "image_height_mobile": "auto",
-        "content_position_mobile": "items-center justify-center",
-        "color_text": "#ffffff",
-        "color_highlight": "#e0a580",
-        "gradient_highlight": "",
-        "color_overlay": "#171717",
-        "overlay_opacity": 70,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "divider": false,
-        "rounded": false,
-        "enable_parallax": true,
-        "parallax_direction": "vertical"
       }
     }
   },
