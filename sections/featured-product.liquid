@@ -127,51 +127,47 @@
                   assign delivery_max_formatted = delivery_max_date | date: '%d %b'
                 -%}
                 
-                <div class="shipping-timeline" {{ block.shopify_attributes }}>
-                  <div class="shipping-timeline__container flex justify-between text-center">
-                    <div class="shipping-timeline__item">
-                      <div class="shipping-timeline__icon bg-rose-50 rounded-full w-16 h-16 mx-auto flex items-center justify-center mb-4">
-                        {% render 'icon', icon: 'bag', size: 'md' %}
-                      </div>
-                      <div class="shipping-timeline__date text-base font-medium">{{ order_date_formatted }}</div>
-                      <div class="shipping-timeline__label text-sm text-opacity mt-1">{{ block.settings.order_label }}</div>
-                    </div>
-                    
-                    <div class="shipping-timeline__item">
-                      <div class="shipping-timeline__icon bg-rose-50 rounded-full w-16 h-16 mx-auto flex items-center justify-center mb-4">
-                        {% render 'icon', icon: 'truck', size: 'md' %}
-                      </div>
-                      <div class="shipping-timeline__date text-base font-medium">{{ order_date_formatted }} - {{ prep_end_formatted }}</div>
-                      <div class="shipping-timeline__label text-sm text-opacity mt-1">{{ block.settings.shipping_label }}</div>
-                    </div>
-                    
-                    <div class="shipping-timeline__item">
-                      <div class="shipping-timeline__icon bg-rose-50 rounded-full w-16 h-16 mx-auto flex items-center justify-center mb-4">
-                        {% render 'icon', icon: 'map-pin', size: 'md' %}
-                      </div>
-                      <div class="shipping-timeline__date text-base font-medium">{{ delivery_min_formatted }} - {{ delivery_max_formatted }}</div>
-                      <div class="shipping-timeline__label text-sm text-opacity mt-1">{{ block.settings.delivery_label }}</div>
-                    </div>
-                  </div>
-                </div>
-                
-                <style>
-                  .shipping-timeline {
-                    margin: 2rem 0;
-                    padding: 1rem 0;
-                  }
-                  
-                  .shipping-timeline__container {
-                    gap: 1.5rem;
-                  }
-                  
-                  @media screen and (max-width: 640px) {
-                    .shipping-timeline__container {
-                      flex-direction: column;
-                      gap: 2rem;
-                    }
-                  }
-                </style>
+{%- when 'ingredients' -%}
+  {%- if block.settings.title != blank or block.settings.ingredients != blank -%}
+    <div class="product-ingredients" {{ block.shopify_attributes }}>
+      {% if block.settings.title != blank %}
+        <h3 class="ingredients-title text-base font-medium mb-3">{{ block.settings.title }}</h3>
+      {% endif %}
+      
+      {% if block.settings.ingredients != blank %}
+        <div class="ingredients-list flex flex-wrap gap-2">
+          {% assign ingredients = block.settings.ingredients | split: ',' %}
+          {% for ingredient in ingredients %}
+            <div class="ingredient-tag border rounded-full px-4 py-1.5 text-sm" 
+                 style="border-color: {{ block.settings.border_color }}; 
+                        color: {{ block.settings.text_color }}; 
+                        background-color: {{ block.settings.background_color }};">
+              {{ ingredient | strip }}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+    
+    <style>
+      .product-ingredients {
+        margin: 1.5rem 0;
+      }
+      
+      .ingredients-title {
+        color: {{ block.settings.title_color }};
+      }
+      
+      .ingredient-tag {
+        transition: all 0.2s ease;
+      }
+      
+      .ingredient-tag:hover {
+        background-color: {{ block.settings.hover_background_color }};
+        color: {{ block.settings.hover_text_color }};
+      }
+    </style>
+  {%- endif -%}
 
               {%- when 'text' -%}
                 {%- if block.settings.text != blank -%}
