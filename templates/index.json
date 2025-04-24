@@ -416,8 +416,8 @@
           "type": "item",
           "settings": {
             "icon": "heart",
-            "title": "CONTRÔLE DU POIDS",
-            "text": "Grâce au Morosil®, MOROFIT aide à réduire l’accumulation de graisses et favorise une silhouette affinée naturellement."
+            "title": "Hautement dosé",
+            "text": "400 mg de Morosil, le dosage cliniquement prouvé. MOROFIT aide à réduire l’accumulation de graisses et favorise une silhouette affinée naturellement."
           }
         },
         "item_7BYPjp": {
@@ -470,10 +470,10 @@
         "item_hcAffK"
       ],
       "settings": {
-        "heading": "<p><strong>MORO FIT 400 : gélules minceur naturelles pour une perte de poids rapide, efficace et sans danger.</strong></p>",
+        "heading": "<p><strong>MORO FIT 400 : Les bienfaits de nos gélules minceur naturelles </strong></p>",
         "heading_custom": false,
         "heading_font": "montserrat_n4",
-        "heading_size": 38,
+        "heading_size": 40,
         "heading_size_mobile": 32,
         "heading_height": 150,
         "heading_align": "center",
