@@ -167,7 +167,7 @@
         "slide_hxD8D3"
       ],
       "settings": {
-        "ss-title": "",
+        "ss-title": "Vu sur :",
         "heading_custom": false,
         "heading_font": "assistant_n4",
         "header_size": 30,
@@ -184,8 +184,8 @@
         "icon_width": 100,
         "header_color": "#121212",
         "border_color": "#ffffff",
-        "background-color": "#ffffff",
-        "slider-background-color": "#ffffff",
+        "background-color": "#fafafa",
+        "slider-background-color": "#fafafa",
         "margin_top": 0,
         "margin_bottom": 0,
         "padding_top": 24,
