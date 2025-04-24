@@ -129,7 +129,7 @@
       ],
       "settings": {
         "invert_newsletter_others": false,
-        "enable_newsletter": true,
+        "enable_newsletter": false,
         "newsletter_heading": "Inscrivez-vous a notre NewsLetter",
         "newsletter_heading_size": "md:title-lg",
         "newsletter_text": "",
