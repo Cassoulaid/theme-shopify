@@ -422,7 +422,7 @@
           "settings": {
             "days": 10,
             "range": true,
-            "second_days": 0,
+            "second_days": 13,
             "weekend": true,
             "title": "Expedition sous 10 jours"
           }
