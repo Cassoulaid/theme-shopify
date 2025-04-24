@@ -245,7 +245,7 @@
               if product.selected_or_first_available_variant.available == false or quantity_rule_soldout
                 echo 'products.product.sold_out' | t
               elsif product.template_suffix != 'pre-order'
-                echo 'Commandez-votre cure de 2 mois' 
+                echo 'Commandez-votre cure de 2 mois'
               else
                 echo 'products.product.pre_order' | t
               endif
