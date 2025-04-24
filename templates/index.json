@@ -575,8 +575,8 @@
           "type": "item",
           "settings": {
             "icon": "atc",
-            "title": "Key feature",
-            "text": "Describe a key feature in detail.",
+            "title": "Morosil + vinaigre de cidre",
+            "text": "Une synergie naturelle pour activer la combustion des graisses.",
             "column": "1"
           }
         },
@@ -584,8 +584,8 @@
           "type": "item",
           "settings": {
             "icon": "atc",
-            "title": "Key feature",
-            "text": "Describe a key feature in detail.",
+            "title": "Une approche minceur intelligente.",
+            "text": "Zéro danger, tout est pensé pour respecter votre rythme.",
             "column": "2"
           }
         },
