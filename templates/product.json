@@ -495,6 +495,75 @@
         "border_thickness": 0
       }
     },
+    "scrolling_logos_E4XiDh": {
+      "type": "scrolling-logos",
+      "blocks": {
+        "slide_DHTXRy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/VOGUE_revista_-_logo.png",
+            "link": ""
+          }
+        },
+        "slide_cdNGPH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Marie_Claire_Magazine_logo_svg.png",
+            "link": ""
+          }
+        },
+        "slide_fFwfYx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ELLE_Magazine_Logo.svg",
+            "link": ""
+          }
+        },
+        "slide_PwYapa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Cosmetique_Mag_pages-to-jpg-0001-removebg-preview_7df60eff-56d9-4b97-ae59-6334e9841d99.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_DHTXRy",
+        "slide_cdNGPH",
+        "slide_fFwfYx",
+        "slide_PwYapa"
+      ],
+      "name": "SS - Scrolling Logo Cloud",
+      "settings": {
+        "ss-title": "Vu sur :",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "header_size": 30,
+        "header_align": "center",
+        "scrolling_velocity": 10,
+        "pause_hover": false,
+        "shadow": false,
+        "sliders_mt": 16,
+        "logo_padding_top": 0,
+        "logo_padding_bottom": 0,
+        "slider_gap": 30,
+        "slider_gap_mobile": 30,
+        "slider_direction": "left",
+        "icon_width": 130,
+        "header_color": "#121212",
+        "border_color": "#ffffff",
+        "background-color": "#ffffff",
+        "slider-background-color": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "ss_feature_17_NxFLLw": {
       "type": "ss-feature-17",
       "blocks": {
@@ -1145,6 +1214,7 @@
     "ss_payment_icon_7YfLGL",
     "trust_badge_2_4GWDpq",
     "ss_delivery_timer_e9Tf48",
+    "scrolling_logos_E4XiDh",
     "ss_feature_17_NxFLLw",
     "ss_testimonial_16_TJ7Q9F",
     "ss_small_faq_riH9XB",
