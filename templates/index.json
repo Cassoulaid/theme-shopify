@@ -813,24 +813,6 @@
         "lazy": true
       }
     },
-    "custom_liquid_hVMiKx": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "liquid": "<section class=\"py-16 px-4 bg-white\">\n  <div class=\"max-w-5xl mx-auto\">\n    <div class=\"overflow-x-auto\">\n      <table class=\"min-w-[700px] w-full border-separate border-spacing-y-4 text-sm md:text-base\">\n        <thead>\n          <tr>\n            <th class=\"text-left text-gray-700 font-semibold\"></th>\n            <th class=\"bg-[#e9ddff] rounded-tl-xl text-center font-semibold py-3 px-4 w-[200px]\">\n              DOCTEUR.V<br>\n              <img src=\"{{ 'moro-fit.png' | asset_url }}\" alt=\"Moro Fit 400\" class=\"mx-auto w-16 h-auto mt-2\">\n            </th>\n            <th class=\"bg-[#f3f3f3] rounded-tr-xl text-center font-semibold py-3 px-4 w-[200px]\">\n              Autres marques<br>\n              <img src=\"{{ 'other-product.png' | asset_url }}\" alt=\"Autres produits\" class=\"mx-auto w-16 h-auto mt-2\">\n            </th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr class=\"bg-white shadow-sm rounded-xl\">\n            <td class=\"py-3 px-2 font-medium text-gray-800\">100% naturel & hautement dosé</td>\n            <td class=\"text-center\">✔️</td>\n            <td class=\"text-center text-red-600\">❌</td>\n          </tr>\n          <tr class=\"bg-white shadow-sm rounded-xl\">\n            <td class=\"py-3 px-2 font-medium text-gray-800\">Réduction du tour de taille</td>\n            <td class=\"text-center\">✔️</td>\n            <td class=\"text-center text-gray-400\">—</td>\n          </tr>\n          <tr class=\"bg-white shadow-sm rounded-xl\">\n            <td class=\"py-3 px-2 font-medium text-gray-800\">Cure de 2 mois, excellent prix</td>\n            <td class=\"text-center\">✔️</td>\n            <td class=\"text-center text-red-600\">❌</td>\n          </tr>\n          <tr class=\"bg-white shadow-sm rounded-xl\">\n            <td class=\"py-3 px-2 font-medium text-gray-800\">Écologique</td>\n            <td class=\"text-center\">✔️</td>\n            <td class=\"text-center text-red-600\">❌</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n\n    <div class=\"text-center mt-8\">\n      <a href=\"#cure\" class=\"bg-black text-white text-sm font-semibold px-6 py-3 rounded-md hover:bg-gray-900 transition\">Je commence ma cure</a>\n      <p class=\"text-xs text-gray-600 mt-2\">Livraison en 2-4 jours</p>\n    </div>\n  </div>\n</section>",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "narrow": false,
-        "rounded": false
-      }
-    },
     "ss_tableau_z9JAYm": {
       "type": "ss-tableau",
       "blocks": {
@@ -916,6 +898,112 @@
         "criteria_McJfYE",
         "criteria_k7rRKM",
         "criteria_WaNYkc"
+      ],
+      "settings": {
+        "title": "MORO FIT 400 : un complément miceur hautement dosé",
+        "subtitle": "<p>Les avantages de notre cure de MOROSIL<strong>®</strong></p>",
+        "button_text": "Je commence ma cure de 2 mois",
+        "button_link": "shopify://products/morosil-400",
+        "button_border_radius": 26,
+        "background_color": "#fafafa",
+        "title_color": "#000000",
+        "subtitle_color": "#4a4a4a",
+        "criteria_text_color": "#333333",
+        "feature_text_color": "#333333",
+        "positive_icon_color": "#4caf50",
+        "negative_icon_color": "#f44336",
+        "neutral_icon_color": "#9e9e9e",
+        "button_background": "#dff2ff",
+        "button_text_color": "#171717",
+        "button_hover_background": "#5d9bd5",
+        "button_hover_text_color": "#ffffff"
+      }
+    },
+    "ss_tableau_HG4Pia": {
+      "type": "ss-tableau",
+      "blocks": {
+        "brand_iJANL9": {
+          "type": "brand",
+          "settings": {
+            "brand_name": "DOCTEUR.V",
+            "highlight_column": true,
+            "column_background_color": "#dff2ff",
+            "brand_name_color": "#000000"
+          }
+        },
+        "brand_DFB6Nz": {
+          "type": "brand",
+          "settings": {
+            "brand_name": "AUTRES",
+            "highlight_column": false,
+            "column_background_color": "#ffffff",
+            "brand_name_color": "#000000"
+          }
+        },
+        "criteria_HVLbix": {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Composition",
+            "value_1": "Hautement dosé",
+            "value_1_type": "positive",
+            "value_2": "Produits chimiques",
+            "value_2_type": "negative",
+            "value_3": "Synthétique",
+            "value_3_type": "negative",
+            "value_4": "Non spécifié",
+            "value_4_type": "positive"
+          }
+        },
+        "criteria_qYXN4H": {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Efficacité",
+            "value_1": "Réduction tour de taille",
+            "value_1_type": "positive",
+            "value_2": "Résultats moyens",
+            "value_2_type": "neutral",
+            "value_3": "Résultats faibles",
+            "value_3_type": "negative",
+            "value_4": "Non spécifié",
+            "value_4_type": "positive"
+          }
+        },
+        "criteria_kXPaaU": {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Prix",
+            "value_1": "Cure de 2 mois",
+            "value_1_type": "positive",
+            "value_2": "Cure courte / prix élevé",
+            "value_2_type": "negative",
+            "value_3": "Abordable mais peu efficace",
+            "value_3_type": "neutral",
+            "value_4": "Non spécifié",
+            "value_4_type": "positive"
+          }
+        },
+        "criteria_Jqy6jE": {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Durabilité",
+            "value_1": "Écologique",
+            "value_1_type": "positive",
+            "value_2": "Non durable",
+            "value_2_type": "negative",
+            "value_3": "Partiellement écologique",
+            "value_3_type": "neutral",
+            "value_4": "Non spécifié",
+            "value_4_type": "positive"
+          }
+        }
+      },
+      "block_order": [
+        "brand_iJANL9",
+        "brand_DFB6Nz",
+        "criteria_HVLbix",
+        "criteria_qYXN4H",
+        "criteria_kXPaaU",
+        "criteria_Jqy6jE"
       ],
       "settings": {
         "title": "MORO FIT 400 : un complément miceur hautement dosé",
@@ -1492,8 +1580,8 @@
     "ss_feature_13_ga68tn",
     "before_after_image_5_NFxUCc",
     "ss_feature_17_WNPCJg",
-    "custom_liquid_hVMiKx",
     "ss_tableau_z9JAYm",
+    "ss_tableau_HG4Pia",
     "testimonials_banner_CG7YnM",
     "ss_testimonial_16_7UaE8B",
     "countdown-timer",
