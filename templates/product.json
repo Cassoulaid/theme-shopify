@@ -707,29 +707,29 @@
         "question_eiwC3h": {
           "type": "question",
           "settings": {
-            "question": "Y-a-t'il des contre-indications ?",
-            "answer": "<p>Chacune de nos cures est élaborée avec le plus grand soin, cependant il est nécessaire de prendre en considération votre état physiologique ainsi que vos pathologies pour déterminer la solution qui vous correspond le mieux.</p>"
+            "question": "Qui formule nos produits ?",
+            "answer": "<p>Tous nos produits sont formulés par des médecins et des pharmaciens expérimentés. Ce savoir-faire médical et pharmaceutique garantit que chaque formule est étudiée avec rigueur et répond aux normes les plus strictes en matière de sécurité et d’efficacité.</p>"
           }
         },
         "question_GBR8xE": {
           "type": "question",
           "settings": {
-            "question": "Y-a-t'il des contre-indications ?",
-            "answer": "<p>Chacune de nos cures est élaborée avec le plus grand soin, cependant il est nécessaire de prendre en considération votre état physiologique ainsi que vos pathologies pour déterminer la solution qui vous correspond le mieux.</p>"
+            "question": "Où sont fabriqués vos produits ?",
+            "answer": "<p>Nos compléments alimentaires sont fabriqués en laboratoire français, situé dans le Nord de la France. Nous sélectionnons rigoureusement nos actifs auprès de fournisseurs reconnus pour leur excellence afin de garantir la pureté et la performance de chaque produit.</p>"
           }
         },
         "question_jVa4Ha": {
           "type": "question",
           "settings": {
-            "question": "Y-a-t'il des contre-indications ?",
-            "answer": "<p>Chacune de nos cures est élaborée avec le plus grand soin, cependant il est nécessaire de prendre en considération votre état physiologique ainsi que vos pathologies pour déterminer la solution qui vous correspond le mieux.</p>"
+            "question": "En combien de temps vais-je recevoir mon colis ?",
+            "answer": "<p>Nous nous engageons à expédier vos commandes sous <strong>5 jours ouvrés</strong>. Une fois expédié, vous recevrez un numéro de suivi pour suivre l’acheminement de votre colis, vous assurant ainsi une livraison rapide et sécurisée.</p>"
           }
         },
         "question_ntEFyx": {
           "type": "question",
           "settings": {
-            "question": "Y-a-t'il des contre-indications ?",
-            "answer": "<p>Chacune de nos cures est élaborée avec le plus grand soin, cependant il est nécessaire de prendre en considération votre état physiologique ainsi que vos pathologies pour déterminer la solution qui vous correspond le mieux.</p>"
+            "question": "Comment garantissons-nous la qualité de nos produits ?",
+            "answer": "<p>La qualité est au cœur de notre démarche. Nos compléments alimentaires sont élaborés dans des laboratoires certifiés, formulés par des experts de la santé et soumis à des contrôles qualité rigoureux. Chaque étape, de la sélection des matières premières à la fabrication finale, est réalisée dans le respect des normes européennes.</p>"
           }
         }
       },
