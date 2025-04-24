@@ -958,7 +958,7 @@
           "type": "criteria",
           "settings": {
             "criteria_name": "Efficacité",
-            "value_1": "Réduction tour de taille",
+            "value_1": "Réduction de la taille",
             "value_1_type": "positive",
             "value_2": "Résultats moyens",
             "value_2_type": "neutral",
@@ -972,9 +972,9 @@
           "type": "criteria",
           "settings": {
             "criteria_name": "Prix",
-            "value_1": "Cure de 2 mois",
+            "value_1": "Cure de 2 mois, prix juste",
             "value_1_type": "positive",
-            "value_2": "Cure courte / prix élevé",
+            "value_2": "Cure courte, prix élevé",
             "value_2_type": "negative",
             "value_3": "Abordable mais peu efficace",
             "value_3_type": "neutral",
@@ -986,7 +986,7 @@
           "type": "criteria",
           "settings": {
             "criteria_name": "Durabilité",
-            "value_1": "Écologique",
+            "value_1": "Écologique & naturel",
             "value_1_type": "positive",
             "value_2": "Non durable",
             "value_2_type": "negative",
