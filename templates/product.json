@@ -43,12 +43,12 @@
           "settings": {
             "title": "Ingrédients sélectionnés pour leur efficacité :",
             "ingredients": "Extrait sec d’orange rouge, Vinaigre de cidre, Extrait sec de guarana, Poudre de noix de cola",
-            "title_color": "#333333",
-            "text_color": "#333333",
+            "title_color": "#181717",
+            "text_color": "#181717",
             "background_color": "#dff2ff",
             "border_color": "#dff2ff",
             "hover_text_color": "#ffffff",
-            "hover_background_color": "#5d9bd5"
+            "hover_background_color": "#dff2ff"
           }
         },
         "liquid_jRYak8": {
