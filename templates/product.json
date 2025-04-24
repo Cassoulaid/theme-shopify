@@ -420,9 +420,9 @@
         "item_nd8TcV": {
           "type": "item",
           "settings": {
-            "days": 10,
+            "days": 4,
             "range": true,
-            "second_days": 13,
+            "second_days": 10,
             "weekend": true,
             "title": "Expedition sous 10 jours"
           }
