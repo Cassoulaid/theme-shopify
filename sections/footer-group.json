@@ -99,9 +99,18 @@
         "link_list-2": {
           "type": "link_list",
           "settings": {
-            "heading": "Information",
+            "heading": "",
             "menu": "footer",
             "container_width": 49,
+            "opened": false
+          }
+        },
+        "link_list_pdLNhh": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "pied-de-page",
+            "container_width": 50,
             "opened": false
           }
         },
@@ -125,6 +134,7 @@
       "block_order": [
         "logo_social",
         "link_list-2",
+        "link_list_pdLNhh",
         "brand_information"
       ],
       "settings": {
