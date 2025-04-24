@@ -414,17 +414,17 @@
             "range": false,
             "second_days": 2,
             "weekend": true,
-            "title": "Commandé"
+            "title": "Précommandes ce week-end"
           }
         },
         "item_nd8TcV": {
           "type": "item",
           "settings": {
-            "days": 1,
+            "days": 6,
             "range": true,
-            "second_days": 2,
+            "second_days": 0,
             "weekend": true,
-            "title": "Prêt pour la livraison"
+            "title": "Expedition sous 10 jours"
           }
         },
         "item_mfdigA": {
@@ -434,7 +434,7 @@
             "range": true,
             "second_days": 6,
             "weekend": true,
-            "title": "Livré"
+            "title": "Les gélules arrivent avant l'été"
           }
         }
       },
