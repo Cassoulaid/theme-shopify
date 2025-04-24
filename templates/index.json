@@ -692,10 +692,10 @@
         "heading_K6RNHt": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "<p><strong>Docteur V, c’est l’alliance du naturel et de la science.</strong></p>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
-            "heading_size": 28,
+            "heading_size": 18,
             "heading_size_mobile": 18,
             "heading_height": 130,
             "heading_mt": 0,
@@ -753,7 +753,7 @@
         "body_gap_mobile": 32,
         "content_horizontal_align": "center",
         "content_horizontal_align_mobile": "center",
-        "heading": "<p>Des résultats concrets, prouvés par nos utilisateurs</p>",
+        "heading": "<p><strong>Testé, approuvé, recommandé.</strong></p>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 36,
@@ -828,7 +828,7 @@
         "brand_6teD3Y": {
           "type": "brand",
           "settings": {
-            "brand_name": "Autres marques",
+            "brand_name": "AUTRES",
             "highlight_column": false,
             "column_background_color": "#ffffff",
             "brand_name_color": "#000000"
@@ -838,9 +838,9 @@
           "type": "criteria",
           "settings": {
             "criteria_name": "Composition",
-            "value_1": "100% naturel",
+            "value_1": "Hautement dosé, 100% naturel",
             "value_1_type": "positive",
-            "value_2": "Produits chimiques",
+            "value_2": "Produits chimiques / additifs",
             "value_2_type": "negative",
             "value_3": "Synthétique",
             "value_3_type": "negative",
@@ -852,7 +852,7 @@
           "type": "criteria",
           "settings": {
             "criteria_name": "Efficacité",
-            "value_1": "Résultats visibles",
+            "value_1": "Résultats visibles (réduction du tour de taille)",
             "value_1_type": "positive",
             "value_2": "Résultats moyens",
             "value_2_type": "neutral",
@@ -866,9 +866,9 @@
           "type": "criteria",
           "settings": {
             "criteria_name": "Prix",
-            "value_1": "Excellent rapport qualité/prix",
+            "value_1": "Cure de 2 mois, excellent rapport qualité / prix",
             "value_1_type": "positive",
-            "value_2": "Coûteux",
+            "value_2": "Cure courte / prix élevé",
             "value_2_type": "negative",
             "value_3": "Abordable mais peu efficace",
             "value_3_type": "neutral",
@@ -900,8 +900,8 @@
         "criteria_WaNYkc"
       ],
       "settings": {
-        "title": "Pourquoi choisir notre marque ?",
-        "subtitle": "<p>Découvrez les avantages de notre marque par rapport à la concurrence.</p>",
+        "title": "MORO FIT 400 : un complément miceur hautement dosé",
+        "subtitle": "<p>Les avantages de notre cure de MOROSIL<strong>®</strong></p>",
         "button_text": "Je commande ma cure de 2 mois",
         "button_link": "shopify://products/morosil-400",
         "button_border_radius": 26,
