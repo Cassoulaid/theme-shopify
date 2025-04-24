@@ -813,6 +813,24 @@
         "lazy": true
       }
     },
+    "custom_liquid_hVMiKx": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "<section class=\"py-16 px-4 bg-white\">\n  <div class=\"max-w-5xl mx-auto\">\n    <div class=\"overflow-x-auto\">\n      <table class=\"min-w-[700px] w-full border-separate border-spacing-y-4 text-sm md:text-base\">\n        <thead>\n          <tr>\n            <th class=\"text-left text-gray-700 font-semibold\"></th>\n            <th class=\"bg-[#e9ddff] rounded-tl-xl text-center font-semibold py-3 px-4 w-[200px]\">\n              DOCTEUR.V<br>\n              <img src=\"{{ 'moro-fit.png' | asset_url }}\" alt=\"Moro Fit 400\" class=\"mx-auto w-16 h-auto mt-2\">\n            </th>\n            <th class=\"bg-[#f3f3f3] rounded-tr-xl text-center font-semibold py-3 px-4 w-[200px]\">\n              Autres marques<br>\n              <img src=\"{{ 'other-product.png' | asset_url }}\" alt=\"Autres produits\" class=\"mx-auto w-16 h-auto mt-2\">\n            </th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr class=\"bg-white shadow-sm rounded-xl\">\n            <td class=\"py-3 px-2 font-medium text-gray-800\">100% naturel & hautement dosé</td>\n            <td class=\"text-center\">✔️</td>\n            <td class=\"text-center text-red-600\">❌</td>\n          </tr>\n          <tr class=\"bg-white shadow-sm rounded-xl\">\n            <td class=\"py-3 px-2 font-medium text-gray-800\">Réduction du tour de taille</td>\n            <td class=\"text-center\">✔️</td>\n            <td class=\"text-center text-gray-400\">—</td>\n          </tr>\n          <tr class=\"bg-white shadow-sm rounded-xl\">\n            <td class=\"py-3 px-2 font-medium text-gray-800\">Cure de 2 mois, excellent prix</td>\n            <td class=\"text-center\">✔️</td>\n            <td class=\"text-center text-red-600\">❌</td>\n          </tr>\n          <tr class=\"bg-white shadow-sm rounded-xl\">\n            <td class=\"py-3 px-2 font-medium text-gray-800\">Écologique</td>\n            <td class=\"text-center\">✔️</td>\n            <td class=\"text-center text-red-600\">❌</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n\n    <div class=\"text-center mt-8\">\n      <a href=\"#cure\" class=\"bg-black text-white text-sm font-semibold px-6 py-3 rounded-md hover:bg-gray-900 transition\">Je commence ma cure</a>\n      <p class=\"text-xs text-gray-600 mt-2\">Livraison en 2-4 jours</p>\n    </div>\n  </div>\n</section>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
     "ss_tableau_z9JAYm": {
       "type": "ss-tableau",
       "blocks": {
@@ -1474,6 +1492,7 @@
     "ss_feature_13_ga68tn",
     "before_after_image_5_NFxUCc",
     "ss_feature_17_WNPCJg",
+    "custom_liquid_hVMiKx",
     "ss_tableau_z9JAYm",
     "testimonials_banner_CG7YnM",
     "ss_testimonial_16_7UaE8B",
