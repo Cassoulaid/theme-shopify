@@ -358,7 +358,7 @@
           "type": "item",
           "settings": {
             "icon": "return_arrow",
-            "title": "<p>Expedition le jour même</p>",
+            "title": "<p>Précommande - expédition sous 10 jours </p>",
             "subtitle": ""
           }
         },
