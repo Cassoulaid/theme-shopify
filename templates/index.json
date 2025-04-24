@@ -649,7 +649,7 @@
         "item_text_margin_top_mobile": 10,
         "left_image": "shopify://shop_images/7243807a-9aec-4ba6-b800-6d3a12036232_1.jpg",
         "right_image": "shopify://shop_images/7243807a-9aec-4ba6-b800-6d3a12036232.jpg",
-        "image_radius": 410,
+        "image_radius": 190,
         "image_border_thickness": 0,
         "image_ratio": "original",
         "image_ratio_mobile": "square",
