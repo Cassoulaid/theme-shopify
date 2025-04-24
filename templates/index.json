@@ -14,6 +14,7 @@
       "blocks": {
         "heading_m3qaft": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "MOROFIT 400",
             "heading_size": "title-lg tracking-heading",
@@ -24,6 +25,7 @@
         },
         "text_b6CwgB": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>L'innovation dans une seule gélule </p>",
             "text_size": "subtext-lg",
@@ -36,6 +38,7 @@
         },
         "button_LG8DyB": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Acheter Maintenant",
             "button_link": "shopify://products/morosil-400",
