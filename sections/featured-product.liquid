@@ -141,7 +141,8 @@
             <div class="ingredient-tag border rounded-full px-4 py-1.5 text-sm" 
                  style="border-color: {{ block.settings.border_color }}; 
                         color: {{ block.settings.text_color }}; 
-                        background-color: {{ block.settings.background_color }};">
+                        background-color: {{ block.settings.background_color }};
+                        padding: 15px;">
               {{ ingredient | strip }}
             </div>
           {% endfor %}
