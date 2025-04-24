@@ -708,7 +708,7 @@
         "text_8yXGCN": {
           "type": "text",
           "settings": {
-            "text": "<p>Grâce à sa formule innovante à base de Morosil®, MOROFIT 400 a déjà transformé le quotidien de nombreuses personnes.</p>",
+            "text": "<p>Grâce à sa formule innovante à base de Morosil®, MORO FIT 400 a déjà transformé le quotidien de nombreuses personnes.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 16,
@@ -1311,7 +1311,7 @@
           "type": "item",
           "settings": {
             "question": "Est-ce que MORO FIT 400 est fabriqué en France ?",
-            "answer": "<p>Absolument ! MOROSIL 400 HAUTEMENT DOSÉ est fabriqué dans un<strong>laboratoire français certifié 🇫🇷</strong>, garantissant un contrôle qualité strict et une production conforme aux normes européennes. Tous les<strong>actifs sont soigneusement sourcés</strong>auprès de fournisseurs reconnus pour leur excellence, assurant ainsi une qualité optimale et une efficacité prouvée pour votre cure minceur. Ce processus de fabrication garantit non seulement la<strong>pureté des ingrédients</strong>, mais aussi la sécurité et la performance du complément alimentaire<br/><br/><br/></p>"
+            "answer": "<p>Absolument ! MORO FIT 400 HAUTEMENT DOSÉ est fabriqué dans un <strong>laboratoire français certifié 🇫🇷</strong>, garantissant un contrôle qualité strict et une production conforme aux normes européennes. Tous les <strong>actifs sont soigneusement sourcés </strong>auprès de fournisseurs reconnus pour leur excellence, assurant ainsi une qualité optimale et une efficacité prouvée pour votre cure minceur. Ce processus de fabrication garantit non seulement la <strong>pureté des ingrédients</strong>, mais aussi la sécurité et la performance du complément alimentaire<br/><br/><br/></p>"
           }
         },
         "item_VFAp7B": {
@@ -1445,6 +1445,24 @@
         "content_width": 120,
         "border_thickness": 0
       }
+    },
+    "custom_liquid_VPykEm": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "liquid": "<div class=\"klaviyo-form-UJDvGS\"></div>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
     }
   },
   "order": [
@@ -1460,6 +1478,7 @@
     "testimonials_banner_CG7YnM",
     "ss_testimonial_16_7UaE8B",
     "countdown-timer",
-    "ss_faq_9_BkMFP3"
+    "ss_faq_9_BkMFP3",
+    "custom_liquid_VPykEm"
   ]
 }
