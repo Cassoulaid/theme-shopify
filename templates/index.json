@@ -247,7 +247,7 @@
         "heading_mt": 10,
         "heading_align": "left",
         "heading_align_mobile": "left",
-        "text": "<p>Développées par des <strong>professionnels de santé</strong>, les cures Docteur V associent des actifs rigoureusement sélectionnés</p><p>Chaque boîte contient <strong>une cure de 2 mois</strong>, à base de <strong>400 mg de Morosil® </strong>par jour — un actif reconnu cliniquement pour favoriser la perte de poids.</p>",
+        "text": "<p>Développées par des <strong>professionnels de santé</strong>, les cures Docteur V associent des actifs rigoureusement sélectionnés</p><p>Chaque boîte contient <strong>une cure de 2 mois</strong>, à base de <strong>400 mg de Morosil®  </strong>par jour — un actif reconnu cliniquement pour favoriser la perte de poids. Une formule innovante qui respecte votre corps.</p>",
         "text_custom": false,
         "text_font": "montserrat_n4",
         "text_size": 18,
@@ -366,7 +366,7 @@
           "type": "benefit_card",
           "settings": {
             "title": "Hautement dosé",
-            "content": "<p><strong>Dosages optimaux, sans ingrédients superflus</strong></p><ul><li><strong>Morosil® (400 mg) - </strong>Extrait sec d'orange rouge </li><li><strong>Vinaigre de cidre </strong>(52,5 mg)</li><li><strong>Extrait sec de guarana</strong> (30 mg) avec 3,3 mg de caféine</li><li><strong>Poudre de noix de cola</strong> (40 mg) apportant également 3,3 mg de caféine</li><li><strong>Chrome</strong> (39 µg, 98 % VNR)</li></ul>",
+            "content": "<p><strong>Dosages optimaux, sans ingrédients superflus</strong></p><ul><li><strong>Morosil® (400 mg) - </strong>Extrait sec d'orange rouge </li><li><strong>Vinaigre de cidre </strong>(52,5 mg)</li><li><strong>Extrait sec de guarana</strong> (30 mg) avec 3,3 mg de caféine</li><li><strong>Poudre de noix de cola</strong> (40 mg) apportant également 3,3 mg de caféine</li><li><strong>Chrome</strong> (39 µg)</li></ul>",
             "icon": "star"
           }
         },
