@@ -50,6 +50,7 @@
         "subheading_zzbXDR",
         "heading_qEtczb"
       ],
+      "disabled": true,
       "settings": {
         "transparent_header": false,
         "image_height": "650px",
