@@ -972,9 +972,9 @@
           "type": "criteria",
           "settings": {
             "criteria_name": "Durée & Prix",
-            "value_1": "Cure de 2 mois, prix juste",
+            "value_1": "Cure de 2 mois",
             "value_1_type": "positive",
-            "value_2": "Cure courte, prix élevé",
+            "value_2": "Prix élevé",
             "value_2_type": "negative",
             "value_3": "Abordable mais peu efficace",
             "value_3_type": "neutral",
