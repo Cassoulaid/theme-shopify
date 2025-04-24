@@ -559,6 +559,133 @@
         "lazy": true
       }
     },
+    "before_after_image_5_NFxUCc": {
+      "type": "before-after-image-5",
+      "blocks": {
+        "item_m6Ybzd": {
+          "type": "item",
+          "settings": {
+            "icon": "atc",
+            "title": "Key feature",
+            "text": "Describe a key feature in detail.",
+            "column": "1"
+          }
+        },
+        "item_dgBaJh": {
+          "type": "item",
+          "settings": {
+            "icon": "atc",
+            "title": "Key feature",
+            "text": "Describe a key feature in detail.",
+            "column": "1"
+          }
+        },
+        "item_eABTfP": {
+          "type": "item",
+          "settings": {
+            "icon": "atc",
+            "title": "Key feature",
+            "text": "Describe a key feature in detail.",
+            "column": "2"
+          }
+        },
+        "item_LmU9bG": {
+          "type": "item",
+          "settings": {
+            "icon": "atc",
+            "title": "Key feature",
+            "text": "Describe a key feature in detail.",
+            "column": "2"
+          }
+        }
+      },
+      "block_order": [
+        "item_m6Ybzd",
+        "item_dgBaJh",
+        "item_eABTfP",
+        "item_LmU9bG"
+      ],
+      "name": "SS - Before / After #5",
+      "settings": {
+        "content_align": "center",
+        "content_align_mobile": "center",
+        "title": "<h2>Before/after heading</h2>",
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 36,
+        "title_size_mobile": 26,
+        "title_height": 130,
+        "text": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 20,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_margin_top": 20,
+        "text_margin_top_mobile": 16,
+        "body_gap": 100,
+        "body_gap_mobile": 24,
+        "body_margin_top": 50,
+        "body_margin_top_mobile": 30,
+        "items_gap": 30,
+        "items_gap_mobile": 30,
+        "item_content_align": "center",
+        "item_content_align_mobile": "center",
+        "icon_size": 44,
+        "icon_size_mobile": 36,
+        "item_title_custom": false,
+        "item_title_font": "josefin_sans_n4",
+        "item_title_size": 18,
+        "item_title_size_mobile": 14,
+        "item_title_height": 130,
+        "item_title_margin_top": 10,
+        "item_title_margin_top_mobile": 10,
+        "item_text_custom": false,
+        "item_text_font": "josefin_sans_n4",
+        "item_text_size": 16,
+        "item_text_size_mobile": 13,
+        "item_text_height": 150,
+        "item_text_margin_top": 10,
+        "item_text_margin_top_mobile": 10,
+        "left_image": "shopify://shop_images/7243807a-9aec-4ba6-b800-6d3a12036232_1.jpg",
+        "right_image": "shopify://shop_images/7243807a-9aec-4ba6-b800-6d3a12036232.jpg",
+        "image_radius": 410,
+        "image_border_thickness": 0,
+        "image_ratio": "original",
+        "image_ratio_mobile": "square",
+        "btn_size": 56,
+        "btn_size_mobile": 56,
+        "btn_arrow_size": 80,
+        "btn_arrow_size_mobile": 80,
+        "btn_border_thickness": 0,
+        "title_color": "#2E2A39",
+        "text_color": "#625F6B",
+        "icon_color": "#000000",
+        "item_title_color": "#2E2A39",
+        "item_text_color": "#625F6B",
+        "btn_bg_color": "#FFFFFF",
+        "btn_arrow_color": "#000000",
+        "btn_border_color": "#000000",
+        "line_color": "#FFFFFF",
+        "image_border_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "image-comparison": {
       "type": "image-comparison",
       "blocks": {
@@ -1385,6 +1512,7 @@
     "hero_6_rbXhKP",
     "ss_about_jLFatp",
     "ss_feature_13_ga68tn",
+    "before_after_image_5_NFxUCc",
     "image-comparison",
     "ss_feature_17_WNPCJg",
     "ss_tableau_z9JAYm",
