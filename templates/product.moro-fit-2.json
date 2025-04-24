@@ -12,6 +12,12 @@
     "featured_product_bByzp4": {
       "type": "featured-product",
       "blocks": {
+        "liquid_y8fUBW": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .pill-container {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 10px;\n    padding: 10px 0;\n    margin-bottom: 16px;\n  }\n\n  .pill {\n    flex: 1 1 calc(30% - 10px);\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding: 8px 12px;\n    border: 1.5px solid #355CA0; /* bleu foncé */\n    border-radius: 12px;\n    background-color: #E7F0FF; /* bleu clair */\n    color: #223555; /* texte foncé mais doux */\n    font-family: Arial, sans-serif;\n    font-size: 13px;\n    font-weight: 500;\n    text-align: center;\n    white-space: nowrap;\n    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);\n    transition: transform 0.2s ease, box-shadow 0.2s ease;\n    cursor: default;\n  }\n\n  .pill:hover {\n    transform: translateY(-2px);\n    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);\n  }\n</style>\n\n<div class=\"pill-container\">\n  <div class=\"pill\">Soutien minceur naturel</div>\n  <div class=\"pill\">Graisse abdominale ciblée</div>\n</div>"
+          }
+        },
         "title_PdVMHV": {
           "type": "title",
           "settings": {
@@ -30,7 +36,7 @@
         "buy_buttons_YKhktQ": {
           "type": "buy_buttons",
           "settings": {
-            "show_quantity_selector": true,
+            "show_quantity_selector": false,
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true,
             "enable_back_in_stock": false,
@@ -49,6 +55,13 @@
             "border_color": "#dff2ff",
             "hover_text_color": "#ffffff",
             "hover_background_color": "#5d9bd5"
+          }
+        },
+        "text_UCrJJ9": {
+          "type": "text",
+          "settings": {
+            "text": "Tu veux mincir sans frustration, sans effet rebond, et sans mettre ta santé en danger ? La cure MORO FIT 400 est la solution naturelle qu’il te faut.",
+            "text_size": "text-base"
           }
         },
         "liquid_jRYak8": {
@@ -98,19 +111,28 @@
             "page": "",
             "liquid": ""
           }
+        },
+        "liquid_KzXMjG": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-ingredients\">\n  <p class=\"ingredients-title\">Un allié naturel pour affiner votre silhouette.</p>\n  <div class=\"ingredients-list\">\n    <span class=\"ingredient\">Cible la graisse</span>\n    <span class=\"ingredient\">100% naturel</span>\n    <span class=\"ingredient\">Une gélule/jour</span>\n    <span class=\"ingredient\">Sans OGM</span>\n    <span class=\"ingredient\">Action rapide</span>\n    <span class=\"ingredient\">Sans gluten</span>\n  </div>\n</div>\n\n<style>\n  .product-ingredients {\n    margin: 20px 0;\n    font-size: 14px;\n    color: #223555;\n    line-height: 1.6;\n  }\n\n  .ingredients-title {\n    font-size: 16px;\n    font-weight: 600;\n    margin-bottom: 12px;\n  }\n\n  .ingredients-list {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 10px;\n  }\n\n  .ingredient {\n    flex: 1 1 calc(45% - 10px);\n    display: inline-block;\n    padding: 8px 12px;\n    border: 1.5px solid #355CA0;\n    border-radius: 12px;\n    font-size: 13px;\n    color: #223555;\n    font-weight: 500;\n    background-color: #E7F0FF;\n    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);\n    text-align: center;\n    white-space: nowrap;\n    transition: transform 0.2s ease, box-shadow 0.2s ease;\n  }\n\n  .ingredient:hover {\n    transform: translateY(-2px);\n    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);\n    cursor: default;\n  }\n\n  @media screen and (min-width: 500px) {\n    .ingredient {\n      flex: 1 1 calc(30% - 10px);\n    }\n  }\n</style>"
+          }
         }
       },
       "block_order": [
+        "liquid_y8fUBW",
         "title_PdVMHV",
         "liquid_FJJQBp",
         "buy_buttons_YKhktQ",
         "ingredients_fqPrJU",
+        "text_UCrJJ9",
         "liquid_jRYak8",
         "liquid_7bqT9U",
         "liquid_Fy9KQ3",
         "collapsible_tab_beHbEy",
         "collapsible_tab_NJ8cPw",
-        "collapsible_tab_aHCx6R"
+        "collapsible_tab_aHCx6R",
+        "liquid_KzXMjG"
       ],
       "settings": {
         "product": "morosil-400",
