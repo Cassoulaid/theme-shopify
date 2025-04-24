@@ -54,7 +54,7 @@
       "settings": {
         "transparent_header": false,
         "image": "shopify://shop_images/banniere.png",
-        "image_height": "adapt",
+        "image_height": "450px",
         "content_width": "medium",
         "content_position": "md:items-end md:justify-start",
         "text_alignment": "left",
