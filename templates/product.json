@@ -746,7 +746,7 @@
         "image_shape": "blob",
         "show_icon": false,
         "icon_type": "lightbulb",
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_text": "Voir la FAQ",
         "faq_page": "",
         "title_size": 36,
