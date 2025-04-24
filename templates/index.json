@@ -358,7 +358,7 @@
           "type": "benefit_card",
           "settings": {
             "title": "Une formule innovante",
-            "content": "<p><strong>Simplicité d'utilisation</strong> : 1 gélule par jour, facile à intégrer dans votre routine matinale.</p><p><strong>Efficacité prouvée</strong> : Grâce à des ingrédients ciblés comme le Morosil®, le guarana et le chrome.</p>",
+            "content": "<p><strong>Simplicité d'utilisation</strong> : 1 gélule par jour, facile à intégrer dans votre routine matinale.</p><p><strong>Efficacité prouvée</strong> : Grâce à des ingrédients ciblés comme le Morosil®, le guarana et le chrome.</p><p><strong>Formules développées en collaboration avec des professionnels de santé</strong></p>",
             "icon": "award"
           }
         },
@@ -366,7 +366,7 @@
           "type": "benefit_card",
           "settings": {
             "title": "Hautement dosé",
-            "content": "<ul><li>Extrait sec d'orange rouge – Morosil® (400 mg)</li><li>Vinaigre de cidre (52,5 mg)</li><li>Extrait sec de guarana (30 mg) avec 3,3 mg de caféine</li><li>Poudre de noix de cola (40 mg) apportant également 3,3 mg de caféine</li><li>Chrome (39 µg, 98 % VNR)</li></ul>",
+            "content": "<p><strong>Dosages optimaux, sans ingrédients superflus</strong></p><ul><li><strong>Morosil® (400 mg) - </strong>Extrait sec d'orange rouge </li><li><strong>Vinaigre de cidre </strong>(52,5 mg)</li><li><strong>Extrait sec de guarana</strong> (30 mg) avec 3,3 mg de caféine</li><li><strong>Poudre de noix de cola</strong> (40 mg) apportant également 3,3 mg de caféine</li><li><strong>Chrome</strong> (39 µg, 98 % VNR)</li></ul>",
             "icon": "star"
           }
         },
@@ -374,15 +374,15 @@
           "type": "benefit_card",
           "settings": {
             "title": "Formulation d'expert",
-            "content": "<p>Tous nos produits sont formulés par des médecins et des pharmaciens expérimentés. Ce savoir-faire médical et pharmaceutique garantit que chaque formule est étudiée avec rigueur et répond aux normes les plus strictes en matière de sécurité et d'efficacité.</p>",
+            "content": "<p><strong>Dosages optimaux, sans ingrédients superflus</strong></p><ul><li>Aucune substance controversée (sans OGM, sans gluten, sans sucre ajouté)</li><li>Fabrication française, dans le respect des normes pharmaceutiques</li></ul>",
             "icon": "check_mark"
           }
         },
         "benefit_card_i4qmEP": {
           "type": "benefit_card",
           "settings": {
-            "title": "Des avis clients incroyables",
-            "content": "<p>Nos témoignages photos parlent d'eux-mêmes. Nos clients sont satisfaits de la cure et de nos recommandations sur la perte de poids.</p>",
+            "title": "Efficacité prouvée et  validée",
+            "content": "<p>Chaque formule est testée en condition réelles pour garantir des résultats.</p><p><strong>Nos engagements vont au-delà des promesses</strong> <strong>:</strong> <strong>on mesure, on ajuste, on valide</strong>. Parce que tu mérites des soins dont l'efficacité est scientifiquement prouvée</p>",
             "icon": "heart"
           }
         }
@@ -394,9 +394,9 @@
         "benefit_card_i4qmEP"
       ],
       "settings": {
-        "heading": "Pourquoi nous ?",
-        "heading_size": "title-lg tracking-heading",
-        "heading_tag": "h2",
+        "heading": "Les engagements scientifiques Docteur V",
+        "heading_size": "title-md",
+        "heading_tag": "h1",
         "card_style": "shadow",
         "icon_bg_color": "#dff2ff",
         "color_headings": "#171717",
@@ -470,10 +470,10 @@
         "item_hcAffK"
       ],
       "settings": {
-        "heading": "<p><strong>Les bienfaits qui boostent votre perte de poids</strong></p>",
-        "heading_custom": true,
+        "heading": "<p><strong>MORO FIT 400 : gélules minceur naturelles pour une perte de poids rapide, efficace et sans danger.</strong></p>",
+        "heading_custom": false,
         "heading_font": "montserrat_n4",
-        "heading_size": 52,
+        "heading_size": 38,
         "heading_size_mobile": 32,
         "heading_height": 150,
         "heading_align": "center",
