@@ -430,9 +430,9 @@
         "item_mfdigA": {
           "type": "item",
           "settings": {
-            "days": 4,
+            "days": 20,
             "range": true,
-            "second_days": 6,
+            "second_days": 25,
             "weekend": true,
             "title": "Les gélules arrivent avant l'été"
           }
