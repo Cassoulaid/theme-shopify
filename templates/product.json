@@ -224,14 +224,14 @@
           "type": "item",
           "settings": {
             "icon": "tick",
-            "text": "<p>Naturel</p>"
+            "text": "<p>Hautement dosé en actifs</p>"
           }
         },
         "item_6KDiqp": {
           "type": "item",
           "settings": {
             "icon": "tick",
-            "text": "<p>Vegan</p>"
+            "text": "<p>Vegan, naturel</p>"
           }
         },
         "item_wQEzdk": {
@@ -240,12 +240,28 @@
             "icon": "tick",
             "text": "<p>Fabrication française</p>"
           }
+        },
+        "item_BD6zzq": {
+          "type": "item",
+          "settings": {
+            "icon": "tick",
+            "text": "<p>Text</p>"
+          }
+        },
+        "item_UWJEbj": {
+          "type": "item",
+          "settings": {
+            "icon": "tick",
+            "text": "<p>Text</p>"
+          }
         }
       },
       "block_order": [
         "item_4Rihhz",
         "item_6KDiqp",
-        "item_wQEzdk"
+        "item_wQEzdk",
+        "item_BD6zzq",
+        "item_UWJEbj"
       ],
       "settings": {
         "trust_position": "below_description",
