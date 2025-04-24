@@ -420,7 +420,7 @@
         "item_nd8TcV": {
           "type": "item",
           "settings": {
-            "days": 6,
+            "days": 10,
             "range": true,
             "second_days": 0,
             "weekend": true,
