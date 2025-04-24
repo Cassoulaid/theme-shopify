@@ -14897,3 +14897,23 @@ video-media:not([playing]) .deferred-poster .play-button .icon:last-child:not(:o
     }
   }
 }
+
+@media (max-width: 768px) {
+  .shopify-section[data-section-type="comparison-table"] table {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+  .shopify-section[data-section-type="comparison-table"] th,
+  .shopify-section[data-section-type="comparison-table"] td {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+    font-size: 13px !important;
+    word-break: break-word;
+  }
+  .shopify-section[data-section-type="comparison-table"] img {
+    max-width: 48px;
+    height: auto;
+  }
+}
