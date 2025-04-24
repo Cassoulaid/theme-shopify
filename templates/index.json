@@ -202,13 +202,13 @@
         "feature_ACpYtr": {
           "type": "feature",
           "settings": {
-            "text": "✅ Naturel"
+            "text": "✅ Vegan, naturel"
           }
         },
         "feature_9zM7Mz": {
           "type": "feature",
           "settings": {
-            "text": "✅ Vegan"
+            "text": "✅ Hautement dosé en actifs"
           }
         },
         "feature_XAqThP": {
@@ -216,12 +216,19 @@
           "settings": {
             "text": "✅ Fabrication française"
           }
+        },
+        "feature_FAFxxf": {
+          "type": "feature",
+          "settings": {
+            "text": "✅ Fabrication 100% française"
+          }
         }
       },
       "block_order": [
         "feature_ACpYtr",
         "feature_9zM7Mz",
-        "feature_XAqThP"
+        "feature_XAqThP",
+        "feature_FAFxxf"
       ],
       "settings": {
         "heading": "<h2><strong>MORO FIT 400</strong></h2>",
@@ -233,8 +240,8 @@
         "heading_mt": 10,
         "heading_align": "left",
         "heading_align_mobile": "left",
-        "text": "<p>MOROFIT 400 aide à stimuler le métabolisme, favoriser la combustion des graisses et réguler la glycémie, pour une perte de poids naturelle et durable.</p>",
-        "text_custom": true,
+        "text": "<p>Développées par des <strong>professionnels de santé</strong>, les cures Docteur V associent des actifs rigoureusement sélectionnés</p><p>Chaque boîte contient <strong>une cure de 2 mois</strong>, à base de <strong>400 mg de Morosil® </strong>par jour — un actif reconnu cliniquement pour favoriser la perte de poids.</p>",
+        "text_custom": false,
         "text_font": "montserrat_n4",
         "text_size": 18,
         "text_size_mobile": 18,
