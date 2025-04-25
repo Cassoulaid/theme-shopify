@@ -131,6 +131,77 @@
         "enable_parallax": true
       }
     },
+    "image_with_text_Qg67c7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_qtHdLd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>À l'origine de la recette : un voyage en Inde & une passion</strong>",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_taagWy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>C’est en parcourant le monde, de l’Inde aux quatre coins du globe, que le Dr Loisson a perfectionné ses formules naturelles, aujourd'hui transmises à travers les générations.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_nPhVa7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Je découvre la recette de Mamie",
+            "button_link": "shopify://products/morosil-400",
+            "button_style": "secondary",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_qtHdLd",
+        "text_taagWy",
+        "button_nPhVa7"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/image0_1.jpg",
+        "image_height": "adapt",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
     "multicolumn_3mRWhh": {
       "type": "multicolumn",
       "blocks": {
@@ -203,7 +274,7 @@
         "columns": 3,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "heading": "Formulation",
+        "heading": "<strong>Une formulation complète pour une perte de poids ciblée</strong>",
         "heading_size": "title-md",
         "heading_alignment": "text-center md:items-center",
         "heading_tag": "h2",
@@ -293,6 +364,7 @@
     "main-page",
     "image_with_text_overlay_r4yydw",
     "images_with_text_dpPXez",
+    "image_with_text_Qg67c7",
     "multicolumn_3mRWhh",
     "ss_about_jyXkea"
   ]
