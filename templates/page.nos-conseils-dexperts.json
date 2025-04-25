@@ -94,7 +94,7 @@
       "type": "blog-posts",
       "name": "t:sections.blog-posts.presets.name",
       "settings": {
-        "blog": "",
+        "blog": "infos",
         "post_limit": 3,
         "columns": 3,
         "carousel_on_desktop": false,
@@ -107,7 +107,7 @@
         "show_comments": true,
         "show_author": false,
         "show_excerpt": true,
-        "heading": "Blog posts",
+        "heading": "Nos conseils d'expert",
         "heading_size": "title-md",
         "heading_alignment": "text-left md:items-end md:flex-row",
         "heading_tag": "h2",
