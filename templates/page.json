@@ -108,8 +108,10 @@
         "text_dUMUJ7"
       ],
       "settings": {
+        "image": "shopify://shop_images/3.png",
+        "image_2": "shopify://shop_images/1.png",
         "image_ratio": "portrait",
-        "image_width": "medium",
+        "image_width": "small",
         "layout": "image_first",
         "text_alignment": "left",
         "text_alignment_mobile": "left",
@@ -127,6 +129,105 @@
         "full_width": false,
         "rounded": false,
         "enable_parallax": true
+      }
+    },
+    "multicolumn_3mRWhh": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_cRkwCW": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "<strong>Morosil® : l’actif star naturel</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Extrait d'orange rouge Moro, reconnu pour son action ciblée sur la réduction de la graisse abdominale et l’amélioration de la silhouette.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_bmLiU9": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "<strong>Guarana & Noix de Cola : l’effet booster brûle-graisse</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Deux plantes riches en caféine naturelle pour stimuler doucement le métabolisme, soutenir l’énergie et amplifier la combustion des graisses.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_NGDzVW": {
+          "type": "column",
+          "settings": {
+            "show_border": false,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image_ratio": "adapt",
+            "heading": "Example title",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_cRkwCW",
+        "column_bmLiU9",
+        "column_NGDzVW"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "large",
+        "columns": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Formulation",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
       }
     },
     "ss_about_jyXkea": {
@@ -186,65 +287,13 @@
         "divider": false,
         "rounded": true
       }
-    },
-    "images_with_text_ErRRQ4": {
-      "type": "images-with-text",
-      "blocks": {
-        "heading_HUXCN3": {
-          "type": "heading",
-          "settings": {
-            "heading": "La fondatrice",
-            "heading_size": "title-md",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "text_AXf9Q9": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Ce projet, c’est un mélange d’intuition, de recherches et de passion. Je voulais que chaque femme puisse se sentir bien dans son corps, sans se perdre dans des régimes stricts.<br/></p>",
-            "text_size": "subtext-md",
-            "text_max_size": 32,
-            "text_font": "body",
-            "secondary_color": false,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        }
-      },
-      "block_order": [
-        "heading_HUXCN3",
-        "text_AXf9Q9"
-      ],
-      "settings": {
-        "image_ratio": "portrait",
-        "image_width": "medium",
-        "layout": "text_first",
-        "text_alignment": "left",
-        "text_alignment_mobile": "left",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false,
-        "enable_parallax": true
-      }
     }
   },
   "order": [
     "main-page",
     "image_with_text_overlay_r4yydw",
     "images_with_text_dpPXez",
-    "ss_about_jyXkea",
-    "images_with_text_ErRRQ4"
+    "multicolumn_3mRWhh",
+    "ss_about_jyXkea"
   ]
 }
