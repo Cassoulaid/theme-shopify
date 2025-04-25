@@ -135,7 +135,7 @@
         "benefit_card_7m79dc": {
           "type": "benefit_card",
           "settings": {
-            "title": "🌱 Transparence",
+            "title": "Transparence",
             "content": "<p><br/>Chaque ingrédient est choisi avec soin et expliqué.<br/></p>",
             "icon": "check_mark"
           }
@@ -143,7 +143,7 @@
         "benefit_card_LiVwMg": {
           "type": "benefit_card",
           "settings": {
-            "title": "🔬 Efficacité",
+            "title": "Efficacité",
             "content": "<p><br/>Des formules testées et pensées pour de vrais résultats.<br/></p>",
             "icon": "award"
           }
@@ -151,7 +151,7 @@
         "benefit_card_AM6d6t": {
           "type": "benefit_card",
           "settings": {
-            "title": "🧘‍♀️ Bien-être global",
+            "title": "Bien-être global",
             "content": "<p><br/>Le corps, mais aussi l’esprit<br/></p>",
             "icon": "heart"
           }
@@ -159,7 +159,7 @@
         "benefit_card_BbmA46": {
           "type": "benefit_card",
           "settings": {
-            "title": "🌍 Engagement éthique",
+            "title": "Engagement éthique",
             "content": "<p><br/>Aucun test sur les animaux. Produits respectueux de la planète.<br/></p>",
             "icon": "star"
           }
