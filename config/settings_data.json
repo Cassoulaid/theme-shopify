@@ -127,7 +127,7 @@
     "share_twitter": false,
     "share_pinterest": false,
     "share_telegram": false,
-    "share_whatsapp": false,
+    "share_whatsapp": true,
     "share_email": true,
     "preload_links": true,
     "external_links_new_tab": false,
