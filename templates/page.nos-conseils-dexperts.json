@@ -110,7 +110,7 @@
         "show_date": true,
         "show_comments": true,
         "show_author": false,
-        "show_excerpt": true,
+        "show_excerpt": false,
         "heading": "Nos Conseils Bien-Être et Minceur",
         "heading_size": "title-md",
         "heading_alignment": "text-center md:items-center",
