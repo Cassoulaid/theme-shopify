@@ -895,6 +895,33 @@
         "lazy": true
       }
     },
+    "17459354568357de39": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_NRpD6t": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_NRpD6t"
+      ],
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "ss_small_faq_riH9XB": {
       "type": "ss-small-faq",
       "blocks": {
@@ -1238,6 +1265,7 @@
     "ss_feature_17_NxFLLw",
     "scrolling_logos_E4XiDh",
     "ss_testimonial_16_TJ7Q9F",
+    "17459354568357de39",
     "ss_small_faq_riH9XB",
     "product-recommendations",
     "help-drawer",
