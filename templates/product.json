@@ -224,36 +224,28 @@
           "type": "item",
           "settings": {
             "icon": "tick",
-            "text": "<p>Hautement dosé en actifs</p>"
+            "text": "<p>Brûle les graisses ciblées, sans perte de muscle</p>"
           }
         },
         "item_6KDiqp": {
           "type": "item",
           "settings": {
             "icon": "tick",
-            "text": "<p>Vegan, naturel</p>"
+            "text": "<p>Régule naturellement l’appétit et le métabolisme</p>"
           }
         },
         "item_wQEzdk": {
           "type": "item",
           "settings": {
             "icon": "tick",
-            "text": "<p>Fabrication 100% française</p>"
-          }
-        },
-        "item_BD6zzq": {
-          "type": "item",
-          "settings": {
-            "icon": "tick",
-            "text": "<p>Favorise la perte de poids</p>"
+            "text": "<p>Des résultats visibles, sans frustration ni privation</p>"
           }
         }
       },
       "block_order": [
         "item_4Rihhz",
         "item_6KDiqp",
-        "item_wQEzdk",
-        "item_BD6zzq"
+        "item_wQEzdk"
       ],
       "settings": {
         "trust_position": "below_description",
