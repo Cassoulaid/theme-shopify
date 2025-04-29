@@ -99,7 +99,7 @@
       "name": "t:sections.blog-posts.presets.name",
       "settings": {
         "blog": "infos",
-        "post_limit": 3,
+        "post_limit": 12,
         "columns": 3,
         "carousel_on_desktop": false,
         "show_view_all": false,
