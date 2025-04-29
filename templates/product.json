@@ -27,6 +27,12 @@
             "liquid": "<div id='ss-trust-badges-3'></div>"
           }
         },
+        "liquid_6gwGKi": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    .product-banner {\n      display: flex;\n      justify-content: space-evenly;\n      align-items: center;\n      background-color: #d9c7b0;\n      color: white;\n      padding: 10px 15px;\n      border-radius: 8px;\n      font-family: Arial, sans-serif;\n      font-size: 10px;\n      width: 100%;\n      box-sizing: border-box;\n    }\n    \n    .banner-feature {\n      display: flex;\n      align-items: center;\n    }\n    \n    .banner-icon {\n      margin-right: 8px;\n      font-size: 15px;\n    }\n    \n    @media (max-width: 600px) {\n      .product-banner {\n        flex-direction: column;\n        align-items: flex-start;\n      }\n      \n      .banner-feature {\n        margin: 5px 0;\n      }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"product-banner\">\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🌿</span> DHA 100% naturelle\n    </div>\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🍦</span> Senteur vanille\n    </div>\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🐰</span> Vegan & cruelty-free\n    </div>\n  </div>\n</body>\n</html>"
+          }
+        },
         "buy_buttons_YKhktQ": {
           "type": "buy_buttons",
           "settings": {
@@ -96,6 +102,7 @@
       "block_order": [
         "title_PdVMHV",
         "liquid_FJJQBp",
+        "liquid_6gwGKi",
         "buy_buttons_YKhktQ",
         "liquid_QYwkit",
         "liquid_jRYak8",
