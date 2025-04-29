@@ -18,7 +18,7 @@
             "title_size": "product-title-md",
             "title_size_mobile": "product-title-md",
             "show_price": true,
-            "show_rating": true
+            "show_rating": false
           }
         },
         "judge_me_reviews_preview_badge_mPYAdN": {
