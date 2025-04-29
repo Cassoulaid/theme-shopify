@@ -311,7 +311,7 @@
         "badge_align": "start",
         "badge_align_mobile": "center",
         "badge_mt_mobile": 10,
-        "image": "shopify://shop_images/3.png",
+        "image": "shopify://shop_images/3.webp",
         "image_radius": 0,
         "image_border_thickness": 0,
         "image_blur_desktop": true,
