@@ -119,7 +119,7 @@
         "mobile_layout": "partial",
         "image_ratio_mobile": "adapt_first",
         "mobile_thumbnail": false,
-        "padding_top": 72,
+        "padding_top": 24,
         "padding_bottom": 68,
         "divider": false,
         "full_width": false,
