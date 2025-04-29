@@ -56,7 +56,7 @@
       ],
       "settings": {
         "transparent_header": false,
-        "image": "shopify://shop_images/Banniere-morofit-_1__1.webp",
+        "image": "shopify://shop_images/Banniere_morofit_1.svg",
         "image_height": "adapt",
         "content_width": "medium",
         "content_position": "md:items-end md:justify-start",
