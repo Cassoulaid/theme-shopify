@@ -83,7 +83,7 @@
         "color_text": "#171717",
         "color_background": "#dff2ff",
         "padding_top": 32,
-        "padding_bottom": 32,
+        "padding_bottom": 12,
         "full_width": true,
         "rounded": true
       }
