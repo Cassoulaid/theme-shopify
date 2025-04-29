@@ -38,23 +38,10 @@
             "show_back_in_stock_phone": false
           }
         },
-        "ingredients_fqPrJU": {
-          "type": "ingredients",
-          "settings": {
-            "title": "Ingrédients sélectionnés pour leur efficacité :",
-            "ingredients": "Extrait sec d’orange rouge, Vinaigre de cidre, Extrait sec de guarana, Poudre de noix de cola",
-            "title_color": "#181717",
-            "text_color": "#181717",
-            "background_color": "#dff2ff",
-            "border_color": "#dff2ff",
-            "hover_text_color": "#ffffff",
-            "hover_background_color": "#5d9bd5"
-          }
-        },
         "liquid_QYwkit": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"product-ingredients\">\n  <p class=\"ingredients-title\">Ingrédients sélectionnés pour leur efficacité :</p>\n  <div class=\"ingredients-list\">\n    <span class=\"ingredient\">Extrait d'orange rouge</span>\n    <span class=\"ingredient\">Vinaigre de cidre</span>\n    <span class=\"ingredient\">Extrait sec de guarana</span>\n    <span class=\"ingredient\">Poudre de noix de cola</span>\n  </div>\n</div>\n\n<style>\n  .product-ingredients {\n    padding-left: 0; /* Suppression du padding lié à l'ancienne bordure */\n    margin: 15px 0;\n    font-size: 12px;\n    color: #333;\n    line-height: 1.4;\n  }\n\n  .ingredients-title {\n    font-weight: bold;\n    margin-bottom: 5px;\n  }\n\n  .ingredients-list {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 5px;\n  }\n\n  .ingredient {\n    display: inline-block;\n    padding: 3px 8px;\n    border: 2px solid #7D936D; /* Bordure solide */\n    border-radius: 4px;\n    font-size: 10px;\n    color: #7D936D;\n    font-weight: bold;\n  }\n</style>"
+            "liquid": "<div class=\"product-ingredients\">\n  <p class=\"ingredients-title\">Ingrédients sélectionnés pour leur efficacité :</p>\n  <div class=\"ingredients-list\">\n    <span class=\"ingredient\">Extrait d'orange rouge</span>\n    <span class=\"ingredient\">Vinaigre de cidre</span>\n    <span class=\"ingredient\">Extrait sec de guarana</span>\n    <span class=\"ingredient\">Poudre de noix de cola</span>\n  </div>\n</div>\n\n<style>\n  .product-ingredients {\n    padding-left: 0; /* Suppression du padding lié à l'ancienne bordure */\n    margin: 15px 0;\n    font-size: 12px;\n    line-height: 1.4;\n  }\n\n  .ingredients-title {\n    font-weight: bold;\n    margin-bottom: 5px;\n  }\n\n  .ingredients-list {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 5px;\n  }\n\n  .ingredient {\n    display: inline-block;\n    padding: 3px 8px;\n    border: 2px solid #5D9BD5; /* Bordure solide */\n    border-radius: 4px;\n    font-size: 10px;\n    color: #5D9BD5;\n    font-weight: bold;\n  }\n</style>"
           }
         },
         "liquid_jRYak8": {
@@ -110,7 +97,6 @@
         "title_PdVMHV",
         "liquid_FJJQBp",
         "buy_buttons_YKhktQ",
-        "ingredients_fqPrJU",
         "liquid_QYwkit",
         "liquid_jRYak8",
         "liquid_7bqT9U",
