@@ -398,7 +398,7 @@
             "range": false,
             "second_days": 2,
             "weekend": true,
-            "title": "Précommandes ce week-end"
+            "title": "Précommandes"
           }
         },
         "item_nd8TcV": {
@@ -414,9 +414,9 @@
         "item_mfdigA": {
           "type": "item",
           "settings": {
-            "days": 20,
+            "days": 8,
             "range": true,
-            "second_days": 25,
+            "second_days": 7,
             "weekend": true,
             "title": "Les gélules arrivent avant l'été"
           }
