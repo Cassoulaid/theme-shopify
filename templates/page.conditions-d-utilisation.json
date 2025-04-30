@@ -11,7 +11,6 @@
   "sections": {
     "main-page": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "heading_size": "title-lg tracking-heading",
         "heading_alignment": "text-left",
@@ -107,6 +106,7 @@
         "heading_VWEMhY",
         "text_dUMUJ7"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/3.webp",
         "image_ratio": "portrait",
@@ -172,6 +172,7 @@
         "text_taagWy",
         "button_nPhVa7"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/image0_1.webp",
@@ -267,6 +268,7 @@
         "column_bmLiU9",
         "column_NGDzVW"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "gap": "large",
@@ -342,6 +344,7 @@
         "benefit_card_AM6d6t",
         "benefit_card_BbmA46"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Nos valeurs",
         "heading_size": "title-lg tracking-heading",
