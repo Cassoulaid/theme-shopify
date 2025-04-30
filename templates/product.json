@@ -30,7 +30,7 @@
         "liquid_6gwGKi": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    .product-banner {\n      display: flex;\n      justify-content: space-evenly;\n      align-items: center;\n      background-color: #DFF2FF;\n      color: black;\n      padding: 10px 7px;\n      border-radius: 8px;\n      font-family: Arial, sans-serif;\n      font-size: 13px;\n      width: 100%;\n      box-sizing: border-box;\n    }\n    \n    .banner-feature {\n      display: flex;\n      align-items: center;\n    }\n    \n    .banner-icon {\n      margin-right: 8px;\n      font-size: 15px;\n    }\n    \n    @media (max-width: 600px) { \n      .banner-feature {\n        margin: 5px 0;\n      }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"product-banner\">\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🇫🇷</span> Fabrication <br> française\n    </div>\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🌿</span> Vegan\n    </div>\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🧪</span> Hautement <br> dosé\n    </div>\n  </div>\n</body>\n</html>"
+            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    .product-banner {\n      display: flex;\n      justify-content: space-evenly;\n      align-items: center;\n      background-color: #DFF2FF;\n      color: black;\n      padding: 10px 7px;\n      border-radius: 8px;\n      font-family: montserrat, sans-serif;\n      font-size: 13px;\n      width: 100%;\n      box-sizing: border-box;\n    }\n    \n    .banner-feature {\n      display: flex;\n      align-items: center;\n    }\n    \n    .banner-icon {\n      margin-right: 8px;\n      font-size: 15px;\n    }\n    \n    @media (max-width: 600px) { \n      .banner-feature {\n        margin: 5px 0;\n      }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"product-banner\">\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🇫🇷</span> Fabrication <br> française\n    </div>\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🌿</span> Vegan\n    </div>\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🧪</span> Hautement <br> dosé\n    </div>\n  </div>\n</body>\n</html>"
           }
         },
         "buy_buttons_YKhktQ": {
@@ -220,18 +220,18 @@
     "ss_trust_badge_CnrnPg": {
       "type": "ss-trust-badge",
       "blocks": {
-        "item_6KDiqp": {
-          "type": "item",
-          "settings": {
-            "icon": "tick",
-            "text": "<p>Morosil hautement dosé</p>"
-          }
-        },
         "item_4Rihhz": {
           "type": "item",
           "settings": {
             "icon": "tick",
-            "text": "<p>Brûle les graisses et perte de poids </p>"
+            "text": "<p>Brûle les graisses ciblées, sans perte de muscle</p>"
+          }
+        },
+        "item_6KDiqp": {
+          "type": "item",
+          "settings": {
+            "icon": "tick",
+            "text": "<p>Régule naturellement l’appétit et le métabolisme</p>"
           }
         },
         "item_wQEzdk": {
@@ -243,8 +243,8 @@
         }
       },
       "block_order": [
-        "item_6KDiqp",
         "item_4Rihhz",
+        "item_6KDiqp",
         "item_wQEzdk"
       ],
       "settings": {
@@ -398,7 +398,7 @@
             "range": false,
             "second_days": 2,
             "weekend": true,
-            "title": "Précommandes"
+            "title": "Précommandes ce week-end"
           }
         },
         "item_nd8TcV": {
@@ -406,7 +406,7 @@
           "settings": {
             "days": 4,
             "range": true,
-            "second_days": 7,
+            "second_days": 10,
             "weekend": true,
             "title": "Expedition sous 10 jours"
           }
@@ -414,9 +414,9 @@
         "item_mfdigA": {
           "type": "item",
           "settings": {
-            "days": 8,
+            "days": 20,
             "range": true,
-            "second_days": 7,
+            "second_days": 25,
             "weekend": true,
             "title": "Les gélules arrivent avant l'été"
           }
