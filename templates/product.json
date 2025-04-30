@@ -220,18 +220,18 @@
     "ss_trust_badge_CnrnPg": {
       "type": "ss-trust-badge",
       "blocks": {
-        "item_4Rihhz": {
-          "type": "item",
-          "settings": {
-            "icon": "tick",
-            "text": "<p>Brûle les graisses ciblées, sans perte de muscle</p>"
-          }
-        },
         "item_6KDiqp": {
           "type": "item",
           "settings": {
             "icon": "tick",
-            "text": "<p>Régule naturellement l’appétit et le métabolisme</p>"
+            "text": "<p>Morosil hautement dosé</p>"
+          }
+        },
+        "item_4Rihhz": {
+          "type": "item",
+          "settings": {
+            "icon": "tick",
+            "text": "<p>Brûle les graisses et perte de poids </p>"
           }
         },
         "item_wQEzdk": {
@@ -243,8 +243,8 @@
         }
       },
       "block_order": [
-        "item_4Rihhz",
         "item_6KDiqp",
+        "item_4Rihhz",
         "item_wQEzdk"
       ],
       "settings": {
