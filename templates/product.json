@@ -33,12 +33,11 @@
             "liquid": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    .product-banner {\n      display: flex;\n      justify-content: space-evenly;\n      align-items: center;\n      background-color: #DFF2FF;\n      color: black;\n      padding: 10px 7px;\n      border-radius: 8px;\n      font-family: Arial, sans-serif;\n      font-size: 13px;\n      width: 100%;\n      box-sizing: border-box;\n    }\n    \n    .banner-feature {\n      display: flex;\n      align-items: center;\n    }\n    \n    .banner-icon {\n      margin-right: 8px;\n      font-size: 15px;\n    }\n    \n    @media (max-width: 600px) { \n      .banner-feature {\n        margin: 5px 0;\n      }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"product-banner\">\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🇫🇷</span> Fabrication <br> française\n    </div>\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🌿</span> Vegan\n    </div>\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🧪</span> Hautement <br> dosé\n    </div>\n  </div>\n</body>\n</html>"
           }
         },
-        "product_variations_XLkMkz": {
-          "type": "product_variations",
+        "variant_picker_3b78aX": {
+          "type": "variant_picker",
           "settings": {
-            "option_name": "",
-            "option_value_metafield": "",
-            "products": [],
+            "show_variant_labels": true,
+            "picker_type": "button",
             "enable_color_swatches": true,
             "color_swatch_type": "color",
             "size_chart": ""
@@ -114,7 +113,7 @@
         "title_PdVMHV",
         "liquid_FJJQBp",
         "liquid_6gwGKi",
-        "product_variations_XLkMkz",
+        "variant_picker_3b78aX",
         "buy_buttons_YKhktQ",
         "liquid_QYwkit",
         "liquid_jRYak8",
