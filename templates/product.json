@@ -965,24 +965,6 @@
         "lazy": true
       }
     },
-    "17459354568357de39": {
-      "type": "apps",
-      "settings": {
-        "color_text": "",
-        "color_background": "#fafafa",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
     "ss_small_faq_riH9XB": {
       "type": "ss-small-faq",
       "blocks": {
@@ -1327,7 +1309,6 @@
     "testimonials_banner_8wi98R",
     "scrolling_logos_E4XiDh",
     "ss_testimonial_16_TJ7Q9F",
-    "17459354568357de39",
     "ss_small_faq_riH9XB",
     "product-recommendations",
     "help-drawer",
