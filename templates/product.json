@@ -479,29 +479,6 @@
         "border_thickness": 0
       }
     },
-    "testimonials_banner_8wi98R": {
-      "type": "testimonials-banner",
-      "name": "t:sections.testimonials-banner.presets.name",
-      "settings": {
-        "transparent_header": false,
-        "image": "shopify://shop_images/3.svg",
-        "image_height": "adapt",
-        "content_position": "md:items-center md:justify-center",
-        "image_height_mobile": "auto",
-        "content_position_mobile": "items-center justify-center",
-        "color_text": "#ffffff",
-        "color_highlight": "#e0a580",
-        "gradient_highlight": "",
-        "color_overlay": "#171717",
-        "overlay_opacity": 70,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "divider": false,
-        "rounded": false,
-        "enable_parallax": true,
-        "parallax_direction": "vertical"
-      }
-    },
     "ss_feature_17_NxFLLw": {
       "type": "ss-feature-17",
       "blocks": {
@@ -627,6 +604,29 @@
         "border_thickness": 0,
         "section_radius": 0,
         "lazy": true
+      }
+    },
+    "testimonials_banner_8wi98R": {
+      "type": "testimonials-banner",
+      "name": "t:sections.testimonials-banner.presets.name",
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/3.svg",
+        "image_height": "adapt",
+        "content_position": "md:items-center md:justify-center",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-center justify-center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 70,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
       }
     },
     "scrolling_logos_E4XiDh": {
@@ -1239,8 +1239,8 @@
     "ss_payment_icon_7YfLGL",
     "trust_badge_2_4GWDpq",
     "ss_delivery_timer_e9Tf48",
-    "testimonials_banner_8wi98R",
     "ss_feature_17_NxFLLw",
+    "testimonials_banner_8wi98R",
     "scrolling_logos_E4XiDh",
     "ss_testimonial_16_TJ7Q9F",
     "17459354568357de39",
