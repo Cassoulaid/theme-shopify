@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -6,30 +15,23 @@
         "free_shipping": {
           "type": "free_shipping",
           "settings": {
-            "minimum_amount": "1000"
+            "minimum_amount": "60"
           }
         },
         "subtotal": {
           "type": "subtotal",
-          "settings": {
-          }
-        },
-        "cart_note": {
-          "type": "cart_note",
-          "settings": {
-            "heading": "Add a note to your order"
-          }
+          "settings": {}
         },
         "buttons": {
           "type": "buttons",
           "settings": {
+            "show_accelerated_buttons": true
           }
         }
       },
       "block_order": [
         "free_shipping",
         "subtotal",
-        "cart_note",
         "buttons"
       ],
       "settings": {
@@ -37,6 +39,7 @@
         "heading_alignment": "md:items-end",
         "heading_tag": "h1",
         "show_vendor": false,
+        "show_payment_icons": true,
         "show_shipping_calculator": true,
         "padding_top": 72,
         "padding_bottom": 60,
