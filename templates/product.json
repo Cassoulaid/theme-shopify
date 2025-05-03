@@ -342,7 +342,7 @@
           "type": "item",
           "settings": {
             "icon": "return_arrow",
-            "title": "<p>Précommande - expédition sous 10 jours </p>",
+            "title": "<p>expédition sous 2-3 jours </p>",
             "subtitle": ""
           }
         },
