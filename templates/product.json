@@ -398,27 +398,27 @@
             "range": false,
             "second_days": 2,
             "weekend": true,
-            "title": "Précommandes ce week-end"
+            "title": "Commande mainteant"
           }
         },
         "item_nd8TcV": {
           "type": "item",
           "settings": {
-            "days": 4,
+            "days": 2,
             "range": true,
-            "second_days": 10,
+            "second_days": 3,
             "weekend": true,
-            "title": "Expedition sous 10 jours"
+            "title": "Expedition sous 2-3 jours"
           }
         },
         "item_mfdigA": {
           "type": "item",
           "settings": {
-            "days": 20,
+            "days": 0,
             "range": true,
-            "second_days": 25,
+            "second_days": 4,
             "weekend": true,
-            "title": "Les gélules arrivent avant l'été"
+            "title": "Les gélules arrivent chez toi"
           }
         }
       },
@@ -661,15 +661,15 @@
         "btn_arrow_size": 80,
         "btn_arrow_size_mobile": 80,
         "btn_border_thickness": 0,
-        "title_color": "#2E2A39",
-        "text_color": "#625F6B",
+        "title_color": "#2e2a39",
+        "text_color": "#625f6b",
         "icon_color": "#000000",
-        "item_title_color": "#2E2A39",
-        "item_text_color": "#625F6B",
-        "btn_bg_color": "#FFFFFF",
+        "item_title_color": "#2e2a39",
+        "item_text_color": "#625f6b",
+        "btn_bg_color": "#ffffff",
         "btn_arrow_color": "#000000",
         "btn_border_color": "#000000",
-        "line_color": "#FFFFFF",
+        "line_color": "#ffffff",
         "image_border_color": "#000000",
         "background_color": "#fafafa",
         "background_gradient": "",
