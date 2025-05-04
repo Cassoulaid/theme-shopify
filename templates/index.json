@@ -1570,6 +1570,47 @@
         "narrow": false,
         "rounded": false
       }
+    },
+    "17463566359eaf5607": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_YjTgkH": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_YjTgkH"
+      ],
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
     }
   },
   "order": [
@@ -1587,6 +1628,7 @@
     "ss_testimonial_16_7UaE8B",
     "countdown-timer",
     "ss_faq_9_BkMFP3",
-    "custom_liquid_VPykEm"
+    "custom_liquid_VPykEm",
+    "17463566359eaf5607"
   ]
 }
