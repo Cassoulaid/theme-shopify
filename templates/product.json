@@ -416,7 +416,7 @@
           "settings": {
             "days": 4,
             "range": true,
-            "second_days": 6,
+            "second_days": 5,
             "weekend": true,
             "title": "gélules minceur arrivent chez toi"
           }
