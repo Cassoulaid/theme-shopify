@@ -512,6 +512,66 @@
         "lazy": true
       }
     },
+    "ss_benefices_qxC44Y": {
+      "type": "ss-benefices",
+      "blocks": {
+        "benefit_left_yqdeN6": {
+          "type": "benefit_left",
+          "settings": {
+            "title": "Minceur",
+            "description": "Favorise la réduction des graisses grâce à l’action ciblée du Morosil®"
+          }
+        },
+        "benefit_left_jbtWkD": {
+          "type": "benefit_left",
+          "settings": {
+            "title": "Simplicité",
+            "description": "1 seule gélule par jour, facile à intégrer dans votre routine."
+          }
+        },
+        "benefit_left_RjHEq6": {
+          "type": "benefit_left",
+          "settings": {
+            "title": "Énergie",
+            "description": "Le guarana et la noix de kola apportent un léger coup de boost naturel."
+          }
+        },
+        "benefit_right_6LWHVP": {
+          "type": "benefit_right",
+          "settings": {
+            "title": "Contrôle",
+            "description": "Le chrome aide à réguler la glycémie et limite les fringales."
+          }
+        },
+        "benefit_right_QYbYip": {
+          "type": "benefit_right",
+          "settings": {
+            "title": "Formule Pro",
+            "description": "Développée par des médecins et pharmaciens selon des normes strictes."
+          }
+        },
+        "benefit_right_BFziwg": {
+          "type": "benefit_right",
+          "settings": {
+            "title": "Résultats",
+            "description": "Des ingrédients cliniquement étudiés pour une silhouette plus affinée."
+          }
+        }
+      },
+      "block_order": [
+        "benefit_left_yqdeN6",
+        "benefit_left_jbtWkD",
+        "benefit_left_RjHEq6",
+        "benefit_right_6LWHVP",
+        "benefit_right_QYbYip",
+        "benefit_right_BFziwg"
+      ],
+      "name": "Bénéfices produit",
+      "settings": {
+        "title": "Bénéfices",
+        "main_image": "shopify://shop_images/IMG_0860_g_lules_minceur.webp"
+      }
+    },
     "before_after_image_5_NFxUCc": {
       "type": "before-after-image-5",
       "blocks": {
@@ -1518,6 +1578,7 @@
     "hero_6_rbXhKP",
     "ss_about_jLFatp",
     "ss_feature_13_ga68tn",
+    "ss_benefices_qxC44Y",
     "before_after_image_5_NFxUCc",
     "ss_feature_17_WNPCJg",
     "ss_tableau_HG4Pia",
