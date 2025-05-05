@@ -81,53 +81,6 @@
         "parallax_direction": "vertical"
       }
     },
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_6337.jpg",
-            "heading": "<strong>MOROFIT 400</strong>",
-            "heading_size": "title-md",
-            "heading_tag": "h2",
-            "button_label": "ACHETER",
-            "button_link": "",
-            "button_style": "secondary",
-            "button_external": false,
-            "button_icon": true
-          }
-        }
-      },
-      "block_order": [
-        "slide-1"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "autoplay": false,
-        "autoplay_speed": 7,
-        "show_navigation": false,
-        "image_height": "750px",
-        "content_width": "small",
-        "image_height_mobile": "500px",
-        "color_text": "#fafafa",
-        "color_background": "#ffffff",
-        "gradient_background": "",
-        "color_button_text": "#fafafa",
-        "color_button_background": "#fafafa",
-        "color_button_gradient": "",
-        "color_overlay": "#000000",
-        "overlay_opacity": 13,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "divider": false,
-        "full_width": true,
-        "rounded": false,
-        "enable_parallax": false,
-        "parallax_direction": "vertical"
-      }
-    },
     "scrolling_logos_6TkyMz": {
       "type": "scrolling-logos",
       "blocks": {
@@ -813,113 +766,6 @@
         "lazy": true
       }
     },
-    "ss_tableau_z9JAYm": {
-      "type": "ss-tableau",
-      "blocks": {
-        "brand_zFRfxT": {
-          "type": "brand",
-          "settings": {
-            "brand_name": "DOCTEUR.V",
-            "highlight_column": true,
-            "column_background_color": "#dff2ff",
-            "brand_name_color": "#000000"
-          }
-        },
-        "brand_6teD3Y": {
-          "type": "brand",
-          "settings": {
-            "brand_name": "AUTRES",
-            "highlight_column": false,
-            "column_background_color": "#ffffff",
-            "brand_name_color": "#000000"
-          }
-        },
-        "criteria_MGUw8k": {
-          "type": "criteria",
-          "settings": {
-            "criteria_name": "Composition",
-            "value_1": "Hautement dosé, 100% naturel",
-            "value_1_type": "positive",
-            "value_2": "Produits chimiques / additifs",
-            "value_2_type": "negative",
-            "value_3": "Synthétique",
-            "value_3_type": "negative",
-            "value_4": "Non spécifié",
-            "value_4_type": "positive"
-          }
-        },
-        "criteria_McJfYE": {
-          "type": "criteria",
-          "settings": {
-            "criteria_name": "Efficacité",
-            "value_1": "Résultats visibles (réduction du tour de taille)",
-            "value_1_type": "positive",
-            "value_2": "Résultats moyens",
-            "value_2_type": "neutral",
-            "value_3": "Résultats faibles",
-            "value_3_type": "negative",
-            "value_4": "Non spécifié",
-            "value_4_type": "positive"
-          }
-        },
-        "criteria_k7rRKM": {
-          "type": "criteria",
-          "settings": {
-            "criteria_name": "Prix",
-            "value_1": "Cure de 2 mois, excellent rapport qualité / prix",
-            "value_1_type": "positive",
-            "value_2": "Cure courte / prix élevé",
-            "value_2_type": "negative",
-            "value_3": "Abordable mais peu efficace",
-            "value_3_type": "neutral",
-            "value_4": "Non spécifié",
-            "value_4_type": "positive"
-          }
-        },
-        "criteria_WaNYkc": {
-          "type": "criteria",
-          "settings": {
-            "criteria_name": "Durabilité",
-            "value_1": "Écologique",
-            "value_1_type": "positive",
-            "value_2": "Non durable, non écoresponsable",
-            "value_2_type": "negative",
-            "value_3": "Partiellement écologique",
-            "value_3_type": "neutral",
-            "value_4": "Non spécifié",
-            "value_4_type": "positive"
-          }
-        }
-      },
-      "block_order": [
-        "brand_zFRfxT",
-        "brand_6teD3Y",
-        "criteria_MGUw8k",
-        "criteria_McJfYE",
-        "criteria_k7rRKM",
-        "criteria_WaNYkc"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "MORO FIT 400 : un complément miceur hautement dosé",
-        "subtitle": "<p>Les avantages de notre cure de MOROSIL<strong>®</strong></p>",
-        "button_text": "Je commence ma cure de 2 mois",
-        "button_link": "shopify://products/morosil-400",
-        "button_border_radius": 26,
-        "background_color": "#fafafa",
-        "title_color": "#000000",
-        "subtitle_color": "#4a4a4a",
-        "criteria_text_color": "#333333",
-        "feature_text_color": "#333333",
-        "positive_icon_color": "#4caf50",
-        "negative_icon_color": "#f44336",
-        "neutral_icon_color": "#9e9e9e",
-        "button_background": "#dff2ff",
-        "button_text_color": "#171717",
-        "button_hover_background": "#5d9bd5",
-        "button_hover_text_color": "#ffffff"
-      }
-    },
     "ss_tableau_HG4Pia": {
       "type": "ss-tableau",
       "blocks": {
@@ -1324,26 +1170,13 @@
             "text_size": "title-xl tracking-heading",
             "message": "<p>C'est l'été ! Profitez de votre nouvelle silhouette</p>"
           }
-        },
-        "button": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "ACHETER MAINTENANT",
-            "button_link": "",
-            "button_style": "secondary",
-            "button_size": "md",
-            "button_external": false,
-            "button_icon": true
-          }
         }
       },
       "block_order": [
         "text",
         "text_WigJMT",
         "spacing",
-        "timer",
-        "button"
+        "timer"
       ],
       "settings": {
         "transparent_header": false,
@@ -1611,24 +1444,89 @@
         "full_width": false,
         "rounded": false
       }
+    },
+    "ss_trust_badge_DDtKK8": {
+      "type": "ss-trust-badge",
+      "blocks": {
+        "item_UF7ftf": {
+          "type": "item",
+          "settings": {
+            "icon": "tick",
+            "text": "<p>Secure checkout, your data protected.</p>"
+          }
+        },
+        "item_8tfraA": {
+          "type": "item",
+          "settings": {
+            "icon": "tick",
+            "text": "<p>Quality assured, satisfaction guaranteed.</p>"
+          }
+        },
+        "item_YRYFUT": {
+          "type": "item",
+          "settings": {
+            "icon": "tick",
+            "text": "<p>Hassle-free returns, shop with confidence.</p>"
+          }
+        },
+        "item_qehkMX": {
+          "type": "item",
+          "settings": {
+            "icon": "tick",
+            "text": "<p>Real reviews, verified customer feedback.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_UF7ftf",
+        "item_8tfraA",
+        "item_YRYFUT",
+        "item_qehkMX"
+      ],
+      "name": "SS - Trust badges #3",
+      "settings": {
+        "trust_position": "below_title",
+        "item_gap": 10,
+        "item_gap_mobile": 10,
+        "item_mt": 16,
+        "item_mt_mobile": 16,
+        "image_icon_size": 22,
+        "image_icon_size_mobile": 20,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 14,
+        "text_size_mobile": 14,
+        "text_height": 150,
+        "icon_color": "#121212",
+        "text_color": "#121212",
+        "background_color": "",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0
+      }
     }
   },
   "order": [
     "image_with_text_overlay_ALrkJP",
-    "slideshow",
     "scrolling_logos_6TkyMz",
     "hero_6_rbXhKP",
     "ss_about_jLFatp",
     "ss_feature_13_ga68tn",
     "before_after_image_5_NFxUCc",
     "ss_feature_17_WNPCJg",
-    "ss_tableau_z9JAYm",
     "ss_tableau_HG4Pia",
     "testimonials_banner_CG7YnM",
     "ss_testimonial_16_7UaE8B",
     "countdown-timer",
     "ss_faq_9_BkMFP3",
     "custom_liquid_VPykEm",
-    "17463566359eaf5607"
+    "17463566359eaf5607",
+    "ss_trust_badge_DDtKK8"
   ]
 }
