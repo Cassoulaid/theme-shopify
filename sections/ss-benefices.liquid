@@ -1,0 +1,198 @@
+{% schema %}
+{
+  "name": "Bénéfices produit",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre de la section",
+      "default": "Bénéfices"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Image principale"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "benefit",
+      "name": "Bénéfice",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titre du bénéfice",
+          "default": "Titre du bénéfice"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>Description du bénéfice</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Bénéfices produit",
+      "blocks": [
+        {
+          "type": "benefit",
+          "settings": {
+            "title": "Bronzer sans soleil",
+            "description": "<p>Permet d'obtenir un teint hâlé sans avoir besoin de s'exposer aux rayons UV et facilement depuis chez soi.</p>"
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "title": "Effet immédiat",
+            "description": "<p>Idéal pour les occasions spéciales ou les événements de dernière minutes, ou pour conserver un bronzage de rêve toute l'année.</p>"
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "title": "Senteurs exotiques",
+            "description": "<p>Tous nos produits sont délicatement parfumés avec des fragrances qui vous plongent dans notre univers ensoleillé.</p>"
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "title": "Utilisation",
+            "description": "<p>Convient à tous les types de peaux et peut s'appliquer sur le visage et le corps.</p>"
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "title": "Facile à appliquer",
+            "description": "<p>Simple et pratique à appliquer, elle sèche rapidement, ne fais pas de traces ni de tâches.</p>"
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "title": "Hydratation",
+            "description": "<p>Grâce à l'aloe vera présent dans la formule, elle est également un très bon hydratant pour la peau.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<div class="benefits-section container">
+  <h2 class="benefits-title text-center mb-5">{{ section.settings.title }}</h2>
+  
+  <div class="row benefits-container">
+    <div class="col-lg-6 benefits-list">
+      {% assign left_benefits = section.blocks | slice: 0, 3 %}
+      {% for block in left_benefits %}
+        {% if block.type == "benefit" %}
+          <div class="benefit-item mb-4" {{ block.shopify_attributes }}>
+            <div class="d-flex align-items-start">
+              <div class="benefit-icon me-3">
+                {% render 'icon-checkmark' %}
+              </div>
+              <div class="benefit-content">
+                <h3 class="benefit-title h5 mb-2">{{ block.settings.title }}</h3>
+                <div class="benefit-description">{{ block.settings.description }}</div>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    
+    <div class="col-lg-6 benefits-image text-center">
+      {% if section.settings.main_image != blank %}
+        <img src="{{ section.settings.main_image | img_url: 'master' }}" 
+             alt="{{ section.settings.title }}"
+             class="img-fluid rounded"
+             loading="lazy"
+             width="{{ section.settings.main_image.width }}"
+             height="{{ section.settings.main_image.height }}">
+      {% else %}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {% endif %}
+    </div>
+    
+    <div class="col-lg-6 d-none d-lg-block">
+      <!-- Espace réservé pour maintenir la structure sur grand écran -->
+    </div>
+    
+    <div class="col-lg-6 benefits-list mt-lg-4">
+      {% assign right_benefits = section.blocks | slice: 3, 3 %}
+      {% for block in right_benefits %}
+        {% if block.type == "benefit" %}
+          <div class="benefit-item mb-4" {{ block.shopify_attributes }}>
+            <div class="d-flex align-items-start">
+              <div class="benefit-icon me-3">
+                {% render 'icon-checkmark' %}
+              </div>
+              <div class="benefit-content">
+                <h3 class="benefit-title h5 mb-2">{{ block.settings.title }}</h3>
+                <div class="benefit-description">{{ block.settings.description }}</div>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<style>
+.benefits-section {
+  padding: 60px 0;
+}
+
+.benefits-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.benefit-item {
+  margin-bottom: 25px;
+}
+
+.benefit-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefit-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.benefit-description p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .benefits-image {
+    margin: 30px 0;
+    order: -1;
+  }
+  
+  .col-lg-6.benefits-list:last-child {
+    margin-top: 0 !important;
+  }
+}
+</style>
+
+{% comment %}
+Créez un snippet "icon-checkmark.liquid" dans votre thème avec le code suivant:
+{% endcomment %}
