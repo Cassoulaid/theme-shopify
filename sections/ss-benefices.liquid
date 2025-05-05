@@ -1,6 +1,8 @@
 {% schema %}
 {
   "name": "Bénéfices produit",
+  "tag": "section",
+  "class": "section section-benefits",
   "settings": [
     {
       "type": "text",
@@ -12,6 +14,18 @@
       "type": "image_picker",
       "id": "main_image",
       "label": "Image principale"
+    },
+    {
+      "type": "color",
+      "id": "icon_bg_color",
+      "label": "Couleur de fond des icônes",
+      "default": "#f8f8f8"
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Couleur des icônes",
+      "default": "#d6a97d"
     }
   ],
   "blocks": [
@@ -26,10 +40,26 @@
           "default": "Titre du bénéfice"
         },
         {
-          "type": "richtext",
+          "type": "textarea",
           "id": "description",
           "label": "Description",
-          "default": "<p>Description du bénéfice</p>"
+          "default": "Description du bénéfice"
+        },
+        {
+          "type": "select",
+          "id": "position",
+          "label": "Position",
+          "options": [
+            {
+              "value": "left",
+              "label": "Gauche"
+            },
+            {
+              "value": "right",
+              "label": "Droite"
+            }
+          ],
+          "default": "left"
         }
       ]
     }
@@ -42,42 +72,48 @@
           "type": "benefit",
           "settings": {
             "title": "Bronzer sans soleil",
-            "description": "<p>Permet d'obtenir un teint hâlé sans avoir besoin de s'exposer aux rayons UV et facilement depuis chez soi.</p>"
+            "description": "Permet d'obtenir un teint hâlé sans avoir besoin de s'exposer aux rayons UV et facilement depuis chez soi.",
+            "position": "left"
           }
         },
         {
           "type": "benefit",
           "settings": {
             "title": "Effet immédiat",
-            "description": "<p>Idéal pour les occasions spéciales ou les événements de dernière minutes, ou pour conserver un bronzage de rêve toute l'année.</p>"
+            "description": "Idéal pour les occasions spéciales ou les événements de dernière minutes, ou pour conserver un bronzage de rêve toute l'année.",
+            "position": "left"
           }
         },
         {
           "type": "benefit",
           "settings": {
             "title": "Senteurs exotiques",
-            "description": "<p>Tous nos produits sont délicatement parfumés avec des fragrances qui vous plongent dans notre univers ensoleillé.</p>"
+            "description": "Tous nos produits sont délicatement parfumés avec des fragrances qui vous plongent dans notre univers ensoleillé.",
+            "position": "left"
           }
         },
         {
           "type": "benefit",
           "settings": {
             "title": "Utilisation",
-            "description": "<p>Convient à tous les types de peaux et peut s'appliquer sur le visage et le corps.</p>"
+            "description": "Convient à tous les types de peaux et peut s'appliquer sur le visage et le corps.",
+            "position": "right"
           }
         },
         {
           "type": "benefit",
           "settings": {
             "title": "Facile à appliquer",
-            "description": "<p>Simple et pratique à appliquer, elle sèche rapidement, ne fais pas de traces ni de tâches.</p>"
+            "description": "Simple et pratique à appliquer, elle sèche rapidement, ne fais pas de traces ni de tâches.",
+            "position": "right"
           }
         },
         {
           "type": "benefit",
           "settings": {
             "title": "Hydratation",
-            "description": "<p>Grâce à l'aloe vera présent dans la formule, elle est également un très bon hydratant pour la peau.</p>"
+            "description": "Grâce à l'aloe vera présent dans la formule, elle est également un très bon hydratant pour la peau.",
+            "position": "right"
           }
         }
       ]
@@ -86,113 +122,148 @@
 }
 {% endschema %}
 
-<div class="benefits-section container">
-  <h2 class="benefits-title text-center mb-5">{{ section.settings.title }}</h2>
-  
-  <div class="row benefits-container">
-    <div class="col-lg-6 benefits-list">
-      {% assign left_benefits = section.blocks | slice: 0, 3 %}
-      {% for block in left_benefits %}
-        {% if block.type == "benefit" %}
-          <div class="benefit-item mb-4" {{ block.shopify_attributes }}>
-            <div class="d-flex align-items-start">
-              <div class="benefit-icon me-3">
-                {% render 'icon-checkmark' %}
-              </div>
+<div class="page-width">
+  <div class="section-header text-center">
+    <h2>{{ section.settings.title }}</h2>
+  </div>
+
+  <div class="benefits-container">
+    <div class="benefits-grid">
+      <div class="benefits-column benefits-column--left">
+        {% for block in section.blocks %}
+          {% if block.settings.position == "left" %}
+            <div class="benefit-item" {{ block.shopify_attributes }}>
               <div class="benefit-content">
-                <h3 class="benefit-title h5 mb-2">{{ block.settings.title }}</h3>
-                <div class="benefit-description">{{ block.settings.description }}</div>
+                <div class="benefit-icon" style="background-color: {{ section.settings.icon_bg_color }}">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="{{ section.settings.icon_color }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                </div>
+                <div class="benefit-text">
+                  <h3>{{ block.settings.title }}</h3>
+                  <p>{{ block.settings.description }}</p>
+                </div>
               </div>
             </div>
-          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      
+      <div class="benefits-image">
+        {% if section.settings.main_image != blank %}
+          {{ section.settings.main_image | image_url: width: 800 | image_tag: 
+             loading: 'lazy', 
+             class: 'benefits-main-image',
+             sizes: '(min-width: 750px) 800px, calc(100vw - 30px)',
+             widths: '375, 550, 750, 800' 
+          }}
+        {% else %}
+          {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg benefits-main-image' }}
         {% endif %}
-      {% endfor %}
-    </div>
-    
-    <div class="col-lg-6 benefits-image text-center">
-      {% if section.settings.main_image != blank %}
-        <img src="{{ section.settings.main_image | img_url: 'master' }}" 
-             alt="{{ section.settings.title }}"
-             class="img-fluid rounded"
-             loading="lazy"
-             width="{{ section.settings.main_image.width }}"
-             height="{{ section.settings.main_image.height }}">
-      {% else %}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {% endif %}
-    </div>
-    
-    <div class="col-lg-6 d-none d-lg-block">
-      <!-- Espace réservé pour maintenir la structure sur grand écran -->
-    </div>
-    
-    <div class="col-lg-6 benefits-list mt-lg-4">
-      {% assign right_benefits = section.blocks | slice: 3, 3 %}
-      {% for block in right_benefits %}
-        {% if block.type == "benefit" %}
-          <div class="benefit-item mb-4" {{ block.shopify_attributes }}>
-            <div class="d-flex align-items-start">
-              <div class="benefit-icon me-3">
-                {% render 'icon-checkmark' %}
-              </div>
+      </div>
+      
+      <div class="benefits-column benefits-column--right">
+        {% for block in section.blocks %}
+          {% if block.settings.position == "right" %}
+            <div class="benefit-item" {{ block.shopify_attributes }}>
               <div class="benefit-content">
-                <h3 class="benefit-title h5 mb-2">{{ block.settings.title }}</h3>
-                <div class="benefit-description">{{ block.settings.description }}</div>
+                <div class="benefit-icon" style="background-color: {{ section.settings.icon_bg_color }}">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="{{ section.settings.icon_color }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                </div>
+                <div class="benefit-text">
+                  <h3>{{ block.settings.title }}</h3>
+                  <p>{{ block.settings.description }}</p>
+                </div>
               </div>
             </div>
-          </div>
-        {% endif %}
-      {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
 
-<style>
-.benefits-section {
-  padding: 60px 0;
+{% stylesheet %}
+.benefits-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
 }
 
-.benefits-title {
-  font-size: 2rem;
-  margin-bottom: 40px;
+.benefits-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.benefits-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.benefits-image {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.benefits-main-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 .benefit-item {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+}
+
+.benefit-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
 }
 
 .benefit-icon {
   flex-shrink: 0;
-  width: 24px;
-  height: 24px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  background-color: #f5f5f5;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.benefit-title {
+.benefit-text h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
   font-weight: 600;
-  margin-bottom: 5px;
 }
 
-.benefit-description p {
-  margin-bottom: 0;
+.benefit-text p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
-@media (max-width: 991px) {
-  .benefits-image {
-    margin: 30px 0;
-    order: -1;
+@media screen and (max-width: 989px) {
+  .benefits-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
   }
   
-  .col-lg-6.benefits-list:last-child {
-    margin-top: 0 !important;
+  .benefits-image {
+    order: -1;
+    padding: 30px 0;
+  }
+  
+  .benefits-column--left,
+  .benefits-column--right {
+    padding: 0;
   }
 }
-</style>
-
-{% comment %}
-Créez un snippet "icon-checkmark.liquid" dans votre thème avec le code suivant:
-{% endcomment %}
+{% endstylesheet %}
