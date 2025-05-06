@@ -87,10 +87,67 @@
         "full_width": true,
         "rounded": true
       }
+    },
+    "ss_message_banner_XrNLAz": {
+      "type": "ss-message-banner",
+      "blocks": {
+        "announcement_g3PeNt": {
+          "type": "announcement",
+          "settings": {
+            "text": "+ de 50 000 clients satisfaits",
+            "text_color": "#ffffff",
+            "icon": "heart"
+          }
+        },
+        "announcement_D88hwi": {
+          "type": "announcement",
+          "settings": {
+            "text": "Service client disponible 5j/7",
+            "text_color": "#ffffff",
+            "icon": "chat"
+          }
+        },
+        "announcement_9tdYkK": {
+          "type": "announcement",
+          "settings": {
+            "text": "Paiement en 3x avec Klarna",
+            "text_color": "#ffffff",
+            "icon": "credit-card"
+          }
+        },
+        "announcement_UACYJa": {
+          "type": "announcement",
+          "settings": {
+            "text": "Disponible dans plus de 400 pharmacies",
+            "text_color": "#ffffff",
+            "icon": "Pharmacie"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_g3PeNt",
+        "announcement_D88hwi",
+        "announcement_9tdYkK",
+        "announcement_UACYJa"
+      ],
+      "name": "Barre d'annonces",
+      "settings": {
+        "background_color": "#7D936D",
+        "bar_height": 55,
+        "content_width": 1600,
+        "text_font": "montserrat_n4",
+        "text_size": 12,
+        "auto_rotate": true,
+        "rotate_speed": 5,
+        "arrow_color": "#ffffff",
+        "arrow_bg_color": "#7D936D",
+        "arrow_rounded": 50
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "ss_message_banner_XrNLAz"
   ]
 }
