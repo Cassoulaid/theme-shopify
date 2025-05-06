@@ -1004,56 +1004,26 @@
     "ss_testimonial_16_7UaE8B": {
       "type": "ss-testimonial-16",
       "blocks": {
-        "item_zRADqY": {
-          "type": "item",
-          "settings": {
-            "stars_count": 5,
-            "heading": "Une vraie différence sur ma silhouette !",
-            "text": "J’ai essayé plusieurs compléments minceur, mais aucun ne m’a apporté des résultats aussi rapides. Morofit 400 est facile à avaler, n’induit aucun mal de ventre et j’ai constaté une perte de poids significative en peu de temps.",
-            "author_date": "Caroline D. – 34 ans, Toulouse"
-          }
-        },
-        "item_LhewdP": {
-          "type": "item",
-          "settings": {
-            "stars_count": 5,
-            "heading": "Un métabolisme relancé, je revis !",
-            "text": "Je stagnais depuis des mois malgré mes efforts. Ce complément m’a aidé à relancer mon métabolisme. J’ai plus d’énergie, je digère mieux, et j’ai perdu 4 kg en 6 semaines. Le plus ? Une seule gélule par jour, c’est ultra simple.",
-            "author_date": "Marc L. – 41 ans, Rennes"
-          }
-        },
-        "item_AGF3EJ": {
-          "type": "item",
-          "settings": {
-            "stars_count": 4,
-            "heading": "Enfin un produit naturel ET efficace",
-            "text": "J’apprécie beaucoup la composition clean de MOROFIT, avec du Morosil®, du vinaigre de cidre, du guarana… J’ai retrouvé une meilleure digestion et moins de ballonnements. Je mets 4 étoiles car j’aurais aimé un goût fruité, mais ça reste très efficace.",
-            "author_date": "Sophie R. – 28 ans, Marseille"
-          }
-        },
         "item_NrFAeM": {
           "type": "item",
           "settings": {
             "stars_count": 5,
-            "heading": "M’a aidée à reprendre le contrôle de mon poids",
-            "text": "En pré-ménopause, j’ai pris du poids sans rien changer à mon alimentation. Grâce à MOROFIT, j’ai réussi à stabiliser mon poids, j’ai moins de fringales sucrées et je dors mieux aussi, je pense grâce au chrome et au fait qu’il équilibre ma glycémie.",
-            "author_date": "Amandine B. – 46 ans, Lille"
+            "heading": "Je suis satisfaite de ma première cure",
+            "text": "Je suis satisfaite de ma première cure auprès de cette marque ainsi que toutes les informations que j'ai eu avec le service client concernant mes demandes. Je recommande vivement dejà 3 semaine et je constate les effets positif.",
+            "author_date": "Elodie, France"
           }
         },
         "item_NpK9zc": {
           "type": "item",
           "settings": {
             "stars_count": 5,
-            "heading": "Simple, efficace, je recommande les yeux fermés",
-            "text": "Ce que j’aime : 1 gélule par jour, rien à penser. Je sens que ça booste mon énergie sans me stresser comme d’autres produits. Je suis en pleine cure et j’ai déjà perdu 2,5 kg sans frustration !",
-            "author_date": "Nora K. – 30 ans, Lyon"
+            "heading": "Je suis absolument conquise",
+            "text": "Je suis absolument conquise! Les gélules minceur sont vraiment efficaces et faciles à intégrer dans mon quotidien. J'ai déjà vu des résultats positifs et je me sens plus énergique et plus confiante. Le fait qu'elles soient 100% bio et véganes est un énorme plus pour moi. Je recommande vivement Docteur V à toutes celles qui cherchent à atteindre leurs objectifs de bien-être. Merci pour cette belle découverte!",
+            "author_date": "Fanny SAUTIER, France"
           }
         }
       },
       "block_order": [
-        "item_zRADqY",
-        "item_LhewdP",
-        "item_AGF3EJ",
         "item_NrFAeM",
         "item_NpK9zc"
       ],
@@ -1074,13 +1044,13 @@
         "rating_text_height": 130,
         "rating_text_mt": 16,
         "rating_text_mt_mobile": 16,
-        "rating": 4.4,
+        "rating": 3.8,
         "rating_hide": false,
         "rating_text_hide": false,
         "stars_count": 5,
         "stars_size": 28,
         "stars_size_mobile": 24,
-        "text": "<p>Basé sur 348 avis</p>",
+        "text": "<p>Basé sur 2 avis</p>",
         "text_custom": false,
         "text_font": "josefin_sans_n4",
         "text_size": 20,
