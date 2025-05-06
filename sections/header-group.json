@@ -140,7 +140,7 @@
         "auto_rotate": true,
         "rotate_speed": 5,
         "arrow_color": "#ffffff",
-        "arrow_bg_color": "#fafafa",
+        "arrow_bg_color": "#5d9bd5",
         "arrow_rounded": 50
       }
     }
