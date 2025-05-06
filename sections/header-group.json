@@ -130,9 +130,10 @@
         "announcement_9tdYkK",
         "announcement_UACYJa"
       ],
+      "disabled": true,
       "name": "Barre d'annonces",
       "settings": {
-        "background_color": "#7D936D",
+        "background_color": "#7d936d",
         "bar_height": 55,
         "content_width": 1600,
         "text_font": "montserrat_n4",
@@ -140,7 +141,7 @@
         "auto_rotate": true,
         "rotate_speed": 5,
         "arrow_color": "#ffffff",
-        "arrow_bg_color": "#7D936D",
+        "arrow_bg_color": "#7d936d",
         "arrow_rounded": 50
       }
     }
