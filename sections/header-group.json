@@ -94,7 +94,7 @@
         "announcement_g3PeNt": {
           "type": "announcement",
           "settings": {
-            "text": "+ de 50 000 clients satisfaits",
+            "text": "Formule innovante",
             "text_color": "#ffffff",
             "icon": "heart"
           }
@@ -102,25 +102,25 @@
         "announcement_D88hwi": {
           "type": "announcement",
           "settings": {
-            "text": "Service client disponible 5j/7",
+            "text": "Expédition sous 1 - 2 jours",
             "text_color": "#ffffff",
-            "icon": "chat"
+            "icon": "truck"
           }
         },
         "announcement_9tdYkK": {
           "type": "announcement",
           "settings": {
-            "text": "Paiement en 3x avec Klarna",
+            "text": "Laboratoire français",
             "text_color": "#ffffff",
-            "icon": "credit-card"
+            "icon": "Pharmacie"
           }
         },
         "announcement_UACYJa": {
           "type": "announcement",
           "settings": {
-            "text": "Disponible dans plus de 400 pharmacies",
+            "text": "Experts de la santé",
             "text_color": "#ffffff",
-            "icon": "Pharmacie"
+            "icon": "check"
           }
         }
       },
@@ -130,10 +130,9 @@
         "announcement_9tdYkK",
         "announcement_UACYJa"
       ],
-      "disabled": true,
       "name": "Barre d'annonces",
       "settings": {
-        "background_color": "#7d936d",
+        "background_color": "#5d9bd5",
         "bar_height": 55,
         "content_width": 1600,
         "text_font": "montserrat_n4",
@@ -141,7 +140,7 @@
         "auto_rotate": true,
         "rotate_speed": 5,
         "arrow_color": "#ffffff",
-        "arrow_bg_color": "#7d936d",
+        "arrow_bg_color": "#fafafa",
         "arrow_rounded": 50
       }
     }
