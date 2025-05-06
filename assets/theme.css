@@ -5692,9 +5692,6 @@ ol {
 }
 
 @media screen and (min-width: 1024px) {
-  .announcement-bar {
-    max-width: 56rem
-  }
 
   .announcement-bar.without-nav {
     max-width: unset;
