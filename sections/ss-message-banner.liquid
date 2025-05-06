@@ -1,6 +1,532 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{% comment %}
+  Barre d'annonces avec 4 textes défilants sur mobile et affichage complet sur desktop
+  Version 1.0 - Compatible avec tous les thèmes Shopify
+{% endcomment %}
+
+<div class="announcement-bar" id="announcement-bar-{{ section.id }}" style="
+  background-color: {{ section.settings.background_color }};
+  height: {{ section.settings.bar_height }}px;
+">
+  <div class="announcement-container">
+    <button class="announcement-arrow announcement-prev" aria-label="Annonce précédente">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    </button>
+    
+    <div class="announcement-slider{% if section.settings.auto_rotate %} auto-rotate{% endif %}">
+      {% for block in section.blocks %}
+        {% if block.type == 'announcement' %}
+          <div class="announcement-item{% if forloop.first %} active{% endif %}" {{ block.shopify_attributes }} data-index="{{ forloop.index0 }}" style="
+            color: {{ block.settings.text_color }};
+            font-size: {{ section.settings.text_size }}px;
+            font-family: {{ section.settings.text_font.family }}, {{ section.settings.text_font.fallback_families }};
+            font-weight: {{ section.settings.text_font.weight }};
+            font-style: {{ section.settings.text_font.style }};
+          ">
+            <div class="announcement-icon">
+              {% case block.settings.icon %}
+                {% when 'star' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                {% when 'chat' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                {% when 'credit-card' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+                {% when 'Pharmacie' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <!-- Corps de la bouteille -->
+                    <path d="M8 6L6 9v11a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V9l-2-3H8z" />
+                    <!-- Haut de la bouteille/bouchon -->
+                    <path d="M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2" />
+                    <!-- Croix médicale -->
+                    <path d="M12 11v6M9 14h6" />
+                  </svg>             
+                {% when 'heart' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                {% when 'truck' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                {% when 'percent' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="5" x2="5" y2="19"></line><circle cx="6.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="17.5" r="2.5"></circle></svg>
+                {% when 'gift' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg>
+                {% when 'check' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                {% else %}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+              {% endcase %}
+            </div>
+            <div class="announcement-text">
+              {{ block.settings.text }}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    
+    <button class="announcement-arrow announcement-next" aria-label="Annonce suivante">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+    </button>
+  </div>
+</div>
+
+<style>
+.announcement-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.announcement-container {
+  width: 100%;
+  max-width: {{ section.settings.content_width }}px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.announcement-slider {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.announcement-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 0 40px; /* Space for arrows */
+}
+
+.announcement-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.announcement-text {
+  display: flex;
+  align-items: center;
+}
+
+.announcement-arrow {
+  background: {{ section.settings.arrow_bg_color }};
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  color: {{ section.settings.arrow_color }};
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s;
+  border-radius: {{ section.settings.arrow_rounded }}%;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.announcement-prev {
+  left: 5px;
+}
+
+.announcement-next {
+  right: 5px;
+}
+
+.announcement-arrow:hover {
+  opacity: 0.85;
+}
+
+@media screen and (max-width: 768px) {
+  .announcement-slider {
+    overflow: hidden;
   }
+  
+  .announcement-item {
+    min-width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.4s ease, visibility 0.4s;
+  }
+  
+  .announcement-item.active {
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+  }
+  
+  .announcement-arrow {
+    display: flex; /* Assurer que les flèches sont visibles sur mobile */
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .announcement-slider {
+    display: grid;
+    grid-template-columns: repeat({{ section.blocks.size }}, 1fr);
+    gap: 10px;
+  }
+  
+  .announcement-item {
+    justify-content: center;
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+  }
+  
+  .announcement-arrow {
+    display: none; /* Cacher les flèches sur desktop */
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var sliderContainer = document.querySelector('#announcement-bar-{{ section.id }}');
+  if (!sliderContainer) return;
+  
+  var slider = sliderContainer.querySelector('.announcement-slider');
+  var items = sliderContainer.querySelectorAll('.announcement-item');
+  var prevButton = sliderContainer.querySelector('.announcement-prev');
+  var nextButton = sliderContainer.querySelector('.announcement-next');
+  var autoRotate = slider.classList.contains('auto-rotate');
+  var rotateSpeed = {{ section.settings.rotate_speed }} * 1000;
+  var currentIndex = 0;
+  var isMobile = window.innerWidth <= 768;
+  var autoRotateTimer;
+  
+  // Fonction pour afficher un élément spécifique
+  function showItem(index) {
+    if (!isMobile) return; // Ne rien faire sur desktop
+    
+    // S'assurer que l'index est dans les limites
+    if (index < 0) index = items.length - 1;
+    if (index >= items.length) index = 0;
+    
+    // Mettre à jour l'index courant
+    currentIndex = index;
+    
+    // Mettre à jour les classes active
+    items.forEach(function(item) {
+      item.classList.remove('active');
+    });
+    
+    items[currentIndex].classList.add('active');
+  }
+  
+  // Fonctions de navigation
+  function nextItem() {
+    showItem(currentIndex + 1);
+  }
+  
+  function prevItem() {
+    showItem(currentIndex - 1);
+  }
+  
+  // Configurer les boutons de navigation
+  if (prevButton) {
+    prevButton.addEventListener('click', function() {
+      prevItem();
+      stopAutoRotate();
+      startAutoRotate();
+    });
+  }
+  
+  if (nextButton) {
+    nextButton.addEventListener('click', function() {
+      nextItem();
+      stopAutoRotate();
+      startAutoRotate();
+    });
+  }
+  
+  // Fonctions de rotation automatique
+  function startAutoRotate() {
+    if (autoRotate && isMobile && items.length > 1) {
+      stopAutoRotate();
+      autoRotateTimer = setInterval(nextItem, rotateSpeed);
+    }
+  }
+  
+  function stopAutoRotate() {
+    if (autoRotateTimer) {
+      clearInterval(autoRotateTimer);
+      autoRotateTimer = null;
+    }
+  }
+  
+  // Gestion des événements tactiles
+  if (slider) {
+    var touchStartX = 0;
+    var touchEndX = 0;
+    
+    slider.addEventListener('touchstart', function(e) {
+      touchStartX = e.changedTouches[0].screenX;
+      stopAutoRotate();
+    }, { passive: true });
+    
+    slider.addEventListener('touchend', function(e) {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipe();
+      startAutoRotate();
+    }, { passive: true });
+    
+    function handleSwipe() {
+      var swipeThreshold = 50;
+      if (touchEndX < touchStartX - swipeThreshold) {
+        // Swipe gauche -> suivant
+        nextItem();
+      } else if (touchEndX > touchStartX + swipeThreshold) {
+        // Swipe droite -> précédent
+        prevItem();
+      }
+    }
+  }
+  
+  // Démarrer en position initiale
+  showItem(0);
+  startAutoRotate();
+  
+  // Écouter les changements de taille d'écran
+  window.addEventListener('resize', function() {
+    var wasDesktop = !isMobile;
+    isMobile = window.innerWidth <= 768;
+    
+    // Si passage de desktop à mobile ou vice versa
+    if (wasDesktop !== !isMobile) {
+      if (isMobile) {
+        // Passage à mobile
+        showItem(0);
+        startAutoRotate();
+      } else {
+        // Passage à desktop
+        stopAutoRotate();
+        items.forEach(function(item) {
+          item.style.opacity = '';
+          item.style.visibility = '';
+          item.style.position = '';
+        });
+      }
+    }
+  });
+});
+</script>
+
+{% schema %}
+{
+  "name": "Barre d'annonces",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Paramètres généraux"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Couleur d'arrière-plan",
+      "default": "#7D936D"
+    },
+    {
+      "type": "range",
+      "id": "bar_height",
+      "min": 30,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "label": "Hauteur de la barre",
+      "default": 55
+    },
+    {
+      "type": "range",
+      "id": "content_width",
+      "min": 600,
+      "max": 1600,
+      "step": 50,
+      "unit": "px",
+      "label": "Largeur maximale du contenu",
+      "default": 1600
+    },
+    {
+      "type": "header",
+      "content": "Typographie"
+    },
+    {
+      "type": "font_picker",
+      "id": "text_font",
+      "label": "Police de texte",
+      "default": "montserrat_n4"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Taille du texte",
+      "default": 12
+    },
+    {
+      "type": "header",
+      "content": "Flèches de navigation"
+    },
+    {
+      "type": "checkbox",
+      "id": "auto_rotate",
+      "label": "Rotation automatique sur mobile",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "rotate_speed",
+      "min": 3,
+      "max": 10,
+      "step": 1,
+      "unit": "s",
+      "label": "Vitesse de rotation",
+      "default": 5,
+      "info": "Temps entre chaque annonce en secondes"
+    },
+    {
+      "type": "color",
+      "id": "arrow_color",
+      "label": "Couleur des flèches",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "arrow_bg_color",
+      "label": "Couleur de fond des flèches",
+      "default": "#7D936D"
+    },
+    {
+      "type": "range",
+      "id": "arrow_rounded",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Arrondi des flèches",
+      "default": 50
+    }
+  ],
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "Annonce",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Texte",
+          "default": "Annoncez quelque chose ici"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Couleur du texte",
+          "default": "#ffffff"
+        },
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icône",
+          "options": [
+            {
+              "value": "star",
+              "label": "Étoile"
+            },
+            {
+              "value": "chat",
+              "label": "Discussion"
+            },
+            {
+              "value": "Pharmacie",
+              "label": "Pharmacie"
+            },
+            {
+              "value": "credit-card",
+              "label": "Carte de crédit"
+            },
+            {
+              "value": "heart",
+              "label": "Cœur"
+            },
+            {
+              "value": "truck",
+              "label": "Livraison"
+            },
+            {
+              "value": "percent",
+              "label": "Pourcentage"
+            },
+            {
+              "value": "gift",
+              "label": "Cadeau"
+            },
+            {
+              "value": "check",
+              "label": "Vérification"
+            },
+            {
+              "value": "info",
+              "label": "Information"
+            }
+          ],
+          "default": "heart"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Barre d'annonces",
+      "category": "Texte",
+      "blocks": [
+        {
+          "type": "announcement",
+          "settings": {
+            "text": "+ de 50 000 clients satisfaits",
+            "icon": "heart"
+          }
+        },
+        {
+          "type": "announcement",
+          "settings": {
+            "text": "Service client disponible 5j/7",
+            "icon": "chat"
+          }
+        },
+        {
+          "type": "announcement",
+          "settings": {
+            "text": "Paiement en 3x avec Klarna",
+            "icon": "credit-card"
+          }
+        },
+        {
+          "type": "announcement",
+          "settings": {
+            "text": "Disponible dans plus de 400 pharmacies",
+            "icon": "Pharmacie"
+          }
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
