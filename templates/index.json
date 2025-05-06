@@ -518,43 +518,43 @@
         "benefit_left_yqdeN6": {
           "type": "benefit_left",
           "settings": {
-            "title": "Minceur",
-            "description": "Favorise la réduction des graisses grâce à l’action ciblée du Morosil®"
+            "title": "Graisses ciblées",
+            "description": "Le Morosil® cible les zones rebelles (ventre, hanches, cuisses) et agit directement sur la réduction des graisses abdominales. Fini les promesses floues : ici, on parle d’une gélule minceur efficace, testée cliniquement pour une perte de poids visible."
           }
         },
         "benefit_left_jbtWkD": {
           "type": "benefit_left",
           "settings": {
-            "title": "Simplicité",
-            "description": "1 seule gélule par jour, facile à intégrer dans votre routine."
+            "title": "Routine facile",
+            "description": "Pas besoin de 3 comprimés ni de se torturer avec des mélanges compliqués : 1 seule gélule par jour suffit pour enclencher votre cure Morosil."
           }
         },
         "benefit_left_RjHEq6": {
           "type": "benefit_left",
           "settings": {
-            "title": "Énergie",
-            "description": "Le guarana et la noix de kola apportent un léger coup de boost naturel."
+            "title": "Coup de boost naturel",
+            "description": "Grâce au guarana et à la noix de cola, cette gélule pour mincir vous donne un regain d'énergie naturel pour éviter la fatigue souvent liée aux régimes"
           }
         },
         "benefit_right_6LWHVP": {
           "type": "benefit_right",
           "settings": {
-            "title": "Contrôle",
-            "description": "Le chrome aide à réguler la glycémie et limite les fringales."
+            "title": "Moins de fringales",
+            "description": "Le chrome agit en régulant la glycémie pour limiter les envies sucrées et les écarts. Résultat : une meilleure gestion des repas, sans frustration."
           }
         },
         "benefit_right_QYbYip": {
           "type": "benefit_right",
           "settings": {
-            "title": "Formule Pro",
-            "description": "Développée par des médecins et pharmaciens selon des normes strictes."
+            "title": "Expertise scientifique",
+            "description": "Pas une simple pilule miracle : notre complément alimentaire pour maigrir a été conçu par des médecins et pharmaciens, dans le respect des normes françaises. Disponible en ligne."
           }
         },
         "benefit_right_BFziwg": {
           "type": "benefit_right",
           "settings": {
-            "title": "Résultats",
-            "description": "Des ingrédients cliniquement étudiés pour une silhouette plus affinée."
+            "title": "Résultats visibles",
+            "description": "Des avis sur le MORO FIT 400 montrent une silhouette affinée dès 4 semaines, moins de rétention d’eau, un ventre plus plat. Parfait en complément de votre routine bien-ê"
           }
         }
       },
@@ -566,7 +566,6 @@
         "benefit_right_QYbYip",
         "benefit_right_BFziwg"
       ],
-      "disabled": true,
       "name": "Bénéfices produit",
       "settings": {
         "title": "Bénéfices",
