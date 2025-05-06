@@ -1,20 +1,31 @@
 {% comment %}
   Barre d'annonces avec 4 textes défilants sur mobile et affichage complet sur desktop
-  Version 1.1 - Compatible avec tous les thèmes Shopify - Correction largeur pleine page
+  Version 2.0 - Solution forcée pour pleine largeur
 {% endcomment %}
 
-<div class="announcement-bar" id="announcement-bar-{{ section.id }}" style="
+<style>
+/* CSS global pour forcer la pleine largeur */
+.announcement-bar-fullwidth {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  margin-left: calc(-50vw + 50%) !important;
+  margin-right: calc(-50vw + 50%) !important;
+  left: 0 !important;
+  right: 0 !important;
+  position: relative !important;
+}
+</style>
+
+<div class="announcement-bar announcement-bar-fullwidth" id="announcement-bar-{{ section.id }}" style="
   background-color: {{ section.settings.background_color }};
   height: {{ section.settings.bar_height }}px;
-  width: 100vw;
-  max-width: 100%;
 ">
-  <div class="announcement-container">
+  <div class="announcement-container" style="width: 100%; max-width: 100% !important;">
     <button class="announcement-arrow announcement-prev" aria-label="Annonce précédente">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
     </button>
     
-    <div class="announcement-slider{% if section.settings.auto_rotate %} auto-rotate{% endif %}">
+    <div class="announcement-slider{% if section.settings.auto_rotate %} auto-rotate{% endif %}" style="width: 100%;">
       {% for block in section.blocks %}
         {% if block.type == 'announcement' %}
           <div class="announcement-item{% if forloop.first %} active{% endif %}" {{ block.shopify_attributes }} data-index="{{ forloop.index0 }}" style="
@@ -78,10 +89,7 @@
   position: relative;
   overflow: hidden;
   z-index: 10;
-  left: 0;
-  right: 0;
-  margin-left: 0;
-  margin-right: 0;
+  box-sizing: border-box;
 }
 
 .announcement-container {
@@ -95,7 +103,6 @@
 
 .announcement-slider {
   display: flex;
-  width: 100%;
   position: relative;
 }
 
@@ -103,7 +110,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
   flex-shrink: 0;
   text-align: center;
   padding: 0 40px; /* Space for arrows */
@@ -182,7 +188,7 @@
   .announcement-slider {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 100% !important;
   }
   
   .announcement-item {
@@ -202,6 +208,33 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  // Forcer la pleine largeur même après le chargement
+  var applyFullWidth = function() {
+    var sliderContainer = document.querySelector('#announcement-bar-{{ section.id }}');
+    if (!sliderContainer) return;
+    
+    // Forcer la pleine largeur
+    sliderContainer.classList.add('announcement-bar-fullwidth');
+    
+    // S'assurer que tous les parents n'ont pas d'overflow caché qui bloquerait la pleine largeur
+    var parent = sliderContainer.parentNode;
+    while (parent && parent !== document.body) {
+      var style = window.getComputedStyle(parent);
+      if (style.overflow === 'hidden') {
+        parent.style.overflow = 'visible';
+      }
+      parent = parent.parentNode;
+    }
+  };
+  
+  // Appliquer immédiatement
+  applyFullWidth();
+  
+  // Réappliquer après un court délai pour s'assurer que ça fonctionne même si le DOM change
+  setTimeout(applyFullWidth, 100);
+  setTimeout(applyFullWidth, 500);
+  setTimeout(applyFullWidth, 1000);
+  
   var sliderContainer = document.querySelector('#announcement-bar-{{ section.id }}');
   if (!sliderContainer) return;
   
@@ -328,6 +361,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
       }
     }
+    
+    // Réappliquer la pleine largeur
+    applyFullWidth();
   });
 });
 </script>
