@@ -1,11 +1,13 @@
 {% comment %}
   Barre d'annonces avec 4 textes défilants sur mobile et affichage complet sur desktop
-  Version 1.0 - Compatible avec tous les thèmes Shopify
+  Version 1.1 - Compatible avec tous les thèmes Shopify - Correction largeur pleine page
 {% endcomment %}
 
 <div class="announcement-bar" id="announcement-bar-{{ section.id }}" style="
   background-color: {{ section.settings.background_color }};
   height: {{ section.settings.bar_height }}px;
+  width: 100vw;
+  max-width: 100%;
 ">
   <div class="announcement-container">
     <button class="announcement-arrow announcement-prev" aria-label="Annonce précédente">
@@ -76,11 +78,14 @@
   position: relative;
   overflow: hidden;
   z-index: 10;
+  left: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .announcement-container {
   width: 100%;
-  max-width: {{ section.settings.content_width }}px;
   margin: 0 auto;
   position: relative;
   display: flex;
@@ -175,16 +180,18 @@
 
 @media screen and (min-width: 769px) {
   .announcement-slider {
-    display: grid;
-    grid-template-columns: repeat({{ section.blocks.size }}, 1fr);
-    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
   }
   
   .announcement-item {
+    flex: 1;
     justify-content: center;
     opacity: 1;
     visibility: visible;
     position: relative;
+    width: auto;
   }
   
   .announcement-arrow {
@@ -348,16 +355,6 @@ document.addEventListener('DOMContentLoaded', function() {
       "unit": "px",
       "label": "Hauteur de la barre",
       "default": 55
-    },
-    {
-      "type": "range",
-      "id": "content_width",
-      "min": 600,
-      "max": 1600,
-      "step": 50,
-      "unit": "px",
-      "label": "Largeur maximale du contenu",
-      "default": 1600
     },
     {
       "type": "header",
