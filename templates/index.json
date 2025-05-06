@@ -566,6 +566,7 @@
         "benefit_right_QYbYip",
         "benefit_right_BFziwg"
       ],
+      "disabled": true,
       "name": "Bénéfices produit",
       "settings": {
         "title": "Bénéfices",
