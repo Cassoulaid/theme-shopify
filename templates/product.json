@@ -658,6 +658,7 @@
         "video_B4N3R6",
         "video_mmHpxg"
       ],
+      "disabled": true,
       "name": "SS - Product Videos",
       "settings": {
         "videos_position": "above_description",
