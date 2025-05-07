@@ -17,7 +17,7 @@
           "settings": {
             "title_size": "product-title-md",
             "title_size_mobile": "product-title-md",
-            "show_price": true,
+            "show_price": false,
             "show_rating": false
           }
         },
@@ -29,7 +29,6 @@
         },
         "price_3m8RXh": {
           "type": "price",
-          "disabled": true,
           "settings": {
             "show_taxes_notice": false
           }
