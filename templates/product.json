@@ -30,7 +30,7 @@
         "liquid_nyUP6z": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p>€89,90</p>"
+            "liquid": "<p>€89,90</p>\n<style>"
           }
         },
         "price_3m8RXh": {
