@@ -628,6 +628,7 @@
           "type": "video",
           "settings": {
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "poster": "shopify://shop_images/IMG_6338.jpg",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
           }
@@ -636,6 +637,7 @@
           "type": "video",
           "settings": {
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "poster": "shopify://shop_images/IMG_1806.heic",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
           }
@@ -644,14 +646,7 @@
           "type": "video",
           "settings": {
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        },
-        "video_dTR8C9": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "poster": "shopify://shop_images/3.webp",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
           }
@@ -661,8 +656,7 @@
         "video_R9Et9i",
         "video_R87jE3",
         "video_B4N3R6",
-        "video_mmHpxg",
-        "video_dTR8C9"
+        "video_mmHpxg"
       ],
       "name": "SS - Product Videos",
       "settings": {
