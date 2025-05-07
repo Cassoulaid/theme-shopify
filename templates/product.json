@@ -256,7 +256,7 @@
       ],
       "settings": {
         "trust_position": "above_description",
-        "item_gap": 6,
+        "item_gap": 8,
         "item_gap_mobile": 10,
         "item_mt": 16,
         "item_mt_mobile": 16,
