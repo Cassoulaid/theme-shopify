@@ -258,7 +258,7 @@
         "trust_position": "above_description",
         "item_gap": 8,
         "item_gap_mobile": 10,
-        "item_mt": 16,
+        "item_mt": 5,
         "item_mt_mobile": 16,
         "image_icon_size": 22,
         "image_icon_size_mobile": 20,
