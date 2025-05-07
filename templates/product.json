@@ -29,6 +29,7 @@
         },
         "price_3m8RXh": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_taxes_notice": false
           }
