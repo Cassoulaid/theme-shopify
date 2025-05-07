@@ -447,7 +447,7 @@
         "heading_align": "left",
         "heading_align_mobile": "left",
         "items_mt": 0,
-        "items_gap": 30,
+        "items_gap": 4,
         "item_padding_vertical": 14,
         "item_padding_horizontal": 16,
         "item_radius": 0,
