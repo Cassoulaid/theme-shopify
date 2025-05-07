@@ -30,7 +30,7 @@
         "liquid_nyUP6z": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p>€89,90</p>\n<style>\np {\nfont-size: 1.5rem;\n}\n</style>"
+            "liquid": "<p class=\"text-price\">€89,90</p>\n<style>\n.text-price {\nfont-size: 1.5rem;\n}\n</style>"
           }
         },
         "price_3m8RXh": {
