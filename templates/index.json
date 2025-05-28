@@ -1022,13 +1022,23 @@
             "text": "Les gélules sont révolutionnaires!! Je suis juste conquise moi qui avait abandonner l’idée de perdre du poids après avoir tout essayé !Je reprendrai une cure une fois celle-ci terminéMerci à la fabricatrice de ces petites merveilles",
             "author_date": "Inès Lounas"
           }
+        },
+        "item_8DrUer": {
+          "type": "item",
+          "settings": {
+            "stars_count": 5,
+            "heading": "Impeccable",
+            "text": "1 mois que je l’utilise le processus est juste incroyable ! Je n’ai plus faim et je vois déjà les résultats, je ne suis vraiment pas déçu ! J’ai hâte de poursuivre et de voir les résultats optimales",
+            "author_date": "Samira Benhalima"
+          }
         }
       },
       "block_order": [
         "item_NrFAeM",
         "item_NpK9zc",
         "item_RntH4T",
-        "item_pLAEh8"
+        "item_pLAEh8",
+        "item_8DrUer"
       ],
       "settings": {
         "content_align": "center",
