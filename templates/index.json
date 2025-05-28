@@ -566,7 +566,6 @@
         "benefit_right_QYbYip",
         "benefit_right_BFziwg"
       ],
-      "name": "Bénéfices produit",
       "settings": {
         "title": "Bénéfices",
         "main_image": "shopify://shop_images/Morosil_cure.webp"
@@ -618,7 +617,6 @@
         "item_eABTfP",
         "item_LmU9bG"
       ],
-      "name": "SS - Before / After #5",
       "settings": {
         "content_align": "center",
         "content_align_mobile": "center",
@@ -995,7 +993,7 @@
             "stars_count": 5,
             "heading": "Je suis satisfaite de ma première cure",
             "text": "Je suis satisfaite de ma première cure auprès de cette marque ainsi que toutes les informations que j'ai eu avec le service client concernant mes demandes. Je recommande vivement dejà 3 semaine et je constate les effets positif.",
-            "author_date": "Elodie, France"
+            "author_date": "Elodie"
           }
         },
         "item_NpK9zc": {
@@ -1004,13 +1002,33 @@
             "stars_count": 5,
             "heading": "Je suis absolument conquise",
             "text": "Je suis absolument conquise! Les gélules minceur sont vraiment efficaces et faciles à intégrer dans mon quotidien. J'ai déjà vu des résultats positifs et je me sens plus énergique et plus confiante. Le fait qu'elles soient 100% bio et véganes est un énorme plus pour moi. Je recommande vivement Docteur V à toutes celles qui cherchent à atteindre leurs objectifs de bien-être. Merci pour cette belle découverte!",
-            "author_date": "Fanny SAUTIER, France"
+            "author_date": "Fanny SAUTIER"
+          }
+        },
+        "item_RntH4T": {
+          "type": "item",
+          "settings": {
+            "stars_count": 5,
+            "heading": "Efficace !!!",
+            "text": "Les effets au bout de 5 jours, plus de fringale, perte de bientot 1kilos ! ses gelules sont incroyablement efficace",
+            "author_date": "BSN BEAUTY"
+          }
+        },
+        "item_pLAEh8": {
+          "type": "item",
+          "settings": {
+            "stars_count": 5,
+            "heading": "Les gélules sont révolutionnaires!",
+            "text": "Les gélules sont révolutionnaires!! Je suis juste conquise moi qui avait abandonner l’idée de perdre du poids après avoir tout essayé !Je reprendrai une cure une fois celle-ci terminéMerci à la fabricatrice de ces petites merveilles",
+            "author_date": "Inès Lounas"
           }
         }
       },
       "block_order": [
         "item_NrFAeM",
-        "item_NpK9zc"
+        "item_NpK9zc",
+        "item_RntH4T",
+        "item_pLAEh8"
       ],
       "settings": {
         "content_align": "center",
@@ -1404,7 +1422,6 @@
     },
     "custom_liquid_VPykEm": {
       "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "liquid": "<div class=\"klaviyo-form-UJDvGS\"></div>",
         "color_text": "",
@@ -1499,7 +1516,6 @@
         "item_YRYFUT",
         "item_qehkMX"
       ],
-      "name": "SS - Trust badges #3",
       "settings": {
         "trust_position": "below_title",
         "item_gap": 10,
