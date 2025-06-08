@@ -27,6 +27,12 @@
             "liquid": "🍊 Extrait naturel d’orange rouge de Sicile<br>\n🌿 Soutient un régime sain<br>\n✨ Accompagne vos objectifs bien-être"
           }
         },
+        "liquid_hVwKAk": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    .product-banner {\n      display: flex;\n      justify-content: space-evenly;\n      align-items: center;\n      background-color: #DFF2FF;\n      color: black;\n      padding: 10px 7px;\n      border-radius: 8px;\n      font-family: montserrat, sans-serif;\n      font-size: 13px;\n      width: 100%;\n      box-sizing: border-box;\n    }\n    \n    .banner-feature {\n      display: flex;\n      align-items: center;\n    }\n    \n    .banner-icon {\n      margin-right: 8px;\n      font-size: 15px;\n    }\n    \n    @media (max-width: 600px) { \n      .banner-feature {\n        margin: 5px 0;\n      }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"product-banner\">\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🇫🇷</span> Fabrication <br> française\n    </div>\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🌿</span> Vegan, cure de 2 mois ! \n    </div>\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🧪</span> Hautement <br> dosé\n    </div>\n  </div>\n</body>\n</html>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -50,10 +56,12 @@
         },
         "pickup_availability": {
           "type": "pickup_availability",
+          "disabled": true,
           "settings": {}
         },
         "complementary": {
           "type": "complementary",
+          "disabled": true,
           "settings": {
             "heading": "Pairs well with",
             "product_limit": 4,
@@ -69,6 +77,7 @@
       "block_order": [
         "title",
         "liquid_yWAUPW",
+        "liquid_hVwKAk",
         "variant_picker",
         "buy_buttons",
         "pickup_availability",
