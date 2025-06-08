@@ -617,6 +617,7 @@
         "item_eABTfP",
         "item_LmU9bG"
       ],
+      "disabled": true,
       "settings": {
         "content_align": "center",
         "content_align_mobile": "center",
@@ -1222,6 +1223,7 @@
         "spacing",
         "timer"
       ],
+      "disabled": true,
       "settings": {
         "transparent_header": false,
         "image": "shopify://shop_images/umbrella-chair-with-pillow-around-beautiful-landscape-beach-sea.jpg",
