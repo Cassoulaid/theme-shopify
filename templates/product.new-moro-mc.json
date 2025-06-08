@@ -21,20 +21,10 @@
             "show_rating": false
           }
         },
-        "description": {
-          "type": "description",
+        "liquid_yWAUPW": {
+          "type": "liquid",
           "settings": {
-            "text_size": "text-base"
-          }
-        },
-        "countdown": {
-          "type": "countdown",
-          "settings": {
-            "heading": "Hurry up!",
-            "subheading": "Sale end in:",
-            "color_text": "#e11d48",
-            "color_background": "#fff1f2",
-            "gradient_background": ""
+            "liquid": "🍊 Extrait naturel d’orange rouge de Sicile<br>\n🌿 Soutient un régime sain<br>\n✨ Accompagne vos objectifs bien-être"
           }
         },
         "variant_picker": {
@@ -78,8 +68,7 @@
       },
       "block_order": [
         "title",
-        "description",
-        "countdown",
+        "liquid_yWAUPW",
         "variant_picker",
         "buy_buttons",
         "pickup_availability",
