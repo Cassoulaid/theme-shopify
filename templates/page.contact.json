@@ -101,7 +101,7 @@
           "type": "contact",
           "settings": {
             "heading": "Adresse",
-            "text": "<p><a href=\"#\" title=\"mailto:shop@yourstore.com\">contact@docteurv.fr</a></p>"
+            "text": "<p>57 RUE VICTOR BALTARD 59200 TOURCOING, FRANCE</p>"
           }
         },
         "contact-2": {
@@ -114,14 +114,8 @@
         "contact-3": {
           "type": "contact",
           "settings": {
-            "heading": "Phone",
-            "text": "<p>A venir </p>"
-          }
-        },
-        "media": {
-          "type": "media",
-          "settings": {
-            "heading": "Suivez nous"
+            "heading": "Téléphone",
+            "text": "<p>+7 58 63 06 43</p>"
           }
         },
         "custom_field-1": {
@@ -155,7 +149,6 @@
         "contact-1",
         "contact-2",
         "contact-3",
-        "media",
         "custom_field-1",
         "custom_field-2"
       ],
