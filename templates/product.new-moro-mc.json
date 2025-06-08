@@ -409,6 +409,101 @@
         "parallax_direction": "vertical"
       }
     },
+    "ss_small_faq_rJmR8g": {
+      "type": "ss-small-faq",
+      "blocks": {
+        "question_bt8abd": {
+          "type": "question",
+          "settings": {
+            "question": "Quels sont les ingrédients du MORO FIT 400 actifs et leurs bienfaits ?",
+            "answer": "<p>MORO FIT HAUTEMENT DOSÉ combine plusieurs ingrédients naturels reconnus pour leurs vertus :</p><ul><li><strong>Extrait sec d’orange rouge – Morosil® (400 mg)</strong> : Puissant antioxydant, il aide à combattre le stress oxydatif et favorise le contrôle du poids.</li><li><strong>Vinaigre de cidre (52,5 mg)</strong> : Contribue à une meilleure digestion et à la régulation du métabolisme.</li><li><strong>Extrait sec de guarana (30 mg)</strong> avec <strong>3,3 mg de caféine</strong> : Stimule l’énergie, accélère le métabolisme des graisses et aide à la combustion des calories.</li><li><strong>Poudre de noix de cola (40 mg)</strong> apportant également <strong>3,3 mg de caféine</strong> : Favorise l’amincissement par son effet stimulant naturel.</li><li><strong>Chrome (39 µg, 98 % VNR)</strong> : Essentiel pour la régulation du métabolisme des glucides et des lipides, il aide à maintenir une glycémie normale.<br/>Cette synergie d'ingrédients naturels fait de MOROFIT un complément alimentaire minceur de choix pour soutenir efficacement une <strong>cure de perte de poids</strong> et un <strong>métabolisme optimisé</strong>.</li></ul>"
+          }
+        },
+        "question_qnxxjE": {
+          "type": "question",
+          "settings": {
+            "question": "Quelle est la posologie recommandée pour le MORO FIT 400 ?",
+            "answer": "<p>La posologie idéale est <strong>1 gélule par jour</strong>. Il est conseillé de prendre la gélule le matin avec un grand verre d'eau pour favoriser une absorption optimale des principes actifs et démarrer la journée en boostant votre métabolisme.</p>"
+          }
+        },
+        "question_9mLe7p": {
+          "type": "question",
+          "settings": {
+            "question": "Combien de temps dure une cure avec une boîte de MORO FIT 400 ?",
+            "answer": "<p>Chaque boîte contient <strong>60 gélules</strong>, ce qui correspond à une cure de <strong>2 mois</strong>. Cette durée de cure permet d’observer des résultats progressifs et durables dans le cadre d’un régime équilibré et d’un mode de vie sain.</p>"
+          }
+        },
+        "question_qhkUgE": {
+          "type": "question",
+          "settings": {
+            "question": "Pourquoi choisir MORO FIT 400 HAUTEMENT DOSÉ ?",
+            "answer": "<p>MORO FIT 400 se démarque par sa formule concentrée et ses ingrédients naturels de haute qualité. Voici pourquoi il est le choix idéal pour votre <strong>cure de perte de poids</strong> :</p><ul><li><strong>Simplicité d'utilisation</strong> : 1 gélule par jour, facile à intégrer dans votre routine matinale.</li><li><strong>Efficacité prouvée</strong> : Grâce à des ingrédients ciblés comme le Morosil®, le guarana et le chrome.</li><li><strong>Durée de cure optimale</strong> : 60 gélules pour 2 mois de bienfaits continus.</li><li><strong>Sécurité et qualité</strong> : Formulé dans le respect des normes les plus strictes pour un complément alimentaire naturel et fiable</li></ul>"
+          }
+        },
+        "question_ACDh7B": {
+          "type": "question",
+          "settings": {
+            "question": "Quels engagements prenons-nous pour la satisfaction client ?",
+            "answer": "<p>Nous mettons un point d’honneur à offrir un service client irréprochable et personnalisé. Notre équipe, composée de professionnels expérimentés, est à l’écoute de vos besoins et prête à répondre à toutes vos questions. Nous assurons également un suivi après-vente pour garantir votre entière satisfaction.</p>"
+          }
+        },
+        "question_Whh99q": {
+          "type": "question",
+          "settings": {
+            "question": "Quels sont les bénéfices de MORO FIT 400 HAUTEMENT DOSÉ pour la perte de poids ?",
+            "answer": "<p>Les principaux bénéfices incluent :</p><ul><li><strong>Stimulation du métabolisme des graisses</strong> grâce à l’action combinée du guarana et de la noix de cola.</li><li><strong>Amélioration de la combustion des calories</strong> et activation de la thermogenèse.</li><li><strong>Régulation de la glycémie</strong> et soutien du métabolisme lipidique grâce au chrome.</li><li><strong>Optimisation de la digestion</strong> avec le vinaigre de cidre.</li></ul><p><strong>Effet antioxydant</strong> de l’extrait d’orange rouge (Morosil®) pour lutter contre le stress oxydatif.Ces effets contribuent à une <strong>perte de poids naturelle</strong> et à une <strong>silhouette harmonieuse</strong>, faisant de MOROFIT une solution de choix pour ceux qui recherchent un <strong>complément alimentaire amincissement</strong> de haute qualité.</p>"
+          }
+        },
+        "question_b9YwBz": {
+          "type": "question",
+          "settings": {
+            "question": "Est-ce que MORO FIT 400 est fabriqué en France ?",
+            "answer": "<p>Absolument ! MORO FIT 400 HAUTEMENT DOSÉ est fabriqué dans un <strong>laboratoire français certifié 🇫🇷</strong>, garantissant un contrôle qualité strict et une production conforme aux normes européennes. Tous les <strong>actifs sont soigneusement sourcés </strong>auprès de fournisseurs reconnus pour leur excellence, assurant ainsi une qualité optimale et une efficacité prouvée pour votre cure minceur. Ce processus de fabrication garantit non seulement la <strong>pureté des ingrédients</strong>, mais aussi la sécurité et la performance du complément alimentaire</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_bt8abd",
+        "question_qnxxjE",
+        "question_9mLe7p",
+        "question_qhkUgE",
+        "question_ACDh7B",
+        "question_Whh99q",
+        "question_b9YwBz"
+      ],
+      "settings": {
+        "title": "Questions fréquentes",
+        "image": "shopify://shop_images/PHOTO-2025-04-19-14-23-14.jpg",
+        "image_bg": "#f8f8f8",
+        "image_shape": "blob",
+        "show_icon": false,
+        "icon_type": "lightbulb",
+        "show_view_all": false,
+        "view_all_text": "Voir la FAQ",
+        "faq_page": "",
+        "title_size": 36,
+        "title_weight": "500",
+        "title_color": "#000000",
+        "view_all_color": "#000000",
+        "view_all_weight": "400",
+        "question_size": 18,
+        "question_weight": "500",
+        "question_color": "#000000",
+        "question_padding": 24,
+        "chevron_color": "#000000",
+        "chevron_active_color": "#000000",
+        "chevron_hover_bg": "#f5f5f5",
+        "answer_color": "#666666",
+        "divider_color": "#5d9bd5",
+        "question_border_radius": 16,
+        "hover_bg_color": "#5d9bd5",
+        "active_bg_color": "#5d9bd5",
+        "hover_indent": 8,
+        "hover_color": "#000000",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "help-drawer": {
       "type": "help-drawer",
       "blocks": {
@@ -554,6 +649,7 @@
     "scrolling_logos_fcBPiQ",
     "ss_feature_17_ydiaYa",
     "image_with_text_G78JtR",
+    "ss_small_faq_rJmR8g",
     "help-drawer",
     "product-recommendations",
     "recently-viewed"
