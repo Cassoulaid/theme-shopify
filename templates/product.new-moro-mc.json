@@ -78,6 +78,36 @@
         "sticky_buy_button": {
           "type": "sticky_buy_button",
           "settings": {}
+        },
+        "collapsible_tab_bmPf6Q": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible row",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "page": "",
+            "liquid": ""
+          }
+        },
+        "collapsible_tab_8k3HWN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible row",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "page": "",
+            "liquid": ""
+          }
+        },
+        "collapsible_tab_cQV9C7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible row",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "page": "",
+            "liquid": ""
+          }
         }
       },
       "block_order": [
@@ -89,7 +119,10 @@
         "liquid_KggQWV",
         "pickup_availability",
         "complementary",
-        "sticky_buy_button"
+        "sticky_buy_button",
+        "collapsible_tab_bmPf6Q",
+        "collapsible_tab_8k3HWN",
+        "collapsible_tab_cQV9C7"
       ],
       "settings": {
         "enable_sticky_info": true,
