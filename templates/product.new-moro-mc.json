@@ -339,6 +339,76 @@
         "lazy": true
       }
     },
+    "image_with_text_G78JtR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_WVxpHx": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"Je n'ai même pas encore fini la boîte !\"",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_mpqXQa": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>\"Je suis choquée 😱</strong><br/>J’ai tout essayé… mais là, c’est la première fois que je vois un vrai changement aussi vite !<br/>Je suis à peine à <strong>45 jours de cure</strong> (et j’ai même <strong>pas encore fini la boîte</strong>) et <strong>les résultats sont déjà là</strong> 🔥Mon ventre a dégonflé, ma silhouette s’est affinée, <strong>aucune douleur, aucun effet secondaire</strong>…<br/>Juste une gélule par jour, facile à prendre et zéro contrainte ! <strong>Merci Docteur V 💖</strong><br/>C’est clairement devenu mon indispensable 😍\"</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_iKNmC7": {
+          "type": "button",
+          "settings": {
+            "button_label": "VITE,  MA CURE DE 2 MOIS AVANT L'ÉTÉ !",
+            "button_link": "shopify://products/morosil-400",
+            "button_style": "primary",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_WVxpHx",
+        "text_mpqXQa",
+        "button_iKNmC7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/3_33cc5854-4902-494b-859e-3a86aec6214d.png",
+        "image_height": "650px",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
     "help-drawer": {
       "type": "help-drawer",
       "blocks": {
@@ -483,6 +553,7 @@
     "main-product",
     "scrolling_logos_fcBPiQ",
     "ss_feature_17_ydiaYa",
+    "image_with_text_G78JtR",
     "help-drawer",
     "product-recommendations",
     "recently-viewed"
