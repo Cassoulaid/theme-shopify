@@ -103,8 +103,8 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "Conseil d'utilisation",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "heading": "Conseils d'utilisation",
+            "content": "<ul><li>Prendre 1 gélule minceur par jour pendant 60 jours.</li><li>Associer idéalement à une alimentation équilibrée et un grand verre d’eau</li><li>Ne pas dépasser la dose recommandée.</li><li>Déconseillé aux femmes enceintes ou allaitantes sans avis médical.</li></ul><h5><strong>Précautions : </strong></h5><p>Déconseillé en cas d’ulcère gastro-duodénal, de troubles cardiaques ou d’hyperthiroïdie. En cas de traitements, demandez conseil à votre pharmacien. Ne pas dépasser la zone journalière recommandée</p><p>Un complément alimentaire ne doit pas se substituer à une alimentation variée et équilibrée et à un mode de vie sain. </p>",
             "page": "",
             "liquid": ""
           }
