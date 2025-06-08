@@ -590,7 +590,7 @@
         "slide_PwYapa"
       ],
       "settings": {
-        "ss-title": "Vu sur :",
+        "ss-title": "",
         "heading_custom": false,
         "heading_font": "assistant_n4",
         "header_size": 30,
@@ -780,6 +780,7 @@
     },
     "before_after_image_5_EzEtNw": {
       "type": "before-after-image-5",
+      "disabled": true,
       "settings": {
         "content_align": "center",
         "content_align_mobile": "center",
@@ -862,6 +863,7 @@
     },
     "testimonials_banner_8wi98R": {
       "type": "testimonials-banner",
+      "disabled": true,
       "settings": {
         "transparent_header": false,
         "image": "shopify://shop_images/3.svg",
@@ -1444,8 +1446,8 @@
     "ss_payment_icon_7YfLGL",
     "trust_badge_2_4GWDpq",
     "ss_delivery_timer_e9Tf48",
-    "ss_feature_17_NxFLLw",
     "scrolling_logos_E4XiDh",
+    "ss_feature_17_NxFLLw",
     "ss_product_video_9diCgg",
     "before_after_image_5_EzEtNw",
     "testimonials_banner_8wi98R",
