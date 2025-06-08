@@ -512,6 +512,133 @@
         "lazy": true
       }
     },
+    "ss_feature_17_WNPCJg": {
+      "type": "ss-feature-17",
+      "blocks": {
+        "heading_K6RNHt": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Docteur V, une perte de poids prouvée scientifiquement</strong></p>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 18,
+            "heading_size_mobile": 18,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_align": "left",
+            "heading_align_mobile": "left",
+            "heading_color": "#000000"
+          }
+        },
+        "text_8yXGCN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Grâce à sa formule innovante à base de Morosil®, MORO FIT 400 a déjà transformé le quotidien de nombreuses personnes.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 15,
+            "text_height": 150,
+            "text_mt": 24,
+            "text_mt_mobile": 24,
+            "text_color": "#000000"
+          }
+        },
+        "item_yGnVXA": {
+          "type": "item",
+          "settings": {
+            "percent": 90,
+            "text": "des utilisateurs ont remarqué une réduction visible de leur tour de taille après 4 semaines d’utilisation."
+          }
+        },
+        "item_fckXpR": {
+          "type": "item",
+          "settings": {
+            "percent": 95,
+            "text": "trouvent le produit facile à intégrer dans leur routine quotidienne grâce à sa posologie simple (1 gélule/jour)."
+          }
+        },
+        "item_RRPcmz": {
+          "type": "item",
+          "settings": {
+            "percent": 86,
+            "text": "affirment se sentir plus légers et dynamiques, avec moins de fringales et une meilleure gestion des écarts."
+          }
+        }
+      },
+      "block_order": [
+        "heading_K6RNHt",
+        "text_8yXGCN",
+        "item_yGnVXA",
+        "item_fckXpR",
+        "item_RRPcmz"
+      ],
+      "settings": {
+        "body_gap": 64,
+        "body_gap_mobile": 32,
+        "content_horizontal_align": "center",
+        "content_horizontal_align_mobile": "center",
+        "heading": "<p><strong>Testé, approuvé, recommandé.</strong></p>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "heading_height": 130,
+        "items_mt": 16,
+        "items_mt_mobile": 16,
+        "item_padding_vertical": 10,
+        "item_padding_vertical_mobile": 10,
+        "item_gap": 16,
+        "item_gap_mobile": 16,
+        "item_border_thickness": 2,
+        "circle_size": 70,
+        "circle_size_mobile": 70,
+        "percent_custom": false,
+        "percent_font": "josefin_sans_n4",
+        "percent_size": 18,
+        "percent_size_mobile": 18,
+        "percent_height": 130,
+        "item_text_custom": false,
+        "item_text_font": "josefin_sans_n4",
+        "item_text_size": 16,
+        "item_text_size_mobile": 16,
+        "item_text_height": 150,
+        "bottom_text": "<p>Résultats basés sur un sondage interne mené auprès de 120 utilisateurs réguliers sur une période de 30 jours.</p>",
+        "bottom_text_custom": false,
+        "bottom_text_font": "josefin_sans_n4",
+        "bottom_text_size": 12,
+        "bottom_text_size_mobile": 12,
+        "bottom_text_height": 130,
+        "bottom_text_mt": 16,
+        "bottom_text_mt_mobile": 16,
+        "bottom_text_align": "left",
+        "bottom_text_align_mobile": "left",
+        "item_border_color": "#f3f3f3",
+        "circle_bg_color": "#ffffff",
+        "circle_progress": "#5d9bd5",
+        "percent_color": "#5d9bd5",
+        "item_text_color": "#000000",
+        "heading_color": "#000000",
+        "bottom_text_color": "#000000",
+        "background_color": "#fafafa",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "ss_benefices_qxC44Y": {
       "type": "ss-benefices",
       "blocks": {
@@ -693,133 +820,6 @@
         "padding_horizontal_mobile": 1.5,
         "full_width": false,
         "content_width": 60,
-        "border_thickness": 0,
-        "section_radius": 0,
-        "lazy": true
-      }
-    },
-    "ss_feature_17_WNPCJg": {
-      "type": "ss-feature-17",
-      "blocks": {
-        "heading_K6RNHt": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Docteur V, une perte de poids prouvée scientifiquement</strong></p>",
-            "heading_custom": false,
-            "heading_font": "josefin_sans_n4",
-            "heading_size": 18,
-            "heading_size_mobile": 18,
-            "heading_height": 130,
-            "heading_mt": 0,
-            "heading_mt_mobile": 0,
-            "heading_align": "left",
-            "heading_align_mobile": "left",
-            "heading_color": "#000000"
-          }
-        },
-        "text_8yXGCN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Grâce à sa formule innovante à base de Morosil®, MORO FIT 400 a déjà transformé le quotidien de nombreuses personnes.</p>",
-            "text_custom": false,
-            "text_font": "josefin_sans_n4",
-            "text_size": 16,
-            "text_size_mobile": 15,
-            "text_height": 150,
-            "text_mt": 24,
-            "text_mt_mobile": 24,
-            "text_color": "#000000"
-          }
-        },
-        "item_yGnVXA": {
-          "type": "item",
-          "settings": {
-            "percent": 90,
-            "text": "des utilisateurs ont remarqué une réduction visible de leur tour de taille après 4 semaines d’utilisation."
-          }
-        },
-        "item_fckXpR": {
-          "type": "item",
-          "settings": {
-            "percent": 95,
-            "text": "trouvent le produit facile à intégrer dans leur routine quotidienne grâce à sa posologie simple (1 gélule/jour)."
-          }
-        },
-        "item_RRPcmz": {
-          "type": "item",
-          "settings": {
-            "percent": 86,
-            "text": "affirment se sentir plus légers et dynamiques, avec moins de fringales et une meilleure gestion des écarts."
-          }
-        }
-      },
-      "block_order": [
-        "heading_K6RNHt",
-        "text_8yXGCN",
-        "item_yGnVXA",
-        "item_fckXpR",
-        "item_RRPcmz"
-      ],
-      "settings": {
-        "body_gap": 64,
-        "body_gap_mobile": 32,
-        "content_horizontal_align": "center",
-        "content_horizontal_align_mobile": "center",
-        "heading": "<p><strong>Testé, approuvé, recommandé.</strong></p>",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 36,
-        "heading_size_mobile": 28,
-        "heading_height": 130,
-        "items_mt": 16,
-        "items_mt_mobile": 16,
-        "item_padding_vertical": 10,
-        "item_padding_vertical_mobile": 10,
-        "item_gap": 16,
-        "item_gap_mobile": 16,
-        "item_border_thickness": 2,
-        "circle_size": 70,
-        "circle_size_mobile": 70,
-        "percent_custom": false,
-        "percent_font": "josefin_sans_n4",
-        "percent_size": 18,
-        "percent_size_mobile": 18,
-        "percent_height": 130,
-        "item_text_custom": false,
-        "item_text_font": "josefin_sans_n4",
-        "item_text_size": 16,
-        "item_text_size_mobile": 16,
-        "item_text_height": 150,
-        "bottom_text": "<p>Résultats basés sur un sondage interne mené auprès de 120 utilisateurs réguliers sur une période de 30 jours.</p>",
-        "bottom_text_custom": false,
-        "bottom_text_font": "josefin_sans_n4",
-        "bottom_text_size": 12,
-        "bottom_text_size_mobile": 12,
-        "bottom_text_height": 130,
-        "bottom_text_mt": 16,
-        "bottom_text_mt_mobile": 16,
-        "bottom_text_align": "left",
-        "bottom_text_align_mobile": "left",
-        "item_border_color": "#f3f3f3",
-        "circle_bg_color": "#ffffff",
-        "circle_progress": "#5d9bd5",
-        "percent_color": "#5d9bd5",
-        "item_text_color": "#000000",
-        "heading_color": "#000000",
-        "bottom_text_color": "#000000",
-        "background_color": "#fafafa",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 120,
         "border_thickness": 0,
         "section_radius": 0,
         "lazy": true
@@ -1562,9 +1562,9 @@
     "hero_6_rbXhKP",
     "ss_about_jLFatp",
     "ss_feature_13_ga68tn",
+    "ss_feature_17_WNPCJg",
     "ss_benefices_qxC44Y",
     "before_after_image_5_NFxUCc",
-    "ss_feature_17_WNPCJg",
     "ss_tableau_HG4Pia",
     "testimonials_banner_CG7YnM",
     "ss_testimonial_16_7UaE8B",
