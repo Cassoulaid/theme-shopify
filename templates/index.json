@@ -1041,6 +1041,7 @@
         "item_pLAEh8",
         "item_8DrUer"
       ],
+      "disabled": true,
       "settings": {
         "content_align": "center",
         "content_align_mobile": "center",
