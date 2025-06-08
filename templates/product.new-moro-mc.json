@@ -144,6 +144,133 @@
         "rounded": false
       }
     },
+    "ss_feature_17_ydiaYa": {
+      "type": "ss-feature-17",
+      "blocks": {
+        "heading_Nct9F3": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 28,
+            "heading_size_mobile": 18,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_align": "left",
+            "heading_align_mobile": "left",
+            "heading_color": "#000000"
+          }
+        },
+        "text_FYet6P": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Grâce à sa formule naturelle à base de Morosil<strong>®</strong>, ce complément alimentaire perte de poids a aidé des centaines d’utilisateurs à perdre du poids efficacement et éviter l’effet yoyo, en seulement quelques semaines.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 15,
+            "text_height": 150,
+            "text_mt": 24,
+            "text_mt_mobile": 24,
+            "text_color": "#000000"
+          }
+        },
+        "item_heR48y": {
+          "type": "item",
+          "settings": {
+            "percent": 90,
+            "text": "des utilisateurs ont constaté une perte de poids visible et une réduction du tour de taille dès 4 semaines grâce à leur cure Morosil®."
+          }
+        },
+        "item_c8CMqP": {
+          "type": "item",
+          "settings": {
+            "percent": 95,
+            "text": "des utilisateurs trouvent cette gélule minceur facile à intégrer à leur quotidien : 1 gélule pour mincir par jour suffit pour démarrer une cure minceur efficace."
+          }
+        },
+        "item_JjfjMN": {
+          "type": "item",
+          "settings": {
+            "percent": 86,
+            "text": "des utilisateurs déclarent se sentir plus légers, plus énergiques, avec moins de fringales et une meilleure régulation de leur glycémie, tout en conservant une silhouette affinée grâce au brûleur de graisse naturel MORO FIT 400"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Nct9F3",
+        "text_FYet6P",
+        "item_heR48y",
+        "item_c8CMqP",
+        "item_JjfjMN"
+      ],
+      "settings": {
+        "body_gap": 64,
+        "body_gap_mobile": 32,
+        "content_horizontal_align": "center",
+        "content_horizontal_align_mobile": "center",
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 38,
+        "heading_size_mobile": 28,
+        "heading_height": 130,
+        "items_mt": 16,
+        "items_mt_mobile": 16,
+        "item_padding_vertical": 10,
+        "item_padding_vertical_mobile": 10,
+        "item_gap": 16,
+        "item_gap_mobile": 16,
+        "item_border_thickness": 2,
+        "circle_size": 70,
+        "circle_size_mobile": 70,
+        "percent_custom": false,
+        "percent_font": "josefin_sans_n4",
+        "percent_size": 18,
+        "percent_size_mobile": 19,
+        "percent_height": 130,
+        "item_text_custom": false,
+        "item_text_font": "josefin_sans_n4",
+        "item_text_size": 16,
+        "item_text_size_mobile": 14,
+        "item_text_height": 150,
+        "bottom_text": "<p>Résultats issus d’un sondage interne réalisé auprès de ….. utilisateurs ayant suivi une <strong>cure MORO FIT 400</strong> sur 30 jours (1 gélule minceur par jour)</p>",
+        "bottom_text_custom": false,
+        "bottom_text_font": "josefin_sans_n4",
+        "bottom_text_size": 12,
+        "bottom_text_size_mobile": 12,
+        "bottom_text_height": 130,
+        "bottom_text_mt": 16,
+        "bottom_text_mt_mobile": 16,
+        "bottom_text_align": "left",
+        "bottom_text_align_mobile": "left",
+        "item_border_color": "#f3f3f3",
+        "circle_bg_color": "#ffffff",
+        "circle_progress": "#5d9bd5",
+        "percent_color": "#5d9bd5",
+        "item_text_color": "#000000",
+        "heading_color": "#000000",
+        "bottom_text_color": "#000000",
+        "background_color": "#fafafa",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "help-drawer": {
       "type": "help-drawer",
       "blocks": {
@@ -286,6 +413,7 @@
   },
   "order": [
     "main-product",
+    "ss_feature_17_ydiaYa",
     "help-drawer",
     "product-recommendations",
     "recently-viewed"
