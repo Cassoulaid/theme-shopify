@@ -981,6 +981,7 @@
         "item_XXPr7z",
         "item_e7yM87"
       ],
+      "disabled": true,
       "settings": {
         "content_align": "center",
         "content_align_mobile": "center",
