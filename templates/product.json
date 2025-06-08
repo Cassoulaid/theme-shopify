@@ -42,6 +42,7 @@
         },
         "liquid_FJJQBp": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div id='ss-trust-badges-3'></div>"
           }
