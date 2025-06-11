@@ -693,6 +693,7 @@
         "benefit_right_QYbYip",
         "benefit_right_BFziwg"
       ],
+      "disabled": true,
       "settings": {
         "title": "Bénéfices",
         "main_image": "shopify://shop_images/Morosil_cure.webp"
@@ -912,7 +913,7 @@
         "criteria_Jqy6jE"
       ],
       "settings": {
-        "title": "MORO FIT 400 : un complément miceur hautement dosé",
+        "title": "MORO FIT 400 : un complément minceur hautement dosé",
         "subtitle": "<p>Les avantages de notre cure de MOROSIL<strong>®</strong></p>",
         "button_text": "Je commence ma cure de 2 mois",
         "button_link": "shopify://products/morosil-400",
