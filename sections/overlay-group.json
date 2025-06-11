@@ -13,6 +13,7 @@
   "sections": {
     "cart-drawer": {
       "type": "cart-drawer",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "show_vendor": false,
@@ -117,6 +118,7 @@
         "media",
         "floating"
       ],
+      "disabled": true,
       "settings": {
         "mode": "enabled",
         "only_homepage": true,
