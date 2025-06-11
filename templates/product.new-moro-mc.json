@@ -547,6 +547,113 @@
         "full_width": false,
         "rounded": false
       }
+    },
+    "ss_tableau_h8yrGk": {
+      "type": "ss-tableau",
+      "blocks": {
+        "brand_3fCyPH": {
+          "type": "brand",
+          "settings": {
+            "brand_name": "DOCTEUR  V",
+            "highlight_column": true,
+            "column_background_color": "#dff2ff",
+            "brand_name_color": "#000000"
+          }
+        },
+        "brand_EqrGRm": {
+          "type": "brand",
+          "settings": {
+            "brand_name": "AUTRES",
+            "highlight_column": false,
+            "column_background_color": "#fafafa",
+            "brand_name_color": "#000000"
+          }
+        },
+        "criteria_eafm4C": {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Composition",
+            "value_1": "Hautement dosé",
+            "value_1_type": "positive",
+            "value_2": "Produits chimiques",
+            "value_2_type": "negative",
+            "value_3": "Synthétique",
+            "value_3_type": "negative",
+            "value_4": "Non spécifié",
+            "value_4_type": "positive"
+          }
+        },
+        "criteria_dtKjnR": {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Efficacité",
+            "value_1": "Résultats visibles, perte de gras",
+            "value_1_type": "positive",
+            "value_2": "Résultats moyens",
+            "value_2_type": "neutral",
+            "value_3": "Résultats faibles",
+            "value_3_type": "negative",
+            "value_4": "Non spécifié",
+            "value_4_type": "positive"
+          }
+        },
+        "criteria_VmVze7": {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Durée et prix",
+            "value_1": "Cure de 2 mois par boite",
+            "value_1_type": "positive",
+            "value_2": "Prix élevé",
+            "value_2_type": "negative",
+            "value_3": "Abordable mais peu efficace",
+            "value_3_type": "neutral",
+            "value_4": "Non spécifié",
+            "value_4_type": "positive"
+          }
+        },
+        "criteria_jVm8bw": {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Durabilité",
+            "value_1": "Écologique",
+            "value_1_type": "positive",
+            "value_2": "Non durable",
+            "value_2_type": "negative",
+            "value_3": "Partiellement écologique",
+            "value_3_type": "neutral",
+            "value_4": "Non spécifié",
+            "value_4_type": "positive"
+          }
+        }
+      },
+      "block_order": [
+        "brand_3fCyPH",
+        "brand_EqrGRm",
+        "criteria_eafm4C",
+        "criteria_dtKjnR",
+        "criteria_VmVze7",
+        "criteria_jVm8bw"
+      ],
+      "name": "Tableau comparatif",
+      "settings": {
+        "title": "MORO FIT 400 : un complément minceur hautement dosé",
+        "subtitle": "<p>Les avantages de notre cure de MOROSIL<strong>®</strong></p>",
+        "button_text": "Je commence ma cure de 2 mois",
+        "button_link": "shopify://products/morosil-400",
+        "button_border_radius": 26,
+        "background_color": "#fafafa",
+        "title_color": "#000000",
+        "subtitle_color": "#4A4A4A",
+        "criteria_text_color": "#333333",
+        "feature_text_color": "#333333",
+        "positive_icon_color": "#4CAF50",
+        "negative_icon_color": "#F44336",
+        "neutral_icon_color": "#9E9E9E",
+        "button_background": "#dff2ff",
+        "button_text_color": "#171717",
+        "button_hover_background": "#5d9bd5",
+        "button_hover_text_color": "#fafafa"
+      }
     }
   },
   "order": [
@@ -556,6 +663,7 @@
     "image_with_text_G78JtR",
     "help-drawer",
     "product-recommendations",
-    "recently-viewed"
+    "recently-viewed",
+    "ss_tableau_h8yrGk"
   ]
 }
