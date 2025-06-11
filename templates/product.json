@@ -926,6 +926,7 @@
         "text_WRkqHg",
         "button_FLBKzD"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/3_33cc5854-4902-494b-859e-3a86aec6214d.png",
         "image_height": "650px",
