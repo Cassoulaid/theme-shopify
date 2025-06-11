@@ -381,10 +381,9 @@
         "text_mpqXQa",
         "button_iKNmC7"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/fama.jpg",
-        "image_height": "550px",
+        "image": "shopify://shop_images/post_avantapres_docteur_v-2.png",
+        "image_height": "adapt",
         "image_width": "small",
         "layout": "image_first",
         "text_alignment": "center",
