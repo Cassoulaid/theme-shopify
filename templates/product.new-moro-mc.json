@@ -108,12 +108,6 @@
           "settings": {
             "liquid": "<div class=\"product-ingredients\">\n  <p class=\"ingredients-title\">Ingrédients sélectionnés pour leur efficacité :</p>\n  <div class=\"ingredients-list\">\n    <span class=\"ingredient\">Extrait d'orange rouge - Morosil ® </span>\n    <span class=\"ingredient\">Vinaigre de cidre</span>\n    <span class=\"ingredient\">Extrait sec de guarana</span>\n    <span class=\"ingredient\">Poudre de noix de cola</span>\n  </div>\n</div>\n\n<style>\n  .product-ingredients {\n    padding-left: 0; /* Suppression du padding lié à l'ancienne bordure */\n    margin: 15px 0;\n    font-size: 12px;\n    line-height: 1.4;\n  }\n\n  .ingredients-title {\n    font-weight: bold;\n    margin-bottom: 5px;\n  }\n\n  .ingredients-list {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 5px;\n  }\n\n  .ingredient {\n    display: inline-block;\n    padding: 3px 8px;\n    border: 2px solid #5D9BD5; /* Bordure solide */\n    border-radius: 8px;\n    font-size: 10px;\n    color: #5D9BD5;\n    font-weight: bold;\n  }\n</style>"
           }
-        },
-        "liquid_MA7UQw": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"custom-product-video\">\n  <video controls poster=\"//cdn.shopify.com/s/files/1/0000/0000/0000/files/placeholder.jpg?v=1\" style=\"width:100%; max-width:640px; border-radius:12px;\" preload=\"metadata\">\n    <source src=\"https://cdn.shopify.com/videos/c/o/v/6b7ee4c76f93439cb4c41bd1133cdf7a.mp4\" type=\"video/mp4\">\n    Votre navigateur ne supporte pas la lecture vidéo.\n  </video>\n</div>\n\n<style>\n.custom-product-video {\n  margin: 2rem auto;\n  text-align: center;\n}\n</style>"
-          }
         }
       },
       "block_order": [
@@ -128,8 +122,7 @@
         "collapsible_tab_bmPf6Q",
         "collapsible_tab_8k3HWN",
         "collapsible_tab_cQV9C7",
-        "liquid_KggQWV",
-        "liquid_MA7UQw"
+        "liquid_KggQWV"
       ],
       "settings": {
         "enable_sticky_info": true,
