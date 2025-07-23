@@ -58,6 +58,12 @@
             "show_back_in_stock_phone": false
           }
         },
+        "liquid_M9JY7D": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"margin: 0 !important; padding: 0 !important;\">\n  <div style=\"\n    display: flex;\n    overflow-x: auto;\n    gap: 8px;\n    scroll-snap-type: x mandatory;\n    -webkit-overflow-scrolling: touch;\n    scrollbar-width: none;\n    -ms-overflow-style: none;\n    padding: 0 !important;\n    margin: 0 !important;\n  \">\n    <!-- Vidéo 1 -->\n    <div style=\"\n      flex: 0 0 auto;\n      width: 100px;\n      scroll-snap-align: start;\n      border-radius: 6px;\n      overflow: hidden;\n    \">\n      <video\n        src=\"https://cdn.shopify.com/videos/c/o/v/3271dc812f7346e4b10013ffe746f9c0.mov\"\n        controls\n        muted\n        style=\"width: 100%; height: auto; display: block; border-radius: 6px;\"\n      >\n        Votre navigateur ne supporte pas la balise vidéo.\n      </video>\n    </div>\n\n    <!-- Vidéo 2 -->\n    <div style=\"\n      flex: 0 0 auto;\n      width: 100px;\n      scroll-snap-align: start;\n      border-radius: 6px;\n      overflow: hidden;\n    \">\n      <video\n        src=\"https://cdn.shopify.com/videos/c/o/v/5e6fea924a0a48a5aab1eb1ba20d37dd.mov\"\n        controls\n        muted\n        style=\"width: 100%; height: auto; display: block; border-radius: 6px;\"\n      >\n        Votre navigateur ne supporte pas la balise vidéo.\n      </video>\n    </div>\n\n    <!-- Vidéo 3 -->\n    <div style=\"\n      flex: 0 0 auto;\n      width: 100px;\n      scroll-snap-align: start;\n      border-radius: 6px;\n      overflow: hidden;\n    \">\n      <video\n        src=\"https://cdn.shopify.com/videos/c/o/v/fb67c4e7d90c438eaddf124bc5fe13a5.mov\"\n        controls\n        muted\n        style=\"width: 100%; height: auto; display: block; border-radius: 6px;\"\n      >\n        Votre navigateur ne supporte pas la balise vidéo.\n      </video>\n    </div>\n  </div>\n</div>"
+          }
+        },
         "pickup_availability": {
           "type": "pickup_availability",
           "disabled": true,
@@ -121,6 +127,7 @@
         "liquid_hVwKAk",
         "variant_picker",
         "buy_buttons",
+        "liquid_M9JY7D",
         "pickup_availability",
         "complementary",
         "sticky_buy_button",
