@@ -155,31 +155,31 @@
         "feature_ACpYtr": {
           "type": "feature",
           "settings": {
-            "text": "✅ Vegan, naturel"
+            "text": "Vegan, naturel"
           }
         },
         "feature_9zM7Mz": {
           "type": "feature",
           "settings": {
-            "text": "✅ Hautement dosé en actifs"
+            "text": "Hautement dosé en actifs"
           }
         },
         "feature_XAqThP": {
           "type": "feature",
           "settings": {
-            "text": "✅ Favorise la perte de poids"
+            "text": "Favorise la perte de poids"
           }
         },
         "feature_FAFxxf": {
           "type": "feature",
           "settings": {
-            "text": "✅ Fabrication 100% française"
+            "text": "Fabrication 100% française"
           }
         },
         "feature_tabnA7": {
           "type": "feature",
           "settings": {
-            "text": "✅Morosil® / Vinaigre de cidre"
+            "text": "Morosil® / Vinaigre de cidre"
           }
         }
       },
@@ -218,7 +218,7 @@
         "feature_text_space": 12,
         "feature_text_align": "left",
         "feature_text_align_mobile": "left",
-        "button": "<p><strong>J'achète ma cure</strong></p>",
+        "button": "<p><strong>Ma cure minceur </strong></p>",
         "button_url": "shopify://products/morosil-400",
         "button_custom": false,
         "button_font": "montserrat_n4",
@@ -263,7 +263,7 @@
         "badge_align": "start",
         "badge_align_mobile": "center",
         "badge_mt_mobile": 10,
-        "image": "shopify://shop_images/3.webp",
+        "image": "shopify://shop_images/IA_MOCK_UP_DR_V_Publication_Instagram_45.png",
         "image_radius": 0,
         "image_border_thickness": 0,
         "image_blur_desktop": true,
@@ -302,64 +302,6 @@
         "content_width": 120,
         "border_thickness": 0,
         "lazy": true
-      }
-    },
-    "ss_about_jLFatp": {
-      "type": "ss-about",
-      "blocks": {
-        "benefit_card_yBaxkC": {
-          "type": "benefit_card",
-          "settings": {
-            "title": "Une formule innovante",
-            "content": "<p><strong>Simplicité d'utilisation</strong> : 1 gélule par jour, facile à intégrer dans votre routine matinale.</p><p><strong>Efficacité prouvée</strong> : Grâce à des ingrédients ciblés comme le Morosil®, le guarana et le chrome.</p><p><strong>Formules développées en collaboration avec des professionnels de santé</strong></p>",
-            "icon": "award"
-          }
-        },
-        "benefit_card_PPLG8G": {
-          "type": "benefit_card",
-          "settings": {
-            "title": "Hautement dosé",
-            "content": "<p><strong>Dosages optimaux, sans ingrédients superflus</strong></p><ul><li><strong>Morosil® (400 mg) - </strong>Extrait sec d'orange rouge </li><li><strong>Vinaigre de cidre </strong>(52,5 mg)</li><li><strong>Extrait sec de guarana</strong> (30 mg) avec 3,3 mg de caféine</li><li><strong>Poudre de noix de cola</strong> (40 mg) apportant également 0,8 mg de caféine</li><li><strong>Chrome</strong> (39 µg)</li></ul>",
-            "icon": "star"
-          }
-        },
-        "benefit_card_tmLjzD": {
-          "type": "benefit_card",
-          "settings": {
-            "title": "Formulation d'expert",
-            "content": "<p><strong>Dosages optimaux, sans ingrédients superflus</strong></p><ul><li>Aucune substance controversée (sans OGM, sans gluten, sans sucre ajouté)</li><li>Fabrication française, dans le respect des normes pharmaceutiques</li></ul>",
-            "icon": "check_mark"
-          }
-        },
-        "benefit_card_i4qmEP": {
-          "type": "benefit_card",
-          "settings": {
-            "title": "Efficacité prouvée et  validée",
-            "content": "<p>Chaque formule est testée en condition réelles pour garantir des résultats.</p><p><strong>Nos engagements vont au-delà des promesses</strong> <strong>:</strong> <strong>on mesure, on ajuste, on valide</strong>. Parce que tu mérites des soins dont l'efficacité est scientifiquement prouvée</p>",
-            "icon": "heart"
-          }
-        }
-      },
-      "block_order": [
-        "benefit_card_yBaxkC",
-        "benefit_card_PPLG8G",
-        "benefit_card_tmLjzD",
-        "benefit_card_i4qmEP"
-      ],
-      "settings": {
-        "heading": "Les engagements scientifiques Docteur V",
-        "heading_size": "title-md",
-        "heading_tag": "h1",
-        "card_style": "shadow",
-        "icon_bg_color": "#dff2ff",
-        "color_headings": "#171717",
-        "color_text": "",
-        "color_background": "#fafafa",
-        "gradient_background": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "rounded": true
       }
     },
     "ss_feature_13_ga68tn": {
@@ -510,6 +452,64 @@
         "section_radius": 0,
         "border_thickness": 0,
         "lazy": true
+      }
+    },
+    "ss_about_jLFatp": {
+      "type": "ss-about",
+      "blocks": {
+        "benefit_card_yBaxkC": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Une formule innovante",
+            "content": "<p><strong>Simplicité d'utilisation</strong> : 1 gélule par jour, facile à intégrer dans votre routine matinale.</p><p><strong>Efficacité prouvée</strong> : Grâce à des ingrédients ciblés comme le Morosil®, le guarana et le chrome.</p><p><strong>Formules développées en collaboration avec des professionnels de santé</strong></p>",
+            "icon": "award"
+          }
+        },
+        "benefit_card_PPLG8G": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Hautement dosé",
+            "content": "<p><strong>Dosages optimaux, sans ingrédients superflus</strong></p><ul><li><strong>Morosil® (400 mg) - </strong>Extrait sec d'orange rouge </li><li><strong>Vinaigre de cidre </strong>(52,5 mg)</li><li><strong>Extrait sec de guarana</strong> (30 mg) avec 3,3 mg de caféine</li><li><strong>Poudre de noix de cola</strong> (40 mg) apportant également 0,8 mg de caféine</li><li><strong>Chrome</strong> (39 µg)</li></ul>",
+            "icon": "star"
+          }
+        },
+        "benefit_card_tmLjzD": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Formulation d'expert",
+            "content": "<p><strong>Dosages optimaux, sans ingrédients superflus</strong></p><ul><li>Aucune substance controversée (sans OGM, sans gluten, sans sucre ajouté)</li><li>Fabrication française, dans le respect des normes pharmaceutiques</li></ul>",
+            "icon": "check_mark"
+          }
+        },
+        "benefit_card_i4qmEP": {
+          "type": "benefit_card",
+          "settings": {
+            "title": "Efficacité prouvée et  validée",
+            "content": "<p>Chaque formule est testée en condition réelles pour garantir des résultats.</p><p><strong>Nos engagements vont au-delà des promesses</strong> <strong>:</strong> <strong>on mesure, on ajuste, on valide</strong>. Parce que tu mérites des soins dont l'efficacité est scientifiquement prouvée</p>",
+            "icon": "heart"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_card_yBaxkC",
+        "benefit_card_PPLG8G",
+        "benefit_card_tmLjzD",
+        "benefit_card_i4qmEP"
+      ],
+      "settings": {
+        "heading": "Les engagements scientifiques Docteur V",
+        "heading_size": "title-md",
+        "heading_tag": "h1",
+        "card_style": "shadow",
+        "icon_bg_color": "#dff2ff",
+        "color_headings": "#171717",
+        "color_text": "",
+        "color_background": "#fafafa",
+        "gradient_background": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "rounded": true
       }
     },
     "ss_feature_17_WNPCJg": {
@@ -1620,8 +1620,8 @@
     "image_with_text_overlay_ALrkJP",
     "scrolling_logos_6TkyMz",
     "hero_6_rbXhKP",
-    "ss_about_jLFatp",
     "ss_feature_13_ga68tn",
+    "ss_about_jLFatp",
     "ss_feature_17_WNPCJg",
     "ss_benefices_qxC44Y",
     "before_after_image_5_NFxUCc",
