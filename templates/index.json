@@ -962,6 +962,24 @@
         "rounded": false
       }
     },
+    "1753199626b0bf78ec": {
+      "type": "apps",
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "testimonials_banner_CG7YnM": {
       "type": "testimonials-banner",
       "blocks": {
@@ -1586,35 +1604,6 @@
         "padding_horizontal_mobile": 0,
         "border_thickness": 0
       }
-    },
-    "1753199626b0bf78ec": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_bgRq47": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_bgRq47"
-      ],
-      "settings": {
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
     }
   },
   "order": [
@@ -1622,19 +1611,19 @@
     "scrolling_logos_6TkyMz",
     "hero_6_rbXhKP",
     "ss_feature_13_ga68tn",
+    "175319881326c7ce0c",
     "ss_about_jLFatp",
     "ss_feature_17_WNPCJg",
     "ss_benefices_qxC44Y",
     "before_after_image_5_NFxUCc",
     "ss_tableau_HG4Pia",
-    "175319881326c7ce0c",
+    "1753199626b0bf78ec",
     "testimonials_banner_CG7YnM",
     "ss_testimonial_16_7UaE8B",
     "countdown-timer",
     "ss_faq_9_BkMFP3",
     "custom_liquid_VPykEm",
     "17463566359eaf5607",
-    "ss_trust_badge_DDtKK8",
-    "1753199626b0bf78ec"
+    "ss_trust_badge_DDtKK8"
   ]
 }
