@@ -455,6 +455,35 @@
         "lazy": true
       }
     },
+    "175319881326c7ce0c": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_H7HWH6": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_H7HWH6"
+      ],
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "ss_about_jLFatp": {
       "type": "ss-about",
       "blocks": {
@@ -933,35 +962,6 @@
         "button_hover_text_color": "#ffffff"
       }
     },
-    "175319881326c7ce0c": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_H7HWH6": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_H7HWH6"
-      ],
-      "settings": {
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
     "1753199626b0bf78ec": {
       "type": "apps",
       "settings": {
@@ -1014,10 +1014,11 @@
         "testimonial_EMqM9E",
         "testimonial_t4CyLE"
       ],
+      "disabled": true,
       "settings": {
         "transparent_header": false,
-        "image": "shopify://shop_images/IMG_6338.jpg",
-        "image_height": "600px",
+        "image": "shopify://shop_images/Banniere_shopify_1.png",
+        "image_height": "adapt",
         "content_position": "md:items-center md:justify-center",
         "image_height_mobile": "auto",
         "content_position_mobile": "items-center justify-center",
@@ -1025,7 +1026,7 @@
         "color_highlight": "#e0a580",
         "gradient_highlight": "",
         "color_overlay": "#171717",
-        "overlay_opacity": 56,
+        "overlay_opacity": 0,
         "padding_top": 0,
         "padding_bottom": 52,
         "divider": false,
