@@ -1605,6 +1605,35 @@
         "padding_horizontal_mobile": 0,
         "border_thickness": 0
       }
+    },
+    "1757414701f81855a2": {
+      "type": "apps",
+      "blocks": {
+        "reelup_shoppable_videos_reels_reelup_playlist_mFLijN": {
+          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "settings": {
+            "playlist_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "reelup_shoppable_videos_reels_reelup_playlist_mFLijN"
+      ],
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
     }
   },
   "order": [
@@ -1625,6 +1654,7 @@
     "ss_faq_9_BkMFP3",
     "custom_liquid_VPykEm",
     "17463566359eaf5607",
-    "ss_trust_badge_DDtKK8"
+    "ss_trust_badge_DDtKK8",
+    "1757414701f81855a2"
   ]
 }
