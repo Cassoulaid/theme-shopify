@@ -81,6 +81,53 @@
         "parallax_direction": "vertical"
       }
     },
+    "1757414701f81855a2": {
+      "type": "apps",
+      "blocks": {
+        "reelup_shoppable_videos_reels_reelup_playlist_mFLijN": {
+          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "settings": {
+            "playlist_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "reelup_shoppable_videos_reels_reelup_playlist_mFLijN"
+      ],
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 48,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "1757416430c20e26fc": {
+      "type": "apps",
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "scrolling_logos_6TkyMz": {
       "type": "scrolling-logos",
       "blocks": {
@@ -455,35 +502,6 @@
         "lazy": true
       }
     },
-    "175319881326c7ce0c": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_H7HWH6": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_H7HWH6"
-      ],
-      "settings": {
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
     "ss_about_jLFatp": {
       "type": "ss-about",
       "blocks": {
@@ -526,6 +544,7 @@
         "benefit_card_tmLjzD",
         "benefit_card_i4qmEP"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Les engagements scientifiques Docteur V",
         "heading_size": "title-md",
@@ -542,131 +561,139 @@
         "rounded": true
       }
     },
-    "ss_feature_17_WNPCJg": {
-      "type": "ss-feature-17",
+    "175319881326c7ce0c": {
+      "type": "apps",
       "blocks": {
-        "heading_K6RNHt": {
-          "type": "heading",
+        "judge_me_reviews_featured_carousel_H7HWH6": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "heading": "<p><strong>Docteur V, une perte de poids prouvée scientifiquement</strong></p>",
-            "heading_custom": false,
-            "heading_font": "josefin_sans_n4",
-            "heading_size": 18,
-            "heading_size_mobile": 18,
-            "heading_height": 130,
-            "heading_mt": 0,
-            "heading_mt_mobile": 0,
-            "heading_align": "left",
-            "heading_align_mobile": "left",
-            "heading_color": "#000000"
-          }
-        },
-        "text_8yXGCN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Grâce à sa formule innovante à base de Morosil®, MORO FIT 400 a déjà transformé le quotidien de nombreuses personnes.</p>",
-            "text_custom": false,
-            "text_font": "josefin_sans_n4",
-            "text_size": 16,
-            "text_size_mobile": 15,
-            "text_height": 150,
-            "text_mt": 24,
-            "text_mt_mobile": 24,
-            "text_color": "#000000"
-          }
-        },
-        "item_yGnVXA": {
-          "type": "item",
-          "settings": {
-            "percent": 90,
-            "text": "des utilisateurs ont remarqué une réduction visible de leur tour de taille après 4 semaines d’utilisation."
-          }
-        },
-        "item_fckXpR": {
-          "type": "item",
-          "settings": {
-            "percent": 95,
-            "text": "trouvent le produit facile à intégrer dans leur routine quotidienne grâce à sa posologie simple (1 gélule/jour)."
-          }
-        },
-        "item_RRPcmz": {
-          "type": "item",
-          "settings": {
-            "percent": 86,
-            "text": "affirment se sentir plus légers et dynamiques, avec moins de fringales et une meilleure gestion des écarts."
+            "maxwidth": 1080
           }
         }
       },
       "block_order": [
-        "heading_K6RNHt",
-        "text_8yXGCN",
-        "item_yGnVXA",
-        "item_fckXpR",
-        "item_RRPcmz"
+        "judge_me_reviews_featured_carousel_H7HWH6"
       ],
       "settings": {
-        "body_gap": 64,
-        "body_gap_mobile": 32,
-        "content_horizontal_align": "center",
-        "content_horizontal_align_mobile": "center",
-        "heading": "<p><strong>Testé, approuvé, recommandé.</strong></p>",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 36,
-        "heading_size_mobile": 28,
-        "heading_height": 130,
-        "items_mt": 16,
-        "items_mt_mobile": 16,
-        "item_padding_vertical": 10,
-        "item_padding_vertical_mobile": 10,
-        "item_gap": 16,
-        "item_gap_mobile": 16,
-        "item_border_thickness": 2,
-        "circle_size": 70,
-        "circle_size_mobile": 70,
-        "percent_custom": false,
-        "percent_font": "josefin_sans_n4",
-        "percent_size": 18,
-        "percent_size_mobile": 18,
-        "percent_height": 130,
-        "item_text_custom": false,
-        "item_text_font": "josefin_sans_n4",
-        "item_text_size": 16,
-        "item_text_size_mobile": 16,
-        "item_text_height": 150,
-        "bottom_text": "<p>Résultats basés sur un sondage interne mené auprès de 120 utilisateurs réguliers sur une période de 30 jours.</p>",
-        "bottom_text_custom": false,
-        "bottom_text_font": "josefin_sans_n4",
-        "bottom_text_size": 12,
-        "bottom_text_size_mobile": 12,
-        "bottom_text_height": 130,
-        "bottom_text_mt": 16,
-        "bottom_text_mt_mobile": 16,
-        "bottom_text_align": "left",
-        "bottom_text_align_mobile": "left",
-        "item_border_color": "#f3f3f3",
-        "circle_bg_color": "#ffffff",
-        "circle_progress": "#5d9bd5",
-        "percent_color": "#5d9bd5",
-        "item_text_color": "#000000",
-        "heading_color": "#000000",
-        "bottom_text_color": "#000000",
-        "background_color": "#fafafa",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
         "full_width": false,
-        "content_width": 120,
-        "border_thickness": 0,
-        "section_radius": 0,
-        "lazy": true
+        "rounded": false
+      }
+    },
+    "ss_tableau_HG4Pia": {
+      "type": "ss-tableau",
+      "blocks": {
+        "brand_iJANL9": {
+          "type": "brand",
+          "settings": {
+            "brand_name": "DOCTEUR.V",
+            "highlight_column": true,
+            "column_background_color": "#dff2ff",
+            "brand_name_color": "#000000"
+          }
+        },
+        "brand_DFB6Nz": {
+          "type": "brand",
+          "settings": {
+            "brand_name": "AUTRES",
+            "highlight_column": false,
+            "column_background_color": "#ffffff",
+            "brand_name_color": "#000000"
+          }
+        },
+        "criteria_HVLbix": {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Composition",
+            "value_1": "Hautement dosé",
+            "value_1_type": "positive",
+            "value_2": "Produits chimiques",
+            "value_2_type": "negative",
+            "value_3": "Synthétique",
+            "value_3_type": "negative",
+            "value_4": "Non spécifié",
+            "value_4_type": "positive"
+          }
+        },
+        "criteria_qYXN4H": {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Efficacité",
+            "value_1": "Réduction de la taille",
+            "value_1_type": "positive",
+            "value_2": "Résultats moyens",
+            "value_2_type": "neutral",
+            "value_3": "Résultats faibles",
+            "value_3_type": "negative",
+            "value_4": "Non spécifié",
+            "value_4_type": "positive"
+          }
+        },
+        "criteria_kXPaaU": {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Durée & Prix",
+            "value_1": "Cure de 2 mois",
+            "value_1_type": "positive",
+            "value_2": "Prix élevé",
+            "value_2_type": "negative",
+            "value_3": "Abordable mais peu efficace",
+            "value_3_type": "neutral",
+            "value_4": "Non spécifié",
+            "value_4_type": "positive"
+          }
+        },
+        "criteria_Jqy6jE": {
+          "type": "criteria",
+          "settings": {
+            "criteria_name": "Ecoresponsable",
+            "value_1": "Écologique & naturel",
+            "value_1_type": "positive",
+            "value_2": "Non durable",
+            "value_2_type": "negative",
+            "value_3": "Partiellement écologique",
+            "value_3_type": "neutral",
+            "value_4": "Non spécifié",
+            "value_4_type": "positive"
+          }
+        }
+      },
+      "block_order": [
+        "brand_iJANL9",
+        "brand_DFB6Nz",
+        "criteria_HVLbix",
+        "criteria_qYXN4H",
+        "criteria_kXPaaU",
+        "criteria_Jqy6jE"
+      ],
+      "settings": {
+        "title": "MORO FIT 400 : un complément minceur hautement dosé",
+        "subtitle": "<p>Les avantages de notre cure de MOROSIL<strong>®</strong></p>",
+        "button_text": "Je commence ma cure de 2 mois",
+        "button_link": "shopify://products/morosil-400",
+        "button_border_radius": 26,
+        "background_color": "#fafafa",
+        "title_color": "#000000",
+        "subtitle_color": "#4a4a4a",
+        "criteria_text_color": "#333333",
+        "feature_text_color": "#333333",
+        "positive_icon_color": "#4caf50",
+        "negative_icon_color": "#f44336",
+        "neutral_icon_color": "#9e9e9e",
+        "button_background": "#dff2ff",
+        "button_text_color": "#171717",
+        "button_hover_background": "#5d9bd5",
+        "button_hover_text_color": "#ffffff"
       }
     },
     "ss_benefices_qxC44Y": {
@@ -856,110 +883,131 @@
         "lazy": true
       }
     },
-    "ss_tableau_HG4Pia": {
-      "type": "ss-tableau",
+    "ss_feature_17_WNPCJg": {
+      "type": "ss-feature-17",
       "blocks": {
-        "brand_iJANL9": {
-          "type": "brand",
+        "heading_K6RNHt": {
+          "type": "heading",
           "settings": {
-            "brand_name": "DOCTEUR.V",
-            "highlight_column": true,
-            "column_background_color": "#dff2ff",
-            "brand_name_color": "#000000"
+            "heading": "<p><strong>Docteur V, une perte de poids prouvée scientifiquement</strong></p>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 18,
+            "heading_size_mobile": 18,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_align": "left",
+            "heading_align_mobile": "left",
+            "heading_color": "#000000"
           }
         },
-        "brand_DFB6Nz": {
-          "type": "brand",
+        "text_8yXGCN": {
+          "type": "text",
           "settings": {
-            "brand_name": "AUTRES",
-            "highlight_column": false,
-            "column_background_color": "#ffffff",
-            "brand_name_color": "#000000"
+            "text": "<p>Grâce à sa formule innovante à base de Morosil®, MORO FIT 400 a déjà transformé le quotidien de nombreuses personnes.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 15,
+            "text_height": 150,
+            "text_mt": 24,
+            "text_mt_mobile": 24,
+            "text_color": "#000000"
           }
         },
-        "criteria_HVLbix": {
-          "type": "criteria",
+        "item_yGnVXA": {
+          "type": "item",
           "settings": {
-            "criteria_name": "Composition",
-            "value_1": "Hautement dosé",
-            "value_1_type": "positive",
-            "value_2": "Produits chimiques",
-            "value_2_type": "negative",
-            "value_3": "Synthétique",
-            "value_3_type": "negative",
-            "value_4": "Non spécifié",
-            "value_4_type": "positive"
+            "percent": 90,
+            "text": "des utilisateurs ont remarqué une réduction visible de leur tour de taille après 4 semaines d’utilisation."
           }
         },
-        "criteria_qYXN4H": {
-          "type": "criteria",
+        "item_fckXpR": {
+          "type": "item",
           "settings": {
-            "criteria_name": "Efficacité",
-            "value_1": "Réduction de la taille",
-            "value_1_type": "positive",
-            "value_2": "Résultats moyens",
-            "value_2_type": "neutral",
-            "value_3": "Résultats faibles",
-            "value_3_type": "negative",
-            "value_4": "Non spécifié",
-            "value_4_type": "positive"
+            "percent": 95,
+            "text": "trouvent le produit facile à intégrer dans leur routine quotidienne grâce à sa posologie simple (1 gélule/jour)."
           }
         },
-        "criteria_kXPaaU": {
-          "type": "criteria",
+        "item_RRPcmz": {
+          "type": "item",
           "settings": {
-            "criteria_name": "Durée & Prix",
-            "value_1": "Cure de 2 mois",
-            "value_1_type": "positive",
-            "value_2": "Prix élevé",
-            "value_2_type": "negative",
-            "value_3": "Abordable mais peu efficace",
-            "value_3_type": "neutral",
-            "value_4": "Non spécifié",
-            "value_4_type": "positive"
-          }
-        },
-        "criteria_Jqy6jE": {
-          "type": "criteria",
-          "settings": {
-            "criteria_name": "Ecoresponsable",
-            "value_1": "Écologique & naturel",
-            "value_1_type": "positive",
-            "value_2": "Non durable",
-            "value_2_type": "negative",
-            "value_3": "Partiellement écologique",
-            "value_3_type": "neutral",
-            "value_4": "Non spécifié",
-            "value_4_type": "positive"
+            "percent": 86,
+            "text": "affirment se sentir plus légers et dynamiques, avec moins de fringales et une meilleure gestion des écarts."
           }
         }
       },
       "block_order": [
-        "brand_iJANL9",
-        "brand_DFB6Nz",
-        "criteria_HVLbix",
-        "criteria_qYXN4H",
-        "criteria_kXPaaU",
-        "criteria_Jqy6jE"
+        "heading_K6RNHt",
+        "text_8yXGCN",
+        "item_yGnVXA",
+        "item_fckXpR",
+        "item_RRPcmz"
       ],
       "settings": {
-        "title": "MORO FIT 400 : un complément minceur hautement dosé",
-        "subtitle": "<p>Les avantages de notre cure de MOROSIL<strong>®</strong></p>",
-        "button_text": "Je commence ma cure de 2 mois",
-        "button_link": "shopify://products/morosil-400",
-        "button_border_radius": 26,
+        "body_gap": 64,
+        "body_gap_mobile": 32,
+        "content_horizontal_align": "center",
+        "content_horizontal_align_mobile": "center",
+        "heading": "<p><strong>Testé, approuvé, recommandé.</strong></p>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "heading_height": 130,
+        "items_mt": 16,
+        "items_mt_mobile": 16,
+        "item_padding_vertical": 10,
+        "item_padding_vertical_mobile": 10,
+        "item_gap": 16,
+        "item_gap_mobile": 16,
+        "item_border_thickness": 2,
+        "circle_size": 70,
+        "circle_size_mobile": 70,
+        "percent_custom": false,
+        "percent_font": "josefin_sans_n4",
+        "percent_size": 18,
+        "percent_size_mobile": 18,
+        "percent_height": 130,
+        "item_text_custom": false,
+        "item_text_font": "josefin_sans_n4",
+        "item_text_size": 16,
+        "item_text_size_mobile": 16,
+        "item_text_height": 150,
+        "bottom_text": "<p>Résultats basés sur un sondage interne mené auprès de 120 utilisateurs réguliers sur une période de 30 jours.</p>",
+        "bottom_text_custom": false,
+        "bottom_text_font": "josefin_sans_n4",
+        "bottom_text_size": 12,
+        "bottom_text_size_mobile": 12,
+        "bottom_text_height": 130,
+        "bottom_text_mt": 16,
+        "bottom_text_mt_mobile": 16,
+        "bottom_text_align": "left",
+        "bottom_text_align_mobile": "left",
+        "item_border_color": "#f3f3f3",
+        "circle_bg_color": "#ffffff",
+        "circle_progress": "#5d9bd5",
+        "percent_color": "#5d9bd5",
+        "item_text_color": "#000000",
+        "heading_color": "#000000",
+        "bottom_text_color": "#000000",
         "background_color": "#fafafa",
-        "title_color": "#000000",
-        "subtitle_color": "#4a4a4a",
-        "criteria_text_color": "#333333",
-        "feature_text_color": "#333333",
-        "positive_icon_color": "#4caf50",
-        "negative_icon_color": "#f44336",
-        "neutral_icon_color": "#9e9e9e",
-        "button_background": "#dff2ff",
-        "button_text_color": "#171717",
-        "button_hover_background": "#5d9bd5",
-        "button_hover_text_color": "#ffffff"
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
       }
     },
     "1753199626b0bf78ec": {
@@ -1541,35 +1589,6 @@
         "rounded": false
       }
     },
-    "1757414701f81855a2": {
-      "type": "apps",
-      "blocks": {
-        "reelup_shoppable_videos_reels_reelup_playlist_mFLijN": {
-          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
-          "settings": {
-            "playlist_id": ""
-          }
-        }
-      },
-      "block_order": [
-        "reelup_shoppable_videos_reels_reelup_playlist_mFLijN"
-      ],
-      "settings": {
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 48,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
     "ss_trust_badge_DDtKK8": {
       "type": "ss-trust-badge",
       "blocks": {
@@ -1634,49 +1653,21 @@
         "padding_horizontal_mobile": 0,
         "border_thickness": 0
       }
-    },
-    "1757416430c20e26fc": {
-      "type": "apps",
-      "blocks": {
-        "reelup_shoppable_videos_reels_reelup_playlist_KPc9cB": {
-          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
-          "settings": {
-            "playlist_id": ""
-          }
-        }
-      },
-      "block_order": [
-        "reelup_shoppable_videos_reels_reelup_playlist_KPc9cB"
-      ],
-      "settings": {
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
     }
   },
   "order": [
     "image_with_text_overlay_ALrkJP",
     "1757414701f81855a2",
+    "1757416430c20e26fc",
     "scrolling_logos_6TkyMz",
     "hero_6_rbXhKP",
     "ss_feature_13_ga68tn",
-    "175319881326c7ce0c",
     "ss_about_jLFatp",
-    "ss_feature_17_WNPCJg",
+    "175319881326c7ce0c",
+    "ss_tableau_HG4Pia",
     "ss_benefices_qxC44Y",
     "before_after_image_5_NFxUCc",
-    "ss_tableau_HG4Pia",
+    "ss_feature_17_WNPCJg",
     "1753199626b0bf78ec",
     "testimonials_banner_CG7YnM",
     "ss_testimonial_16_7UaE8B",
@@ -1684,7 +1675,6 @@
     "ss_faq_9_BkMFP3",
     "custom_liquid_VPykEm",
     "17463566359eaf5607",
-    "ss_trust_badge_DDtKK8",
-    "1757416430c20e26fc"
+    "ss_trust_badge_DDtKK8"
   ]
 }
