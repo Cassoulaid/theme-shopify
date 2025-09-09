@@ -110,24 +110,6 @@
         "rounded": false
       }
     },
-    "1757416430c20e26fc": {
-      "type": "apps",
-      "settings": {
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
     "scrolling_logos_6TkyMz": {
       "type": "scrolling-logos",
       "blocks": {
@@ -1657,9 +1639,8 @@
   },
   "order": [
     "image_with_text_overlay_ALrkJP",
-    "1757414701f81855a2",
-    "1757416430c20e26fc",
     "scrolling_logos_6TkyMz",
+    "1757414701f81855a2",
     "hero_6_rbXhKP",
     "ss_feature_13_ga68tn",
     "ss_about_jLFatp",
