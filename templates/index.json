@@ -1541,6 +1541,35 @@
         "rounded": false
       }
     },
+    "1757414701f81855a2": {
+      "type": "apps",
+      "blocks": {
+        "reelup_shoppable_videos_reels_reelup_playlist_mFLijN": {
+          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "settings": {
+            "playlist_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "reelup_shoppable_videos_reels_reelup_playlist_mFLijN"
+      ],
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 48,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "ss_trust_badge_DDtKK8": {
       "type": "ss-trust-badge",
       "blocks": {
@@ -1606,35 +1635,6 @@
         "border_thickness": 0
       }
     },
-    "1757414701f81855a2": {
-      "type": "apps",
-      "blocks": {
-        "reelup_shoppable_videos_reels_reelup_playlist_mFLijN": {
-          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
-          "settings": {
-            "playlist_id": ""
-          }
-        }
-      },
-      "block_order": [
-        "reelup_shoppable_videos_reels_reelup_playlist_mFLijN"
-      ],
-      "settings": {
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 48,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
     "1757416430c20e26fc": {
       "type": "apps",
       "blocks": {
@@ -1667,6 +1667,7 @@
   },
   "order": [
     "image_with_text_overlay_ALrkJP",
+    "1757414701f81855a2",
     "scrolling_logos_6TkyMz",
     "hero_6_rbXhKP",
     "ss_feature_13_ga68tn",
@@ -1684,7 +1685,6 @@
     "custom_liquid_VPykEm",
     "17463566359eaf5607",
     "ss_trust_badge_DDtKK8",
-    "1757414701f81855a2",
     "1757416430c20e26fc"
   ]
 }
