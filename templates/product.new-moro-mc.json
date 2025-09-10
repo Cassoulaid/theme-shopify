@@ -6,802 +6,801 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */
-{
-  "sections": {
-    "main-product": {
-      "type": "main-product",
-      "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "title_size": "product-title-md",
-            "title_size_mobile": "product-title-md",
-            "show_price": true,
-            "show_rating": false
-          }
+ */{
+    "sections": {
+        "main-product": {
+            "type": "main-product",
+            "blocks": {
+                "title": {
+                    "type": "title",
+                    "settings": {
+                        "title_size": "product-title-md",
+                        "title_size_mobile": "product-title-md",
+                        "show_price": true,
+                        "show_rating": false
+                    }
+                },
+                "judge_me_reviews_preview_badge_erzwhx": {
+                    "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+                    "settings": {}
+                },
+                "liquid_yWAUPW": {
+                    "type": "liquid",
+                    "settings": {
+                        "liquid": "\ud83c\udf4a Extrait naturel d\u2019orange rouge de Sicile<br>\n\ud83c\udf3f Soutient un r\u00e9gime sain<br>\n\u2728 Accompagne vos objectifs bien-\u00eatre"
+                    }
+                },
+                "liquid_hVwKAk": {
+                    "type": "liquid",
+                    "settings": {
+                        "liquid": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    .product-banner {\n      display: flex;\n      justify-content: space-evenly;\n      align-items: center;\n      background-color: #DFF2FF;\n      color: black;\n      padding: 10px 7px;\n      border-radius: 8px;\n      font-family: montserrat, sans-serif;\n      font-size: 13px;\n      width: 100%;\n      box-sizing: border-box;\n    }\n    \n    .banner-feature {\n      display: flex;\n      align-items: center;\n    }\n    \n    .banner-icon {\n      margin-right: 8px;\n      font-size: 15px;\n    }\n    \n    @media (max-width: 600px) { \n      .banner-feature {\n        margin: 5px 0;\n      }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"product-banner\">\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">\ud83c\uddeb\ud83c\uddf7</span> Fabrication <br> fran\u00e7aise\n    </div>\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">\ud83c\udf3f</span> Vegan, cure de 2 mois ! \n    </div>\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">\ud83e\uddea</span> Hautement <br> dos\u00e9\n    </div>\n  </div>\n</body>\n</html>"
+                    }
+                },
+                "variant_picker": {
+                    "type": "variant_picker",
+                    "settings": {
+                        "show_variant_labels": true,
+                        "picker_type": "button",
+                        "enable_color_swatches": true,
+                        "color_swatch_type": "color",
+                        "size_chart": ""
+                    }
+                },
+                "buy_buttons": {
+                    "type": "buy_buttons",
+                    "settings": {
+                        "show_quantity_selector": true,
+                        "show_dynamic_checkout": false,
+                        "show_gift_card_recipient": true,
+                        "enable_back_in_stock": false,
+                        "show_back_in_stock_name": false,
+                        "show_back_in_stock_phone": false
+                    }
+                },
+                "reelup_shoppable_videos_reels_reelup_product_slider_T9RqQV": {
+                    "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_product_slider/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+                    "settings": {}
+                },
+                "pickup_availability": {
+                    "type": "pickup_availability",
+                    "disabled": true,
+                    "settings": {}
+                },
+                "complementary": {
+                    "type": "complementary",
+                    "disabled": true,
+                    "settings": {
+                        "heading": "Pairs well with",
+                        "product_limit": 4,
+                        "show_vendor": false,
+                        "show_price": true
+                    }
+                },
+                "sticky_buy_button": {
+                    "type": "sticky_buy_button",
+                    "settings": {}
+                },
+                "collapsible_tab_bmPf6Q": {
+                    "type": "collapsible_tab",
+                    "settings": {
+                        "icon": "none",
+                        "heading": "Moro Fit 400",
+                        "content": "<p><strong>MORO FIT 400 \u2013 Compl\u00e9ment alimentaire perte de poids efficace, naturel et sans effet yoyo</strong></p><p><strong>Tu veux mincir sans frustration, sans effet rebond, et sans mettre ta sant\u00e9 en danger ?<br/>La cure MORO FIT 400 est la solution naturelle qu\u2019il te faut.</strong></p><ul><li><strong>Hautement dos\u00e9 en actifs</strong> avec <strong>400 mg de Morosil\u00ae</strong> par g\u00e9lule \u2013 <strong>dosage cliniquement valid\u00e9</strong></li><li><strong>Ingr\u00e9dients 100 % d\u2019origine naturelle</strong> (vegan, sans sucre ajout\u00e9, sans gluten)</li><li><strong>Fabriqu\u00e9 en France, selon les normes pharmaceutiques strictes</strong></li></ul><p><strong>Ce compl\u00e9ment alimentaire perte de poids agit sur plusieurs fronts :</strong></p><ul><li><strong>R\u00e9duction de la masse grasse abdominale</strong>, m\u00eame sans r\u00e9gime ! Id\u00e9al pour le post-partum</li><li><strong>Limitation de l\u2019effet yoyo</strong>, souvent observ\u00e9 apr\u00e8s un r\u00e9gime</li><li><strong>R\u00e9gulation de la glyc\u00e9mie</strong> et<strong> diminution des fringales</strong></li><li><strong>Stimulation du m\u00e9tabolisme</strong> gr\u00e2ce au guarana et au cola</li><li><strong>Am\u00e9lioration de la digestion</strong>, en synergie avec le vinaigre de cidre</li></ul><p><strong>Qu\u2019est-ce que le Morosil\u00ae ?</strong></p><p>Le Morosil\u2122 est un <strong>extrait brevet\u00e9 d\u2019orange sanguine de Sicile</strong> (Citrus Sinensis). Riche en actifs, il est cliniquement reconnu pour :</p><ul><li><strong>R\u00e9duire la masse grasse</strong></li><li><strong>Favoriser la perte de poids sans danger</strong></li><li><strong>Agir m\u00eame sans changement drastique de ton alimentation</strong></li></ul><p><strong>Id\u00e9al pour le post-partum,\u00a0</strong></p><p><strong>\u00a01 bo\u00eete = une cure compl\u00e8te de 2 mois</strong></p><ul><li>60 g\u00e9lules minceur</li><li>1 g\u00e9lule par jour suffit pour des r\u00e9sultats visibles d\u00e8s la 4\u1d49 semaine*</li></ul><p>*\u00c9tude interne : 90 % des utilisatrices ont constat\u00e9 une r\u00e9duction de leur tour de taille apr\u00e8s 30 jours d'utilisation.</p><p><strong>Post-Partum</strong></p><p><strong>La cure Docteur V est parfaitement adapt\u00e9e \u00e0 la p\u00e9riode post-partum (hors allaitement), gr\u00e2ce \u00e0 sa formulation :</strong></p><ul><li>100% d\u2019origine naturelle</li></ul><p></p><ul><li>Avec un dosage pr\u00e9cis de 400 mg de Morosil\u00ae, un actif \u00e9tudi\u00e9 pour r\u00e9duire la masse grasse abdominale et limiter l\u2019effet \u201cyoyo\u201d<strong><br/></strong></li></ul><p><strong>Puis-je l\u2019utiliser pendant l\u2019allaitement ?</strong></p><p>Non, par pr\u00e9caution, nous ne recommandons pas la prise de la cure pendant l\u2019allaitement.<br/>Nos formules sont con\u00e7ues pour \u00eatre efficaces et s\u00fbres d\u00e8s la fin de cette p\u00e9riode, en respectant les besoins physiologiques du corps.</p><p><strong>Et apr\u00e8s ?</strong></p><p><strong>D\u00e8s la fin de l\u2019allaitement, la cure peut t\u2019accompagner :</strong></p><ul><li>Pour aider ton corps \u00e0 \u00e9liminer la r\u00e9tention d\u2019eau<br/></li><li>Pour r\u00e9activer ton m\u00e9tabolisme naturellement<br/></li><li>Pour retrouver une silhouette plus tonique, \u00e0 ton rythme</li></ul>",
+                        "page": "",
+                        "liquid": ""
+                    }
+                },
+                "collapsible_tab_8k3HWN": {
+                    "type": "collapsible_tab",
+                    "settings": {
+                        "icon": "none",
+                        "heading": "Ingr\u00e9dients & Dosage",
+                        "content": "<ul><li><strong>Extrait sec d\u2019orange rouge \u2013 Morosil\u00ae : 400 mg<br/></strong>Issu de la vari\u00e9t\u00e9 Moro (Citrus sinensis (L.) Osbeck), cet extrait est appr\u00e9ci\u00e9 pour ses puissantes vertus antioxydantes et ses effets positifs sur le contr\u00f4le du poids.</li><li><strong>Vinaigre de cidre : 52,5 mg<br/></strong>Contribue \u00e0 la r\u00e9gulation du m\u00e9tabolisme et favorise une bonne digestion.</li><li><strong>Extrait sec de guarana : 30 mg<br/></strong>Dont <strong>3,3 mg de caf\u00e9ine</strong>. Le guarana est traditionnellement utilis\u00e9 pour stimuler le m\u00e9tabolisme des graisses et apporter un regain d\u2019\u00e9nergie.</li><li><strong>Poudre de noix de cola : 40 mg<br/></strong>Fournit \u00e9galement <strong>0,8 mg de caf\u00e9ine</strong> et participe \u00e0 favoriser l\u2019amincissement gr\u00e2ce \u00e0 ses propri\u00e9t\u00e9s stimulantes.</li><li><em><strong>Chrome : 39 \u00b5g (98% VNR)</strong></em>*<br/>Le chrome joue un r\u00f4le essentiel dans la r\u00e9gulation du m\u00e9tabolisme des glucides et des lipides, contribuant ainsi au maintien d\u2019une glyc\u00e9mie normale.</li></ul><p><em>Note : La dose journali\u00e8re totale en caf\u00e9ine apport\u00e9e par le produit est de 4,1 mg.</em></p>",
+                        "page": "",
+                        "liquid": ""
+                    }
+                },
+                "collapsible_tab_cQV9C7": {
+                    "type": "collapsible_tab",
+                    "settings": {
+                        "icon": "none",
+                        "heading": "Conseils d'utilisation",
+                        "content": "<ul><li>Prendre 1 g\u00e9lule minceur par jour pendant 60 jours.</li><li>Associer id\u00e9alement \u00e0 une alimentation \u00e9quilibr\u00e9e et un grand verre d\u2019eau</li><li>Ne pas d\u00e9passer la dose recommand\u00e9e.</li><li>D\u00e9conseill\u00e9 aux femmes enceintes ou allaitantes sans avis m\u00e9dical.</li></ul><h5><strong>Pr\u00e9cautions :\u00a0</strong></h5><p>D\u00e9conseill\u00e9 en cas d\u2019ulc\u00e8re gastro-duod\u00e9nal, de troubles cardiaques ou d\u2019hyperthiro\u00efdie. En cas de traitements, demandez conseil \u00e0 votre pharmacien. Ne pas d\u00e9passer la zone journali\u00e8re recommand\u00e9e</p><p>Un compl\u00e9ment alimentaire ne doit pas se substituer \u00e0 une alimentation vari\u00e9e et \u00e9quilibr\u00e9e et \u00e0 un mode de vie sain.\u00a0</p>",
+                        "page": "",
+                        "liquid": ""
+                    }
+                },
+                "liquid_KggQWV": {
+                    "type": "liquid",
+                    "settings": {
+                        "liquid": "<div class=\"product-ingredients\">\n  <p class=\"ingredients-title\">Ingr\u00e9dients s\u00e9lectionn\u00e9s pour leur efficacit\u00e9 :</p>\n  <div class=\"ingredients-list\">\n    <span class=\"ingredient\">Extrait d'orange rouge - Morosil \u00ae </span>\n    <span class=\"ingredient\">Vinaigre de cidre</span>\n    <span class=\"ingredient\">Extrait sec de guarana</span>\n    <span class=\"ingredient\">Poudre de noix de cola</span>\n  </div>\n</div>\n\n<style>\n  .product-ingredients {\n    padding-left: 0; /* Suppression du padding li\u00e9 \u00e0 l'ancienne bordure */\n    margin: 15px 0;\n    font-size: 12px;\n    line-height: 1.4;\n  }\n\n  .ingredients-title {\n    font-weight: bold;\n    margin-bottom: 5px;\n  }\n\n  .ingredients-list {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 5px;\n  }\n\n  .ingredient {\n    display: inline-block;\n    padding: 3px 8px;\n    border: 2px solid #5D9BD5; /* Bordure solide */\n    border-radius: 8px;\n    font-size: 10px;\n    color: #5D9BD5;\n    font-weight: bold;\n  }\n</style>"
+                    }
+                }
+            },
+            "block_order": [
+                "title",
+                "judge_me_reviews_preview_badge_erzwhx",
+                "liquid_yWAUPW",
+                "liquid_hVwKAk",
+                "variant_picker",
+                "buy_buttons",
+                "reelup_shoppable_videos_reels_reelup_product_slider_T9RqQV",
+                "pickup_availability",
+                "complementary",
+                "sticky_buy_button",
+                "collapsible_tab_bmPf6Q",
+                "collapsible_tab_8k3HWN",
+                "collapsible_tab_cQV9C7",
+                "liquid_KggQWV"
+            ],
+            "settings": {
+                "enable_sticky_info": true,
+                "media_size": 66,
+                "gallery_layout": "scroll",
+                "thumbnail_position": "beside",
+                "image_ratio": "adapt_first",
+                "image_zoom": "lightbox",
+                "hide_variants": false,
+                "enable_video_autoplay": true,
+                "enable_video_looping": true,
+                "mobile_layout": "full_width",
+                "image_ratio_mobile": "adapt_first",
+                "mobile_thumbnail": false,
+                "padding_top": 36,
+                "padding_bottom": 12,
+                "divider": false,
+                "full_width": true,
+                "rounded": false
+            }
         },
-        "judge_me_reviews_preview_badge_erzwhx": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "17574147527b5496cf": {
+            "type": "apps",
+            "settings": {
+                "color_text": "",
+                "color_background": "",
+                "gradient_background": "",
+                "color_highlight": "",
+                "gradient_highlight": "",
+                "color_button_text": "",
+                "color_button_background": "",
+                "color_button_gradient": "",
+                "padding_top": 72,
+                "padding_bottom": 72,
+                "divider": false,
+                "full_width": false,
+                "rounded": false
+            }
         },
-        "liquid_yWAUPW": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "🍊 Extrait naturel d’orange rouge de Sicile<br>\n🌿 Soutient un régime sain<br>\n✨ Accompagne vos objectifs bien-être"
-          }
+        "scrolling_logos_fcBPiQ": {
+            "type": "scrolling-logos",
+            "blocks": {
+                "slide_rQX9re": {
+                    "type": "slide",
+                    "settings": {
+                        "image": "shopify://shop_images/VOGUE_revista_-_logo.png",
+                        "link": ""
+                    }
+                },
+                "slide_RX8JTY": {
+                    "type": "slide",
+                    "settings": {
+                        "image": "shopify://shop_images/Marie_Claire_Magazine_logo_svg.png",
+                        "link": ""
+                    }
+                },
+                "slide_fbxYzF": {
+                    "type": "slide",
+                    "settings": {
+                        "image": "shopify://shop_images/ELLE_Magazine_Logo.svg",
+                        "link": ""
+                    }
+                },
+                "slide_j7i4gp": {
+                    "type": "slide",
+                    "settings": {
+                        "image": "shopify://shop_images/Cosmetique_Mag_pages-to-jpg-0001-removebg-preview_7df60eff-56d9-4b97-ae59-6334e9841d99.png",
+                        "link": ""
+                    }
+                }
+            },
+            "block_order": [
+                "slide_rQX9re",
+                "slide_RX8JTY",
+                "slide_fbxYzF",
+                "slide_j7i4gp"
+            ],
+            "settings": {
+                "ss-title": "",
+                "heading_custom": false,
+                "heading_font": "assistant_n4",
+                "header_size": 30,
+                "header_align": "center",
+                "scrolling_velocity": 10,
+                "pause_hover": false,
+                "shadow": false,
+                "sliders_mt": 16,
+                "logo_padding_top": 0,
+                "logo_padding_bottom": 0,
+                "slider_gap": 64,
+                "slider_gap_mobile": 30,
+                "slider_direction": "left",
+                "icon_width": 100,
+                "header_color": "#121212",
+                "border_color": "#ffffff",
+                "background-color": "#fafafa",
+                "slider-background-color": "#fafafa",
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "padding_top": 36,
+                "padding_bottom": 36,
+                "full_width": true,
+                "content_width": 120,
+                "border_thickness": 0,
+                "lazy": true
+            }
         },
-        "liquid_hVwKAk": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n  <style>\n    .product-banner {\n      display: flex;\n      justify-content: space-evenly;\n      align-items: center;\n      background-color: #DFF2FF;\n      color: black;\n      padding: 10px 7px;\n      border-radius: 8px;\n      font-family: montserrat, sans-serif;\n      font-size: 13px;\n      width: 100%;\n      box-sizing: border-box;\n    }\n    \n    .banner-feature {\n      display: flex;\n      align-items: center;\n    }\n    \n    .banner-icon {\n      margin-right: 8px;\n      font-size: 15px;\n    }\n    \n    @media (max-width: 600px) { \n      .banner-feature {\n        margin: 5px 0;\n      }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"product-banner\">\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🇫🇷</span> Fabrication <br> française\n    </div>\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🌿</span> Vegan, cure de 2 mois ! \n    </div>\n    <div class=\"banner-feature\">\n      <span class=\"banner-icon\">🧪</span> Hautement <br> dosé\n    </div>\n  </div>\n</body>\n</html>"
-          }
+        "image_with_text_G78JtR": {
+            "type": "image-with-text",
+            "blocks": {
+                "heading_WVxpHx": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "\"Je n'ai m\u00eame pas encore fini la bo\u00eete !\"",
+                        "heading_size": "title-sm",
+                        "heading_tag": "h2",
+                        "highlighted_text": "none",
+                        "highlighted_scribble": "circle"
+                    }
+                },
+                "text_mpqXQa": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p><strong>\"Je suis choqu\u00e9e \ud83d\ude31</strong><br/>J\u2019ai tout essay\u00e9\u2026 mais l\u00e0, c\u2019est la premi\u00e8re fois que je vois un vrai changement aussi vite !<br/>Je suis \u00e0 peine \u00e0 <strong>45 jours de cure</strong> (et j\u2019ai m\u00eame <strong>pas encore fini la bo\u00eete</strong>) et <strong>les r\u00e9sultats sont d\u00e9j\u00e0 l\u00e0</strong> \ud83d\udd25Mon ventre a d\u00e9gonfl\u00e9, ma silhouette s\u2019est affin\u00e9e, <strong>aucune douleur, aucun effet secondaire</strong>\u2026<br/>Juste une g\u00e9lule par jour, facile \u00e0 prendre et z\u00e9ro contrainte ! <strong>Merci Docteur V \ud83d\udc96</strong><br/>C\u2019est clairement devenu mon indispensable \ud83d\ude0d\"</p>",
+                        "text_size": "subtext-md",
+                        "text_max_size": 32,
+                        "text_font": "body",
+                        "secondary_color": false,
+                        "highlighted_text": "none",
+                        "highlighted_scribble": "circle"
+                    }
+                },
+                "button_iKNmC7": {
+                    "type": "button",
+                    "settings": {
+                        "button_label": "VITE,  MA CURE DE 2 MOIS AVANT L'\u00c9T\u00c9 !",
+                        "button_link": "shopify://products/morosil-400",
+                        "button_style": "primary",
+                        "button_size": "md",
+                        "button_external": false,
+                        "button_icon": true
+                    }
+                }
+            },
+            "block_order": [
+                "heading_WVxpHx",
+                "text_mpqXQa",
+                "button_iKNmC7"
+            ],
+            "settings": {
+                "image": "shopify://shop_images/post_avantapres_docteur_v-2.png",
+                "image_height": "adapt",
+                "image_width": "small",
+                "layout": "image_first",
+                "text_alignment": "center",
+                "content_position": "align-self-center",
+                "image_height_mobile": "200px",
+                "text_alignment_mobile": "left",
+                "color_text": "",
+                "color_background": "",
+                "gradient_background": "",
+                "color_background_2": "",
+                "gradient_background_2": "",
+                "color_highlight": "",
+                "gradient_highlight": "",
+                "color_button_text": "",
+                "color_button_background": "",
+                "color_button_gradient": "",
+                "padding_top": 72,
+                "padding_bottom": 72,
+                "divider": false,
+                "full_width": false,
+                "rounded": false,
+                "enable_parallax": true,
+                "parallax_direction": "vertical"
+            }
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "show_variant_labels": true,
-            "picker_type": "button",
-            "enable_color_swatches": true,
-            "color_swatch_type": "color",
-            "size_chart": ""
-          }
+        "ss_feature_17_ydiaYa": {
+            "type": "ss-feature-17",
+            "blocks": {
+                "heading_Nct9F3": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "",
+                        "heading_custom": false,
+                        "heading_font": "josefin_sans_n4",
+                        "heading_size": 28,
+                        "heading_size_mobile": 18,
+                        "heading_height": 130,
+                        "heading_mt": 0,
+                        "heading_mt_mobile": 0,
+                        "heading_align": "left",
+                        "heading_align_mobile": "left",
+                        "heading_color": "#000000"
+                    }
+                },
+                "text_FYet6P": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Gr\u00e2ce \u00e0 sa formule naturelle \u00e0 base de Morosil<strong>\u00ae</strong>, ce compl\u00e9ment alimentaire perte de poids a aid\u00e9 des centaines d\u2019utilisateurs \u00e0 perdre du poids efficacement et \u00e9viter l\u2019effet yoyo, en seulement quelques semaines.</p>",
+                        "text_custom": false,
+                        "text_font": "josefin_sans_n4",
+                        "text_size": 16,
+                        "text_size_mobile": 15,
+                        "text_height": 150,
+                        "text_mt": 24,
+                        "text_mt_mobile": 24,
+                        "text_color": "#000000"
+                    }
+                },
+                "item_heR48y": {
+                    "type": "item",
+                    "settings": {
+                        "percent": 90,
+                        "text": "des utilisateurs ont constat\u00e9 une perte de poids visible et une r\u00e9duction du tour de taille d\u00e8s 4 semaines gr\u00e2ce \u00e0 leur cure Morosil\u00ae."
+                    }
+                },
+                "item_c8CMqP": {
+                    "type": "item",
+                    "settings": {
+                        "percent": 95,
+                        "text": "des utilisateurs trouvent cette g\u00e9lule minceur facile \u00e0 int\u00e9grer \u00e0 leur quotidien : 1 g\u00e9lule pour mincir par jour suffit pour d\u00e9marrer une cure minceur efficace."
+                    }
+                },
+                "item_JjfjMN": {
+                    "type": "item",
+                    "settings": {
+                        "percent": 86,
+                        "text": "des utilisateurs d\u00e9clarent se sentir plus l\u00e9gers, plus \u00e9nergiques, avec moins de fringales et une meilleure r\u00e9gulation de leur glyc\u00e9mie, tout en conservant une silhouette affin\u00e9e gr\u00e2ce au br\u00fbleur de graisse naturel MORO FIT 400"
+                    }
+                }
+            },
+            "block_order": [
+                "heading_Nct9F3",
+                "text_FYet6P",
+                "item_heR48y",
+                "item_c8CMqP",
+                "item_JjfjMN"
+            ],
+            "settings": {
+                "body_gap": 64,
+                "body_gap_mobile": 32,
+                "content_horizontal_align": "center",
+                "content_horizontal_align_mobile": "center",
+                "heading": "",
+                "heading_custom": false,
+                "heading_font": "josefin_sans_n4",
+                "heading_size": 38,
+                "heading_size_mobile": 28,
+                "heading_height": 130,
+                "items_mt": 16,
+                "items_mt_mobile": 16,
+                "item_padding_vertical": 10,
+                "item_padding_vertical_mobile": 10,
+                "item_gap": 16,
+                "item_gap_mobile": 16,
+                "item_border_thickness": 2,
+                "circle_size": 70,
+                "circle_size_mobile": 70,
+                "percent_custom": false,
+                "percent_font": "josefin_sans_n4",
+                "percent_size": 18,
+                "percent_size_mobile": 19,
+                "percent_height": 130,
+                "item_text_custom": false,
+                "item_text_font": "josefin_sans_n4",
+                "item_text_size": 16,
+                "item_text_size_mobile": 14,
+                "item_text_height": 150,
+                "bottom_text": "<p>R\u00e9sultats issus d\u2019un sondage interne r\u00e9alis\u00e9 aupr\u00e8s de \u2026.. utilisateurs ayant suivi une <strong>cure MORO FIT 400</strong> sur 30 jours (1 g\u00e9lule minceur par jour)</p>",
+                "bottom_text_custom": false,
+                "bottom_text_font": "josefin_sans_n4",
+                "bottom_text_size": 12,
+                "bottom_text_size_mobile": 12,
+                "bottom_text_height": 130,
+                "bottom_text_mt": 16,
+                "bottom_text_mt_mobile": 16,
+                "bottom_text_align": "left",
+                "bottom_text_align_mobile": "left",
+                "item_border_color": "#f3f3f3",
+                "circle_bg_color": "#ffffff",
+                "circle_progress": "#5d9bd5",
+                "percent_color": "#5d9bd5",
+                "item_text_color": "#000000",
+                "heading_color": "#000000",
+                "bottom_text_color": "#000000",
+                "background_color": "#fafafa",
+                "background_gradient": "",
+                "border_color": "#000000",
+                "margin_top": 0,
+                "margin_bottom": 0,
+                "margin_horizontal": 0,
+                "margin_horizontal_mobile": 0,
+                "padding_top": 4,
+                "padding_bottom": 36,
+                "padding_horizontal": 5,
+                "padding_horizontal_mobile": 1.5,
+                "full_width": false,
+                "content_width": 120,
+                "border_thickness": 0,
+                "section_radius": 0,
+                "lazy": true
+            }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_quantity_selector": true,
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true,
-            "enable_back_in_stock": false,
-            "show_back_in_stock_name": false,
-            "show_back_in_stock_phone": false
-          }
+        "custom_liquid_aH38bN": {
+            "type": "custom-liquid",
+            "disabled": true,
+            "name": "t:sections.custom-liquid.presets.name",
+            "settings": {
+                "liquid": "<style>\n  .usage-carousel {\n    display: flex;\n    overflow-x: auto;\n    gap: 1.5rem;\n    scroll-snap-type: x mandatory;\n    padding: 2rem 1rem;\n    -ms-overflow-style: none;\n    scrollbar-width: none;\n  }\n\n  .usage-carousel::-webkit-scrollbar {\n    display: none;\n  }\n\n  .usage-step {\n    flex: 0 0 80%;\n    max-width: 330px;\n    background: #fff;\n    border-radius: 16px;\n    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);\n    scroll-snap-align: start;\n    padding-bottom: 1rem;\n  }\n\n  .usage-step img {\n    width: 100%;\n    border-top-left-radius: 16px;\n    border-top-right-radius: 16px;\n    object-fit: cover;\n    height: 220px;\n  }\n\n  .usage-step-content {\n    padding: 1.4rem;\n  }\n\n  .usage-step h3 {\n    margin: 0 0 0.8rem;\n    font-size: 18px;\n    font-weight: 700;\n  }\n\n  .usage-step p {\n    font-size: 16px;\n    line-height: 1.6;\n    color: #333;\n    margin-bottom: 0;\n  }\n\n  .usage-section-title {\n    text-align: center;\n    font-size: 26px;\n    font-weight: 700;\n    margin-top: 2rem;\n  }\n\n  @media (min-width: 992px) {\n    .usage-carousel {\n      justify-content: center;\n      overflow-x: hidden;\n      flex-wrap: nowrap;\n    }\n\n    .usage-step {\n      flex: 0 0 22%;\n      max-width: none;\n    }\n  }\n</style>\n\n<h2 class=\"usage-section-title\">Comment utiliser l\u2019Accelerator Oil</h2>\n\n<div class=\"usage-carousel\">\n  <div class=\"usage-step\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0632/4787/6189/files/IMG_0972.webp?v=1749049771\" alt=\"Application\">\n    <div class=\"usage-step-content\">\n      <h3>\ud83d\udca7 Application</h3>\n      <p>D\u00e9posez quelques gouttes sur un cuir chevelu propre et sec. Un gommage capillaire 2 fois par mois est recommand\u00e9.</p>\n    </div>\n  </div>\n\n  <div class=\"usage-step\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0632/4787/6189/files/IMG_0973.webp?v=1749049781\" alt=\"Massage cr\u00e2nien\">\n    <div class=\"usage-step-content\">\n      <h3>\ud83e\udd32 Massage</h3>\n      <p>Massez d\u00e9licatement pour activer la microcirculation et optimiser la p\u00e9n\u00e9tration des actifs naturels.</p>\n    </div>\n  </div>\n\n  <div class=\"usage-step\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0632/4787/6189/files/IMG_0975.webp?v=1749049785\" alt=\"Temps de pose huile\">\n    <div class=\"usage-step-content\">\n      <h3>\u23f3 Temps de pose</h3>\n      <p>Laissez poser entre 3 et 5 heures pour une action renforc\u00e9e sur la pousse et la structure du cheveu. Puis place au shampoing \u00e0 pH 5 </p>\n    </div>\n  </div>\n\n  <div class=\"usage-step\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0632/4787/6189/files/IMG_0974.webp?v=1749049795\" alt=\"Rin\u00e7age doux\">\n    <div class=\"usage-step-content\">\n      <h3>\ud83e\udee7 Rin\u00e7age</h3>\n      <p>Rincez \u00e0 l\u2019aide d\u2019un shampoing doux. Une petite quantit\u00e9 suffit pour des r\u00e9sultats visibles d\u00e8s les premi\u00e8res semaines.</p>\n    </div>\n  </div>\n</div>",
+                "color_text": "",
+                "color_background": "",
+                "gradient_background": "",
+                "color_button_text": "",
+                "color_button_background": "",
+                "color_button_gradient": "",
+                "padding_top": 72,
+                "padding_bottom": 72,
+                "divider": false,
+                "narrow": false,
+                "rounded": false
+            }
         },
-        "reelup_shoppable_videos_reels_reelup_product_slider_T9RqQV": {
-          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_product_slider/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
-          "settings": {}
+        "help-drawer": {
+            "type": "help-drawer",
+            "blocks": {
+                "content-1": {
+                    "type": "content",
+                    "settings": {
+                        "icon": "rocket",
+                        "heading": "Shipping Information",
+                        "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+                        "highlighted_text": "none",
+                        "highlighted_scribble": "circle",
+                        "color_text": "#b45309",
+                        "color_background": "#fffbeb",
+                        "gradient_background": "",
+                        "color_highlight": "#ffddbf",
+                        "gradient_highlight": ""
+                    }
+                },
+                "content-2": {
+                    "type": "content",
+                    "settings": {
+                        "icon": "headphone",
+                        "heading": "Customer Support",
+                        "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+                        "highlighted_text": "none",
+                        "highlighted_scribble": "circle",
+                        "color_text": "#0369a1",
+                        "color_background": "#f0f9ff",
+                        "gradient_background": "",
+                        "color_highlight": "#ffddbf",
+                        "gradient_highlight": ""
+                    }
+                },
+                "content-3": {
+                    "type": "content",
+                    "settings": {
+                        "icon": "chat_bubble",
+                        "heading": "FAQ\u2019s",
+                        "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+                        "highlighted_text": "none",
+                        "highlighted_scribble": "circle",
+                        "color_text": "#be123c",
+                        "color_background": "#fff1f2",
+                        "gradient_background": "",
+                        "color_highlight": "#ffddbf",
+                        "gradient_highlight": ""
+                    }
+                },
+                "content-4": {
+                    "type": "content",
+                    "settings": {
+                        "icon": "phone",
+                        "heading": "Contact Us",
+                        "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+                        "highlighted_text": "none",
+                        "highlighted_scribble": "circle",
+                        "color_text": "#4d7c0f",
+                        "color_background": "#f7fee7",
+                        "gradient_background": "",
+                        "color_highlight": "#ffddbf",
+                        "gradient_highlight": ""
+                    }
+                }
+            },
+            "block_order": [
+                "content-1",
+                "content-2",
+                "content-3",
+                "content-4"
+            ],
+            "disabled": true,
+            "settings": {
+                "heading": "Need help?",
+                "description": "<p>If you have any questions, you are always welcome to contact us. We'll get back to you as soon as possible, within 24 hours on weekdays.</p>"
+            }
         },
-        "pickup_availability": {
-          "type": "pickup_availability",
-          "disabled": true,
-          "settings": {}
+        "product-recommendations": {
+            "type": "product-recommendations",
+            "settings": {
+                "product_limit": 6,
+                "columns": 4,
+                "carousel_on_desktop": true,
+                "columns_mobile": "1",
+                "swipe_on_mobile": true,
+                "heading": "You may also like",
+                "heading_size": "title-md",
+                "heading_alignment": "text-left md:items-end md:flex-row",
+                "heading_tag": "h2",
+                "subheading": "",
+                "description": "",
+                "highlighted_text": "none",
+                "highlighted_scribble": "circle",
+                "color_text": "",
+                "color_background": "",
+                "gradient_background": "",
+                "color_highlight": "",
+                "gradient_highlight": "",
+                "color_button_text": "",
+                "color_button_background": "",
+                "color_button_gradient": "",
+                "padding_top": 72,
+                "padding_bottom": 72,
+                "divider": false,
+                "full_width": false,
+                "rounded": true
+            }
         },
-        "complementary": {
-          "type": "complementary",
-          "disabled": true,
-          "settings": {
-            "heading": "Pairs well with",
-            "product_limit": 4,
-            "show_vendor": false,
-            "show_price": true
-          }
+        "recently-viewed": {
+            "type": "recently-viewed",
+            "disabled": true,
+            "settings": {
+                "product_limit": 6,
+                "columns": 4,
+                "carousel_on_desktop": true,
+                "columns_mobile": "1",
+                "swipe_on_mobile": true,
+                "heading": "Recently Viewed",
+                "heading_size": "title-md",
+                "heading_alignment": "text-left md:items-end md:flex-row",
+                "heading_tag": "h2",
+                "subheading": "",
+                "description": "",
+                "highlighted_text": "none",
+                "highlighted_scribble": "circle",
+                "color_text": "",
+                "color_background": "",
+                "gradient_background": "",
+                "color_highlight": "",
+                "gradient_highlight": "",
+                "color_button_text": "",
+                "color_button_background": "",
+                "color_button_gradient": "",
+                "padding_top": 72,
+                "padding_bottom": 72,
+                "divider": false,
+                "full_width": false,
+                "rounded": false
+            }
         },
-        "sticky_buy_button": {
-          "type": "sticky_buy_button",
-          "settings": {}
+        "ss_tableau_h8yrGk": {
+            "type": "ss-tableau",
+            "blocks": {
+                "brand_3fCyPH": {
+                    "type": "brand",
+                    "settings": {
+                        "brand_name": "DOCTEUR  V",
+                        "highlight_column": true,
+                        "column_background_color": "#dff2ff",
+                        "brand_name_color": "#000000"
+                    }
+                },
+                "brand_EqrGRm": {
+                    "type": "brand",
+                    "settings": {
+                        "brand_name": "AUTRES",
+                        "highlight_column": false,
+                        "column_background_color": "#fafafa",
+                        "brand_name_color": "#000000"
+                    }
+                },
+                "criteria_eafm4C": {
+                    "type": "criteria",
+                    "settings": {
+                        "criteria_name": "Composition",
+                        "value_1": "Hautement dos\u00e9",
+                        "value_1_type": "positive",
+                        "value_2": "Produits chimiques",
+                        "value_2_type": "negative",
+                        "value_3": "Synth\u00e9tique",
+                        "value_3_type": "negative",
+                        "value_4": "Non sp\u00e9cifi\u00e9",
+                        "value_4_type": "positive"
+                    }
+                },
+                "criteria_dtKjnR": {
+                    "type": "criteria",
+                    "settings": {
+                        "criteria_name": "Efficacit\u00e9",
+                        "value_1": "R\u00e9sultats visibles, perte de gras",
+                        "value_1_type": "positive",
+                        "value_2": "R\u00e9sultats moyens",
+                        "value_2_type": "neutral",
+                        "value_3": "R\u00e9sultats faibles",
+                        "value_3_type": "negative",
+                        "value_4": "Non sp\u00e9cifi\u00e9",
+                        "value_4_type": "positive"
+                    }
+                },
+                "criteria_VmVze7": {
+                    "type": "criteria",
+                    "settings": {
+                        "criteria_name": "Dur\u00e9e et prix",
+                        "value_1": "Cure de 2 mois par boite",
+                        "value_1_type": "positive",
+                        "value_2": "Prix \u00e9lev\u00e9",
+                        "value_2_type": "negative",
+                        "value_3": "Abordable mais peu efficace",
+                        "value_3_type": "neutral",
+                        "value_4": "Non sp\u00e9cifi\u00e9",
+                        "value_4_type": "positive"
+                    }
+                },
+                "criteria_jVm8bw": {
+                    "type": "criteria",
+                    "settings": {
+                        "criteria_name": "Durabilit\u00e9",
+                        "value_1": "\u00c9cologique",
+                        "value_1_type": "positive",
+                        "value_2": "Non durable",
+                        "value_2_type": "negative",
+                        "value_3": "Partiellement \u00e9cologique",
+                        "value_3_type": "neutral",
+                        "value_4": "Non sp\u00e9cifi\u00e9",
+                        "value_4_type": "positive"
+                    }
+                }
+            },
+            "block_order": [
+                "brand_3fCyPH",
+                "brand_EqrGRm",
+                "criteria_eafm4C",
+                "criteria_dtKjnR",
+                "criteria_VmVze7",
+                "criteria_jVm8bw"
+            ],
+            "name": "Tableau comparatif",
+            "settings": {
+                "title": "MORO FIT 400 : un compl\u00e9ment minceur hautement dos\u00e9",
+                "subtitle": "<p>Les avantages de notre cure de MOROSIL<strong>\u00ae</strong></p>",
+                "button_text": "Je commence ma cure de 2 mois",
+                "button_link": "shopify://products/morosil-400",
+                "button_border_radius": 26,
+                "background_color": "#fafafa",
+                "title_color": "#000000",
+                "subtitle_color": "#4a4a4a",
+                "criteria_text_color": "#333333",
+                "feature_text_color": "#333333",
+                "positive_icon_color": "#4caf50",
+                "negative_icon_color": "#f44336",
+                "neutral_icon_color": "#9e9e9e",
+                "button_background": "#dff2ff",
+                "button_text_color": "#171717",
+                "button_hover_background": "#5d9bd5",
+                "button_hover_text_color": "#fafafa"
+            }
         },
-        "collapsible_tab_bmPf6Q": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Moro Fit 400",
-            "content": "<p><strong>MORO FIT 400 – Complément alimentaire perte de poids efficace, naturel et sans effet yoyo</strong></p><p><strong>Tu veux mincir sans frustration, sans effet rebond, et sans mettre ta santé en danger ?<br/>La cure MORO FIT 400 est la solution naturelle qu’il te faut.</strong></p><ul><li><strong>Hautement dosé en actifs</strong> avec <strong>400 mg de Morosil®</strong> par gélule – <strong>dosage cliniquement validé</strong></li><li><strong>Ingrédients 100 % d’origine naturelle</strong> (vegan, sans sucre ajouté, sans gluten)</li><li><strong>Fabriqué en France, selon les normes pharmaceutiques strictes</strong></li></ul><p><strong>Ce complément alimentaire perte de poids agit sur plusieurs fronts :</strong></p><ul><li><strong>Réduction de la masse grasse abdominale</strong>, même sans régime ! Idéal pour le post-partum</li><li><strong>Limitation de l’effet yoyo</strong>, souvent observé après un régime</li><li><strong>Régulation de la glycémie</strong> et<strong> diminution des fringales</strong></li><li><strong>Stimulation du métabolisme</strong> grâce au guarana et au cola</li><li><strong>Amélioration de la digestion</strong>, en synergie avec le vinaigre de cidre</li></ul><p><strong>Qu’est-ce que le Morosil® ?</strong></p><p>Le Morosil™ est un <strong>extrait breveté d’orange sanguine de Sicile</strong> (Citrus Sinensis). Riche en actifs, il est cliniquement reconnu pour :</p><ul><li><strong>Réduire la masse grasse</strong></li><li><strong>Favoriser la perte de poids sans danger</strong></li><li><strong>Agir même sans changement drastique de ton alimentation</strong></li></ul><p><strong>Idéal pour le post-partum, </strong></p><p><strong> 1 boîte = une cure complète de 2 mois</strong></p><ul><li>60 gélules minceur</li><li>1 gélule par jour suffit pour des résultats visibles dès la 4ᵉ semaine*</li></ul><p>*Étude interne : 90 % des utilisatrices ont constaté une réduction de leur tour de taille après 30 jours d'utilisation.</p><p><strong>Post-Partum</strong></p><p><strong>La cure Docteur V est parfaitement adaptée à la période post-partum (hors allaitement), grâce à sa formulation :</strong></p><ul><li>100% d’origine naturelle</li></ul><p></p><ul><li>Avec un dosage précis de 400 mg de Morosil®, un actif étudié pour réduire la masse grasse abdominale et limiter l’effet “yoyo”<strong><br/></strong></li></ul><p><strong>Puis-je l’utiliser pendant l’allaitement ?</strong></p><p>Non, par précaution, nous ne recommandons pas la prise de la cure pendant l’allaitement.<br/>Nos formules sont conçues pour être efficaces et sûres dès la fin de cette période, en respectant les besoins physiologiques du corps.</p><p><strong>Et après ?</strong></p><p><strong>Dès la fin de l’allaitement, la cure peut t’accompagner :</strong></p><ul><li>Pour aider ton corps à éliminer la rétention d’eau<br/></li><li>Pour réactiver ton métabolisme naturellement<br/></li><li>Pour retrouver une silhouette plus tonique, à ton rythme</li></ul>",
-            "page": "",
-            "liquid": ""
-          }
+        "1753183581a2161154": {
+            "type": "apps",
+            "blocks": {
+                "judge_me_reviews_review_widget_4NdL3k": {
+                    "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+                    "settings": {
+                        "review_data": "sample_data",
+                        "max_width": 1200
+                    }
+                }
+            },
+            "block_order": [
+                "judge_me_reviews_review_widget_4NdL3k"
+            ],
+            "settings": {
+                "color_text": "",
+                "color_background": "",
+                "gradient_background": "",
+                "color_highlight": "",
+                "gradient_highlight": "",
+                "color_button_text": "",
+                "color_button_background": "",
+                "color_button_gradient": "",
+                "padding_top": 72,
+                "padding_bottom": 72,
+                "divider": false,
+                "full_width": false,
+                "rounded": false
+            }
         },
-        "collapsible_tab_8k3HWN": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Ingrédients & Dosage",
-            "content": "<ul><li><strong>Extrait sec d’orange rouge – Morosil® : 400 mg<br/></strong>Issu de la variété Moro (Citrus sinensis (L.) Osbeck), cet extrait est apprécié pour ses puissantes vertus antioxydantes et ses effets positifs sur le contrôle du poids.</li><li><strong>Vinaigre de cidre : 52,5 mg<br/></strong>Contribue à la régulation du métabolisme et favorise une bonne digestion.</li><li><strong>Extrait sec de guarana : 30 mg<br/></strong>Dont <strong>3,3 mg de caféine</strong>. Le guarana est traditionnellement utilisé pour stimuler le métabolisme des graisses et apporter un regain d’énergie.</li><li><strong>Poudre de noix de cola : 40 mg<br/></strong>Fournit également <strong>0,8 mg de caféine</strong> et participe à favoriser l’amincissement grâce à ses propriétés stimulantes.</li><li><em><strong>Chrome : 39 µg (98% VNR)</strong></em>*<br/>Le chrome joue un rôle essentiel dans la régulation du métabolisme des glucides et des lipides, contribuant ainsi au maintien d’une glycémie normale.</li></ul><p><em>Note : La dose journalière totale en caféine apportée par le produit est de 4,1 mg.</em></p>",
-            "page": "",
-            "liquid": ""
-          }
+        "1753198769eb6aae0c": {
+            "type": "apps",
+            "blocks": {
+                "judge_me_reviews_featured_carousel_Pd4XYq": {
+                    "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+                    "settings": {
+                        "maxwidth": 1080
+                    }
+                }
+            },
+            "block_order": [
+                "judge_me_reviews_featured_carousel_Pd4XYq"
+            ],
+            "settings": {
+                "color_text": "",
+                "color_background": "",
+                "gradient_background": "",
+                "color_highlight": "",
+                "gradient_highlight": "",
+                "color_button_text": "",
+                "color_button_background": "",
+                "color_button_gradient": "",
+                "padding_top": 72,
+                "padding_bottom": 72,
+                "divider": false,
+                "full_width": false,
+                "rounded": false
+            }
         },
-        "collapsible_tab_cQV9C7": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Conseils d'utilisation",
-            "content": "<ul><li>Prendre 1 gélule minceur par jour pendant 60 jours.</li><li>Associer idéalement à une alimentation équilibrée et un grand verre d’eau</li><li>Ne pas dépasser la dose recommandée.</li><li>Déconseillé aux femmes enceintes ou allaitantes sans avis médical.</li></ul><h5><strong>Précautions : </strong></h5><p>Déconseillé en cas d’ulcère gastro-duodénal, de troubles cardiaques ou d’hyperthiroïdie. En cas de traitements, demandez conseil à votre pharmacien. Ne pas dépasser la zone journalière recommandée</p><p>Un complément alimentaire ne doit pas se substituer à une alimentation variée et équilibrée et à un mode de vie sain. </p>",
-            "page": "",
-            "liquid": ""
-          }
-        },
-        "liquid_KggQWV": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"product-ingredients\">\n  <p class=\"ingredients-title\">Ingrédients sélectionnés pour leur efficacité :</p>\n  <div class=\"ingredients-list\">\n    <span class=\"ingredient\">Extrait d'orange rouge - Morosil ® </span>\n    <span class=\"ingredient\">Vinaigre de cidre</span>\n    <span class=\"ingredient\">Extrait sec de guarana</span>\n    <span class=\"ingredient\">Poudre de noix de cola</span>\n  </div>\n</div>\n\n<style>\n  .product-ingredients {\n    padding-left: 0; /* Suppression du padding lié à l'ancienne bordure */\n    margin: 15px 0;\n    font-size: 12px;\n    line-height: 1.4;\n  }\n\n  .ingredients-title {\n    font-weight: bold;\n    margin-bottom: 5px;\n  }\n\n  .ingredients-list {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 5px;\n  }\n\n  .ingredient {\n    display: inline-block;\n    padding: 3px 8px;\n    border: 2px solid #5D9BD5; /* Bordure solide */\n    border-radius: 8px;\n    font-size: 10px;\n    color: #5D9BD5;\n    font-weight: bold;\n  }\n</style>"
-          }
+        "17574148132d7cf318": {
+            "type": "apps",
+            "blocks": {
+                "reelup_shoppable_videos_reels_reelup_product_slider_KnaNQM": {
+                    "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_product_slider/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+                    "settings": {}
+                }
+            },
+            "block_order": [
+                "reelup_shoppable_videos_reels_reelup_product_slider_KnaNQM"
+            ],
+            "settings": {
+                "color_text": "",
+                "color_background": "",
+                "gradient_background": "",
+                "color_highlight": "",
+                "gradient_highlight": "",
+                "color_button_text": "",
+                "color_button_background": "",
+                "color_button_gradient": "",
+                "padding_top": 72,
+                "padding_bottom": 72,
+                "divider": false,
+                "full_width": false,
+                "rounded": false
+            }
         }
-      },
-      "block_order": [
-        "title",
-        "judge_me_reviews_preview_badge_erzwhx",
-        "liquid_yWAUPW",
-        "liquid_hVwKAk",
-        "variant_picker",
-        "buy_buttons",
-        "reelup_shoppable_videos_reels_reelup_product_slider_T9RqQV",
-        "pickup_availability",
-        "complementary",
-        "sticky_buy_button",
-        "collapsible_tab_bmPf6Q",
-        "collapsible_tab_8k3HWN",
-        "collapsible_tab_cQV9C7",
-        "liquid_KggQWV"
-      ],
-      "settings": {
-        "enable_sticky_info": true,
-        "media_size": 66,
-        "gallery_layout": "scroll",
-        "thumbnail_position": "beside",
-        "image_ratio": "adapt_first",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_autoplay": true,
-        "enable_video_looping": true,
-        "mobile_layout": "full_width",
-        "image_ratio_mobile": "adapt_first",
-        "mobile_thumbnail": false,
-        "padding_top": 36,
-        "padding_bottom": 12,
-        "divider": false,
-        "full_width": true,
-        "rounded": false
-      }
     },
-    "17574147527b5496cf": {
-      "type": "apps",
-      "settings": {
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
-    "scrolling_logos_fcBPiQ": {
-      "type": "scrolling-logos",
-      "blocks": {
-        "slide_rQX9re": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/VOGUE_revista_-_logo.png",
-            "link": ""
-          }
-        },
-        "slide_RX8JTY": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Marie_Claire_Magazine_logo_svg.png",
-            "link": ""
-          }
-        },
-        "slide_fbxYzF": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/ELLE_Magazine_Logo.svg",
-            "link": ""
-          }
-        },
-        "slide_j7i4gp": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Cosmetique_Mag_pages-to-jpg-0001-removebg-preview_7df60eff-56d9-4b97-ae59-6334e9841d99.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_rQX9re",
-        "slide_RX8JTY",
-        "slide_fbxYzF",
-        "slide_j7i4gp"
-      ],
-      "settings": {
-        "ss-title": "",
-        "heading_custom": false,
-        "heading_font": "assistant_n4",
-        "header_size": 30,
-        "header_align": "center",
-        "scrolling_velocity": 10,
-        "pause_hover": false,
-        "shadow": false,
-        "sliders_mt": 16,
-        "logo_padding_top": 0,
-        "logo_padding_bottom": 0,
-        "slider_gap": 64,
-        "slider_gap_mobile": 30,
-        "slider_direction": "left",
-        "icon_width": 100,
-        "header_color": "#121212",
-        "border_color": "#ffffff",
-        "background-color": "#fafafa",
-        "slider-background-color": "#fafafa",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
-    "image_with_text_G78JtR": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_WVxpHx": {
-          "type": "heading",
-          "settings": {
-            "heading": "\"Je n'ai même pas encore fini la boîte !\"",
-            "heading_size": "title-sm",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "text_mpqXQa": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>\"Je suis choquée 😱</strong><br/>J’ai tout essayé… mais là, c’est la première fois que je vois un vrai changement aussi vite !<br/>Je suis à peine à <strong>45 jours de cure</strong> (et j’ai même <strong>pas encore fini la boîte</strong>) et <strong>les résultats sont déjà là</strong> 🔥Mon ventre a dégonflé, ma silhouette s’est affinée, <strong>aucune douleur, aucun effet secondaire</strong>…<br/>Juste une gélule par jour, facile à prendre et zéro contrainte ! <strong>Merci Docteur V 💖</strong><br/>C’est clairement devenu mon indispensable 😍\"</p>",
-            "text_size": "subtext-md",
-            "text_max_size": 32,
-            "text_font": "body",
-            "secondary_color": false,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "button_iKNmC7": {
-          "type": "button",
-          "settings": {
-            "button_label": "VITE,  MA CURE DE 2 MOIS AVANT L'ÉTÉ !",
-            "button_link": "shopify://products/morosil-400",
-            "button_style": "primary",
-            "button_size": "md",
-            "button_external": false,
-            "button_icon": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_WVxpHx",
-        "text_mpqXQa",
-        "button_iKNmC7"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/post_avantapres_docteur_v-2.png",
-        "image_height": "adapt",
-        "image_width": "small",
-        "layout": "image_first",
-        "text_alignment": "center",
-        "content_position": "align-self-center",
-        "image_height_mobile": "200px",
-        "text_alignment_mobile": "left",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_background_2": "",
-        "gradient_background_2": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false,
-        "enable_parallax": true,
-        "parallax_direction": "vertical"
-      }
-    },
-    "ss_feature_17_ydiaYa": {
-      "type": "ss-feature-17",
-      "blocks": {
-        "heading_Nct9F3": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_custom": false,
-            "heading_font": "josefin_sans_n4",
-            "heading_size": 28,
-            "heading_size_mobile": 18,
-            "heading_height": 130,
-            "heading_mt": 0,
-            "heading_mt_mobile": 0,
-            "heading_align": "left",
-            "heading_align_mobile": "left",
-            "heading_color": "#000000"
-          }
-        },
-        "text_FYet6P": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Grâce à sa formule naturelle à base de Morosil<strong>®</strong>, ce complément alimentaire perte de poids a aidé des centaines d’utilisateurs à perdre du poids efficacement et éviter l’effet yoyo, en seulement quelques semaines.</p>",
-            "text_custom": false,
-            "text_font": "josefin_sans_n4",
-            "text_size": 16,
-            "text_size_mobile": 15,
-            "text_height": 150,
-            "text_mt": 24,
-            "text_mt_mobile": 24,
-            "text_color": "#000000"
-          }
-        },
-        "item_heR48y": {
-          "type": "item",
-          "settings": {
-            "percent": 90,
-            "text": "des utilisateurs ont constaté une perte de poids visible et une réduction du tour de taille dès 4 semaines grâce à leur cure Morosil®."
-          }
-        },
-        "item_c8CMqP": {
-          "type": "item",
-          "settings": {
-            "percent": 95,
-            "text": "des utilisateurs trouvent cette gélule minceur facile à intégrer à leur quotidien : 1 gélule pour mincir par jour suffit pour démarrer une cure minceur efficace."
-          }
-        },
-        "item_JjfjMN": {
-          "type": "item",
-          "settings": {
-            "percent": 86,
-            "text": "des utilisateurs déclarent se sentir plus légers, plus énergiques, avec moins de fringales et une meilleure régulation de leur glycémie, tout en conservant une silhouette affinée grâce au brûleur de graisse naturel MORO FIT 400"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Nct9F3",
-        "text_FYet6P",
-        "item_heR48y",
-        "item_c8CMqP",
-        "item_JjfjMN"
-      ],
-      "settings": {
-        "body_gap": 64,
-        "body_gap_mobile": 32,
-        "content_horizontal_align": "center",
-        "content_horizontal_align_mobile": "center",
-        "heading": "",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 38,
-        "heading_size_mobile": 28,
-        "heading_height": 130,
-        "items_mt": 16,
-        "items_mt_mobile": 16,
-        "item_padding_vertical": 10,
-        "item_padding_vertical_mobile": 10,
-        "item_gap": 16,
-        "item_gap_mobile": 16,
-        "item_border_thickness": 2,
-        "circle_size": 70,
-        "circle_size_mobile": 70,
-        "percent_custom": false,
-        "percent_font": "josefin_sans_n4",
-        "percent_size": 18,
-        "percent_size_mobile": 19,
-        "percent_height": 130,
-        "item_text_custom": false,
-        "item_text_font": "josefin_sans_n4",
-        "item_text_size": 16,
-        "item_text_size_mobile": 14,
-        "item_text_height": 150,
-        "bottom_text": "<p>Résultats issus d’un sondage interne réalisé auprès de ….. utilisateurs ayant suivi une <strong>cure MORO FIT 400</strong> sur 30 jours (1 gélule minceur par jour)</p>",
-        "bottom_text_custom": false,
-        "bottom_text_font": "josefin_sans_n4",
-        "bottom_text_size": 12,
-        "bottom_text_size_mobile": 12,
-        "bottom_text_height": 130,
-        "bottom_text_mt": 16,
-        "bottom_text_mt_mobile": 16,
-        "bottom_text_align": "left",
-        "bottom_text_align_mobile": "left",
-        "item_border_color": "#f3f3f3",
-        "circle_bg_color": "#ffffff",
-        "circle_progress": "#5d9bd5",
-        "percent_color": "#5d9bd5",
-        "item_text_color": "#000000",
-        "heading_color": "#000000",
-        "bottom_text_color": "#000000",
-        "background_color": "#fafafa",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 4,
-        "padding_bottom": 36,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 120,
-        "border_thickness": 0,
-        "section_radius": 0,
-        "lazy": true
-      }
-    },
-    "custom_liquid_aH38bN": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "liquid": "<style>\n  .usage-carousel {\n    display: flex;\n    overflow-x: auto;\n    gap: 1.5rem;\n    scroll-snap-type: x mandatory;\n    padding: 2rem 1rem;\n    -ms-overflow-style: none;\n    scrollbar-width: none;\n  }\n\n  .usage-carousel::-webkit-scrollbar {\n    display: none;\n  }\n\n  .usage-step {\n    flex: 0 0 80%;\n    max-width: 330px;\n    background: #fff;\n    border-radius: 16px;\n    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);\n    scroll-snap-align: start;\n    padding-bottom: 1rem;\n  }\n\n  .usage-step img {\n    width: 100%;\n    border-top-left-radius: 16px;\n    border-top-right-radius: 16px;\n    object-fit: cover;\n    height: 220px;\n  }\n\n  .usage-step-content {\n    padding: 1.4rem;\n  }\n\n  .usage-step h3 {\n    margin: 0 0 0.8rem;\n    font-size: 18px;\n    font-weight: 700;\n  }\n\n  .usage-step p {\n    font-size: 16px;\n    line-height: 1.6;\n    color: #333;\n    margin-bottom: 0;\n  }\n\n  .usage-section-title {\n    text-align: center;\n    font-size: 26px;\n    font-weight: 700;\n    margin-top: 2rem;\n  }\n\n  @media (min-width: 992px) {\n    .usage-carousel {\n      justify-content: center;\n      overflow-x: hidden;\n      flex-wrap: nowrap;\n    }\n\n    .usage-step {\n      flex: 0 0 22%;\n      max-width: none;\n    }\n  }\n</style>\n\n<h2 class=\"usage-section-title\">Comment utiliser l’Accelerator Oil</h2>\n\n<div class=\"usage-carousel\">\n  <div class=\"usage-step\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0632/4787/6189/files/IMG_0972.webp?v=1749049771\" alt=\"Application\">\n    <div class=\"usage-step-content\">\n      <h3>💧 Application</h3>\n      <p>Déposez quelques gouttes sur un cuir chevelu propre et sec. Un gommage capillaire 2 fois par mois est recommandé.</p>\n    </div>\n  </div>\n\n  <div class=\"usage-step\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0632/4787/6189/files/IMG_0973.webp?v=1749049781\" alt=\"Massage crânien\">\n    <div class=\"usage-step-content\">\n      <h3>🤲 Massage</h3>\n      <p>Massez délicatement pour activer la microcirculation et optimiser la pénétration des actifs naturels.</p>\n    </div>\n  </div>\n\n  <div class=\"usage-step\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0632/4787/6189/files/IMG_0975.webp?v=1749049785\" alt=\"Temps de pose huile\">\n    <div class=\"usage-step-content\">\n      <h3>⏳ Temps de pose</h3>\n      <p>Laissez poser entre 3 et 5 heures pour une action renforcée sur la pousse et la structure du cheveu. Puis place au shampoing à pH 5 </p>\n    </div>\n  </div>\n\n  <div class=\"usage-step\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0632/4787/6189/files/IMG_0974.webp?v=1749049795\" alt=\"Rinçage doux\">\n    <div class=\"usage-step-content\">\n      <h3>🫧 Rinçage</h3>\n      <p>Rincez à l’aide d’un shampoing doux. Une petite quantité suffit pour des résultats visibles dès les premières semaines.</p>\n    </div>\n  </div>\n</div>",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "narrow": false,
-        "rounded": false
-      }
-    },
-    "help-drawer": {
-      "type": "help-drawer",
-      "blocks": {
-        "content-1": {
-          "type": "content",
-          "settings": {
-            "icon": "rocket",
-            "heading": "Shipping Information",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle",
-            "color_text": "#b45309",
-            "color_background": "#fffbeb",
-            "gradient_background": "",
-            "color_highlight": "#ffddbf",
-            "gradient_highlight": ""
-          }
-        },
-        "content-2": {
-          "type": "content",
-          "settings": {
-            "icon": "headphone",
-            "heading": "Customer Support",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle",
-            "color_text": "#0369a1",
-            "color_background": "#f0f9ff",
-            "gradient_background": "",
-            "color_highlight": "#ffddbf",
-            "gradient_highlight": ""
-          }
-        },
-        "content-3": {
-          "type": "content",
-          "settings": {
-            "icon": "chat_bubble",
-            "heading": "FAQ’s",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle",
-            "color_text": "#be123c",
-            "color_background": "#fff1f2",
-            "gradient_background": "",
-            "color_highlight": "#ffddbf",
-            "gradient_highlight": ""
-          }
-        },
-        "content-4": {
-          "type": "content",
-          "settings": {
-            "icon": "phone",
-            "heading": "Contact Us",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle",
-            "color_text": "#4d7c0f",
-            "color_background": "#f7fee7",
-            "gradient_background": "",
-            "color_highlight": "#ffddbf",
-            "gradient_highlight": ""
-          }
-        }
-      },
-      "block_order": [
-        "content-1",
-        "content-2",
-        "content-3",
-        "content-4"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "Need help?",
-        "description": "<p>If you have any questions, you are always welcome to contact us. We'll get back to you as soon as possible, within 24 hours on weekdays.</p>"
-      }
-    },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "product_limit": 6,
-        "columns": 4,
-        "carousel_on_desktop": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "heading": "You may also like",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": true
-      }
-    },
-    "recently-viewed": {
-      "type": "recently-viewed",
-      "disabled": true,
-      "settings": {
-        "product_limit": 6,
-        "columns": 4,
-        "carousel_on_desktop": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "heading": "Recently Viewed",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
-    "ss_tableau_h8yrGk": {
-      "type": "ss-tableau",
-      "blocks": {
-        "brand_3fCyPH": {
-          "type": "brand",
-          "settings": {
-            "brand_name": "DOCTEUR  V",
-            "highlight_column": true,
-            "column_background_color": "#dff2ff",
-            "brand_name_color": "#000000"
-          }
-        },
-        "brand_EqrGRm": {
-          "type": "brand",
-          "settings": {
-            "brand_name": "AUTRES",
-            "highlight_column": false,
-            "column_background_color": "#fafafa",
-            "brand_name_color": "#000000"
-          }
-        },
-        "criteria_eafm4C": {
-          "type": "criteria",
-          "settings": {
-            "criteria_name": "Composition",
-            "value_1": "Hautement dosé",
-            "value_1_type": "positive",
-            "value_2": "Produits chimiques",
-            "value_2_type": "negative",
-            "value_3": "Synthétique",
-            "value_3_type": "negative",
-            "value_4": "Non spécifié",
-            "value_4_type": "positive"
-          }
-        },
-        "criteria_dtKjnR": {
-          "type": "criteria",
-          "settings": {
-            "criteria_name": "Efficacité",
-            "value_1": "Résultats visibles, perte de gras",
-            "value_1_type": "positive",
-            "value_2": "Résultats moyens",
-            "value_2_type": "neutral",
-            "value_3": "Résultats faibles",
-            "value_3_type": "negative",
-            "value_4": "Non spécifié",
-            "value_4_type": "positive"
-          }
-        },
-        "criteria_VmVze7": {
-          "type": "criteria",
-          "settings": {
-            "criteria_name": "Durée et prix",
-            "value_1": "Cure de 2 mois par boite",
-            "value_1_type": "positive",
-            "value_2": "Prix élevé",
-            "value_2_type": "negative",
-            "value_3": "Abordable mais peu efficace",
-            "value_3_type": "neutral",
-            "value_4": "Non spécifié",
-            "value_4_type": "positive"
-          }
-        },
-        "criteria_jVm8bw": {
-          "type": "criteria",
-          "settings": {
-            "criteria_name": "Durabilité",
-            "value_1": "Écologique",
-            "value_1_type": "positive",
-            "value_2": "Non durable",
-            "value_2_type": "negative",
-            "value_3": "Partiellement écologique",
-            "value_3_type": "neutral",
-            "value_4": "Non spécifié",
-            "value_4_type": "positive"
-          }
-        }
-      },
-      "block_order": [
-        "brand_3fCyPH",
-        "brand_EqrGRm",
-        "criteria_eafm4C",
-        "criteria_dtKjnR",
-        "criteria_VmVze7",
-        "criteria_jVm8bw"
-      ],
-      "name": "Tableau comparatif",
-      "settings": {
-        "title": "MORO FIT 400 : un complément minceur hautement dosé",
-        "subtitle": "<p>Les avantages de notre cure de MOROSIL<strong>®</strong></p>",
-        "button_text": "Je commence ma cure de 2 mois",
-        "button_link": "shopify://products/morosil-400",
-        "button_border_radius": 26,
-        "background_color": "#fafafa",
-        "title_color": "#000000",
-        "subtitle_color": "#4a4a4a",
-        "criteria_text_color": "#333333",
-        "feature_text_color": "#333333",
-        "positive_icon_color": "#4caf50",
-        "negative_icon_color": "#f44336",
-        "neutral_icon_color": "#9e9e9e",
-        "button_background": "#dff2ff",
-        "button_text_color": "#171717",
-        "button_hover_background": "#5d9bd5",
-        "button_hover_text_color": "#fafafa"
-      }
-    },
-    "1753183581a2161154": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_4NdL3k": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "sample_data",
-            "max_width": 1200
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_4NdL3k"
-      ],
-      "settings": {
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
-    "1753198769eb6aae0c": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_Pd4XYq": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_Pd4XYq"
-      ],
-      "settings": {
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
-    "17574148132d7cf318": {
-      "type": "apps",
-      "blocks": {
-        "reelup_shoppable_videos_reels_reelup_product_slider_KnaNQM": {
-          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_product_slider/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "reelup_shoppable_videos_reels_reelup_product_slider_KnaNQM"
-      ],
-      "settings": {
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    }
-  },
-  "order": [
-    "main-product",
-    "17574147527b5496cf",
-    "scrolling_logos_fcBPiQ",
-    "image_with_text_G78JtR",
-    "ss_feature_17_ydiaYa",
-    "custom_liquid_aH38bN",
-    "help-drawer",
-    "product-recommendations",
-    "recently-viewed",
-    "ss_tableau_h8yrGk",
-    "1753183581a2161154",
-    "1753198769eb6aae0c",
-    "17574148132d7cf318"
-  ]
+    "order": [
+        "main-product",
+        "17574147527b5496cf",
+        "scrolling_logos_fcBPiQ",
+        "image_with_text_G78JtR",
+        "ss_feature_17_ydiaYa",
+        "custom_liquid_aH38bN",
+        "help-drawer",
+        "product-recommendations",
+        "recently-viewed",
+        "ss_tableau_h8yrGk",
+        "1753183581a2161154",
+        "1753198769eb6aae0c",
+        "17574148132d7cf318"
+    ]
 }
