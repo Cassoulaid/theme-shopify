@@ -297,7 +297,7 @@
         "image_radius": 0,
         "image_border_thickness": 0,
         "image_blur_desktop": true,
-        "absolute_image_width": 250,
+        "absolute_image_width": 320,
         "absolute_image_radius": 0,
         "absolute_image_border_thickness": 0,
         "button_color": "#171717",
