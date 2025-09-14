@@ -42,7 +42,7 @@
             "button_label": "TA CURE MINCEUR MOROSIL ICI",
             "button_link": "shopify://products/morosil-400",
             "button_style": "primary",
-            "button_size": "md",
+            "button_size": "sm",
             "button_external": false,
             "button_icon": true
           }
@@ -55,7 +55,7 @@
       ],
       "settings": {
         "transparent_header": false,
-        "image": "shopify://shop_images/2_boites_moro_fit_400_achter_1_boite_Offert_ce1d3a3c-8717-4940-8e76-16c41a5c25f1.png",
+        "image": "shopify://shop_images/2_boites_moro_fit_400_achter_1_boite_Offert_1_fbf09563-2a20-4a47-9c25-c9c5c213627b.png",
         "image_height": "adapt",
         "content_width": "medium",
         "content_position": "md:items-end md:justify-end",
