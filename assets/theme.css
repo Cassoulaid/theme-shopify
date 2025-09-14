@@ -14894,3 +14894,8 @@ video-media:not([playing]) .deferred-poster .play-button .icon:last-child:not(:o
     }
   }
 }
+@media screen and (min-width: 1024px){
+  .product-form__buttons { display: grid !important; grid-template-columns: 1fr !important; }
+  .buy-buttons { display: grid !important; grid-template-columns: 1fr !important; grid-column: 1 / -1 !important; }
+  .buy-buttons > * { width: 100% !important; }
+}
