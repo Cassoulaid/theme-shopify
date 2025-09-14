@@ -197,7 +197,6 @@
         </div>
       {%- endif -%}
 
-      {# --- MODIF ICI : forcer 1 colonne --- #}
       <div class="buy-buttons{% if enable_back_in_stock %} back-in-stock{% endif %} grid grid-cols-1 gap-4">
         {%- if product.quantity_price_breaks_configured? != true and show_quantity_selector -%}
           {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id -%}
