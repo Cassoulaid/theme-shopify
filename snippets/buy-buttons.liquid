@@ -89,7 +89,7 @@
                 min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
                 {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
                   data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
-                  max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                  max="{{ product.selected_or_first_available_variant.quantity_rule.max }}
                 {% endif %}
                 step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
                 value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
@@ -196,7 +196,9 @@
           {%- endif -%}
         </div>
       {%- endif -%}
-      <div class="buy-buttons{% if enable_back_in_stock %} back-in-stock{% endif %}{% if product.quantity_price_breaks_configured? != true and show_quantity_selector %} flex{% else %} grid{% endif %} gap-4">
+
+      {# --- MODIF ICI : forcer 1 colonne --- #}
+      <div class="buy-buttons{% if enable_back_in_stock %} back-in-stock{% endif %} grid grid-cols-1 gap-4">
         {%- if product.quantity_price_breaks_configured? != true and show_quantity_selector -%}
           {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id -%}
           <label for="Quantity-{{ section_id }}-{{ product_id }}" class="label sr-only">{{ 'products.quantity.label' | t }}</label>
@@ -217,7 +219,7 @@
               min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
               {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
                 data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
-                max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                max="{{ product.selected_or_first_available_variant.quantity_rule.max }}
               {% endif %}
               step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
               value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
