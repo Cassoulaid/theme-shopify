@@ -177,11 +177,6 @@
         "disabled": false,
         "settings": {}
       },
-      "10967200920248657493": {
-        "type": "shopify://apps/widebundle/blocks/app-embed/392bb313-2491-436e-a58e-9bb68ebd8f47",
-        "disabled": false,
-        "settings": {}
-      },
       "1232542678405107163": {
         "type": "shopify://apps/instafeed/blocks/head-block/c447db20-095d-4a10-9725-b5977662c9d5",
         "disabled": false,
@@ -211,6 +206,11 @@
           "debugging_global_script": "",
           "enable_reelPops": true
         }
+      },
+      "9696655121035291526": {
+        "type": "shopify://apps/rapi/blocks/app-embed/99617c17-a32b-4e70-a883-7a155610d032",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
