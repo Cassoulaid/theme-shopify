@@ -59,7 +59,8 @@
       endif
     -%}
 
-    <div class="product-form__buttons grid gap-4"{% unless product.quantity_price_breaks_configured? and show_quantity_selector %} id="QuantityForm-{{ section_id }}-{{ product_id }}"{% endunless %}>
+    <div class="product-form__buttons grid grid-cols-1 gap-4"
+<div class="product-form__buttons grid grid-cols-1 gap-4"{% unless product.quantity_price_breaks_configured? and show_quantity_selector %} id="QuantityForm-{{ section_id }}-{{ product_id }}"{% endunless %}>
       <div class="product-form__error-message alert alert--error text-sm font-medium leading-tight" role="alert" hidden></div>
 
       {%- if product.quantity_price_breaks_configured? and show_quantity_selector -%}
@@ -197,7 +198,7 @@
         </div>
       {%- endif -%}
 
-      <div class="buy-buttons{% if enable_back_in_stock %} back-in-stock{% endif %} grid grid-cols-1 gap-4">
+      <div class="buy-buttons{% if enable_back_in_stock %} back-in-stock{% endif %} grid grid-cols-1 col-span-full gap-4">
         {%- if product.quantity_price_breaks_configured? != true and show_quantity_selector -%}
           {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id -%}
           <label for="Quantity-{{ section_id }}-{{ product_id }}" class="label sr-only">{{ 'products.quantity.label' | t }}</label>
