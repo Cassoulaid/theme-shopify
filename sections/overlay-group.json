@@ -13,7 +13,6 @@
   "sections": {
     "cart-drawer": {
       "type": "cart-drawer",
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "show_vendor": false,
