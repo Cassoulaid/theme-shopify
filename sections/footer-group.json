@@ -100,7 +100,7 @@
           "type": "link_list",
           "settings": {
             "heading": "",
-            "menu": "main-menu",
+            "menu": "footer",
             "container_width": 49,
             "opened": false
           }
