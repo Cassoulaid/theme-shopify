@@ -28,7 +28,7 @@
         "liquid_yWAUPW": {
           "type": "liquid",
           "settings": {
-            "liquid": "🍊 Extrait naturel d’orange rouge de Sicile<br>\n🌿 Soutient un régime sain<br>\n✨ Accompagne vos objectifs bien-être"
+            "liquid": "{% if shop.locale == 'fr' %}\n  <div class=\"product-benefits\">\n    <p>\n      🍊 Extrait naturel d’orange rouge de Sicile<br>\n      🌿 Soutient un régime sain<br>\n      ✨ Accompagne vos objectifs bien-être\n    </p>\n  </div>\n{% elsif shop.locale == 'de' %}\n  <div class=\"product-benefits\">\n    <p>\n      🍊 Natürlicher Extrakt aus roten Orangen aus Sizilien<br>\n      🌿 Unterstützt eine gesunde Ernährung<br>\n      ✨ Begleitet Ihre Wohlfühlziele\n    </p>\n  </div>\n{% endif %}\n\n<style>\n  .product-benefits {\n    margin: 10px 0;\n    font-size: 13px;\n    line-height: 1.5;\n  }\n</style>"
           }
         },
         "liquid_hVwKAk": {
