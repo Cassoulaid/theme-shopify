@@ -985,5 +985,23 @@
         }
       }
     }
-  }
+  },
+"product_flags": {
+  "made_in_france": "🇫🇷 Hergestellt in Frankreich",
+  "vegan_cure": "🌿 Vegan, 2-monatige Kur!",
+  "high_dose": "🧪 Hochdosiert"
+},
+
+"product_row": {
+  "visible_results": "Sichtbare Ergebnisse nach 15 Tagen",
+  "natural_formula": "Natürliche und wirksame Formel",
+  "no_gluten": "Gluten- und zusatzstofffrei"
+},
+
+"ingredients": {
+  "title": "Ausgewählte Inhaltsstoffe für ihre Wirksamkeit:",
+  "morosil": "Roter Orangenextrakt – Morosil®",
+  "cider_vinegar": "Apfelessig",
+  "guarana": "Guarana-Trockenextrakt"
+}
 }
