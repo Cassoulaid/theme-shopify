@@ -55,7 +55,7 @@
       ],
       "settings": {
         "transparent_header": false,
-        "image": "shopify://shop_images/Banniere_DOCTEUR_V-2_5a3b3a06-6d35-40d2-a652-d2f3bdeff6ad.png",
+        "image": "shopify://shop_images/Banniere_DOCTEUR_V.webp",
         "image_height": "adapt",
         "content_width": "medium",
         "content_position": "md:items-end md:justify-end",
