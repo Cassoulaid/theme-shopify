@@ -211,6 +211,37 @@
         "type": "shopify://apps/rapi/blocks/app-embed/99617c17-a32b-4e70-a883-7a155610d032",
         "disabled": false,
         "settings": {}
+      },
+      "2461320892803247993": {
+        "type": "shopify://apps/coco-whatsapp-ai-cart-recovery/blocks/coco_bubble/b8c5208f-c3e1-45c9-82ae-fc9678081de8",
+        "disabled": false,
+        "settings": {
+          "button_one": "I need some advice",
+          "button_two": "How to use your product",
+          "button_three": "I want a discount code",
+          "delay": 0,
+          "show_mobile_only": false,
+          "show_notification_bubble": true,
+          "disable_breathe": false,
+          "show_ai_mention": false,
+          "bubble_color": "#25d366",
+          "whatsapp_message": "Hello, I'm online!",
+          "text_color": "white",
+          "text_color_background": "black",
+          "cross_notification_color": "white",
+          "shop_pic": "https://my-coco.ai/wp-content/uploads/2024/08/coco-profil-pic.png",
+          "shop_name": "",
+          "status": "Online",
+          "status_color": "green",
+          "cross_color": "white",
+          "header_color": "black",
+          "buttons_color": "black",
+          "whatsapp_message_inside": "Hello",
+          "pre_message_input": "Write your message",
+          "tooltip_position": "full-coco-right",
+          "custom_css": "",
+          "path_filter": ""
+        }
       }
     }
   },
