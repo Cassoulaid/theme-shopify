@@ -1702,6 +1702,47 @@
         "rounded": false
       }
     },
+    "blog_posts_TAVgkz": {
+      "type": "blog-posts",
+      "disabled": true,
+      "name": "t:sections.blog-posts.presets.name",
+      "settings": {
+        "blog": "nos-conseils-dexpert",
+        "post_limit": 4,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "landscape",
+        "show_tags": true,
+        "show_date": false,
+        "show_comments": false,
+        "show_author": false,
+        "show_excerpt": false,
+        "heading": "Blog posts",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "ss_trust_badge_DDtKK8": {
       "type": "ss-trust-badge",
       "blocks": {
@@ -1788,6 +1829,7 @@
     "ss_faq_9_BkMFP3",
     "custom_liquid_VPykEm",
     "17463566359eaf5607",
+    "blog_posts_TAVgkz",
     "ss_trust_badge_DDtKK8"
   ]
 }
