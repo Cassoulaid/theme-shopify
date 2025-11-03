@@ -16,8 +16,8 @@
       "custom_css": [],
       "settings": {
         "show_vendor": false,
-        "show_cart_note": true,
-        "show_shipping_calculator": true,
+        "show_cart_note": false,
+        "show_shipping_calculator": false,
         "show_view_cart_button": false,
         "show_checkout_button": true,
         "show_free_shipping_bar": true,
