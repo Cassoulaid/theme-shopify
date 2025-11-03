@@ -11573,7 +11573,10 @@ noscript .product-form__input {
 .product__title .product__rating {
   place-self: end;
 }
-
+.product__info .complementary-products {
+    background: #DFF2FF;
+    padding: 20px;
+}
 @media screen and (min-width: 1280px) {
   .product__title.with-price {
     grid-template-columns: auto auto;
