@@ -327,6 +327,66 @@
         "divider": true,
         "rounded": true
       }
+    },
+  "help_drawer_gqghtX": {
+      "type": "help-drawer",
+      "blocks": {
+        "content_dgjGtT": {
+          "type": "content",
+          "settings": {
+            "icon": "headphone",
+            "heading": "Customer Support",
+            "text": "<p><strong>Email us at </strong><a href=\"mailto:support@primepapas.com\" title=\"mailto:support@primepapas.com\">support@craftening.com</a><br/><br/>We typically respond within 24 hours on weekdays.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#0369a1",
+            "color_background": "#f0f9ff",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content_RAxmLc": {
+          "type": "content",
+          "settings": {
+            "icon": "phone",
+            "heading": "Contact Us",
+            "text": "<p>Call our team<strong>:+1 (312) 319-8162 </strong>Our support team is available 24/7.<br/></p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#4d7c0f",
+            "color_background": "#f7fee7",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content_FWFbxK": {
+          "type": "content",
+          "settings": {
+            "icon": "rocket",
+            "heading": "Shipping Information",
+            "text": "<p>We offer <strong>free tracked shipping</strong> on all orders.<br/><br/>Delivery usually takes <strong>6–12 business days</strong>, depending on your location.<br/><br/>You'll receive a tracking link by email once your order is shipped.<br/></p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#b45309",
+            "color_background": "#fffbeb",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_dgjGtT",
+        "content_RAxmLc",
+        "content_FWFbxK"
+      ],
+      "name": "Help Drawer",
+      "settings": {
+        "heading": "Need help?",
+        "description": ""
+      }
     }
   },
   "order": [
@@ -335,6 +395,7 @@
     "newsletter-popup",
     "age-verifier",
     "cookie-banner",
-    "mobile-dock"
+    "mobile-dock",
+    "help_drawer_gqghtX"
   ]
 }
