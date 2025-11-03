@@ -51,7 +51,7 @@
         "announcement_position": "center",
         "autoplay": true,
         "autoplay_speed": 4,
-        "show_navigation": true,
+        "show_navigation": false,
         "color_text": "#171717",
         "color_background": "#5d9bd5",
         "gradient_background": "",
