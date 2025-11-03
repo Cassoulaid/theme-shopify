@@ -11573,7 +11573,7 @@ noscript .product-form__input {
 .product__title .product__rating {
   place-self: end;
 }
-.product__info .complementary-products {
+.product__info .complementary-products, .cart-drawer .complementary-products{
     background-color: #DFF2FF;
     padding: 20px;
     border-radius: 8px;
