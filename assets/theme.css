@@ -11574,8 +11574,9 @@ noscript .product-form__input {
   place-self: end;
 }
 .product__info .complementary-products {
-    background: #DFF2FF;
+    background-color: #DFF2FF;
     padding: 20px;
+    border-radius: 8px;
 }
 @media screen and (min-width: 1280px) {
   .product__title.with-price {
