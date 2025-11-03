@@ -180,25 +180,12 @@
         "buy_buttons_MBg3rm": {
           "type": "buy_buttons",
           "settings": {
-            "show_quantity_selector": true,
-            "show_dynamic_checkout": true,
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true,
             "enable_back_in_stock": false,
             "show_back_in_stock_name": false,
             "show_back_in_stock_phone": false
-          }
-        },
-        "pickup_availability_UezNck": {
-          "type": "pickup_availability",
-          "settings": {}
-        },
-        "share_am9fTa": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share",
-            "show_help_desk": true,
-            "help_label": "Need help?",
-            "help_page": ""
           }
         },
         "read_more_LQwCim": {
@@ -207,12 +194,6 @@
             "button_text": "Afficher les détails",
             "content": "<p>Ajoutez ici des détails supplémentaires sur votre produit que vous souhaitez afficher lorsque le client clique sur le bouton.</p>"
           }
-        },
-        "spinning_text_KMR9Xq": {
-          "type": "spinning_text",
-          "settings": {
-            "text": "Featured product"
-          }
         }
       },
       "block_order": [
@@ -220,10 +201,7 @@
         "description_cMWURi",
         "variant_picker_hYjHLr",
         "buy_buttons_MBg3rm",
-        "pickup_availability_UezNck",
-        "share_am9fTa",
-        "read_more_LQwCim",
-        "spinning_text_KMR9Xq"
+        "read_more_LQwCim"
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
