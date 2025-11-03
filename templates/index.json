@@ -119,6 +119,7 @@
         "slide_z3QnTR",
         "slide_hxD8D3"
       ],
+      "disabled": true,
       "settings": {
         "ss-title": "",
         "heading_custom": false,
@@ -180,6 +181,7 @@
         },
         "buy_buttons_MBg3rm": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_quantity_selector": false,
             "show_dynamic_checkout": false,
