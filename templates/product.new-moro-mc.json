@@ -804,24 +804,6 @@
         "full_width": false,
         "rounded": false
       }
-    },
-    "17574148132d7cf318": {
-      "type": "apps",
-      "settings": {
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
     }
   },
   "order": [
@@ -836,7 +818,6 @@
     "image_with_text_YEwndJ",
     "ss_tableau_h8yrGk",
     "1753183581a2161154",
-    "1753198769eb6aae0c",
-    "17574148132d7cf318"
+    "1753198769eb6aae0c"
   ]
 }
