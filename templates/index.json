@@ -149,6 +149,90 @@
         "lazy": true
       }
     },
+    "portfolio_g7mbz6": {
+      "type": "portfolio",
+      "blocks": {
+        "profile_DHpfMN": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/PHOTO-2025-09-13-13-44-06_5.jpg",
+            "heading": "Eva",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
+        },
+        "profile_DTkVhQ": {
+          "type": "profile",
+          "settings": {
+            "heading": "Heading",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "color_text": "#000000",
+            "color_background": "#ffffff"
+          }
+        },
+        "profile_yCGqRF": {
+          "type": "profile",
+          "settings": {
+            "heading": "Heading",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
+        },
+        "profile_fMfgAh": {
+          "type": "profile",
+          "settings": {
+            "heading": "Heading",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
+        }
+      },
+      "block_order": [
+        "profile_DHpfMN",
+        "profile_DTkVhQ",
+        "profile_yCGqRF",
+        "profile_fMfgAh"
+      ],
+      "disabled": true,
+      "name": "t:sections.portfolio.presets.name",
+      "settings": {
+        "columns": 4,
+        "carousel_on_desktop": false,
+        "layout": "default",
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "portrait",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Elles l'ont testé pour vous",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center justify-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "shopify://products/morosil-400",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "featured_product_4AtWDx": {
       "type": "featured-product",
       "blocks": {
@@ -1687,6 +1771,7 @@
   "order": [
     "image_with_text_overlay_ALrkJP",
     "scrolling_logos_6TkyMz",
+    "portfolio_g7mbz6",
     "featured_product_4AtWDx",
     "hero_6_rbXhKP",
     "ss_feature_13_ga68tn",
