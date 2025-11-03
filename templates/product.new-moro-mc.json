@@ -68,16 +68,6 @@
           "disabled": true,
           "settings": {}
         },
-        "complementary": {
-          "type": "complementary",
-          "disabled": true,
-          "settings": {
-            "heading": "Pairs well with",
-            "product_limit": 4,
-            "show_vendor": false,
-            "show_price": true
-          }
-        },
         "sticky_buy_button": {
           "type": "sticky_buy_button",
           "settings": {}
@@ -112,6 +102,15 @@
             "liquid": ""
           }
         },
+        "complementary": {
+          "type": "complementary",
+          "settings": {
+            "heading": "Votre pilulier",
+            "product_limit": 4,
+            "show_vendor": false,
+            "show_price": true
+          }
+        },
         "liquid_KggQWV": {
           "type": "liquid",
           "settings": {
@@ -128,11 +127,11 @@
         "buy_buttons",
         "reelup_shoppable_videos_reels_reelup_product_slider_T9RqQV",
         "pickup_availability",
-        "complementary",
         "sticky_buy_button",
         "collapsible_tab_bmPf6Q",
         "collapsible_tab_8k3HWN",
         "collapsible_tab_cQV9C7",
+        "complementary",
         "liquid_KggQWV"
       ],
       "settings": {
@@ -751,9 +750,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
+            "max_width": 1200,
             "show_shop_reviews": false,
-            "empty_state": "empty_widget",
-            "max_width": 1200
+            "empty_state": "empty_widget"
           }
         }
       },
