@@ -149,29 +149,98 @@
         "lazy": true
       }
     },
-    "1757414701f81855a2": {
-      "type": "apps",
+    "featured_product_4AtWDx": {
+      "type": "featured-product",
       "blocks": {
-        "reelup_shoppable_videos_reels_reelup_playlist_mFLijN": {
-          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+        "title_tP7WkJ": {
+          "type": "title",
           "settings": {
-            "playlist_id": ""
+            "title_size": "product-title-md",
+            "title_size_mobile": "product-title-md",
+            "show_price": true,
+            "show_rating": true
+          }
+        },
+        "description_cMWURi": {
+          "type": "description",
+          "settings": {
+            "text_size": "text-base"
+          }
+        },
+        "variant_picker_hYjHLr": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "color_swatch_type": "color",
+            "size_chart": ""
+          }
+        },
+        "buy_buttons_MBg3rm": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true,
+            "enable_back_in_stock": false,
+            "show_back_in_stock_name": false,
+            "show_back_in_stock_phone": false
+          }
+        },
+        "pickup_availability_UezNck": {
+          "type": "pickup_availability",
+          "settings": {}
+        },
+        "share_am9fTa": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share",
+            "show_help_desk": true,
+            "help_label": "Need help?",
+            "help_page": ""
+          }
+        },
+        "read_more_LQwCim": {
+          "type": "read_more",
+          "settings": {
+            "button_text": "Afficher les détails",
+            "content": "<p>Ajoutez ici des détails supplémentaires sur votre produit que vous souhaitez afficher lorsque le client clique sur le bouton.</p>"
+          }
+        },
+        "spinning_text_KMR9Xq": {
+          "type": "spinning_text",
+          "settings": {
+            "text": "Featured product"
           }
         }
       },
       "block_order": [
-        "reelup_shoppable_videos_reels_reelup_playlist_mFLijN"
+        "title_tP7WkJ",
+        "description_cMWURi",
+        "variant_picker_hYjHLr",
+        "buy_buttons_MBg3rm",
+        "pickup_availability_UezNck",
+        "share_am9fTa",
+        "read_more_LQwCim",
+        "spinning_text_KMR9Xq"
       ],
+      "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 48,
+        "product": "morosil-400",
+        "enable_sticky_info": true,
+        "media_size": 66,
+        "gallery_layout": "thumbnail",
+        "thumbnail_position": "beside",
+        "image_ratio": "adapt_first",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "mobile_layout": "partial",
+        "image_ratio_mobile": "adapt_first",
+        "mobile_thumbnail": false,
+        "padding_top": 72,
         "padding_bottom": 72,
         "divider": false,
         "full_width": false,
@@ -1640,7 +1709,7 @@
   "order": [
     "image_with_text_overlay_ALrkJP",
     "scrolling_logos_6TkyMz",
-    "1757414701f81855a2",
+    "featured_product_4AtWDx",
     "hero_6_rbXhKP",
     "ss_feature_13_ga68tn",
     "ss_about_jLFatp",
