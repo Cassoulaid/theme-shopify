@@ -127,7 +127,7 @@
       },
       "free_shipping": {
         "remaining_html": "Plus que {{ remaining_amount }} pour obtenir la livraison gratuite !",
-        "congratulations_html": "🎁 La livraison offerte — profitez-en !"
+        "congratulations_html": "🎁 La livraison est offerte — profitez-en !"
       },
       "note": {
         "title": "Notes",
