@@ -11587,6 +11587,10 @@ noscript .product-form__input {
     border-radius: 8px;
     gap: 10px;
 }
+.taxes-cart-text{
+      text-align: center;
+    font-size: 12px;
+}
 .cart-drawer .complementary-products .horizontal-product__title{
   font-size: 14px;
 }
