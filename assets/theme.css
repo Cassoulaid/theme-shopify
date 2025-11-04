@@ -6482,7 +6482,9 @@ html.touch .has-modal-open {
   padding-block-end: var(--sp-4);
   border-block-end: 1px solid rgb(var(--color-border));
 }
-
+#CartDrawer .drawer__header {
+    padding: 15px 20px 10px;
+  }
 .drawer .modal {
   transition: all .3s ease;
   z-index: 3
