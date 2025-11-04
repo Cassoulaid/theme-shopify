@@ -11587,6 +11587,9 @@ noscript .product-form__input {
     border-radius: 8px;
     gap: 5px;
 }
+.cart-drawer .complementary-products .horizontal-product__title{
+  font-size: 14px;
+}
 .ms-auto{
   margin-left: auto;
 }
