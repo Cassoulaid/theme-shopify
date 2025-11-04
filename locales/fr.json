@@ -126,7 +126,7 @@
         "other": "{{ count }} articles"
       },
       "free_shipping": {
-        "remaining_html": "Plus que {{ remaining_amount }} pour la livraison gratuite !",
+        "remaining_html": "Plus que {{ remaining_amount }} pour obtenir la livraison gratuite !",
         "congratulations_html": "Votre livraison est gratuite."
       },
       "note": {
