@@ -589,7 +589,7 @@
                   {%- endif -%}
                 </div>
               {%- endif -%}
-              <div class="drawer__footer-bottom grid gap-6">
+              <div class="drawer__footer-bottom grid gap-2">
                 <div class="grid gap-4 sm:grid-6">
                   {%- if cart.cart_level_discount_applications.size > 0 -%}
                     <ul class="discounts list-unstyled" role="list" aria-label="{{ 'customer.order.discount' | t | escape }}">
@@ -644,7 +644,7 @@
                     {%- endif -%}
                   </form>
                 {%- endif -%}
-                <p>Taxes incluses & Expédition calculée à la caisse</p>
+                <p class="taxes-cart-text">Taxes incluses & Expédition calculée à la caisse</p>
               </div>
             </div>
           </div>
