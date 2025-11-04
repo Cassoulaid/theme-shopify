@@ -6039,9 +6039,11 @@ html.touch .has-modal-open {
         margin: 0 !important;
         overflow: visible !important;
         padding: 11px !important;
-        position: static !important;
+        position: absolute !important;
         white-space: normal !important;
         width: auto !important;
+        right: 10px;
+        bottom: 4px;
     }
     #CartDrawer .button .btn-fill {
       display: none;
