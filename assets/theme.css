@@ -6463,9 +6463,11 @@ html.touch .has-modal-open {
 
 .drawer__footer-bottom {
   background-color: rgb(var(--color-foreground)/ 0.045);
-  padding: clamp(var(--sp-8), 2.315vw, var(--sp-12)) var(--sp-5)
+  padding: 40px 20px 10px;
 }
-
+.text-total-cart{
+  padding-bottom: 15px;
+}
 @media screen and (min-width: 1024px) {
   .drawer__footer-bottom {
     padding-inline: var(--sp-12);
