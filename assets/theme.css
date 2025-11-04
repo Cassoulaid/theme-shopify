@@ -11590,6 +11590,9 @@ noscript .product-form__input {
 .cart-drawer .complementary-products .horizontal-product__title{
   font-size: 14px;
 }
+#CartDrawer .horizontal-product .horizontal-product__title{
+  font-size: 14px;
+}
 .ms-auto{
   margin-left: auto;
 }
