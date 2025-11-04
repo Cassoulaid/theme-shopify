@@ -11583,9 +11583,9 @@ noscript .product-form__input {
 }
 .cart-drawer .complementary-products {
     background-color: #dff2ff;
-    padding: 6px 10px;
+    padding: 0px 10px 10px;
     border-radius: 8px;
-    gap: 5px;
+    gap: 10px;
 }
 .cart-drawer .complementary-products .horizontal-product__title{
   font-size: 14px;
