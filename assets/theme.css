@@ -6048,6 +6048,9 @@ html.touch .has-modal-open {
     #CartDrawer .button .btn-fill {
       display: none;
     }
+    #CartDrawer .drawer__header .drawer__title{
+      font-size: 1.2rem;
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {
