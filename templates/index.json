@@ -207,7 +207,7 @@
         "read_more_LQwCim"
       ],
       "custom_css": [
-        ".product__info ul{display:none;}"
+        ".product__info ul {display: none;}"
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
@@ -263,12 +263,23 @@
             "color_text": "#ffffff",
             "color_background": "#171717"
           }
+        },
+        "profile_w99hkq": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0548.jpg",
+            "heading": "",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
         }
       },
       "block_order": [
         "profile_DHpfMN",
         "profile_jeX4qK",
-        "profile_yCGqRF"
+        "profile_yCGqRF",
+        "profile_w99hkq"
       ],
       "name": "t:sections.portfolio.presets.name",
       "settings": {
