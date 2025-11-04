@@ -11597,8 +11597,8 @@ noscript .product-form__input {
   margin-left: auto;
 }
 .rte:has(.stock-alert) {
-  margin-top: 10px; 
-  margin-block-start: 10px;
+  margin-top: 0; 
+  margin-block-start: 0;
 }
 @media screen and (min-width: 1280px) {
   .product__title.with-price {
