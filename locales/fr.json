@@ -126,7 +126,7 @@
         "other": "{{ count }} articles"
       },
       "free_shipping": {
-        "remaining_html": "Dépensez {{ remaining_amount }} de plus pour obtenir la livraison gratuite!",
+        "remaining_html": "Plus que {{ remaining_amount }} pour la livraison gratuite !",
         "congratulations_html": "Votre livraison est gratuite."
       },
       "note": {
@@ -580,26 +580,23 @@
     }
   },
   "date_formats": {
-  "month_day_year": "%d %B, %Y"
-},
-
-"product_flags": {
-  "made_in_france": "🇫🇷 Fabrication française",
-  "vegan_cure": "🌿 Vegan, cure de 2 mois !",
-  "high_dose": "🧪 Hautement dosé"
-},
-
-"product_row": {
-  "visible_results": "Résultats visibles dès 15 jours",
-  "natural_formula": "Formule naturelle et efficace",
-  "no_gluten": "Sans gluten ni additifs"
-},
-
-"ingredients": {
-  "title": "Ingrédients sélectionnés pour leur efficacité :",
-  "morosil": "Extrait d'orange rouge - Morosil®",
-  "cider_vinegar": "Vinaigre de cidre",
-  "guarana": "Extrait sec de guarana",
-  "kola_nut": "Poudre de noix de cola"
-}
+    "month_day_year": "%d %B, %Y"
+  },
+  "product_flags": {
+    "made_in_france": "🇫🇷 Fabrication française",
+    "vegan_cure": "🌿 Vegan, cure de 2 mois !",
+    "high_dose": "🧪 Hautement dosé"
+  },
+  "product_row": {
+    "visible_results": "Résultats visibles dès 15 jours",
+    "natural_formula": "Formule naturelle et efficace",
+    "no_gluten": "Sans gluten ni additifs"
+  },
+  "ingredients": {
+    "title": "Ingrédients sélectionnés pour leur efficacité :",
+    "morosil": "Extrait d'orange rouge - Morosil®",
+    "cider_vinegar": "Vinaigre de cidre",
+    "guarana": "Extrait sec de guarana",
+    "kola_nut": "Poudre de noix de cola"
+  }
 }
