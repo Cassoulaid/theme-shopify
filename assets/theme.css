@@ -6043,6 +6043,9 @@ html.touch .has-modal-open {
         white-space: normal !important;
         width: auto !important;
     }
+    #CartDrawer .button .btn-fill {
+      display: none;
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {
