@@ -6463,7 +6463,7 @@ html.touch .has-modal-open {
 
 .drawer__footer-bottom {
   background-color: rgb(var(--color-foreground)/ 0.045);
-  padding: 15px 20px;
+  padding: clamp(var(--sp-6), 2.315vw, var(--sp-12)) var(--sp-5)
 }
 
 @media screen and (min-width: 1024px) {
