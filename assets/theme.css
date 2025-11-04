@@ -3213,6 +3213,9 @@ button.shopify-payment-button__button--unbranded::after,
     width: var(--sp-4d5);
     height: var(--sp-4d5);
   }
+  #OJIAJ978617_coco-body {
+    z-index: 34 !important;
+}
 }
 
 .button .btn-text {
