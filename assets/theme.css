@@ -6032,6 +6032,17 @@ html.touch .has-modal-open {
     background-color: rgb(var(--color-overlay)/ 0.7);
     transform: translateZ(0)
   }
+      html.js .drawer__close {
+        clip: auto !important;
+        border-width: initial !important;
+        height: auto !important;
+        margin: 0 !important;
+        overflow: visible !important;
+        padding: 0 !important;
+        position: static !important;
+        white-space: normal !important;
+        width: auto !important;
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {
