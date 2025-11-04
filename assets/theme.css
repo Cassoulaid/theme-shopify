@@ -6051,7 +6051,7 @@ html.touch .has-modal-open {
     #CartDrawer .drawer__header .drawer__title{
       font-size: 1.2rem;
     }
-    #CartDrawer .drawer__header .drawer__tab :focus-visible {
+    #CartDrawer .drawer__header .drawer__tab:focus-visible {
     outline: 0 solid rgb(var(--color-keyboard-focus)) !important;
 }
 
