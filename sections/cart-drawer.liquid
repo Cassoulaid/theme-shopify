@@ -79,7 +79,7 @@
                 </div>
               </div>
             {%- endif -%}
-            <div class="drawer__scrollable relative flex flex-col gap-9 grow shrink{% if cart == empty %} hidden{% endif %}">
+            <div class="drawer__scrollable relative flex flex-col gap-5 grow shrink{% if cart == empty %} hidden{% endif %}">
               {%- liquid
                 if section.settings.show_free_shipping_bar and section.settings.free_shipping_minimum_amount != blank
                   assign minimum_amounts = section.settings.free_shipping_minimum_amount | remove: ' '
