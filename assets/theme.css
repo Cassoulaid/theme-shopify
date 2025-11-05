@@ -14961,6 +14961,7 @@ video-media:not([playing]) .deferred-poster .play-button .icon:last-child:not(:o
 }
 .multicolumn-card{
   border: none !important;
+   background: #DFF2FF;
 }
 .multicolumn-card__info{
   background: #DFF2FF;
