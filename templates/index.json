@@ -213,8 +213,8 @@
           "settings": {
             "image": "shopify://shop_images/IMG_0542.jpg",
             "heading": "Yasmine",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "color_text": "#ffffff",
+            "text": "<p><br/></p>",
+            "color_text": "#fafafa",
             "color_background": "#171717"
           }
         },
