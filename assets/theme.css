@@ -14967,6 +14967,10 @@ video-media:not([playing]) .deferred-poster .play-button .icon:last-child:not(:o
   background: #DFF2FF;
   border-radius: var(--rounded-block);
 }
+.profile-modal-imgbox{
+  display: flex;
+    flex-direction: row;
+}
 .profilemodal-content{
   width: 50%;
 }
