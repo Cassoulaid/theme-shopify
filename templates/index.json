@@ -312,6 +312,7 @@
         "feature_FAFxxf",
         "feature_tabnA7"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<h2><strong>MORO FIT 400</strong></h2>",
         "heading_custom": false,
@@ -427,6 +428,171 @@
         "lazy": true
       }
     },
+    "video_with_text_dpKQX9": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_xPhKca": {
+          "type": "heading",
+          "settings": {
+            "heading": "Le Moro Fit 400",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_qJh7QD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Développées par des <strong>professionnels de santé</strong>, les cures Docteur V associent des actifs rigoureusement sélectionnés</p><p>Chaque boîte contient <strong>une cure de 2 mois</strong>, à base de <strong>400 mg de Morosil®  </strong>par jour — un actif reconnu cliniquement pour favoriser la perte de poids. Une formule innovante qui respecte votre corps.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xPhKca",
+        "text_qJh7QD"
+      ],
+      "name": "t:sections.video-with-text.presets.name",
+      "settings": {
+        "video": "shopify://files/videos/morofit.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "image_height": "adapt",
+        "video_width": "medium",
+        "layout": "video_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 16,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "multicolumn_aeLBhW": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_pGaecw": {
+          "type": "column",
+          "settings": {
+            "show_border": true,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image": "shopify://shop_images/IMG_0548.jpg",
+            "image_ratio": "adapt",
+            "heading": "<strong>🩵 Perte de poids</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Brûlez les graisses naturellement grâce à une formule synergique à base de <strong>Morosil®</strong>, <strong>guarana</strong> et <strong>cola</strong>. Ces actifs ciblent les zones rebelles et soutiennent un métabolisme actif tout au long de la journée.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_FCGaDy": {
+          "type": "column",
+          "settings": {
+            "show_border": true,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image": "shopify://shop_images/IMG_0536.jpg",
+            "image_ratio": "adapt",
+            "heading": "🌿 <strong>Ingrédients naturels</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Chaque gélule MORO FIT 400 renferme des ingrédients d’origine naturelle soigneusement sélectionnés pour leur <strong>pureté</strong> et leur <strong>efficacité prouvée</strong> : sans OGM, sans additifs, et fabriqués selon les normes les plus strictes.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_JR3w6H": {
+          "type": "column",
+          "settings": {
+            "show_border": true,
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "image": "shopify://shop_images/IMG_0542.jpg",
+            "image_ratio": "adapt",
+            "heading": "🍎 <strong>Glycémie régulée</strong>",
+            "heading_size": "text-lg-2xl",
+            "text": "<p>Grâce à la combinaison du <strong>Morosil®</strong> et du <strong>vinaigre de cidre</strong>, MORO FIT 400 aide à <strong>stabiliser la glycémie</strong> et à réduire les fringales, pour un contrôle du poids plus sain et durable.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_pGaecw",
+        "column_FCGaDy",
+        "column_JR3w6H"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "gap": "large",
+        "columns": 4,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 36,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "ss_feature_13_ga68tn": {
       "type": "ss-feature-13",
       "blocks": {
@@ -487,6 +653,7 @@
         "item_NfJe47",
         "item_hcAffK"
       ],
+      "disabled": true,
       "settings": {
         "heading": "<p><strong>MORO FIT 400 : Les bienfaits de nos gélules naturelles </strong></p>",
         "heading_custom": false,
@@ -649,6 +816,7 @@
       "block_order": [
         "judge_me_reviews_featured_carousel_H7HWH6"
       ],
+      "disabled": true,
       "settings": {
         "color_text": "",
         "color_background": "",
@@ -751,6 +919,7 @@
         "criteria_kXPaaU",
         "criteria_Jqy6jE"
       ],
+      "disabled": true,
       "settings": {
         "title": "MORO FIT 400 : un complément minceur hautement dosé",
         "subtitle": "<p>Les avantages de notre cure de MOROSIL<strong>®</strong></p>",
@@ -1020,6 +1189,7 @@
         "item_fckXpR",
         "item_RRPcmz"
       ],
+      "disabled": true,
       "settings": {
         "body_gap": 64,
         "body_gap_mobile": 32,
@@ -1083,24 +1253,6 @@
         "border_thickness": 0,
         "section_radius": 0,
         "lazy": true
-      }
-    },
-    "1753199626b0bf78ec": {
-      "type": "apps",
-      "settings": {
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
       }
     },
     "testimonials_banner_CG7YnM": {
@@ -1777,6 +1929,8 @@
     "featured_collection_hfL8P8",
     "portfolio_g7mbz6",
     "hero_6_rbXhKP",
+    "video_with_text_dpKQX9",
+    "multicolumn_aeLBhW",
     "ss_feature_13_ga68tn",
     "ss_about_jLFatp",
     "175319881326c7ce0c",
@@ -1784,7 +1938,6 @@
     "ss_benefices_qxC44Y",
     "before_after_image_5_NFxUCc",
     "ss_feature_17_WNPCJg",
-    "1753199626b0bf78ec",
     "testimonials_banner_CG7YnM",
     "ss_testimonial_16_7UaE8B",
     "countdown-timer",
