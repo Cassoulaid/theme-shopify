@@ -14959,3 +14959,6 @@ video-media:not([playing]) .deferred-poster .play-button .icon:last-child:not(:o
   .buy-buttons { display: grid !important; grid-template-columns: 1fr !important; grid-column: 1 / -1 !important; }
   .buy-buttons > * { width: 100% !important; }
 }
+.multicolumn-card__info{
+  background: #DFF2FF;
+}
