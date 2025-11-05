@@ -7934,7 +7934,7 @@ details.active .drawer__promotions .mega-menu__item,
     grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr);
   }
   .footer__item--link_list-2 {
-        width: 28%;
+        width: 28% !important;
     }
 }
 
