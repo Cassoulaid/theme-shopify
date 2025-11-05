@@ -139,7 +139,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "invert_newsletter_others": false,
+        "invert_newsletter_others": true,
         "enable_newsletter": true,
         "newsletter_heading": "Reçois chaque semaine les conseils de nos experts minceur",
         "newsletter_heading_size": "md:title-md",
