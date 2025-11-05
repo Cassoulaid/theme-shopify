@@ -462,7 +462,7 @@
         "video_url": "",
         "cover_image": "shopify://shop_images/PHOTO-2025-09-13-13-44-06.jpg",
         "description": "",
-        "enable_video_autoplay": true,
+        "enable_video_autoplay": false,
         "enable_video_looping": true,
         "image_height": "adapt",
         "video_width": "small",
