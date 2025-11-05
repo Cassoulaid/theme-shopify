@@ -17,10 +17,10 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "icon": "support",
+            "icon": "organic",
             "custom_icon": "",
-            "heading": "Service client 24/7",
-            "text": "<p>Service client disponible par e-mail & chat 7j/7 - 24h/24</p>",
+            "heading": "Ingrédients naturels",
+            "text": "<p>Formulé à base d’extraits végétaux soigneusement sélectionnés.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -28,10 +28,10 @@
         "column-2": {
           "type": "column",
           "settings": {
-            "icon": "box",
+            "icon": "planet",
             "custom_icon": "",
-            "heading": "Service rapide",
-            "text": "<p>Expédition le jour-même de la commande & livraison en 24-48h pour Colissimo France</p>",
+            "heading": "Laboratoire français",
+            "text": "<p>Conçu et testé selon les normes de qualité et de sécurité françaises.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -41,8 +41,19 @@
           "settings": {
             "icon": "shield",
             "custom_icon": "",
-            "heading": "Paiement sécurisé",
-            "text": "<p>Procédez a votre paiement en toute sécurité</p>",
+            "heading": "Formule d'expert",
+            "text": "<p>Efficacité démontrée et approuvée par des experts santé.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_U3J6YM": {
+          "type": "column",
+          "settings": {
+            "icon": "recycling",
+            "custom_icon": "",
+            "heading": "Vegan & cruelty-free",
+            "text": "<p>Respectueux du corps, des animaux et de la planète.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -51,11 +62,12 @@
       "block_order": [
         "column-1",
         "column-2",
-        "column-4"
+        "column-4",
+        "column_U3J6YM"
       ],
       "settings": {
         "style": "with-border",
-        "columns": 3,
+        "columns": 4,
         "text_alignment": "center",
         "heading": "",
         "heading_size": "title-md",
@@ -139,13 +151,13 @@
       ],
       "custom_css": [],
       "settings": {
-        "invert_newsletter_others": true,
+        "invert_newsletter_others": false,
         "enable_newsletter": true,
         "newsletter_heading": "Reçois chaque semaine les conseils de nos experts minceur",
         "newsletter_heading_size": "md:title-md",
-        "newsletter_text": "",
+        "newsletter_text": "<p>Des <strong>astuces validées par des professionnels</strong>, des <strong>programmes ciblés</strong> pour affiner ta silhouette, et des <strong>offres exclusives</strong> réservées à notre communauté bien-être.</p>",
         "newsletter_logo_height": 50,
-        "show_social": true,
+        "show_social": false,
         "enable_follow_on_shop": false,
         "color_text": "#171717",
         "color_background": "#dff2ff",
