@@ -15004,4 +15004,8 @@ border-radius: var(--rounded-block);
   order: 3;
   padding-block-end: 400px;
 }
+.footer__logo{
+    text-align: center;
+    align-items: center;
+}
 }
