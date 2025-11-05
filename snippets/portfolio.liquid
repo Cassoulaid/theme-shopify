@@ -42,7 +42,7 @@
       <overlay-element class="overlay fixed-modal invisible opacity-0 fixed bottom-0 left-0 w-full h-screen pointer-events-none" aria-controls="Profile-{{ section.id }}-{{ block.id }}" aria-expanded="false"></overlay-element>
       <div class="drawer__inner z-10 absolute top-0 flex flex-col w-full h-full overflow-hidden">
         <gesture-element class="drawer__header flex justify-between opacity-0 invisible relative">
-           <picture class="media media--{{ section.settings.image_ratio }} mobile:media--{{ section.settings.image_ratio_mobile }} block relative overflow-hidden">
+           <picture class="media media--{{ section.settings.image_ratio }} mobile:media--{{ section.settings.image_ratio_mobile }} block relative overflow-hidden picture-modal">
       {%- if block.settings.image != blank -%}
         {%- assign sizes = '(max-width: 767px) 100vw, 50vw' -%}
         {%- if block.settings.image_mobile -%}
