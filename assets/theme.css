@@ -14976,6 +14976,7 @@ video-media:not([playing]) .deferred-poster .play-button .icon:last-child:not(:o
 }
 .picture-modal{
   width: 50%;
+  border-radius: var(--rounded-block);
 }
 @media screen and (max-width: 640px){
 .profile-modal .button .btn-fill{
