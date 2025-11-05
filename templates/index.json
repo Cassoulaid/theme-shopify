@@ -1851,6 +1851,7 @@
     },
     "custom_liquid_VPykEm": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "liquid": "<div class=\"klaviyo-form-UJDvGS\"></div>",
         "color_text": "",
