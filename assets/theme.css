@@ -14993,10 +14993,9 @@ video-media:not([playing]) .deferred-poster .play-button .icon:last-child:not(:o
 .profilemodal-content{
   width: 100%;
 }
-.profile-modal .drawer__header .picture-modal{
+.profile-modal .picture-modal{
   width: 100%;
   margin-top: 20px;
-  margin-right: 0;
   order: 3;
 }
 }
