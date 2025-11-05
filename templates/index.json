@@ -593,6 +593,74 @@
         "rounded": false
       }
     },
+    "faq_x7X86B": {
+      "type": "faq",
+      "blocks": {
+        "question_pJTRKX": {
+          "type": "question",
+          "settings": {
+            "title": "Qu'est-ce que MORO FIT 400 ?",
+            "text": "<p>MORO FIT 400 HAUTEMENT DOSÉ est un complément alimentaire minceur innovant et hautement dosé, conçu pour favoriser l'amincissement et stimuler le métabolisme des graisses. Grâce à sa formule unique enrichie en<strong>extrait sec d’orange rouge – Morosil® (400 mg)</strong>,<strong>vinaigre de cidre</strong>,<strong>extrait sec de guarana</strong>et<strong>poudre de noix de cola</strong>, ce produit agit en synergie avec le<strong>chrome</strong>pour aider à la régulation de la glycémie et optimiser le métabolisme lipidique. Idéal pour une cure minceur naturelle, il s’intègre parfaitement dans une routine de perte de poids efficace.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_q8fwYX": {
+          "type": "question",
+          "settings": {
+            "title": "Est-ce que MORO FIT 400 est fabriqué en France ?",
+            "text": "<p>Absolument ! MORO FIT 400 HAUTEMENT DOSÉ est fabriqué dans un <strong>laboratoire français certifié 🇫🇷</strong>, garantissant un contrôle qualité strict et une production conforme aux normes européennes. Tous les <strong>actifs sont soigneusement sourcés </strong>auprès de fournisseurs reconnus pour leur excellence, assurant ainsi une qualité optimale et une efficacité prouvée pour votre cure minceur. Ce processus de fabrication garantit non seulement la <strong>pureté des ingrédients</strong>, mais aussi la sécurité et la performance du complément alimentaire<br/></p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_jpzBid": {
+          "type": "question",
+          "settings": {
+            "title": "Quels sont les ingrédients du MORO FIT 400 actifs et leurs bienfaits ?",
+            "text": "<p>MOROFIT HAUTEMENT DOSÉ combine plusieurs ingrédients naturels reconnus pour leurs vertus :</p><ul><li><strong>Extrait sec d’orange rouge – Morosil® (400 mg)</strong> : Puissant antioxydant, il aide à combattre le stress oxydatif et favorise le contrôle du poids.</li><li><strong>Vinaigre de cidre (52,5 mg)</strong> : Contribue à une meilleure digestion et à la régulation du métabolisme.</li><li><strong>Extrait sec de guarana (30 mg)</strong> avec <strong>3,3 mg de caféine</strong> : Stimule l’énergie, accélère le métabolisme des graisses et aide à la combustion des calories.</li><li><strong>Poudre de noix de cola (40 mg)</strong> apportant également <strong>3,3 mg de caféine</strong> : Favorise l’amincissement par son effet stimulant naturel.</li><li><strong>Chrome (39 µg, 98 % VNR)</strong> : Essentiel pour la régulation du métabolisme des glucides et des lipides, il aide à maintenir une glycémie normale.<br/>Cette synergie d'ingrédients naturels fait de MORO FIT 400 un complément alimentaire minceur de choix pour soutenir efficacement une <strong>cure de perte de poids</strong> et un <strong>métabolisme optimisé</strong>.</li></ul>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question_pJTRKX",
+        "question_q8fwYX",
+        "question_jpzBid"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "style": "with-border",
+        "heading": "FAQs",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#dff2ff",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
     "ss_feature_13_ga68tn": {
       "type": "ss-feature-13",
       "blocks": {
@@ -1931,6 +1999,7 @@
     "hero_6_rbXhKP",
     "video_with_text_dpKQX9",
     "multicolumn_aeLBhW",
+    "faq_x7X86B",
     "ss_feature_13_ga68tn",
     "ss_about_jLFatp",
     "175319881326c7ce0c",
