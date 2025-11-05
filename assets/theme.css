@@ -14996,5 +14996,6 @@ video-media:not([playing]) .deferred-poster .play-button .icon:last-child:not(:o
 .profile-modal .picture-modal{
   width: 100%;
   order: 3;
+  padding-block-end: 400px;
 }
 }
