@@ -1773,6 +1773,7 @@
         "item_hLqA7n",
         "item_CiC3xp"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {color: Black;}"
       ],
