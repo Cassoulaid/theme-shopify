@@ -14981,9 +14981,16 @@ video-media:not([playing]) .deferred-poster .play-button .icon:last-child:not(:o
 .profile-modal .button .btn-fill{
   display: none !important;
 }
+.profile-modal-imgbox{
+  display: flex;
+    flex-direction: column;
+}
 .profile-modal .drawer__header{
   display: flex;
     flex-direction: column;
+}
+.profilemodal-content{
+  width: 100%;
 }
 .profile-modal .drawer__header .picture-modal{
   width: 100%;
