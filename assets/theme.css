@@ -14980,6 +14980,9 @@ video-media:not([playing]) .deferred-poster .play-button .icon:last-child:not(:o
     flex-direction: column;
 }
 .profile-modal .drawer__header .picture-modal{
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 0;
   order: 3;
 }
 }
