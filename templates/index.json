@@ -14,10 +14,9 @@
       "blocks": {
         "heading_m3qaft": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "MOROFIT 400",
-            "heading_size": "title-lg tracking-heading",
+            "heading": "Naturelle. Puissante. Résultats réels.",
+            "heading_size": "title-md",
             "heading_tag": "h2",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
@@ -25,9 +24,8 @@
         },
         "text_b6CwgB": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>L'innovation dans une seule gélule </p>",
+            "text": "<p>L’équilibre parfait entre science et nature pour mincir sans effort. Zéro effort, zéro contrainte — <strong>toute la puissance du Morosil® concentrée dans une seule gélule.</strong></p>",
             "text_size": "subtext-lg",
             "text_max_size": 32,
             "text_font": "body",
@@ -39,7 +37,7 @@
         "button_LG8DyB": {
           "type": "button",
           "settings": {
-            "button_label": "TA CURE MINCEUR MOROSIL ICI",
+            "button_label": "ACTUELLEMENT EN RUPTURE",
             "button_link": "shopify://products/morosil-400",
             "button_style": "primary",
             "button_size": "sm",
@@ -55,10 +53,10 @@
       ],
       "settings": {
         "transparent_header": false,
-        "image": "shopify://shop_images/Banniere_DOCTEUR_V-2_5a3b3a06-6d35-40d2-a652-d2f3bdeff6ad.png",
-        "image_height": "adapt",
-        "content_width": "medium",
-        "content_position": "md:items-end md:justify-end",
+        "image": "shopify://shop_images/acc-doc.jpg",
+        "image_height": "600px",
+        "content_width": "small",
+        "content_position": "md:items-end md:justify-start",
         "text_alignment": "left",
         "image_mobile": "shopify://shop_images/moro-acc.jpg",
         "image_height_mobile": "500px",
