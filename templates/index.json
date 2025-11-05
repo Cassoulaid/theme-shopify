@@ -652,7 +652,7 @@
       "name": "t:sections.faq.presets.name",
       "settings": {
         "style": "with-border",
-        "heading": "FAQs",
+        "heading": "Nos gélules",
         "heading_size": "title-md",
         "heading_alignment": "text-left md:items-end md:flex-row",
         "heading_tag": "h2",
@@ -674,8 +674,8 @@
         "color_button_gradient": "",
         "color_overlay": "#ffffff",
         "overlay_opacity": 4,
-        "padding_top": 72,
-        "padding_bottom": 72,
+        "padding_top": 36,
+        "padding_bottom": 36,
         "divider": false,
         "narrow": true,
         "rounded": true
@@ -1899,8 +1899,8 @@
         "color_button_text": "",
         "color_button_background": "",
         "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
+        "padding_top": 36,
+        "padding_bottom": 36,
         "divider": false,
         "full_width": false,
         "rounded": false
