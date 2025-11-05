@@ -16,11 +16,11 @@
           echo '&nbsp;'
           echo shop.name
           if section.settings.copyright_text != blank
-            echo '&nbsp;'            
+            echo '&nbsp;'
+            echo section.settings.copyright_text
           endif
           echo '.&nbsp;'
         endif
-        echo powered_by_link
       -%}
       {%- if section.settings.show_policy -%}
         <ul class="flex flex-wrap gap-3 justify-center lg:justify-start">
