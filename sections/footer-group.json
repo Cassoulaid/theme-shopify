@@ -114,7 +114,7 @@
             "heading": "",
             "menu": "footer",
             "container_width": 70,
-            "opened": false
+            "opened": true
           }
         },
         "link_list_pdLNhh": {
@@ -123,7 +123,7 @@
             "heading": "",
             "menu": "pied-de-page",
             "container_width": 70,
-            "opened": false
+            "opened": true
           }
         },
         "brand_information": {
