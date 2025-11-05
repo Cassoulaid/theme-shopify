@@ -188,16 +188,6 @@
     "portfolio_g7mbz6": {
       "type": "portfolio",
       "blocks": {
-        "profile_DHpfMN": {
-          "type": "profile",
-          "settings": {
-            "image": "shopify://shop_images/PHOTO-2025-09-13-13-44-06_4.jpg",
-            "heading": "Lydie",
-            "text": "",
-            "color_text": "#ffffff",
-            "color_background": "#171717"
-          }
-        },
         "profile_jeX4qK": {
           "type": "profile",
           "settings": {
@@ -218,6 +208,16 @@
             "color_background": "#171717"
           }
         },
+        "profile_DHpfMN": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/PHOTO-2025-09-13-13-44-06_4.jpg",
+            "heading": "Lydie",
+            "text": "",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
+        },
         "profile_w99hkq": {
           "type": "profile",
           "settings": {
@@ -230,9 +230,9 @@
         }
       },
       "block_order": [
-        "profile_DHpfMN",
         "profile_jeX4qK",
         "profile_yCGqRF",
+        "profile_DHpfMN",
         "profile_w99hkq"
       ],
       "name": "t:sections.portfolio.presets.name",
