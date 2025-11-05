@@ -162,7 +162,7 @@
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "heading": "Featured collection",
+        "heading": "Atteins tes objectifs physiques",
         "heading_size": "title-md",
         "heading_alignment": "text-left md:items-end md:flex-row",
         "heading_tag": "h2",
@@ -178,87 +178,6 @@
         "color_button_text": "",
         "color_button_background": "",
         "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
-    "featured_product_4AtWDx": {
-      "type": "featured-product",
-      "blocks": {
-        "title_tP7WkJ": {
-          "type": "title",
-          "settings": {
-            "title_size": "product-title-md",
-            "title_size_mobile": "product-title-md",
-            "show_price": true,
-            "show_rating": true
-          }
-        },
-        "description_cMWURi": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "text_size": "text-base"
-          }
-        },
-        "variant_picker_hYjHLr": {
-          "type": "variant_picker",
-          "settings": {
-            "show_variant_labels": true,
-            "picker_type": "button",
-            "enable_color_swatches": true,
-            "color_swatch_type": "color",
-            "size_chart": ""
-          }
-        },
-        "buy_buttons_MBg3rm": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "show_quantity_selector": false,
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true,
-            "enable_back_in_stock": false,
-            "show_back_in_stock_name": false,
-            "show_back_in_stock_phone": false
-          }
-        },
-        "read_more_LQwCim": {
-          "type": "read_more",
-          "settings": {
-            "button_text": "Afficher les détails",
-            "content": "<p>Ajoutez ici des détails supplémentaires sur votre produit que vous souhaitez afficher lorsque le client clique sur le bouton.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "title_tP7WkJ",
-        "description_cMWURi",
-        "variant_picker_hYjHLr",
-        "buy_buttons_MBg3rm",
-        "read_more_LQwCim"
-      ],
-      "custom_css": [
-        ".product__info ul {display: none;}"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "morosil-400",
-        "enable_sticky_info": true,
-        "media_size": 66,
-        "gallery_layout": "thumbnail",
-        "thumbnail_position": "beside",
-        "image_ratio": "adapt_first",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_autoplay": false,
-        "enable_video_looping": false,
-        "mobile_layout": "partial",
-        "image_ratio_mobile": "adapt_first",
-        "mobile_thumbnail": true,
         "padding_top": 72,
         "padding_bottom": 72,
         "divider": false,
@@ -1856,7 +1775,6 @@
     "image_with_text_overlay_ALrkJP",
     "scrolling_logos_6TkyMz",
     "featured_collection_hfL8P8",
-    "featured_product_4AtWDx",
     "portfolio_g7mbz6",
     "hero_6_rbXhKP",
     "ss_feature_13_ga68tn",
