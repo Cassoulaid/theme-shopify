@@ -193,7 +193,7 @@
           "settings": {
             "image": "shopify://shop_images/PHOTO-2025-09-13-13-44-06_4.jpg",
             "heading": "Lydie",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "",
             "color_text": "#ffffff",
             "color_background": "#171717"
           }
@@ -223,7 +223,7 @@
           "settings": {
             "image": "shopify://shop_images/IMG_0548.jpg",
             "heading": "Yostina",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "",
             "color_text": "#ffffff",
             "color_background": "#171717"
           }
