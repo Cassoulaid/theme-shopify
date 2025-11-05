@@ -130,6 +130,7 @@
         "announcement_9tdYkK",
         "announcement_UACYJa"
       ],
+      "disabled": true,
       "name": "Barre d'annonces",
       "settings": {
         "background_color": "#5d9bd5",
