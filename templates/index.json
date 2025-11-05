@@ -191,7 +191,7 @@
           "settings": {
             "image": "shopify://shop_images/IMG_0536.jpg",
             "heading": "Camnour",
-            "text": "",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mauris velit, ornare id accumsan id, elementum sit amet ante. Nullam porttitor mollis ultrices. Vestibulum laoreet, nulla quis malesuada convallis, diam ante pretium nisl, nec dignissim metus massa eu augue. Nunc mollis ultrices turpis nec placerat. Praesent convallis enim ut malesuada elementum. Aenean fermentum nisl neque, ullamcorper cursus metus sodales in. Praesent imperdiet sapien eu faucibus scelerisque. Praesent rutrum ullamcorper nulla at vulputate. Sed vel sapien nulla. Mauris fermentum fringilla nunc ut volutpat. Mauris non mauris consequat, ultricies nunc mollis, convallis neque.<br/><br/></p>",
             "color_text": "#ffffff",
             "color_background": "#171717"
           }
