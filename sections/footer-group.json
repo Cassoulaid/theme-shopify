@@ -153,9 +153,9 @@
       "settings": {
         "invert_newsletter_others": false,
         "enable_newsletter": true,
-        "newsletter_heading": "",
+        "newsletter_heading": "Reçois chaque semaine les conseils de nos experts minceur",
         "newsletter_heading_size": "md:title-md",
-        "newsletter_text": "",
+        "newsletter_text": "<p>Des <strong>astuces validées par des professionnels</strong>, des <strong>programmes ciblés</strong> pour affiner ta silhouette, et des <strong>offres exclusives</strong> réservées à notre communauté bien-être.</p>",
         "newsletter_logo_height": 50,
         "show_social": false,
         "enable_follow_on_shop": false,
