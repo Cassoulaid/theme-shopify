@@ -14984,6 +14984,9 @@ video-media:not([playing]) .deferred-poster .play-button .icon:last-child:not(:o
 .picture-modal img{
 border-radius: var(--rounded-block);
 }
+.klaviyo-form{
+  padding: 0 20px !important;
+}
 @media screen and (max-width: 640px){
 .profile-modal .button .btn-fill{
   display: none !important;
