@@ -203,7 +203,7 @@
           "settings": {
             "image": "shopify://shop_images/IMG_0536.jpg",
             "heading": "Camnour",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "",
             "color_text": "#ffffff",
             "color_background": "#171717"
           }
@@ -238,7 +238,7 @@
       "name": "t:sections.portfolio.presets.name",
       "settings": {
         "columns": 4,
-        "carousel_on_desktop": false,
+        "carousel_on_desktop": true,
         "layout": "default",
         "image_ratio": "portrait",
         "image_ratio_mobile": "portrait",
