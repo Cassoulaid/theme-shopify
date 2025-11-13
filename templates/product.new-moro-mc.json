@@ -240,6 +240,81 @@
         "lazy": true
       }
     },
+    "portfolio_Fk8Gcq": {
+      "type": "portfolio",
+      "blocks": {
+        "profile_Qymd6q": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/204342a9-5e84-41a1-a3a6-77fb925043d2.jpg",
+            "heading": "Minceur cliniquement prouvée",
+            "text": "<h3>Marini A. et al., 2016</h3><ol><li><em>Randomized, double-blind, placebo-controlled clinical trial</em><br/>Étude menée sur 60 adultes en surpoids ayant reçu 400 mg/j de Morosil® pendant 12 semaines.<br/>→ Diminution significative du poids corporel, de l’IMC et du tour de taille par rapport au placebo.<br/>🔗 <a href=\"https://pubmed.ncbi.nlm.nih.gov/25588369/?utm_source=chatgpt.com\">https://pubmed.ncbi.nlm.nih.gov/25588369/</a></li></ol>",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
+        },
+        "profile_XbqUtp": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/64f6d360-e433-461c-ab07-c080c7877f97.jpg",
+            "heading": "Brûle-graisse métabolique validé",
+            "text": "<ol><li><strong>Caruso et al., 2022 – Nutrients</strong><br/><em>Clinical and mechanistic evaluation of Moro blood orange extract in overweight adults</em><br/>Essai clinique confirmant la réduction du poids et du tour de taille à 400 mg/j pendant 12 semaines, avec amélioration du métabolisme lipidique.<br/>🔗 <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8838101/?utm_source=chatgpt.com\">https://pmc.ncbi.nlm.nih.gov/articles/PMC8838101/</a></li></ol>",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
+        },
+        "profile_JGq9hT": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/avis_morosil.webp",
+            "heading": "Contrôle du sucre validé",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
+        }
+      },
+      "block_order": [
+        "profile_Qymd6q",
+        "profile_XbqUtp",
+        "profile_JGq9hT"
+      ],
+      "name": "t:sections.portfolio.presets.name",
+      "settings": {
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "layout": "grid",
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "portrait",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Etudes scientifiques",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center justify-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "image_with_text_G78JtR": {
       "type": "image-with-text",
       "blocks": {
@@ -761,38 +836,6 @@
         "button_hover_text_color": "#fafafa"
       }
     },
-    "1753183581a2161154": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_4NdL3k": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "sample_data",
-            "max_width": 1200,
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_4NdL3k"
-      ],
-      "settings": {
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
     "faq_7L8Mc3": {
       "type": "faq",
       "blocks": {
@@ -911,6 +954,38 @@
         "rounded": false
       }
     },
+    "1753183581a2161154": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_4NdL3k": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_4NdL3k"
+      ],
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "1753198769eb6aae0c": {
       "type": "apps",
       "blocks": {
@@ -945,6 +1020,7 @@
   "order": [
     "main-product",
     "scrolling_logos_fcBPiQ",
+    "portfolio_Fk8Gcq",
     "image_with_text_G78JtR",
     "ss_feature_17_ydiaYa",
     "custom_liquid_aH38bN",
