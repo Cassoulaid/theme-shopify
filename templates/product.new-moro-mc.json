@@ -267,8 +267,8 @@
           "type": "profile",
           "settings": {
             "image": "shopify://shop_images/avis_morosil.webp",
-            "heading": "Contrôle du sucre validé",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "heading": "Régulation glycémique validée",
+            "text": "<p><strong>Hua et al., 2020 – Méta-analyse</strong><br/><br/>→ 200–400 µg/j = amélioration glycémie + meilleure sensibilité à l’insuline.<br/>🔗 <a href=\"https://pubmed.ncbi.nlm.nih.gov/31751416/\">https://pubmed.ncbi.nlm.nih.gov/31751416/</a></p><p><strong>Tian et al., 2019 – Méta-analyse</strong><br/><br/>→ Effet positif modéré : masse grasse + tour de taille (≤400 µg/j).<br/>🔗 <a href=\"https://pubmed.ncbi.nlm.nih.gov/31115179/\">https://pubmed.ncbi.nlm.nih.gov/31115179/</a></p>",
             "color_text": "#ffffff",
             "color_background": "#171717"
           }
