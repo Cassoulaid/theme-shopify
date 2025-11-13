@@ -312,17 +312,6 @@
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
-        },
-        "contact": {
-          "type": "contact",
-          "settings": {
-            "heading": "Besoin d’une information supplémentaire ? Nous sommes à votre disposition.",
-            "text": "<p>N’hésitez pas à nous contacter, nous sommes là pour vous aider !</p><p><br/></p>",
-            "show_phone": false,
-            "avatar_height": 60,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
         }
       },
       "block_order": [
@@ -350,8 +339,7 @@
         "question_iNAcg9",
         "question_Aq8wcx",
         "question_9X8izP",
-        "question_rJeUf6",
-        "contact"
+        "question_rJeUf6"
       ],
       "settings": {
         "style": "with-border",
