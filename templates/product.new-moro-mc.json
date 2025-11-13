@@ -113,7 +113,7 @@
           "settings": {
             "icon": "none",
             "heading": "Conseils d'utilisation",
-            "content": "<ul><li>Prendre 2 gélules minceur par jour pendant 12 semaines.</li><li>Associer idéalement à une alimentation équilibrée et un grand verre d’eau</li><li>Ne pas dépasser la dose recommandée.</li><li>Déconseillé aux femmes enceintes ou allaitantes sans avis médical.</li></ul><h5><strong>Précautions : </strong></h5><p>Déconseillé en cas d’ulcère gastro-duodénal, de troubles cardiaques ou d’hyperthiroïdie. En cas de traitements, demandez conseil à votre pharmacien. Ne pas dépasser la zone journalière recommandée</p><p>Un complément alimentaire ne doit pas se substituer à une alimentation variée et équilibrée et à un mode de vie sain. </p>",
+            "content": "<ul><li>Prendre 2 gélules par jour à jeun, 30 minutes avant le petit-déjeuner ou le premier repas de la journée, avec un grand verre d’eau.</li><li>Suivre la cure pendant 12 semaines.</li><li>Associer idéalement à une alimentation équilibrée et un grand verre d’eau</li><li>Ne pas dépasser la dose recommandée.</li><li>Déconseillé aux femmes enceintes ou allaitantes sans avis médical.</li></ul><h5><strong>Précautions : </strong></h5><p>Déconseillé en cas d’ulcère gastro-duodénal, de troubles cardiaques ou d’hyperthiroïdie. En cas de traitements, demandez conseil à votre pharmacien. Ne pas dépasser la zone journalière recommandée</p><p>Un complément alimentaire ne doit pas se substituer à une alimentation variée et équilibrée et à un mode de vie sain. </p>",
             "page": "",
             "liquid": ""
           }
@@ -601,7 +601,7 @@
         "heading_kVECkz": {
           "type": "heading",
           "settings": {
-            "heading": "Une gélule par jour à jeun !",
+            "heading": "Deux gellules par jour à jeun !",
             "heading_size": "title-sm",
             "heading_tag": "h2",
             "highlighted_text": "none",
@@ -822,6 +822,124 @@
         "full_width": false,
         "rounded": false
       }
+    },
+    "faq_7L8Mc3": {
+      "type": "faq",
+      "blocks": {
+        "question_jkjKpG": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>À qui s’adresse le MOROFIT 400 ?</strong>",
+            "text": "<p>Le <strong>MOROFIT 400</strong> s’adresse aux personnes qui veulent :</p><ul><li><strong>Affiner leur silhouette</strong> et cibler le tour de taille.<br/></li><li><strong>Activer naturellement leur métabolisme</strong> grâce à une formule hautement dosée.<br/></li><li>Obtenir un <strong>soutien minceur complet</strong> grâce au Morosil® 400 mg, au guarana, au vinaigre de cidre, à la noix de cola et au chrome.<br/></li><li><strong>Réduire les fringales</strong>, mieux gérer l’appétit et stabiliser la glycémie.<br/></li><li>Booster une <strong>routine minceur de 12 semaines</strong> avec un complément premium, efficace et synergique.<br/></li><li>Retrouver énergie, légèreté et motivation au quotidien.<br/></li></ul><p>Idéal pour celles et ceux qui veulent un <strong>véritable coup de pouce minceur</strong>, sans solutions extrêmes ni restrictions difficiles.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_MpnRWh": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>Gélules minceur : quelle posologie et quelle durée ?</strong>",
+            "text": "<p>Prenez deux gélules par jour, idéalement le matin ou à midi, pendant trois mois pour respecter les recommandations.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_hbjEzc": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>Perte de poids : comment optimiser vos résultats ?</strong>",
+            "text": "<p>Associez la cure (12 semaines) à une alimentation équilibrée et à de l’activité physique pour maximiser les effets du complément.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_VyC3gj": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>Accélérer le métabolisme et maigrir naturellement : quelles astuces ?</strong>",
+            "text": "<p>Buvez beaucoup d’eau, consommez des aliments riches en fibres et pratiquez régulièrement une activité physique pour accompagner votre complément.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_FxNhrP": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>Morosil® : qu’est‑ce que c’est ?</strong>",
+            "text": "<p>C’est un extrait d’orange sanguine Moro qui aide à réduire poids et tour de taille lorsqu’il est pris à la dose recommandée.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_3EL9HV": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>Morosil et vinaigre de cidre : pourquoi cette association ?</strong>",
+            "text": "<p>Le mélange combine les bienfaits du Morosil® et l’effet tonique du vinaigre de cidre pour soutenir la silhouette et l’appétit.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_GNaBkM": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>Thé vert, EGCG et caféine : utile en minceur ?</strong>",
+            "text": "<p>Les catéchines du thé vert et une dose modérée de caféine stimulent légèrement le métabolisme et l’oxydation des graisses.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_gyQQwL": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>Chrome et gestion du poids : à quoi sert‑il ?</strong>",
+            "text": "<p>Cet oligo‑élément favorise un métabolisme normal des sucres et aide à stabiliser la glycémie, soutenant ainsi la régulation du poids.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question_jkjKpG",
+        "question_MpnRWh",
+        "question_hbjEzc",
+        "question_VyC3gj",
+        "question_FxNhrP",
+        "question_3EL9HV",
+        "question_GNaBkM",
+        "question_gyQQwL"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "style": "with-border",
+        "heading": "Questions fréquentes sur Moro Fit 400",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
     }
   },
   "order": [
@@ -836,6 +954,7 @@
     "image_with_text_YEwndJ",
     "ss_tableau_h8yrGk",
     "1753183581a2161154",
-    "1753198769eb6aae0c"
+    "1753198769eb6aae0c",
+    "faq_7L8Mc3"
   ]
 }
