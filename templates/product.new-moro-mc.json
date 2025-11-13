@@ -793,36 +793,6 @@
         "rounded": false
       }
     },
-    "1753198769eb6aae0c": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_Pd4XYq": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_Pd4XYq"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false
-      }
-    },
     "faq_7L8Mc3": {
       "type": "faq",
       "blocks": {
@@ -940,6 +910,36 @@
         "narrow": true,
         "rounded": false
       }
+    },
+    "1753198769eb6aae0c": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_Pd4XYq": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_Pd4XYq"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
     }
   },
   "order": [
@@ -953,8 +953,8 @@
     "recently-viewed",
     "image_with_text_YEwndJ",
     "ss_tableau_h8yrGk",
+    "faq_7L8Mc3",
     "1753183581a2161154",
-    "1753198769eb6aae0c",
-    "faq_7L8Mc3"
+    "1753198769eb6aae0c"
   ]
 }
