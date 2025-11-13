@@ -14,6 +14,7 @@
       "disabled": true,
       "settings": {
         "heading_size": "title-xl",
+        "heading_alignment": "text-left",
         "heading_tag": "h1",
         "text_size": "text-base",
         "padding_top": 72,
@@ -29,7 +30,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "FAQ's",
+            "heading": "Vos questions",
             "heading_size": "title-xl tracking-heading",
             "heading_tag": "h2",
             "highlighted_text": "none",
@@ -39,8 +40,11 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to our FAQ, we are so happy to have you here and as a client. <br/>We have tried to answer the most common questions.</p>",
+            "text": "<p>Bienvenue dans notre FAQ ! Nous sommes ravis de vous compter parmi nos clients. Vous trouverez ici les réponses aux questions que l’on nous pose le plus souvent.</p>",
             "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -56,11 +60,13 @@
         "heading": "",
         "heading_size": "title-md",
         "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "small",
         "heading_tag": "h2",
         "subheading": "",
         "description": "",
         "button_label": "",
         "button_link": "",
+        "button_external": false,
         "button_icon": true,
         "highlighted_text": "none",
         "highlighted_scribble": "circle",
@@ -79,23 +85,14 @@
         "rounded": false
       }
     },
-    "empty-space": {
-      "type": "empty-space",
-      "settings": {
-        "desktop_height": 120,
-        "mobile_height": 44,
-        "color_background": "",
-        "gradient_background": ""
-      }
-    },
     "faq": {
       "type": "faq",
       "blocks": {
         "rich-text-1": {
           "type": "rich-text",
           "settings": {
-            "heading": "Shipping & Returns",
-            "text": "<p>Below are some common questions about shipping, returns, and exchanges</p>",
+            "heading": "<strong>À qui s’adresse ce produit ?</strong>",
+            "text": "",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -103,8 +100,8 @@
         "question-1": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "title": "<strong>À qui s’adresse le MORO FIT 400 ?</strong>",
+            "text": "<p>Le MORO FIT 400 s’adresse aux personnes qui souhaitent affiner leur silhouette, soutenir la combustion des graisses et optimiser leur métabolisme grâce à une formule naturelle et hautement dosée.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -112,8 +109,8 @@
         "question-2": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "title": "<strong>Ce produit est-il adapté aux personnes ayant des variations d’appétit ou de glycémie ?</strong>",
+            "text": "<p>Oui, le chrome contenu dans la formule aide à maintenir une glycémie normale, ce qui peut soutenir une meilleure gestion de l’appétit.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -121,17 +118,8 @@
         "question-4": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "question-5": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "title": "<strong>Convient-il aux personnes en période de perte de poids ?</strong>",
+            "text": "<p>Oui, il est idéal pour accompagner une cure minceur de 12 semaines en complément d’une alimentation équilibrée.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -139,8 +127,8 @@
         "rich-text-2": {
           "type": "rich-text",
           "settings": {
-            "heading": "Orders",
-            "text": "<p>Below are some of are common questions about orders</p>",
+            "heading": "<strong>Pourquoi utiliser ce produit ?</strong>",
+            "text": "",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -148,8 +136,8 @@
         "question-6": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "title": "<strong>Pourquoi choisir le MORO FIT 400 ?</strong>",
+            "text": "<p>Parce qu’il associe Morosil® 400 mg à du guarana, de la kola, du thé vert, du vinaigre de cidre et du chrome, offrant une synergie complète pour soutenir la perte de poids et le métabolisme.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -157,8 +145,8 @@
         "question-7": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "title": "<strong>Quels sont les bénéfices principaux du MORO FIT 400 ?</strong>",
+            "text": "<p>Réduction du tour de taille, soutien du métabolisme des graisses, aide à la digestion, énergie naturelle, régulation de la glycémie.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -166,17 +154,8 @@
         "question-8": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "question-9": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "title": "<strong>Pourquoi cette formule est-elle différente des autres produits minceur ?</strong>",
+            "text": "<p>Elle concentre des extraits standardisés (Morosil®, guarana, thé vert…), des dosages précis et une teneur naturelle en caféine, le tout dans une formule végétale et fabriquée en France.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -184,8 +163,8 @@
         "rich-text-3": {
           "type": "rich-text",
           "settings": {
-            "heading": "Products",
-            "text": "<p>Below are some common questions about our products</p>",
+            "heading": "<strong>Comment et quand l’utiliser ?</strong>",
+            "text": "",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -193,8 +172,8 @@
         "question-10": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "title": "<strong>Comment prendre le MORO FIT 400 ?</strong>",
+            "text": "<p>Prendre <strong>2 gélules par jour</strong>, <strong>à jeun</strong>, <strong>30 minutes avant le petit-déjeuner ou le premier repas</strong>, avec un grand verre d’eau.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -202,8 +181,8 @@
         "question-11": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "title": "<strong>Pendant combien de temps utiliser ce produit ?</strong>",
+            "text": "<p>La cure recommandée est de <strong>12 semaines</strong> pour des résultats optimaux.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -211,8 +190,44 @@
         "question-12": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "title": "<strong>Puis-je l’associer à mon alimentation habituelle ?</strong>",
+            "text": "<p>Oui, mais il est conseillé d’adopter une alimentation équilibrée et une bonne hydratation pour maximiser les effets.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "rich_text_LriWMf": {
+          "type": "rich-text",
+          "settings": {
+            "heading": "<strong>Que contient le MORO FIT 400 ?</strong>",
+            "text": "",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_3MYmbL": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>Quels sont les ingrédients actifs du MORO FIT 400 ?</strong>",
+            "text": "<p>Morosil® 400 mg, vinaigre de cidre, guarana, noix de kola, thé vert, chrome, silice colloïdale et gomme d’acacia (support naturel).</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_MQCDQm": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>Le produit contient-il de la caféine ?</strong>",
+            "text": "<p>Oui, une teneur totale d’environ <strong>35,2 mg de caféine</strong> par jour provenant du guarana, de la noix de kola et du thé vert.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_mwwFhV": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>La formule est-elle naturelle et vegan ?</strong>",
+            "text": "<p>Oui, la formule est naturelle, fabriquée en France et adaptée aux régimes végétariens et véganes.</p><h2></h2>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -220,8 +235,8 @@
         "contact": {
           "type": "contact",
           "settings": {
-            "heading": "Didn’t find your answer?",
-            "text": "<p>Don't hestitate to contact us</p>",
+            "heading": "Besoin d’une information supplémentaire ? Nous sommes à votre disposition.",
+            "text": "<p>N’hésitez pas à nous contacter, nous sommes là pour vous aider !</p><p><br/></p>",
             "show_phone": false,
             "avatar_height": 60,
             "highlighted_text": "none",
@@ -234,16 +249,18 @@
         "question-1",
         "question-2",
         "question-4",
-        "question-5",
         "rich-text-2",
         "question-6",
         "question-7",
         "question-8",
-        "question-9",
         "rich-text-3",
         "question-10",
         "question-11",
         "question-12",
+        "rich_text_LriWMf",
+        "question_3MYmbL",
+        "question_MQCDQm",
+        "question_mwwFhV",
         "contact"
       ],
       "settings": {
@@ -256,6 +273,7 @@
         "description": "",
         "button_label": "",
         "button_link": "",
+        "button_external": false,
         "button_icon": true,
         "highlighted_text": "none",
         "highlighted_scribble": "circle",
@@ -267,6 +285,8 @@
         "color_button_text": "",
         "color_button_background": "",
         "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
         "padding_top": 0,
         "padding_bottom": 120,
         "divider": false,
@@ -278,7 +298,6 @@
   "order": [
     "main",
     "rich-text",
-    "empty-space",
     "faq"
   ]
 }
