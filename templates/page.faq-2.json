@@ -232,6 +232,87 @@
             "highlighted_scribble": "circle"
           }
         },
+        "rich_text_ViDg4L": {
+          "type": "rich-text",
+          "settings": {
+            "heading": "<strong>Ingrédients du MORO FIT 400</strong>",
+            "text": "",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_crPFFU": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>Le Morosil® 400 mg, à quoi sert-il ?</strong>",
+            "text": "<p>Le Morosil® est un extrait d’orange rouge qui aide à réduire le poids corporel et le tour de taille en soutenant le métabolisme des graisses.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_jBUE7R": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>Pourquoi du vinaigre de cidre dans la formule ?</strong>",
+            "text": "<p>Le vinaigre de cidre contribue à la digestion et aide à maintenir un bon équilibre du métabolisme énergétique.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_Lxt3Np": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>Quel est le rôle du guarana ?</strong>",
+            "text": "<p>Le guarana apporte une source naturelle de caféine qui soutient l’énergie et aide à activer la mobilisation des graisses.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_acJDMY": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>Pourquoi ajouter de la noix de kola ?</strong>",
+            "text": "<p>La noix de kola, source naturelle de caféine, soutient le tonus et favorise une activation naturelle du métabolisme.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_iNAcg9": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>Le thé vert est-il utile pour la minceur ?</strong>",
+            "text": "<p>Oui, le thé vert apporte EGCG et caféine, deux actifs qui contribuent à l’oxydation des graisses et à la protection des cellules.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_Aq8wcx": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>À quoi sert le chrome dans le MORO FIT 400 ?</strong>",
+            "text": "<p>Le chrome aide à maintenir une glycémie normale et soutient le métabolisme des sucres et des graisses.</p><h3></h3>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_9X8izP": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>La formule contient-elle beaucoup de caféine ?</strong>",
+            "text": "<p>Non, la formule apporte environ <strong>35,2 mg de caféine</strong> par jour, issue naturellement du guarana, du thé vert et de la kola.</p><h3></h3>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question_rJeUf6": {
+          "type": "question",
+          "settings": {
+            "title": "<strong>La formule est-elle naturelle ?</strong>",
+            "text": "<p>Oui, elle est basée sur des extraits naturels, en gélules végétales, fabriquée en France et adaptée aux régimes végétariens et véganes.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
         "contact": {
           "type": "contact",
           "settings": {
@@ -261,6 +342,15 @@
         "question_3MYmbL",
         "question_MQCDQm",
         "question_mwwFhV",
+        "rich_text_ViDg4L",
+        "question_crPFFU",
+        "question_jBUE7R",
+        "question_Lxt3Np",
+        "question_acJDMY",
+        "question_iNAcg9",
+        "question_Aq8wcx",
+        "question_9X8izP",
+        "question_rJeUf6",
         "contact"
       ],
       "settings": {
