@@ -15005,6 +15005,9 @@ border-radius: var(--rounded-block);
   #CartDrawer .price--on-sale .price__regular{
        color:  #5d9bd5;
   }
+  #CartDrawer .price__sale:before {
+    border-block-end: 1px solid #5d9bd5;
+}
 @media screen and (max-width: 640px){
 .profile-modal .button .btn-fill{
   display: none !important;
