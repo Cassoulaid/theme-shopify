@@ -14987,6 +14987,11 @@ border-radius: var(--rounded-block);
 .klaviyo-form{
   padding: 0 !important;
 }
+.product__accordion .details__content{
+  font-size: var(--text-base);
+    line-height: 1.6;
+    color: #000;
+}
 @media screen and (max-width: 640px){
 .profile-modal .button .btn-fill{
   display: none !important;
