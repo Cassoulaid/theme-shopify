@@ -15000,7 +15000,7 @@ border-radius: var(--rounded-block);
   background: #5d9bd5;
 }
 .stock-alert {
-    margin: 10px 0;
+    margin: 10px 0 !important;
   }
 @media screen and (max-width: 640px){
 .profile-modal .button .btn-fill{
