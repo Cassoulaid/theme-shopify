@@ -15002,6 +15002,9 @@ border-radius: var(--rounded-block);
 .stock-alert {
     margin: 10px 0 !important;
   }
+  #CartDrawer .price--on-sale .price__regular{
+       color:  #5d9bd5;
+  }
 @media screen and (max-width: 640px){
 .profile-modal .button .btn-fill{
   display: none !important;
