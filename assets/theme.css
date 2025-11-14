@@ -14999,6 +14999,9 @@ border-radius: var(--rounded-block);
 .badge-sale-blue{
   background: #5d9bd5;
 }
+.stock-alert {
+    margin: 10px 0;
+  }
 @media screen and (max-width: 640px){
 .profile-modal .button .btn-fill{
   display: none !important;
