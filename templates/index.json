@@ -37,7 +37,7 @@
         "button_LG8DyB": {
           "type": "button",
           "settings": {
-            "button_label": "ACTUELLEMENT EN RUPTURE",
+            "button_label": "DE RETOUR APRÈS 2 MOIS DE RUPTURE",
             "button_link": "shopify://products/morosil-400",
             "button_style": "primary",
             "button_size": "sm",
