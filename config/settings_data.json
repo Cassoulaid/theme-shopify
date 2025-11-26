@@ -217,8 +217,8 @@
         "disabled": false,
         "settings": {
           "button_one": "Je veux perdre du poids 💪🏼",
-          "button_two": "S'inscrire au réassort ! 🩵",
-          "button_three": "J'ai un problème",
+          "button_two": "Je veux mon code promo ! 🩵",
+          "button_three": "J'ai une question",
           "delay": 0,
           "show_mobile_only": false,
           "show_notification_bubble": true,
