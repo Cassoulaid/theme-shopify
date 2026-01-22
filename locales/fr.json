@@ -598,5 +598,12 @@
     "cider_vinegar": "Vinaigre de cidre",
     "guarana": "Extrait sec de guarana",
     "kola_nut": "Poudre de noix de cola"
+  },
+  "shopify": {
+    "checkout": {
+      "delivery_options": {
+        "pickup_point_method_definition": " Expédier au point relais ( uniquement vers la France )"
+      }
+    }
   }
 }
