@@ -154,8 +154,8 @@
       "settings": {
         "collection": "produits-minceurs",
         "products": [],
-        "product_limit": 6,
-        "columns": 4,
+        "product_limit": 2,
+        "columns": 1,
         "carousel_on_desktop": true,
         "show_view_all": false,
         "columns_mobile": "1",
