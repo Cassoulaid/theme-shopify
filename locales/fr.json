@@ -603,7 +603,7 @@
     "checkout": {
       "delivery_options": {
         "pickup_point_method_definition": " Expédier au point relais ( uniquement vers la France )",
-        "ship_to_address": "Expédition à domicile / Point relais autre pays"
+        "ship_to_address": "Expédition à Domicile ( France inclus ) & Point Relais International "
       }
     }
   }
