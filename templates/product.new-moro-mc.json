@@ -221,6 +221,7 @@
         "slide_fbxYzF",
         "slide_j7i4gp"
       ],
+      "disabled": true,
       "settings": {
         "ss-title": "",
         "heading_custom": false,
@@ -1027,11 +1028,39 @@
         "full_width": false,
         "rounded": false
       }
+    },
+    "176908901904ced69b": {
+      "type": "apps",
+      "blocks": {
+        "reelup_shoppable_videos_reels_reelup_product_slider_pE7dVY": {
+          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_product_slider/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "reelup_shoppable_videos_reels_reelup_product_slider_pE7dVY"
+      ],
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
     }
   },
   "order": [
     "main-product",
     "scrolling_logos_fcBPiQ",
+    "176908901904ced69b",
     "portfolio_Fk8Gcq",
     "image_with_text_G78JtR",
     "ss_feature_17_ydiaYa",
