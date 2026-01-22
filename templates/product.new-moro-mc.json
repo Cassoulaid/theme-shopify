@@ -1082,6 +1082,33 @@
         "full_width": false,
         "rounded": false
       }
+    },
+    "1769089630677f2c00": {
+      "type": "apps",
+      "blocks": {
+        "reelup_shoppable_videos_reels_reelup_product_slider_DPp4GM": {
+          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup_product_slider/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "reelup_shoppable_videos_reels_reelup_product_slider_DPp4GM"
+      ],
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
     }
   },
   "order": [
@@ -1100,6 +1127,7 @@
     "faq_7L8Mc3",
     "1753183581a2161154",
     "1753198769eb6aae0c",
-    "1769089530db57e657"
+    "1769089530db57e657",
+    "1769089630677f2c00"
   ]
 }
