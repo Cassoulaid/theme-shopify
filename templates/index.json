@@ -191,7 +191,7 @@
           "settings": {
             "image": "shopify://shop_images/IMG_0536.jpg",
             "heading": "Camnour",
-            "text": "",
+            "text": "<p>J’ai commencé ce complément un peu par curiosité, sans trop y croire au début. Mais avec le temps, j’ai vraiment vu une évolution. Mon ventre a diminué, je me sens plus en forme et surtout plus confiante dans mon corps</p><p>Ce produit m’a aidée à rester motivée dans mon parcours, surtout quand j’avais envie d’abandonner. Je fais attention à mon alimentation et j’essaie de bouger un peu, et avec ce complément, les résultats sont encore meilleurs</p><p>Ce que j’apprécie le plus, c’est que ça reste naturel et facile à intégrer dans ma routine. Aujourd’hui, je suis vraiment satisfaite et je le recommande à toutes les personnes qui veulent se sentir mieux dans leur peau</p>",
             "color_text": "#ffffff",
             "color_background": "#171717"
           }
@@ -201,8 +201,18 @@
           "settings": {
             "image": "shopify://shop_images/IMG_0542.jpg",
             "heading": "Yasmine",
-            "text": "<p><br/></p>",
+            "text": "<p>Depuis que j’utilise ce complément, j’ai remarqué une vraie différence, surtout au niveau du ventre. Je me sens plus léger, plus en forme et plus motivé au quotidien</p><p>Avec une alimentation plus équilibrée et un peu de sport, les résultats sont encore meilleurs. C’est facile à prendre et ça fait maintenant partie de ma routine. Je suis vraiment satisfait et je recommande ce produit</p>",
             "color_text": "#fafafa",
+            "color_background": "#171717"
+          }
+        },
+        "profile_w99hkq": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0548.jpg",
+            "heading": "Yostina",
+            "text": "<p>J’ai commencé ce complément pour me sentir mieux dans mon corps, et honnêtement, je ne regrette pas. Petit à petit, j’ai vu mon ventre s’affiner et je me sens beaucoup plus confiante</p><p>Ce que j’aime, c’est que ça m’aide à garder de bonnes habitudes sans pression. Je mange mieux, je bouge plus, et ce produit m’accompagne dans mon parcours. Aujourd’hui, je suis fière de mes progrès et très satisfaite</p>",
+            "color_text": "#ffffff",
             "color_background": "#171717"
           }
         },
@@ -215,23 +225,13 @@
             "color_text": "#ffffff",
             "color_background": "#171717"
           }
-        },
-        "profile_w99hkq": {
-          "type": "profile",
-          "settings": {
-            "image": "shopify://shop_images/IMG_0548.jpg",
-            "heading": "Yostina",
-            "text": "",
-            "color_text": "#ffffff",
-            "color_background": "#171717"
-          }
         }
       },
       "block_order": [
         "profile_jeX4qK",
         "profile_yCGqRF",
-        "profile_DHpfMN",
-        "profile_w99hkq"
+        "profile_w99hkq",
+        "profile_DHpfMN"
       ],
       "name": "t:sections.portfolio.presets.name",
       "settings": {
