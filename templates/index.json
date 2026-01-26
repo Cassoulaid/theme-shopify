@@ -183,89 +183,21 @@
         "rounded": false
       }
     },
-    "portfolio_g7mbz6": {
-      "type": "portfolio",
-      "blocks": {
-        "profile_jeX4qK": {
-          "type": "profile",
-          "settings": {
-            "image": "shopify://shop_images/IMG_0536.jpg",
-            "heading": "Camnour",
-            "text": "<p>J’ai commencé ce complément un peu par curiosité, sans trop y croire au début. Mais avec le temps, j’ai vraiment vu une évolution. Mon ventre a diminué, je me sens plus en forme et surtout plus confiante dans mon corps</p><p>Ce produit m’a aidée à rester motivée dans mon parcours, surtout quand j’avais envie d’abandonner. Je fais attention à mon alimentation et j’essaie de bouger un peu, et avec ce complément, les résultats sont encore meilleurs</p><p>Ce que j’apprécie le plus, c’est que ça reste naturel et facile à intégrer dans ma routine. Aujourd’hui, je suis vraiment satisfaite et je le recommande à toutes les personnes qui veulent se sentir mieux dans leur peau</p>",
-            "color_text": "#ffffff",
-            "color_background": "#171717"
-          }
-        },
-        "profile_yCGqRF": {
-          "type": "profile",
-          "settings": {
-            "image": "shopify://shop_images/IMG_0542.jpg",
-            "heading": "Yasmine",
-            "text": "<p>Depuis que j’utilise ce complément, j’ai remarqué une vraie différence, surtout au niveau du ventre. Je me sens plus léger, plus en forme et plus motivé au quotidien</p><p>Avec une alimentation plus équilibrée et un peu de sport, les résultats sont encore meilleurs. C’est facile à prendre et ça fait maintenant partie de ma routine. Je suis vraiment satisfait et je recommande ce produit</p>",
-            "color_text": "#fafafa",
-            "color_background": "#171717"
-          }
-        },
-        "profile_w99hkq": {
-          "type": "profile",
-          "settings": {
-            "image": "shopify://shop_images/IMG_0548.jpg",
-            "heading": "Yostina",
-            "text": "<p>J’ai commencé ce complément pour me sentir mieux dans mon corps, et honnêtement, je ne regrette pas. Petit à petit, j’ai vu mon ventre s’affiner et je me sens beaucoup plus confiante</p><p>Ce que j’aime, c’est que ça m’aide à garder de bonnes habitudes sans pression. Je mange mieux, je bouge plus, et ce produit m’accompagne dans mon parcours. Aujourd’hui, je suis fière de mes progrès et très satisfaite</p>",
-            "color_text": "#ffffff",
-            "color_background": "#171717"
-          }
-        },
-        "profile_DHpfMN": {
-          "type": "profile",
-          "settings": {
-            "image": "shopify://shop_images/PHOTO-2025-09-13-13-44-06_4.jpg",
-            "heading": "Lydie",
-            "text": "",
-            "color_text": "#ffffff",
-            "color_background": "#171717"
-          }
-        }
-      },
-      "block_order": [
-        "profile_jeX4qK",
-        "profile_yCGqRF",
-        "profile_w99hkq",
-        "profile_DHpfMN"
-      ],
-      "name": "t:sections.portfolio.presets.name",
+    "custom_liquid_hDf6Mb": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "columns": 4,
-        "carousel_on_desktop": true,
-        "layout": "default",
-        "image_ratio": "portrait",
-        "image_ratio_mobile": "portrait",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "heading": "Des transformations réelles, des résultats visibles",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left justify-start",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "button_label": "",
-        "button_link": "shopify://products/morosil-400",
-        "button_external": false,
-        "button_icon": true,
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
+        "liquid": "<style>\n/* ===== REELS ROW ===== */\n.reels-row{\n  display:flex;\n  gap:18px;\n  padding:18px 12px;\n  overflow-x:auto;\n}\n.reels-row::-webkit-scrollbar{display:none;}\n\n.reel-card{\n  width:260px;\n  aspect-ratio:9/16;\n  border-radius:18px;\n  overflow:hidden;\n  background:#000;\n  cursor:pointer;\n  flex-shrink:0;\n}\n\n@media(max-width:520px){\n  .reel-card{width:210px;}\n}\n\n.reel-card video{\n  width:100%;\n  height:100%;\n  object-fit:cover;\n  pointer-events:none; /* IMPORTANT */\n}\n\n/* ===== POPUP ===== */\n.reel-modal{\n  position:fixed;\n  inset:0;\n  display:none;\n  align-items:center;\n  justify-content:center;\n  z-index:999999;\n  background:transparent;\n}\n\n.reel-modal-inner{\n  width:360px;\n  max-width:92vw;\n  aspect-ratio:9/16;\n  background:#000;\n  border-radius:22px;\n  overflow:hidden;\n  position:relative;\n  box-shadow:0 28px 70px rgba(0,0,0,.45);\n}\n\n/* VIDEO */\n.reel-modal-inner video{\n  width:100%;\n  height:100%;\n  object-fit:contain;\n}\n\n/* CLOSE (NO CIRCLE) */\n.reel-close{\n  position:absolute;\n  top:10px;\n  right:12px;\n  background:transparent;\n  border:none;\n  color:#fff;\n  font-size:28px;\n  cursor:pointer;\n  z-index:30;\n}\n\n/* ARROWS (NO CIRCLE) */\n.reel-nav{\n  position:absolute;\n  top:50%;\n  transform:translateY(-50%);\n  background:transparent;\n  border:none;\n  box-shadow:none;\n  color:#fff;\n  font-size:38px;\n  font-weight:700;\n  cursor:pointer;\n  z-index:30;\n  user-select:none;\n  padding:6px;\n}\n\n.reel-prev{left:6px;}\n.reel-next{right:6px;}\n\n/* CONTROLS */\n.reel-controls{\n  position:absolute;\n  bottom:70px;\n  left:0;\n  right:0;\n  display:flex;\n  justify-content:center;\n  gap:16px;\n  z-index:30;\n}\n\n.reel-btn{\n  min-width:70px;\n  padding:10px 14px;\n  border-radius:999px;\n  background:rgba(0,0,0,.75);\n  color:#fff;\n  border:1px solid rgba(255,255,255,.25);\n  font-weight:700;\n  font-size:20px;\n  cursor:pointer;\n}\n\n.reel-btn:hover{\n  background:#1e88e5;\n  border-color:#1e88e5;\n}\n</style>\n\n\n<!-- ===== PREVIEW ROW ===== -->\n<div class=\"reels-row\">\n\n  <div class=\"reel-card\" data-i=\"0\">\n    <video muted autoplay loop playsinline>\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/57231e33532046b492411a8e8451f587.mp4\">\n    </video>\n  </div>\n\n  <div class=\"reel-card\" data-i=\"1\">\n    <video muted autoplay loop playsinline>\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/b1e0c984e0c143b3a2f61d8c50136ee7.mov\">\n    </video>\n  </div>\n\n  <div class=\"reel-card\" data-i=\"2\">\n    <video muted autoplay loop playsinline>\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/c6016b240fa246e093a8c9238e712979.mov\">\n    </video>\n  </div>\n\n  <div class=\"reel-card\" data-i=\"3\">\n    <video muted autoplay loop playsinline>\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/3ba7d62681b04341acf2091dd8884beb.mov\">\n    </video>\n  </div>\n\n</div>\n\n\n<!-- ===== MODAL ===== -->\n<div class=\"reel-modal\" id=\"modal\">\n\n  <div class=\"reel-modal-inner\">\n\n    <button class=\"reel-close\" id=\"close\">✕</button>\n\n    <div class=\"reel-nav reel-prev\" id=\"prev\">‹</div>\n    <div class=\"reel-nav reel-next\" id=\"next\">›</div>\n\n    <video id=\"player\" playsinline></video>\n\n    <div class=\"reel-controls\">\n      <button class=\"reel-btn\" id=\"play\">⏸</button>\n      <button class=\"reel-btn\" id=\"sound\">🔊</button>\n    </div>\n\n  </div>\n\n</div>\n\n\n<script>\nconst reels=[\n \"https://cdn.shopify.com/videos/c/o/v/57231e33532046b492411a8e8451f587.mp4\",\n \"https://cdn.shopify.com/videos/c/o/v/b1e0c984e0c143b3a2f61d8c50136ee7.mov\",\n \"https://cdn.shopify.com/videos/c/o/v/c6016b240fa246e093a8c9238e712979.mov\",\n \"https://cdn.shopify.com/videos/c/o/v/3ba7d62681b04341acf2091dd8884beb.mov\"\n];\n\nlet i=0;\n\nconst modal=document.getElementById(\"modal\");\nconst player=document.getElementById(\"player\");\n\nconst playBtn=document.getElementById(\"play\");\nconst soundBtn=document.getElementById(\"sound\");\n\nfunction openReel(n){\n i=(n+reels.length)%reels.length;\n\n player.src=reels[i];\n player.muted=false;\n player.play();\n\n modal.style.display=\"flex\";\n\n playBtn.textContent=\"⏸\";\n soundBtn.textContent=\"🔊\";\n}\n\nfunction closeReel(){\n player.pause();\n player.src=\"\";\n modal.style.display=\"none\";\n}\n\ndocument.querySelectorAll(\".reel-card\").forEach(c=>{\n c.onclick=()=>openReel(+c.dataset.i);\n});\n\nplayBtn.onclick=()=>{\n if(player.paused){\n   player.play();\n   playBtn.textContent=\"⏸\";\n }else{\n   player.pause();\n   playBtn.textContent=\"⏯\";\n }\n};\n\nsoundBtn.onclick=()=>{\n player.muted=!player.muted;\n soundBtn.textContent=player.muted?\"🔇\":\"🔊\";\n};\n\ndocument.getElementById(\"prev\").onclick=()=>openReel(i-1);\ndocument.getElementById(\"next\").onclick=()=>openReel(i+1);\ndocument.getElementById(\"close\").onclick=closeReel;\n\n/* keyboard */\ndocument.addEventListener(\"keydown\",e=>{\n if(modal.style.display!==\"flex\")return;\n\n if(e.key===\"Escape\")closeReel();\n if(e.key===\"ArrowLeft\")openReel(i-1);\n if(e.key===\"ArrowRight\")openReel(i+1);\n});\n</script>",
         "color_text": "",
-        "color_background": "#dff2ff",
+        "color_background": "",
         "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
         "color_button_text": "",
         "color_button_background": "",
         "color_button_gradient": "",
-        "padding_top": 24,
+        "padding_top": 72,
         "padding_bottom": 72,
         "divider": false,
-        "full_width": false,
+        "narrow": false,
         "rounded": false
       }
     },
@@ -2012,21 +1944,89 @@
         "border_thickness": 0
       }
     },
-    "custom_liquid_hDf6Mb": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
+    "portfolio_g7mbz6": {
+      "type": "portfolio",
+      "blocks": {
+        "profile_jeX4qK": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0536.jpg",
+            "heading": "Camnour",
+            "text": "<p>J’ai commencé ce complément un peu par curiosité, sans trop y croire au début. Mais avec le temps, j’ai vraiment vu une évolution. Mon ventre a diminué, je me sens plus en forme et surtout plus confiante dans mon corps</p><p>Ce produit m’a aidée à rester motivée dans mon parcours, surtout quand j’avais envie d’abandonner. Je fais attention à mon alimentation et j’essaie de bouger un peu, et avec ce complément, les résultats sont encore meilleurs</p><p>Ce que j’apprécie le plus, c’est que ça reste naturel et facile à intégrer dans ma routine. Aujourd’hui, je suis vraiment satisfaite et je le recommande à toutes les personnes qui veulent se sentir mieux dans leur peau</p>",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
+        },
+        "profile_yCGqRF": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0542.jpg",
+            "heading": "Yasmine",
+            "text": "<p>Depuis que j’utilise ce complément, j’ai remarqué une vraie différence, surtout au niveau du ventre. Je me sens plus léger, plus en forme et plus motivé au quotidien</p><p>Avec une alimentation plus équilibrée et un peu de sport, les résultats sont encore meilleurs. C’est facile à prendre et ça fait maintenant partie de ma routine. Je suis vraiment satisfait et je recommande ce produit</p>",
+            "color_text": "#fafafa",
+            "color_background": "#171717"
+          }
+        },
+        "profile_w99hkq": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0548.jpg",
+            "heading": "Yostina",
+            "text": "<p>J’ai commencé ce complément pour me sentir mieux dans mon corps, et honnêtement, je ne regrette pas. Petit à petit, j’ai vu mon ventre s’affiner et je me sens beaucoup plus confiante</p><p>Ce que j’aime, c’est que ça m’aide à garder de bonnes habitudes sans pression. Je mange mieux, je bouge plus, et ce produit m’accompagne dans mon parcours. Aujourd’hui, je suis fière de mes progrès et très satisfaite</p>",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
+        },
+        "profile_DHpfMN": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/PHOTO-2025-09-13-13-44-06_4.jpg",
+            "heading": "Lydie",
+            "text": "",
+            "color_text": "#ffffff",
+            "color_background": "#171717"
+          }
+        }
+      },
+      "block_order": [
+        "profile_jeX4qK",
+        "profile_yCGqRF",
+        "profile_w99hkq",
+        "profile_DHpfMN"
+      ],
+      "name": "t:sections.portfolio.presets.name",
       "settings": {
-        "liquid": "<style>\n/* ===== REELS ROW ===== */\n.reels-row{\n  display:flex;\n  gap:18px;\n  padding:18px 12px;\n  overflow-x:auto;\n}\n.reels-row::-webkit-scrollbar{display:none;}\n\n.reel-card{\n  width:260px;\n  aspect-ratio:9/16;\n  border-radius:18px;\n  overflow:hidden;\n  background:#000;\n  cursor:pointer;\n  flex-shrink:0;\n}\n\n@media(max-width:520px){\n  .reel-card{width:210px;}\n}\n\n.reel-card video{\n  width:100%;\n  height:100%;\n  object-fit:cover;\n  pointer-events:none; /* IMPORTANT */\n}\n\n/* ===== POPUP ===== */\n.reel-modal{\n  position:fixed;\n  inset:0;\n  display:none;\n  align-items:center;\n  justify-content:center;\n  z-index:999999;\n  background:transparent;\n}\n\n.reel-modal-inner{\n  width:360px;\n  max-width:92vw;\n  aspect-ratio:9/16;\n  background:#000;\n  border-radius:22px;\n  overflow:hidden;\n  position:relative;\n  box-shadow:0 28px 70px rgba(0,0,0,.45);\n}\n\n/* VIDEO */\n.reel-modal-inner video{\n  width:100%;\n  height:100%;\n  object-fit:contain;\n}\n\n/* CLOSE (NO CIRCLE) */\n.reel-close{\n  position:absolute;\n  top:10px;\n  right:12px;\n  background:transparent;\n  border:none;\n  color:#fff;\n  font-size:28px;\n  cursor:pointer;\n  z-index:30;\n}\n\n/* ARROWS (NO CIRCLE) */\n.reel-nav{\n  position:absolute;\n  top:50%;\n  transform:translateY(-50%);\n  background:transparent;\n  border:none;\n  box-shadow:none;\n  color:#fff;\n  font-size:38px;\n  font-weight:700;\n  cursor:pointer;\n  z-index:30;\n  user-select:none;\n  padding:6px;\n}\n\n.reel-prev{left:6px;}\n.reel-next{right:6px;}\n\n/* CONTROLS */\n.reel-controls{\n  position:absolute;\n  bottom:70px;\n  left:0;\n  right:0;\n  display:flex;\n  justify-content:center;\n  gap:16px;\n  z-index:30;\n}\n\n.reel-btn{\n  min-width:70px;\n  padding:10px 14px;\n  border-radius:999px;\n  background:rgba(0,0,0,.75);\n  color:#fff;\n  border:1px solid rgba(255,255,255,.25);\n  font-weight:700;\n  font-size:20px;\n  cursor:pointer;\n}\n\n.reel-btn:hover{\n  background:#1e88e5;\n  border-color:#1e88e5;\n}\n</style>\n\n\n<!-- ===== PREVIEW ROW ===== -->\n<div class=\"reels-row\">\n\n  <div class=\"reel-card\" data-i=\"0\">\n    <video muted autoplay loop playsinline>\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/57231e33532046b492411a8e8451f587.mp4\">\n    </video>\n  </div>\n\n  <div class=\"reel-card\" data-i=\"1\">\n    <video muted autoplay loop playsinline>\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/b1e0c984e0c143b3a2f61d8c50136ee7.mov\">\n    </video>\n  </div>\n\n  <div class=\"reel-card\" data-i=\"2\">\n    <video muted autoplay loop playsinline>\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/c6016b240fa246e093a8c9238e712979.mov\">\n    </video>\n  </div>\n\n  <div class=\"reel-card\" data-i=\"3\">\n    <video muted autoplay loop playsinline>\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/3ba7d62681b04341acf2091dd8884beb.mov\">\n    </video>\n  </div>\n\n</div>\n\n\n<!-- ===== MODAL ===== -->\n<div class=\"reel-modal\" id=\"modal\">\n\n  <div class=\"reel-modal-inner\">\n\n    <button class=\"reel-close\" id=\"close\">✕</button>\n\n    <div class=\"reel-nav reel-prev\" id=\"prev\">‹</div>\n    <div class=\"reel-nav reel-next\" id=\"next\">›</div>\n\n    <video id=\"player\" playsinline></video>\n\n    <div class=\"reel-controls\">\n      <button class=\"reel-btn\" id=\"play\">⏸</button>\n      <button class=\"reel-btn\" id=\"sound\">🔊</button>\n    </div>\n\n  </div>\n\n</div>\n\n\n<script>\nconst reels=[\n \"https://cdn.shopify.com/videos/c/o/v/57231e33532046b492411a8e8451f587.mp4\",\n \"https://cdn.shopify.com/videos/c/o/v/b1e0c984e0c143b3a2f61d8c50136ee7.mov\",\n \"https://cdn.shopify.com/videos/c/o/v/c6016b240fa246e093a8c9238e712979.mov\",\n \"https://cdn.shopify.com/videos/c/o/v/3ba7d62681b04341acf2091dd8884beb.mov\"\n];\n\nlet i=0;\n\nconst modal=document.getElementById(\"modal\");\nconst player=document.getElementById(\"player\");\n\nconst playBtn=document.getElementById(\"play\");\nconst soundBtn=document.getElementById(\"sound\");\n\nfunction openReel(n){\n i=(n+reels.length)%reels.length;\n\n player.src=reels[i];\n player.muted=false;\n player.play();\n\n modal.style.display=\"flex\";\n\n playBtn.textContent=\"⏸\";\n soundBtn.textContent=\"🔊\";\n}\n\nfunction closeReel(){\n player.pause();\n player.src=\"\";\n modal.style.display=\"none\";\n}\n\ndocument.querySelectorAll(\".reel-card\").forEach(c=>{\n c.onclick=()=>openReel(+c.dataset.i);\n});\n\nplayBtn.onclick=()=>{\n if(player.paused){\n   player.play();\n   playBtn.textContent=\"⏸\";\n }else{\n   player.pause();\n   playBtn.textContent=\"⏯\";\n }\n};\n\nsoundBtn.onclick=()=>{\n player.muted=!player.muted;\n soundBtn.textContent=player.muted?\"🔇\":\"🔊\";\n};\n\ndocument.getElementById(\"prev\").onclick=()=>openReel(i-1);\ndocument.getElementById(\"next\").onclick=()=>openReel(i+1);\ndocument.getElementById(\"close\").onclick=closeReel;\n\n/* keyboard */\ndocument.addEventListener(\"keydown\",e=>{\n if(modal.style.display!==\"flex\")return;\n\n if(e.key===\"Escape\")closeReel();\n if(e.key===\"ArrowLeft\")openReel(i-1);\n if(e.key===\"ArrowRight\")openReel(i+1);\n});\n</script>",
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "layout": "default",
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "portrait",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Des transformations réelles, des résultats visibles",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left justify-start",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "shopify://products/morosil-400",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
         "color_text": "",
-        "color_background": "",
+        "color_background": "#dff2ff",
         "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
         "color_button_text": "",
         "color_button_background": "",
         "color_button_gradient": "",
-        "padding_top": 72,
+        "padding_top": 24,
         "padding_bottom": 72,
         "divider": false,
-        "narrow": false,
+        "full_width": false,
         "rounded": false
       }
     },
@@ -2089,7 +2089,7 @@
         "style": "with-border",
         "columns": 4,
         "text_alignment": "left",
-        "heading": "Pourquoi choisir Morosil Docteur V",
+        "heading": "Pourquoi choisir Morosil Docteur V ?",
         "heading_size": "title-md",
         "heading_alignment": "text-center md:items-center",
         "heading_tag": "h2",
