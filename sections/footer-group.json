@@ -57,13 +57,25 @@
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
+        },
+        "column_AFzX3t": {
+          "type": "column",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "",
+            "heading": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
         }
       },
       "block_order": [
         "column-1",
         "column-2",
         "column-4",
-        "column_U3J6YM"
+        "column_U3J6YM",
+        "column_AFzX3t"
       ],
       "settings": {
         "style": "with-border",
@@ -167,7 +179,7 @@
         "color_button_gradient": "",
         "padding_top": 120,
         "padding_bottom": 64,
-        "divider": false,
+        "divider": true,
         "full_width": false,
         "rounded": true,
         "enable_parallax": true
