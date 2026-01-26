@@ -59,13 +59,6 @@
     "main-article": {
       "type": "main-article-overlay",
       "blocks": {
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share",
-            "show_comments": true
-          }
-        },
         "next_previous_posts": {
           "type": "next_previous_posts",
           "settings": {
@@ -73,18 +66,10 @@
             "show_comments": false,
             "show_author": true
           }
-        },
-        "comments": {
-          "type": "comments",
-          "settings": {
-            "show_gravatar": true
-          }
         }
       },
       "block_order": [
-        "share",
-        "next_previous_posts",
-        "comments"
+        "next_previous_posts"
       ],
       "settings": {
         "padding_top": 72,
