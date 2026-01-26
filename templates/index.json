@@ -2011,6 +2011,92 @@
         "padding_horizontal_mobile": 0,
         "border_thickness": 0
       }
+    },
+    "multicolumn_with_icons_p4hztc": {
+      "type": "multicolumn-with-icons",
+      "blocks": {
+        "column_J7egUz": {
+          "type": "column",
+          "settings": {
+            "icon": "organic",
+            "custom_icon": "",
+            "heading": "Ingrédients naturels",
+            "text": "<p>Formulé à base d’extraits végétaux soigneusement sélectionnés.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_KnEVxm": {
+          "type": "column",
+          "settings": {
+            "icon": "planet",
+            "custom_icon": "",
+            "heading": "Laboratoire français",
+            "text": "<p>Conçu et testé selon les normes de qualité et de sécurité françaises.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_hRDGU6": {
+          "type": "column",
+          "settings": {
+            "icon": "shield",
+            "custom_icon": "",
+            "heading": "Formule d'expert",
+            "text": "<p>Efficacité démontrée et approuvée par des experts santé.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_irbHLt": {
+          "type": "column",
+          "settings": {
+            "icon": "recycling",
+            "custom_icon": "",
+            "heading": "Vegan & cruelty-free",
+            "text": "<p>Respectueux du corps, des animaux et de la planète.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_J7egUz",
+        "column_KnEVxm",
+        "column_hRDGU6",
+        "column_irbHLt"
+      ],
+      "name": "t:sections.multicolumn-with-icons.presets.name",
+      "settings": {
+        "style": "with-border",
+        "columns": 4,
+        "text_alignment": "left",
+        "heading": "Multicolumn",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
     }
   },
   "order": [
@@ -2036,6 +2122,7 @@
     "custom_liquid_VPykEm",
     "17463566359eaf5607",
     "blog_posts_TAVgkz",
-    "ss_trust_badge_DDtKK8"
+    "ss_trust_badge_DDtKK8",
+    "multicolumn_with_icons_p4hztc"
   ]
 }

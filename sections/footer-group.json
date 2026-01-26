@@ -11,103 +11,6 @@
   "type": "footer",
   "name": "t:sections.footer-group.name",
   "sections": {
-    "multicolumn-with-icons": {
-      "type": "multicolumn-with-icons",
-      "blocks": {
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "icon": "organic",
-            "custom_icon": "",
-            "heading": "Ingrédients naturels",
-            "text": "<p>Formulé à base d’extraits végétaux soigneusement sélectionnés.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "column-2": {
-          "type": "column",
-          "settings": {
-            "icon": "planet",
-            "custom_icon": "",
-            "heading": "Laboratoire français",
-            "text": "<p>Conçu et testé selon les normes de qualité et de sécurité françaises.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "column-4": {
-          "type": "column",
-          "settings": {
-            "icon": "shield",
-            "custom_icon": "",
-            "heading": "Formule d'expert",
-            "text": "<p>Efficacité démontrée et approuvée par des experts santé.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "column_U3J6YM": {
-          "type": "column",
-          "settings": {
-            "icon": "recycling",
-            "custom_icon": "",
-            "heading": "Vegan & cruelty-free",
-            "text": "<p>Respectueux du corps, des animaux et de la planète.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "column_AFzX3t": {
-          "type": "column",
-          "settings": {
-            "icon": "none",
-            "custom_icon": "",
-            "heading": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        }
-      },
-      "block_order": [
-        "column-1",
-        "column-2",
-        "column-4",
-        "column_U3J6YM",
-        "column_AFzX3t"
-      ],
-      "settings": {
-        "style": "with-border",
-        "columns": 4,
-        "text_alignment": "center",
-        "heading": "",
-        "heading_size": "title-md",
-        "heading_alignment": "text-center md:items-center",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "button_label": "",
-        "button_link": "",
-        "button_external": false,
-        "button_icon": true,
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "divider": true,
-        "full_width": true,
-        "rounded": false
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -177,11 +80,11 @@
         "color_button_text": "#000000",
         "color_button_background": "#ffffff",
         "color_button_gradient": "",
-        "padding_top": 120,
+        "padding_top": 56,
         "padding_bottom": 64,
         "divider": true,
-        "full_width": false,
-        "rounded": true,
+        "full_width": true,
+        "rounded": false,
         "enable_parallax": true
       }
     },
@@ -206,7 +109,6 @@
     }
   },
   "order": [
-    "multicolumn-with-icons",
     "footer",
     "footer-copyright"
   ]
