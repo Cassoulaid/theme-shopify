@@ -71,6 +71,7 @@
         "newsletter_heading": "Reçois chaque semaine les conseils de nos experts minceur",
         "newsletter_heading_size": "md:title-md",
         "newsletter_text": "<p>Des <strong>astuces validées par des professionnels</strong>, des <strong>programmes ciblés</strong> pour affiner ta silhouette, et des <strong>offres exclusives</strong> réservées à notre communauté bien-être.</p>",
+        "newsletter_logo": "shopify://shop_images/Capture_d_ecran_22_fev_2025_Docteur_V_1.png",
         "newsletter_logo_height": 20,
         "show_social": false,
         "enable_follow_on_shop": false,
